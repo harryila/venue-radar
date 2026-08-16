@@ -42,3 +42,27 @@ jobs:
           # profile.md edits can land mid-run; rebase our state commit onto them
           git pull --rebase --autostash origin main
           git push
+      - name: Failure alert
+        if: failure()
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: harry_ila@berkeley.edu
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python - <<'EOF'
+          import os
+          from venue_radar import email_html, send_email
+          url = os.environ["RUN_URL"]
+          send_email(
+              "🚨 Venue radar run failed",
+              email_html(
+                  "Radar run failed",
+                  "Today's run errored before finishing. Nothing was committed, "
+                  "so state is intact and tomorrow's run will self-heal — but if "
+                  "this repeats, something needs fixing.",
+                  [("What to check", "The run log linked below")],
+                  url, "Open the failed run →",
+                  "Repeated failures usually mean an expired token or secret."),
+              f"Venue radar run failed: {url}")
+          EOF
