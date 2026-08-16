@@ -33,4 +33,6 @@ jobs:
           git config user.email "actions@github.com"
           git add state.json venues.md
           git diff --cached --quiet || git commit -m "radar: $(date -u +%F)"
+          # profile.md edits can land mid-run; rebase our state commit onto them
+          git pull --rebase --autostash origin main
           git push

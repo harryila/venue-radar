@@ -110,3 +110,46 @@ def test_subjects():
 def test_email_html_contains_pieces():
     h = vr.email_html("T", "why", [("Due", "Sep 20")], "https://x", "Open CFP", "")
     assert "T" in h and "why" in h and "Sep 20" in h and "https://x" in h
+
+
+# --- review-driven regression tests ---
+
+def test_diff_revived():
+    state = {"BACK/V": {**_v(5), "archived": True}}
+    current = {"BACK/V": _v(5)}
+    ch = vr.compute_changes(state, current, NOW)
+    assert ch["revived"] == ["BACK/V"] and ch["new"] == [] and ch["expired"] == []
+
+
+def test_render_grace_period_venue_no_crash():
+    grace = {**_entry(-1, "adjacent", "Gracey"), }
+    grace["invitations"][0]["expdate"] = int((NOW.timestamp() + 86400) * 1000)
+    sv = {"G/V": grace, "U/V": {**_entry(-1, None, "MysteryGrace")}}
+    md = vr.render(sv, {"new": ["G/V"], "extended": [], "expired": []}, NOW, "r/r")
+    assert "Gracey" in md and "MysteryGrace" in md and "grace" in md
+
+
+def test_parse_verdicts_rejects_non_dict_items():
+    with pytest.raises(ValueError):
+        vr.parse_verdicts('["core"]', {"A/B"})
+
+
+def test_reminder_update_collapses_tiers():
+    fire, rem = vr.reminder_update(2, [])
+    assert fire and set(rem) == {"T-7", "T-2"}   # late discovery: one ping, both marked
+    fire, rem = vr.reminder_update(1, rem)
+    assert not fire                               # no second ping the next day
+    fire, rem = vr.reminder_update(5, ["T-7"])
+    assert not fire                               # T-7 already sent, not yet T-2
+    fire, rem = vr.reminder_update(2, ["T-7"])
+    assert fire and set(rem) == {"T-7", "T-2"}
+
+
+def test_should_send_digest():
+    from datetime import date
+    monday, tuesday = date(2026, 8, 17), date(2026, 8, 18)
+    assert vr.should_send_digest(monday, "")                      # first Monday
+    assert not vr.should_send_digest(monday, "2026-08-17")        # idempotent same day
+    assert not vr.should_send_digest(tuesday, "2026-08-17")       # sent yesterday
+    assert vr.should_send_digest(tuesday, "2026-08-08")           # missed Monday: catch up
+    assert not vr.should_send_digest(tuesday, "")                 # never sent, not Monday

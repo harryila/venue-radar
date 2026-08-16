@@ -14,7 +14,7 @@ import os
 import smtplib
 import subprocess
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from email.message import EmailMessage
 from zoneinfo import ZoneInfo
 
@@ -69,8 +69,12 @@ def prettify(venue_id):
 # --- diff engine ---
 
 def compute_changes(state_venues, current, now):
-    new = [vid for vid in current if vid not in state_venues]
-    extended, expired = [], []
+    new, revived, extended, expired = [], [], [], []
+    for vid in current:
+        if vid not in state_venues:
+            new.append(vid)
+        elif state_venues[vid].get("archived"):
+            revived.append(vid)  # deadline un-expired or a new cycle reusing the id
     for vid, sv in state_venues.items():
         if sv.get("archived"):
             continue
@@ -80,7 +84,8 @@ def compute_changes(state_venues, current, now):
         old, newd = soonest_due(sv, now), soonest_due(current[vid], now)
         if old and newd and old != newd:
             extended.append((vid, old, newd))
-    return {"new": sorted(new), "extended": extended, "expired": sorted(expired)}
+    return {"new": sorted(new), "revived": sorted(revived),
+            "extended": extended, "expired": sorted(expired)}
 
 
 # --- classification ---
@@ -111,6 +116,8 @@ def parse_verdicts(text, expected_ids):
     items = json.loads(t[start:end + 1])
     out = {}
     for it in items:
+        if not isinstance(it, dict):
+            raise ValueError(f"non-object item: {it!r}")
         vid, verdict = it.get("venue"), it.get("verdict")
         if vid in expected_ids and verdict in VERDICTS:
             out[vid] = {"verdict": verdict, "why": str(it.get("why", ""))[:300]}
@@ -127,13 +134,17 @@ def classify_batch(profile, batch):
     expected = {b["venue"] for b in batch}
     last = None
     for _ in range(2):
-        r = subprocess.run(["claude", "-p", "--output-format", "json"],
-                           input=prompt, capture_output=True, text=True, timeout=900)
         try:
+            r = subprocess.run(["claude", "-p", "--output-format", "json"],
+                               input=prompt, capture_output=True, text=True, timeout=900)
             if r.returncode != 0:
                 raise ValueError(f"claude exit {r.returncode}: {r.stderr[:500]}")
-            return parse_verdicts(json.loads(r.stdout)["result"], expected)
-        except (ValueError, KeyError, json.JSONDecodeError) as e:
+            result = json.loads(r.stdout).get("result")
+            if not isinstance(result, str):
+                raise ValueError(f"claude envelope had no text result: {r.stdout[:200]}")
+            return parse_verdicts(result, expected)
+        except (ValueError, KeyError, json.JSONDecodeError,
+                subprocess.TimeoutExpired, OSError) as e:
             last = e
     raise RuntimeError(f"classification failed after retry: {last}")
 
@@ -213,6 +224,12 @@ def render(state_venues, changes, now, repo):
         d = soonest_due(v, now)
         return days_left(d, now) if d else 9999
 
+    def due_days(v):
+        # A venue can sit between duedate and expdate (grace window): no future
+        # effective due, but the API still lists it. Never call fmt_pt(None).
+        d = soonest_due(v, now)
+        return (fmt_pt(d), f"{days_left(d, now)}d") if d else ("past due (grace)", "–")
+
     lines = ["# 📡 Venue Radar", "",
              f"_Updated {now.strftime('%Y-%m-%d %H:%M UTC')} · "
              f"{len(active)} open venues tracked_", ""]
@@ -221,8 +238,9 @@ def render(state_venues, changes, now, repo):
         for vid in changes["new"]:
             v = active.get(vid)
             if v:
+                due, days = due_days(v)
                 lines.append(f"- **[{v['title']}]({_cfp(vid)})** ({v.get('verdict') or '?'}) — "
-                             f"due {fmt_pt(soonest_due(v, now))} ({dleft(v)}d)")
+                             f"due {due} ({days})")
         lines.append("")
     for section, verdict, icon in [("Core", "core", "🎯"), ("Adjacent", "adjacent", "🔭")]:
         vs = sorted([(vid, v) for vid, v in active.items() if v.get("verdict") == verdict],
@@ -232,19 +250,21 @@ def render(state_venues, changes, now, repo):
             for vid, v in vs:
                 issue = (f" · [#{v['issue']}](https://github.com/{repo}/issues/{v['issue']})"
                          if v.get("issue") else "")
-                lines += [f"### [{v['title']}]({_cfp(vid)}) — {dleft(v)} days left",
+                d = soonest_due(v, now)
+                header_due = f"{days_left(d, now)} days left" if d else "past due (grace window)"
+                lines += [f"### [{v['title']}]({_cfp(vid)}) — {header_due}",
                           f"{v['why']}", "",
                           f"Opened {v.get('first_seen', '?')} · {_deadline_lines(v)}{issue}", ""]
         else:
             lines += ["| Venue | Due | Days | Why |", "|---|---|---|---|"]
-            lines += [f"| [{v['title']}]({_cfp(vid)}) | {fmt_pt(soonest_due(v, now))} "
-                      f"| {dleft(v)} | {v['why']} |" for vid, v in vs]
+            lines += [f"| [{v['title']}]({_cfp(vid)}) | {due_days(v)[0]} "
+                      f"| {due_days(v)[1]} | {v['why']} |" for vid, v in vs]
             lines.append("")
     unc = sorted([(vid, v) for vid, v in active.items() if not v.get("verdict")],
                  key=lambda t: dleft(t[1]))
     if unc:
         lines += ["## ❓ Unclassified (retrying next run)", ""]
-        lines += [f"- [{v['title']}]({_cfp(vid)}) — due {fmt_pt(soonest_due(v, now))}"
+        lines += [f"- [{v['title']}]({_cfp(vid)}) — due {due_days(v)[0]}"
                   for vid, v in unc]
         lines.append("")
     return "\n".join(lines)
@@ -307,7 +327,10 @@ def send_email(subject, html, plain):
 
 
 def gh(args):
-    r = subprocess.run(["gh"] + args, capture_output=True, text=True, timeout=120)
+    try:
+        r = subprocess.run(["gh"] + args, capture_output=True, text=True, timeout=120)
+    except (subprocess.TimeoutExpired, OSError) as e:
+        raise RuntimeError(f"gh {args[:2]} failed: {e}") from e
     if r.returncode != 0:
         raise RuntimeError(f"gh {args[:2]} failed: {r.stderr[:300]}")
     return r.stdout.strip()
@@ -324,6 +347,32 @@ def issue_comment(repo, number, body):
 
 def close_issue(repo, number, body):
     gh(["issue", "close", str(number), "-R", repo, "-c", body])
+
+
+def reminder_update(dl, reminded):
+    """Which reminder to fire, collapsing tiers already passed.
+
+    Returns (fire: bool, new_reminded: list). All tiers >= current days-left are
+    marked at once so a venue first seen at T-2 doesn't get T-7 today and T-2
+    tomorrow.
+    """
+    applicable = [f"T-{t}" for t in REMINDER_DAYS if dl <= t]
+    fresh = [t for t in applicable if t not in reminded]
+    return bool(fresh), list(reminded) + fresh
+
+
+def should_send_digest(today_pt, last_digest):
+    """Mondays once; catch up any day if the Monday run was lost. Idempotent per day."""
+    if last_digest == today_pt.isoformat():
+        return False
+    if today_pt.weekday() == 0:
+        return True
+    if last_digest:
+        try:
+            return (today_pt - date.fromisoformat(last_digest)).days >= 8
+        except ValueError:
+            return False
+    return False
 
 
 def open_issue_numbers(repo):
@@ -376,6 +425,11 @@ def main():
         sv[vid] = {**meta, "invitations": current[vid]["invitations"],
                    "first_seen": now.strftime("%Y-%m-%d"), "verdict": None, "why": "",
                    "issue": None, "reminded": [], "archived": False}
+    for vid in changes["revived"]:
+        # was archived (deadline passed / dropped from API) but is live again:
+        # fresh issue, fresh reminders; verdict survives (same venue, same profile)
+        sv[vid].update(archived=False, issue=None, reminded=[],
+                       first_seen=now.strftime("%Y-%m-%d"))
     for vid, v in sv.items():
         if vid in current:
             v["invitations"] = current[vid]["invitations"]
@@ -384,9 +438,11 @@ def main():
     if state["profile_hash"] and state["profile_hash"] != phash:
         print("profile.md changed — re-judging all active venues")
         to_judge = [vid for vid, v in sv.items() if not v.get("archived")]
+    classify_ok = True
     if args.skip_classify:
+        classify_ok = not to_judge  # pending work skipped: don't advance profile hash
         to_judge = []
-    newly_core = []
+    newly_core = [vid for vid in changes["revived"] if sv[vid].get("verdict") == "core"]
     for i in range(0, len(to_judge), BATCH):
         batch_ids = to_judge[i:i + BATCH]
         batch = [{"venue": vid, "title": sv[vid]["title"], "subtitle": sv[vid]["subtitle"],
@@ -396,6 +452,7 @@ def main():
             verdicts = classify_batch(profile, batch)
         except RuntimeError as e:
             print(f"[warn] batch unclassified: {e}")
+            classify_ok = False
             continue
         for vid, verdict in verdicts.items():
             was = sv[vid].get("verdict")
@@ -404,29 +461,39 @@ def main():
                 newly_core.append(vid)
         print(f"classified {min(i + BATCH, len(to_judge))}/{len(to_judge)}")
 
-    open_nums = set()
-    if not dry:
-        try:
-            open_nums = open_issue_numbers(repo)
-        except RuntimeError as e:
-            print(f"[warn] gh unavailable: {e}")
+    # If gh itself is down, fail fast BEFORE any notification went out: nothing
+    # is committed, nothing is sent, and tomorrow's run redoes everything cleanly.
+    open_nums = open_issue_numbers(repo) if not dry else set()
 
-    for vid in newly_core:
+    notified = set()
+    # Every active core venue without an issue gets one — not just this run's
+    # transitions. That makes issue creation self-healing after transient gh
+    # failures/rate limits, and covers revived venues.
+    need_issue = [vid for vid, v in sv.items()
+                  if not v.get("archived") and v.get("verdict") == "core"
+                  and not v.get("issue") and soonest_due(v, now)]
+    need_issue.sort(key=lambda vid: soonest_due(sv[vid], now))
+    for vid in need_issue:
         v = sv[vid]
         due = soonest_due(v, now)
-        if due is None:
-            continue
+        fresh = vid in newly_core
         mention = "" if backfill else "@harryila "
         if dry:
-            print(f"[dry] would open issue + email: {subject_new(v['title'], due, now)}")
+            print(f"[dry] would open issue{' + email' if fresh and not backfill else ''}: "
+                  f"{subject_new(v['title'], due, now)}")
             continue
         try:
             v["issue"] = open_issue(repo, f"🎯 {v['title']} — due {fmt_pt(due)}",
                                     mention + issue_body(vid, v, now))
             open_nums.add(v["issue"])
+            # discovered inside a reminder window: the creation notice already
+            # says days-left, so pre-mark those tiers instead of pinging tomorrow
+            v["reminded"] = reminder_update(days_left(due, now), [])[1]
+            notified.add(vid)
+            time.sleep(1.5)  # pace creates: GitHub secondary rate limit (backfill!)
         except RuntimeError as e:
-            print(f"[warn] issue create failed for {vid}: {e}")
-        if not backfill:
+            print(f"[warn] issue create failed for {vid} (retries next run): {e}")
+        if fresh and not backfill:
             issue_ref = (f"Decide in <a href='https://github.com/{repo}/issues/{v['issue']}'>"
                          f"issue #{v['issue']}</a> — closing it silences reminders."
                          if v.get("issue") else "")
@@ -472,9 +539,11 @@ def main():
                         ("Now", f"{fmt_pt(new_ms)} ({days_left(new_ms, now)}d left)")],
                        _cfp(vid), "Open CFP →", ""), subj)
             v["reminded"] = []
+            notified.add(vid)
 
     for vid, v in sv.items():
-        if v.get("archived") or v.get("verdict") != "core" or not v.get("issue"):
+        if (v.get("archived") or v.get("verdict") != "core" or not v.get("issue")
+                or vid in notified):
             continue
         if not dry and v["issue"] not in open_nums:
             continue
@@ -482,24 +551,22 @@ def main():
         if not due:
             continue
         dl = days_left(due, now)
-        for t in REMINDER_DAYS:
-            tag = f"T-{t}"
-            if dl <= t and tag not in v.get("reminded", []):
-                v.setdefault("reminded", []).append(tag)
-                subj = subject_reminder(v["title"], due, now)
-                if dry:
-                    print(f"[dry] would remind: {subj}")
-                    break
-                try:
-                    issue_comment(repo, v["issue"],
-                                  f"⏰ **{dl} days left** (due {fmt_pt(due)}). "
-                                  "Close this issue to stop reminders.")
-                except RuntimeError as e:
-                    print(f"[warn] reminder comment failed: {e}")
-                send_email(subj, email_html(v["title"], v["why"],
-                           [("Due", f"{fmt_pt(due)} ({dl}d left)")], _cfp(vid), "Open CFP →",
-                           "Closing the GitHub issue silences reminders."), subj)
-                break
+        fire, v["reminded"] = reminder_update(dl, v.get("reminded", []))
+        if not fire:
+            continue
+        subj = subject_reminder(v["title"], due, now)
+        if dry:
+            print(f"[dry] would remind: {subj}")
+            continue
+        try:
+            issue_comment(repo, v["issue"],
+                          f"⏰ **{dl} days left** (due {fmt_pt(due)}). "
+                          "Close this issue to stop reminders.")
+        except RuntimeError as e:
+            print(f"[warn] reminder comment failed: {e}")
+        send_email(subj, email_html(v["title"], v["why"],
+                   [("Due", f"{fmt_pt(due)} ({dl}d left)")], _cfp(vid), "Open CFP →",
+                   "Closing the GitHub issue silences reminders."), subj)
 
     for vid in changes["expired"]:
         v = sv[vid]
@@ -510,8 +577,11 @@ def main():
             except RuntimeError as e:
                 print(f"[warn] close failed: {e}")
 
-    if datetime.now(PT).weekday() == 0 or os.environ.get("FORCE_DIGEST"):
+    today_pt = datetime.now(PT).date()
+    if os.environ.get("FORCE_DIGEST") or should_send_digest(today_pt, state.get("last_digest", "")):
+        bdate = state.get("backfill_date", "")
         week_new = [(vid, v) for vid, v in sv.items() if not v.get("archived")
+                    and v.get("first_seen", "") != bdate  # backfill day isn't "new this week"
                     and (now - datetime.strptime(v["first_seen"], "%Y-%m-%d")
                          .replace(tzinfo=timezone.utc)).days < 7]
         soon = sorted([(vid, v) for vid, v in sv.items() if not v.get("archived")
@@ -521,7 +591,10 @@ def main():
         if (week_new or soon) and not backfill:
             n_core = sum(1 for _, v in week_new if v.get("verdict") == "core")
             subj = f"📬 Weekly: {n_core} new core, {len(soon)} deadlines in 14d"
-            rows = ([("New this week", ", ".join(v["title"] for _, v in week_new) or "—")] +
+            titles = [v["title"] for _, v in week_new]
+            shown = (", ".join(titles[:15]) +
+                     (f" +{len(titles) - 15} more" if len(titles) > 15 else ""))
+            rows = ([("New this week", shown or "—")] +
                     [(v["title"], f"{v.get('verdict')} · due {fmt_pt(soonest_due(v, now))} "
                       f"({days_left(soonest_due(v, now), now)}d)") for _, v in soon])
             if dry:
@@ -531,10 +604,19 @@ def main():
                            "Everything new this week, plus deadlines in the next 14 days.",
                            rows, f"https://github.com/{repo}/blob/main/venues.md",
                            "Open the radar →", ""), subj)
+        if not dry:
+            state["last_digest"] = today_pt.isoformat()
 
-    state["profile_hash"] = phash
+    if classify_ok:
+        state["profile_hash"] = phash
+    elif state["profile_hash"] != phash:
+        print("[warn] classification incomplete — keeping old profile hash so the "
+              "re-judge retries next run")
+    if backfill:
+        state["backfill_date"] = now.strftime("%Y-%m-%d")
     state["last_run"] = now.isoformat()
-    md = render(sv, changes, now, repo)
+    md = render(sv, {**changes, "new": sorted(changes["new"] + changes["revived"])},
+                now, repo)
     if dry:
         print("[dry] state/venues.md not written")
         return
