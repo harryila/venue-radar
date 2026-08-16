@@ -49,6 +49,10 @@ A venue is core only if its **own topic** is one of these:
   decision-making or reasoning under uncertainty, calibration.
 - Main tracks (not workshops, industry, SRW, or demos) of NeurIPS, ICML, ICLR,
   ACL, EMNLP, NAACL, EACL, AACL, COLM, AAAI.
+- Mathematical or formal **reasoning of LLMs** when hosted at a flagship
+  family (MATH-AI or DeepMath-style workshops at NeurIPS/ICML/ICLR/ACL
+  families). Math-reasoning venues outside those families, or math without an
+  LLM angle, stay adjacent.
 
 Applied or systems-flavored agent workshops (agents for enterprise, OS, web,
 robotics, social simulation, resource efficiency, small models for agents,
@@ -61,7 +65,7 @@ Each core verdict lands on my phone. When in doubt → adjacent.
 ## Adjacent — list in venues.md, never ping
 
 Everything else in ML/NLP: general LLM/NLP/ML workshops at top venues whose
-topic is not one of the core bullets (math reasoning, multilingual, speech,
+topic is not one of the core bullets (multilingual, speech,
 diffusion LMs, post-training, world models, efficient DL, VLMs); applied-agent
 workshops; industry tracks, student research workshops, demos, tutorials,
 mentorship programs; regional or national AI/ML conferences; shared tasks
@@ -95,9 +99,10 @@ placeholder or dormant venues (deadlines years away, empty pages).
   (ATTRIB), Reliable Evaluation for LMs (JUDGe), Uncertainty-Aware NLP, Who
   Verifies the Agents, Evaluation of Interactive Agents, Agents in the Wild:
   Safety, Dynamic Alignment in Human-AI Systems, Pluralistic Value Alignment
-  of LLMs, any NeurIPS/ICML/ICLR/COLM/ACL-family main track.
+  of LLMs, any NeurIPS/ICML/ICLR/COLM/ACL-family main track, MATH-AI,
+  DeepMath.
 - **adjacent**: Agentic Web, Meta-Agents, SLM-Agents, AgenticOS, Continual
-  Learning for Enterprise Agents, MATH-AI, DeepMath, Multilingual
+  Learning for Enterprise Agents, Multilingual
   Representation Learning, Diffusion Language Models, Pre-to-Post-Training,
   Trustworthy Multimodal Agents @ IEEE BigData, Child Safety in AI, EACL
   Industry Track, EACL SRW, INLG, AAMAS.

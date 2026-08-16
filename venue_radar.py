@@ -482,7 +482,8 @@ def main():
             v["invitations"] = current[vid]["invitations"]
 
     to_judge = [vid for vid, v in sv.items() if not v.get("archived") and not v.get("verdict")]
-    if state["profile_hash"] and state["profile_hash"] != phash:
+    rejudged = bool(state["profile_hash"]) and state["profile_hash"] != phash
+    if rejudged:
         print("profile.md changed — re-judging all active venues")
         to_judge = [vid for vid, v in sv.items() if not v.get("archived")]
     classify_ok = True
@@ -533,6 +534,7 @@ def main():
         v["reminded"] = []
 
     notified = set()
+    promos = []
     # Every active core venue without an issue gets one — not just this run's
     # transitions. That makes issue creation self-healing after transient gh
     # failures/rate limits, and covers revived venues.
@@ -561,6 +563,9 @@ def main():
         except RuntimeError as e:
             print(f"[warn] issue create failed for {vid} (retries next run): {e}")
         if fresh and not backfill:
+            if rejudged:
+                promos.append(vid)  # bulk promotions batch into ONE email below
+                continue
             issue_ref = (f"Decide in <a href='https://github.com/{repo}/issues/{v['issue']}'>"
                          f"issue #{v['issue']}</a> — closing it silences reminders."
                          if v.get("issue") else "")
@@ -577,6 +582,18 @@ def main():
                  "sub": f"due {fmt_pt(soonest_due(v, now))} "
                         f"({days_left(soonest_due(v, now), now)}d left) — {v['why'][:140]}"}
                 for vid, v in pairs if soonest_due(v, now)]
+
+    if promos and not dry:
+        pairs = sorted([(vid, sv[vid]) for vid in promos], key=lambda t: _rank(t[1], now))
+        items = core_items(pairs)
+        send_email(f"🎯 {len(items)} newly core after your profile update",
+                   email_list_html("Newly core",
+                                   "Your profile edit promoted these to core:",
+                                   [(None, items)],
+                                   f"https://github.com/{repo}/blob/main/venues.md",
+                                   "Open the radar →",
+                                   "Each has a GitHub issue — close any you're skipping."),
+                   "\n".join(f"{i['title']} — {i['sub']}" for i in items))
 
     if backfill and newly_core and not dry:
         cores = sorted([(vid, sv[vid]) for vid in newly_core], key=lambda t: _rank(t[1], now))
