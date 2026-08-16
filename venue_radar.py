@@ -13,6 +13,7 @@ import math
 import os
 import smtplib
 import subprocess
+import time
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from zoneinfo import ZoneInfo
@@ -139,28 +140,41 @@ def classify_batch(profile, batch):
 
 # --- fetch (impure edge) ---
 
+def _get(url, params, timeout=60, attempts=4):
+    # OpenReview rate-limits per IP; back off on 429/5xx, honoring Retry-After.
+    r = None
+    for a in range(attempts):
+        r = requests.get(url, params=params, timeout=timeout,
+                         headers={"User-Agent": "venue-radar (github.com/harryila)"})
+        if r.status_code == 429 or r.status_code >= 500:
+            time.sleep(min(int(r.headers.get("Retry-After") or 0) or 2 ** (a + 2), 90))
+            continue
+        return r
+    return r
+
+
 def fetch_invitations():
+    # api2 rejects `offset` on this endpoint, so pagination is unavailable:
+    # one maxed-out request per host, and a hard failure if we ever hit the cap.
     out = []
     for host in HOSTS:
-        offset = 0
-        while True:
-            r = requests.get(f"{host}/invitations",
-                             params={"invitee": "~", "pastdue": "false",
-                                     "limit": 1000, "offset": offset}, timeout=60)
-            r.raise_for_status()
-            page = r.json().get("invitations", [])
-            out.extend(page)
-            if len(page) < 1000:
-                break
-            offset += 1000
+        r = _get(f"{host}/invitations",
+                 params={"invitee": "~", "pastdue": "false", "limit": 1000})
+        r.raise_for_status()
+        page = r.json().get("invitations", [])
+        if len(page) >= 1000:
+            raise RuntimeError(f"{host} returned {len(page)} invitations — result cap "
+                               "hit, venues would be silently missed; needs pagination")
+        out.extend(page)
     return out
 
 
 def fetch_venue_meta(vid):
     meta = {"title": prettify(vid), "subtitle": "", "website": ""}
+    time.sleep(0.25)  # polite pacing: backfill makes ~340 of these in a row
     for host in HOSTS:
         try:
-            r = requests.get(f"{host}/groups", params={"id": vid}, timeout=30)
+            r = _get(f"{host}/groups", params={"id": vid}, timeout=30, attempts=3)
             if r.status_code != 200:
                 continue
             groups = r.json().get("groups", [])
