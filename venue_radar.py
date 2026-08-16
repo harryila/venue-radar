@@ -95,10 +95,14 @@ def build_prompt(profile, batch):
         "You are screening academic venues for Harry. His profile and rules are below, "
         "followed by venues currently open for submissions on OpenReview.\n"
         "For EVERY venue output {\"venue\": \"<id>\", \"verdict\": \"core\"|\"adjacent\"|\"no\", "
-        "\"why\": \"<one short sentence>\"}.\n"
+        "\"why\": \"<one short sentence>\", \"prestige\": 1|2|3}.\n"
         "core = Harry should seriously consider submitting; adjacent = plausibly relevant, "
         "worth a glance; no = clearly outside his fields. "
         "Apply the profile's explicit rules over vibes.\n"
+        "prestige: 1 = flagship family (NeurIPS/ICML/ICLR/ACL/EMNLP/NAACL/EACL/AACL/COLM/AAAI "
+        "main tracks or their co-located workshops); 2 = established society or venue "
+        "(IJCAI, AAMAS, COLING, CIKM, IEEE conferences, known ARR workshops); "
+        "3 = regional, brand-new, or low-signal host.\n"
         "Output ONLY a JSON array covering every venue id exactly once. "
         "No prose, no code fences.\n\n"
         f"## PROFILE\n{profile}\n\n## VENUES\n{json.dumps(batch, indent=1)}"
@@ -120,7 +124,9 @@ def parse_verdicts(text, expected_ids):
             raise ValueError(f"non-object item: {it!r}")
         vid, verdict = it.get("venue"), it.get("verdict")
         if vid in expected_ids and verdict in VERDICTS:
-            out[vid] = {"verdict": verdict, "why": str(it.get("why", ""))[:300]}
+            p = it.get("prestige")
+            out[vid] = {"verdict": verdict, "why": str(it.get("why", ""))[:300],
+                        "prestige": p if p in (1, 2, 3) else 2}
         else:
             raise ValueError(f"bad item: {it}")
     missing = expected_ids - set(out)
@@ -212,6 +218,17 @@ def _cfp(vid):
     return f"https://openreview.net/group?id={vid}"
 
 
+def stars(v):
+    return {1: "★★★", 2: "★★", 3: "★"}.get(v.get("prestige", 2), "★★")
+
+
+def _rank(v, now):
+    # "most prestigious, then closest deadline" — prestige tiers group the list,
+    # urgency orders inside each tier
+    d = soonest_due(v, now)
+    return (v.get("prestige", 2), days_left(d, now) if d else 9999)
+
+
 def _deadline_lines(v):
     return " · ".join(f"{i['kind'].replace('_', ' ')}: {fmt_pt(effective_due(i))}"
                       for i in sorted(v["invitations"], key=lambda i: effective_due(i) or 0))
@@ -244,7 +261,7 @@ def render(state_venues, changes, now, repo):
         lines.append("")
     for section, verdict, icon in [("Core", "core", "🎯"), ("Adjacent", "adjacent", "🔭")]:
         vs = sorted([(vid, v) for vid, v in active.items() if v.get("verdict") == verdict],
-                    key=lambda t: dleft(t[1]))
+                    key=lambda t: _rank(t[1], now))
         lines += [f"## {icon} {section} ({len(vs)})", ""]
         if verdict == "core":
             for vid, v in vs:
@@ -252,12 +269,12 @@ def render(state_venues, changes, now, repo):
                          if v.get("issue") else "")
                 d = soonest_due(v, now)
                 header_due = f"{days_left(d, now)} days left" if d else "past due (grace window)"
-                lines += [f"### [{v['title']}]({_cfp(vid)}) — {header_due}",
+                lines += [f"### {stars(v)} [{v['title']}]({_cfp(vid)}) — {header_due}",
                           f"{v['why']}", "",
                           f"Opened {v.get('first_seen', '?')} · {_deadline_lines(v)}{issue}", ""]
         else:
             lines += ["| Venue | Due | Days | Why |", "|---|---|---|---|"]
-            lines += [f"| [{v['title']}]({_cfp(vid)}) | {due_days(v)[0]} "
+            lines += [f"| {stars(v)} [{v['title']}]({_cfp(vid)}) | {due_days(v)[0]} "
                       f"| {due_days(v)[1]} | {v['why']} |" for vid, v in vs]
             lines.append("")
     unc = sorted([(vid, v) for vid, v in active.items() if not v.get("verdict")],
@@ -303,6 +320,36 @@ def email_html(heading, why, detail_rows, cta_url, cta_label, footer_html):
 <p style="margin:0 0 16px;color:#444;font-size:14px;line-height:1.5;">{why}</p>
 <table role="presentation" style="margin:0 0 20px;">{rows}</table>
 <a href="{cta_url}" style="display:inline-block;background:#1f6feb;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600;">{cta_label}</a>
+<p style="margin:18px 0 0;font-size:12px;color:#999;">{footer_html}</p>
+</td></tr></table></div>"""
+
+
+def _list_blocks(items):
+    # single-column stacked rows: two-column tables are unreadable on phones
+    return "".join(
+        f"<div style='padding:10px 0;border-bottom:1px solid #f0f0ee;'>"
+        f"<a href='{it['url']}' style='color:#111;font-size:14px;font-weight:600;"
+        f"text-decoration:none;line-height:1.4;'>{it['title']}</a>"
+        f"<div style='margin-top:3px;color:#888;font-size:12px;line-height:1.4;'>{it['sub']}</div>"
+        f"</div>" for it in items)
+
+
+def email_list_html(heading, intro, sections, cta_url, cta_label, footer_html):
+    """List email: sections = [(label_or_None, [{'title','sub','url'}...])]."""
+    inner = ""
+    for label, items in sections:
+        if label:
+            inner += (f"<p style='margin:16px 0 2px;font-size:11px;letter-spacing:1px;"
+                      f"color:#999;text-transform:uppercase;'>{label}</p>")
+        inner += _list_blocks(items)
+    return f"""<div style="background:#f5f5f4;padding:24px 12px;">
+<table role="presentation" style="max-width:560px;margin:0 auto;background:#fff;border:1px solid #e4e4e4;border-radius:12px;font-family:-apple-system,'Segoe UI',Roboto,sans-serif;" width="100%">
+<tr><td style="padding:28px;">
+<p style="margin:0;font-size:11px;letter-spacing:1.5px;color:#b08900;text-transform:uppercase;">📡 venue radar</p>
+<h2 style="margin:10px 0 6px;font-size:20px;color:#111;">{heading}</h2>
+<p style="margin:0 0 8px;color:#444;font-size:14px;line-height:1.5;">{intro}</p>
+{inner}
+<a href="{cta_url}" style="display:inline-block;margin-top:20px;background:#1f6feb;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600;">{cta_label}</a>
 <p style="margin:18px 0 0;font-size:12px;color:#999;">{footer_html}</p>
 </td></tr></table></div>"""
 
@@ -458,6 +505,7 @@ def main():
         for vid, verdict in verdicts.items():
             was = sv[vid].get("verdict")
             sv[vid]["verdict"], sv[vid]["why"] = verdict["verdict"], verdict["why"]
+            sv[vid]["prestige"] = verdict.get("prestige", 2)
             if verdict["verdict"] == "core" and was != "core" and not sv[vid].get("issue"):
                 newly_core.append(vid)
             elif was == "core" and verdict["verdict"] != "core" and sv[vid].get("issue"):
@@ -524,19 +572,23 @@ def main():
                                   _cfp(vid), "Open CFP →", issue_ref),
                        f"{v['title']} — core match. Due {fmt_pt(due)}. {_cfp(vid)}")
 
+    def core_items(pairs):
+        return [{"title": f"{stars(v)} {v['title']}", "url": _cfp(vid),
+                 "sub": f"due {fmt_pt(soonest_due(v, now))} "
+                        f"({days_left(soonest_due(v, now), now)}d left) — {v['why'][:140]}"}
+                for vid, v in pairs if soonest_due(v, now)]
+
     if backfill and newly_core and not dry:
-        cores = [(vid, sv[vid]) for vid in newly_core]
-        cores.sort(key=lambda t: soonest_due(t[1], now) or 0)
-        rows = [(v["title"],
-                 f"due {fmt_pt(soonest_due(v, now))} ({days_left(soonest_due(v, now), now)}d)")
-                for _, v in cores if soonest_due(v, now)]
-        send_email(f"📡 Venue radar is live: {len(cores)} core venues open now",
-                   email_html("Backfill complete",
-                              "Every currently-open venue judged core for you:",
-                              rows, f"https://github.com/{repo}/blob/main/venues.md",
-                              "See the full radar →",
-                              "Each has a GitHub issue — close ones you're skipping."),
-                   "\n".join(f"{t}: {d}" for t, d in rows))
+        cores = sorted([(vid, sv[vid]) for vid in newly_core], key=lambda t: _rank(t[1], now))
+        items = core_items(cores)
+        send_email(f"📡 Venue radar is live: {len(items)} core venues open now",
+                   email_list_html("Backfill complete",
+                                   "Every currently-open venue judged core for you — "
+                                   "prestige-ranked, deadline-sorted:", [(None, items)],
+                                   f"https://github.com/{repo}/blob/main/venues.md",
+                                   "See the full radar →",
+                                   "Each has a GitHub issue — close ones you're skipping."),
+                   "\n".join(f"{i['title']} — {i['sub']}" for i in items))
 
     for vid, old_ms, new_ms in changes["extended"]:
         v = sv[vid]
@@ -610,21 +662,51 @@ def main():
         if (week_new or soon) and not backfill:
             n_core = sum(1 for _, v in week_new if v.get("verdict") == "core")
             subj = f"📬 Weekly: {n_core} new core, {len(soon)} deadlines in 14d"
-            titles = [v["title"] for _, v in week_new]
-            shown = (", ".join(titles[:15]) +
-                     (f" +{len(titles) - 15} more" if len(titles) > 15 else ""))
-            rows = ([("New this week", shown or "—")] +
-                    [(v["title"], f"{v.get('verdict')} · due {fmt_pt(soonest_due(v, now))} "
-                      f"({days_left(soonest_due(v, now), now)}d)") for _, v in soon])
+
+            def digest_item(vid, v):
+                d = soonest_due(v, now)
+                when = (f"due {fmt_pt(d)} ({days_left(d, now)}d left)" if d
+                        else "past due (grace)")
+                return {"title": f"{stars(v)} {v['title']}", "url": _cfp(vid),
+                        "sub": f"{v.get('verdict') or '?'} · {when}"}
+
+            sections = []
+            if week_new:
+                wk = sorted(week_new, key=lambda t: _rank(t[1], now))
+                label = (f"New this week ({len(wk)})" +
+                         (" — top 20" if len(wk) > 20 else ""))
+                sections.append((label, [digest_item(*t) for t in wk[:20]]))
+            soon_core = [t for t in soon if t[1].get("verdict") == "core"]
+            soon_adj = [t for t in soon if t[1].get("verdict") == "adjacent"]
+            if soon_core:
+                sections.append((f"Core deadlines ≤14d ({len(soon_core)})",
+                                 [digest_item(*t) for t in soon_core]))
+            if soon_adj:
+                label = (f"Adjacent deadlines ≤14d ({len(soon_adj)})" +
+                         (" — top 25" if len(soon_adj) > 25 else ""))
+                sections.append((label, [digest_item(*t) for t in soon_adj[:25]]))
             if dry:
                 print(f"[dry] would send digest: {subj}")
             else:
-                send_email(subj, email_html("Weekly digest",
+                send_email(subj, email_list_html("Weekly digest",
                            "Everything new this week, plus deadlines in the next 14 days.",
-                           rows, f"https://github.com/{repo}/blob/main/venues.md",
+                           sections, f"https://github.com/{repo}/blob/main/venues.md",
                            "Open the radar →", ""), subj)
         if not dry:
             state["last_digest"] = today_pt.isoformat()
+
+    if os.environ.get("RADAR_SUMMARY") and not dry:
+        cores = sorted([(vid, v) for vid, v in sv.items() if not v.get("archived")
+                        and v.get("verdict") == "core"], key=lambda t: _rank(t[1], now))
+        items = core_items(cores)
+        send_email(f"📡 Radar summary: {len(items)} core venues open",
+                   email_list_html("Your radar right now",
+                                   "All current core venues — prestige-ranked, "
+                                   "deadline-sorted:", [(None, items)],
+                                   f"https://github.com/{repo}/blob/main/venues.md",
+                                   "Open the radar →",
+                                   "Close a venue's GitHub issue to silence it."),
+                   "\n".join(f"{i['title']} — {i['sub']}" for i in items))
 
     if classify_ok:
         state["profile_hash"] = phash

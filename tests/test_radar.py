@@ -153,3 +153,33 @@ def test_should_send_digest():
     assert not vr.should_send_digest(tuesday, "2026-08-17")       # sent yesterday
     assert vr.should_send_digest(tuesday, "2026-08-08")           # missed Monday: catch up
     assert not vr.should_send_digest(tuesday, "")                 # never sent, not Monday
+
+
+# --- prestige + email list (phone-readable) ---
+
+def test_parse_verdicts_prestige_and_default():
+    out = vr.parse_verdicts('[{"venue": "A/B", "verdict": "core", "why": "x", "prestige": 1}]', {"A/B"})
+    assert out["A/B"]["prestige"] == 1
+    out = vr.parse_verdicts('[{"venue": "A/B", "verdict": "core", "why": "x"}]', {"A/B"})
+    assert out["A/B"]["prestige"] == 2
+    out = vr.parse_verdicts('[{"venue": "A/B", "verdict": "core", "why": "x", "prestige": 9}]', {"A/B"})
+    assert out["A/B"]["prestige"] == 2
+
+
+def test_render_prestige_groups_before_deadline():
+    sv = {"A/V": _entry(3, "core", "SoonNiche"),                       # default prestige 2
+          "B/V": {**_entry(9, "core", "LaterFlagship"), "prestige": 1}}
+    md = vr.render(sv, {"new": [], "extended": [], "expired": []}, NOW, "r/r")
+    core = md[md.index("## 🎯 Core"):]
+    assert core.index("LaterFlagship") < core.index("SoonNiche")  # tier beats deadline
+    assert "★★★" in core and "★★ " in core
+
+
+def test_email_list_html_stacked_sections():
+    h = vr.email_list_html("H", "intro",
+                           [("Core", [{"title": "★★★ T1", "sub": "due Aug 16 (1d left)",
+                                       "url": "https://x"}]),
+                            (None, [{"title": "T2", "sub": "s2", "url": "https://y"}])],
+                           "https://cta", "Go", "foot")
+    assert "★★★ T1" in h and "due Aug 16 (1d left)" in h and "Core" in h and "https://cta" in h
+    assert "<table role=\"presentation\" style=\"max-width:560px" in h

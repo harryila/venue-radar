@@ -2,7 +2,12 @@ name: venue-radar
 on:
   schedule:
     - cron: "0 13 * * *"   # ~6am PT daily
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      summary:
+        description: "Also email the current core list"
+        required: false
+        default: ""
 permissions:
   contents: write
   issues: write
@@ -26,6 +31,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: harry_ila@berkeley.edu
           GH_TOKEN: ${{ github.token }}
+          RADAR_SUMMARY: ${{ inputs.summary }}
         run: python venue_radar.py
       - name: Commit state
         run: |
