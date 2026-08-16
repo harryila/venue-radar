@@ -1,0 +1,1974 @@
+{
+ "invitations": [
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to SurgTwin @ IROS 2026 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "users_to_notify": {
+     "value": [
+      "submission_authors"
+     ]
+    }
+   },
+   "id": "IEEE.org/IROS/2026/Workshop/SurgTwin/-/Submission",
+   "type": "note",
+   "instructions": "Configure the contents of the article submission form, the email notification sent for when a new submission is posted, and the time when the article submission will open (activation) and the article submission due date.",
+   "cdate": 1780308000000,
+   "expdate": 1786854540000,
+   "duedate": 1786852740000,
+   "signatures": [
+    "IEEE.org/IROS/2026/Workshop/SurgTwin"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "IEEE.org/IROS/2026/Workshop/SurgTwin"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "IEEE.org/IROS/2026/Workshop/SurgTwin/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "IEEE.org/IROS/2026/Workshop/SurgTwin",
+     "${2/note/content/authorids/value}"
+    ],
+    "writers": [
+     "IEEE.org/IROS/2026/Workshop/SurgTwin",
+     "${2/note/content/authorids/value}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": "[^;,\\n]+(,[^,\\n]+)*",
+         "hidden": true
+        }
+       }
+      },
+      "authorids": {
+       "order": 3,
+       "description": "Search author profile by first, middle and last name or email address. All authors must have an OpenReview profile prior to submitting a paper.",
+       "value": {
+        "param": {
+         "type": "profile{}",
+         "regex": "~.*"
+        }
+       }
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ]
+        }
+       }
+      },
+      "email_sharing": {
+       "order": 50,
+       "description": "Please confirm you are aware that all author emails will be shared with Program Chairs.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the sharing of all author emails with Program Chairs."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "data_release": {
+       "order": 51,
+       "description": "Please confirm you are aware that accepted submissions, along with their author names, will be released to the public after the conference is over.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the release of our submission and author names to the public in the event of acceptance."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "IEEE IROS 2026 Workshop SurgTwin Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "IEEE.org/IROS/2026/Workshop/SurgTwin/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "IEEE.org/IROS/2026/Workshop/SurgTwin/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "IEEE.org/IROS/2026/Workshop/SurgTwin",
+      "${2/content/authorids/value}"
+     ],
+     "writers": [
+      "IEEE.org/IROS/2026/Workshop/SurgTwin",
+      "${2/content/authorids/value}"
+     ],
+     "license": {
+      "param": {
+       "enum": [
+        {
+         "value": "CC BY 4.0",
+         "description": "CC BY 4.0"
+        }
+       ]
+      }
+     }
+    }
+   },
+   "invitations": [
+    "IEEE.org/IROS/2026/Workshop/SurgTwin/-/Edit"
+   ],
+   "domain": "IEEE.org/IROS/2026/Workshop/SurgTwin",
+   "tcdate": 1779912565410,
+   "tmdate": 1779912565410,
+   "mdate": 1779912565410,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to LM-KBC 2026 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "users_to_notify": {
+     "value": [
+      "submission_authors"
+     ]
+    }
+   },
+   "id": "EMNLP/2026/Workshop/LM-KBC_Shared_Task/-/Submission",
+   "type": "note",
+   "instructions": "Configure the contents of the article submission form, the email notification sent for when a new submission is posted, and the time when the article submission will open (activation) and the article submission due date.",
+   "cdate": 1777154400000,
+   "expdate": 1786883340000,
+   "duedate": 1786881540000,
+   "signatures": [
+    "EMNLP/2026/Workshop/LM-KBC_Shared_Task"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "EMNLP/2026/Workshop/LM-KBC_Shared_Task"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "EMNLP/2026/Workshop/LM-KBC_Shared_Task/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "EMNLP/2026/Workshop/LM-KBC_Shared_Task",
+     "${2/note/content/authorids/value}"
+    ],
+    "writers": [
+     "EMNLP/2026/Workshop/LM-KBC_Shared_Task",
+     "${2/note/content/authorids/value}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": "[^;,\\n]+(,[^,\\n]+)*",
+         "hidden": true
+        }
+       }
+      },
+      "authorids": {
+       "order": 3,
+       "description": "Search author profile by first, middle and last name or email address. All authors must have an OpenReview profile prior to submitting a paper.",
+       "value": {
+        "param": {
+         "type": "profile{}",
+         "regex": "~.*"
+        }
+       }
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ]
+        }
+       }
+      },
+      "email_sharing": {
+       "order": 50,
+       "description": "Please confirm you are aware that all author emails will be shared with Program Chairs.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the sharing of all author emails with Program Chairs."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "data_release": {
+       "order": 51,
+       "description": "Please confirm you are aware that accepted submissions, along with their author names, will be released to the public after the conference is over.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the release of our submission and author names to the public in the event of acceptance."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "EMNLP 2026 Workshop LMKBC Shared Task Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "EMNLP/2026/Workshop/LM-KBC_Shared_Task/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "EMNLP/2026/Workshop/LM-KBC_Shared_Task/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "EMNLP/2026/Workshop/LM-KBC_Shared_Task",
+      "${2/content/authorids/value}"
+     ],
+     "writers": [
+      "EMNLP/2026/Workshop/LM-KBC_Shared_Task",
+      "${2/content/authorids/value}"
+     ],
+     "license": {
+      "param": {
+       "enum": [
+        {
+         "value": "CC BY 4.0",
+         "description": "CC BY 4.0"
+        }
+       ]
+      }
+     }
+    }
+   },
+   "invitations": [
+    "EMNLP/2026/Workshop/LM-KBC_Shared_Task/-/Edit"
+   ],
+   "domain": "EMNLP/2026/Workshop/LM-KBC_Shared_Task",
+   "tcdate": 1776432625711,
+   "tmdate": 1776432625711,
+   "mdate": 1776432625711,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to WaC-13 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "email_authors": {
+     "value": true
+    },
+    "email_program_chairs": {
+     "value": true
+    }
+   },
+   "id": "EMNLP/2026/Workshop/WaC-13/-/Submission",
+   "type": "note",
+   "cdate": 1785921214481,
+   "expdate": 1786883340000,
+   "duedate": 1786881540000,
+   "signatures": [
+    "EMNLP/2026/Workshop/WaC-13"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "EMNLP/2026/Workshop/WaC-13"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "EMNLP/2026/Workshop/WaC-13/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "EMNLP/2026/Workshop/WaC-13",
+     "${2/note/content/authorids/value}"
+    ],
+    "writers": [
+     "EMNLP/2026/Workshop/WaC-13",
+     "${2/note/content/authorids/value}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": "[^;,\\n]+(,[^,\\n]+)*",
+         "hidden": true
+        }
+       }
+      },
+      "archiving": {
+       "description": "Please indicate whether you are submitting an archival or a non-archival contribution.",
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "Archival - If the paper is accepted, it will appear in the WaC proceedings. I hereby confirm that the paper is not under review or already published elsewhere.",
+          "Non-archival - If accepted, the paper will only be given a presentation slot at WaC but will not be part of the WaC proceedings. This option is ideal if you are planning to publish your paper in a different venue, or if it is currently under review elsewhere."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "authorids": {
+       "order": 3,
+       "description": "Search author profile by first, middle and last name or email address. All authors must have an OpenReview profile prior to submitting a paper.",
+       "value": {
+        "param": {
+         "type": "profile{}",
+         "regex": "~.*"
+        }
+       }
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ]
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "EMNLP 2026 Workshop WaC13 Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "EMNLP/2026/Workshop/WaC-13/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "EMNLP/2026/Workshop/WaC-13/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "EMNLP/2026/Workshop/WaC-13",
+      "${2/content/authorids/value}"
+     ],
+     "writers": [
+      "EMNLP/2026/Workshop/WaC-13",
+      "${2/content/authorids/value}"
+     ],
+     "license": "CC BY 4.0"
+    }
+   },
+   "invitations": [
+    "EMNLP/2026/Workshop/WaC-13/-/Edit"
+   ],
+   "domain": "EMNLP/2026/Workshop/WaC-13",
+   "tcdate": 1779395965979,
+   "tmdate": 1785921216274,
+   "mdate": 1785921216274,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to IARL 2026 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "users_to_notify": {
+     "value": [
+      "submission_authors"
+     ]
+    }
+   },
+   "id": "IEEE.org/IROS/2026/Workshop/IARL/-/Submission",
+   "type": "note",
+   "instructions": "Configure the contents of the article submission form, the email notification sent for when a new submission is posted, and the time when the article submission will open (activation) and the article submission due date.",
+   "cdate": 1780912800000,
+   "expdate": 1786883340000,
+   "duedate": 1786881540000,
+   "signatures": [
+    "IEEE.org/IROS/2026/Workshop/IARL"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "IEEE.org/IROS/2026/Workshop/IARL"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "IEEE.org/IROS/2026/Workshop/IARL/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "IEEE.org/IROS/2026/Workshop/IARL",
+     "${2/note/content/authorids/value}"
+    ],
+    "writers": [
+     "IEEE.org/IROS/2026/Workshop/IARL",
+     "${2/note/content/authorids/value}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": "[^;,\\n]+(,[^,\\n]+)*",
+         "hidden": true
+        }
+       }
+      },
+      "authorids": {
+       "order": 3,
+       "description": "Search author profile by first, middle and last name or email address. All authors must have an OpenReview profile prior to submitting a paper.",
+       "value": {
+        "param": {
+         "type": "profile{}",
+         "regex": "~.*"
+        }
+       }
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ]
+        }
+       }
+      },
+      "email_sharing": {
+       "order": 50,
+       "description": "Please confirm you are aware that all author emails will be shared with Program Chairs.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the sharing of all author emails with Program Chairs."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "data_release": {
+       "order": 51,
+       "description": "Please confirm you are aware that accepted submissions, along with their author names, will be released to the public after the conference is over.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the release of our submission and author names to the public in the event of acceptance."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "IEEE IROS 2026 Workshop IARL Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "IEEE.org/IROS/2026/Workshop/IARL/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "IEEE.org/IROS/2026/Workshop/IARL/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "IEEE.org/IROS/2026/Workshop/IARL",
+      "${2/content/authorids/value}"
+     ],
+     "writers": [
+      "IEEE.org/IROS/2026/Workshop/IARL",
+      "${2/content/authorids/value}"
+     ],
+     "license": {
+      "param": {
+       "enum": [
+        {
+         "value": "CC BY 4.0",
+         "description": "CC BY 4.0"
+        }
+       ]
+      }
+     }
+    }
+   },
+   "invitations": [
+    "IEEE.org/IROS/2026/Workshop/IARL/-/Edit",
+    "IEEE.org/IROS/2026/Workshop/IARL/-/Submission/Dates"
+   ],
+   "domain": "IEEE.org/IROS/2026/Workshop/IARL",
+   "tcdate": 1781030275795,
+   "tmdate": 1784872179040,
+   "mdate": 1784872179040,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to MAS-BW26 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "email_authors": {
+     "value": true
+    },
+    "email_program_chairs": {
+     "value": false
+    }
+   },
+   "id": "IEEE.org/IROS/2026/Workshop/MAS-BW/-/Submission",
+   "type": "note",
+   "cdate": 1782864000000,
+   "expdate": 1786883340000,
+   "duedate": 1786881540000,
+   "signatures": [
+    "IEEE.org/IROS/2026/Workshop/MAS-BW"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "IEEE.org/IROS/2026/Workshop/MAS-BW"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "IEEE.org/IROS/2026/Workshop/MAS-BW/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "IEEE.org/IROS/2026/Workshop/MAS-BW",
+     "${2/note/content/authorids/value}"
+    ],
+    "writers": [
+     "IEEE.org/IROS/2026/Workshop/MAS-BW",
+     "${2/note/content/authorids/value}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": "[^;,\\n]+(,[^,\\n]+)*",
+         "hidden": true
+        }
+       }
+      },
+      "authorids": {
+       "order": 3,
+       "description": "Search author profile by name or profile ID. If the profile is not found, you can add the author by completing name as well as author email address.",
+       "value": {
+        "param": {
+         "type": "profile{}",
+         "regex": "^~\\S+$|^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$",
+         "mismatchError": "must be a valid email or profile ID"
+        }
+       }
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ]
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "IEEE IROS 2026 Workshop MASBW Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "IEEE.org/IROS/2026/Workshop/MAS-BW/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "IEEE.org/IROS/2026/Workshop/MAS-BW/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "IEEE.org/IROS/2026/Workshop/MAS-BW",
+      "${2/content/authorids/value}"
+     ],
+     "writers": [
+      "IEEE.org/IROS/2026/Workshop/MAS-BW",
+      "${2/content/authorids/value}"
+     ],
+     "license": "CC BY 4.0"
+    }
+   },
+   "invitations": [
+    "IEEE.org/IROS/2026/Workshop/MAS-BW/-/Edit"
+   ],
+   "domain": "IEEE.org/IROS/2026/Workshop/MAS-BW",
+   "tcdate": 1781288531584,
+   "tmdate": 1781642052111,
+   "mdate": 1781642052111,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to 3DWM 2026 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "users_to_notify": {
+     "value": [
+      "submission_authors"
+     ]
+    }
+   },
+   "id": "thecvf.com/ECCV/2026/Workshop/3DWM/-/Submission",
+   "type": "note",
+   "instructions": "Configure the contents of the article submission form, the email notification sent for when a new submission is posted, and the time when the article submission will open (activation) and the article submission due date.",
+   "cdate": 1784530800000,
+   "expdate": 1786883340000,
+   "duedate": 1786881540000,
+   "signatures": [
+    "thecvf.com/ECCV/2026/Workshop/3DWM"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "thecvf.com/ECCV/2026/Workshop/3DWM"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "thecvf.com/ECCV/2026/Workshop/3DWM/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "thecvf.com/ECCV/2026/Workshop/3DWM",
+     "${2/note/content/authors/value/*/username}"
+    ],
+    "writers": [
+     "thecvf.com/ECCV/2026/Workshop/3DWM",
+     "${2/note/content/authors/value/*/username}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "description": "Search author profile by name or profile ID. All authors must have an OpenReview profile prior to submitting a paper.",
+       "value": {
+        "param": {
+         "type": "author{}",
+         "properties": {
+          "fullname": {
+           "param": {
+            "type": "string"
+           }
+          },
+          "username": {
+           "param": {
+            "type": "string",
+            "regex": "^~\\S+$",
+            "mismatchError": "must be a valid profile ID"
+           }
+          },
+          "institutions": {
+           "param": {
+            "type": "object{}",
+            "properties": {
+             "name": {
+              "param": {
+               "type": "string"
+              }
+             },
+             "domain": {
+              "param": {
+               "type": "string"
+              }
+             },
+             "country": {
+              "param": {
+               "type": "string"
+              }
+             }
+            },
+            "optional": true
+           }
+          }
+         }
+        }
+       }
+      },
+      "corresponding_author_name": {
+       "value": {
+        "param": {
+         "type": "string"
+        }
+       },
+       "readers": [
+        "thecvf.com/ECCV/2026/Workshop/3DWM",
+        "thecvf.com/ECCV/2026/Workshop/3DWM/Submission${{4/id}/number}/Authors"
+       ],
+       "order": 3
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "corresponding_author_email": {
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "[a-z0-9_\\-\\.]{1,}@[a-z0-9_\\-\\.]{2,}\\.[a-z]{2,}"
+        }
+       },
+       "readers": [
+        "thecvf.com/ECCV/2026/Workshop/3DWM",
+        "thecvf.com/ECCV/2026/Workshop/3DWM/Submission${{4/id}/number}/Authors"
+       ],
+       "order": 4
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 5,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 6,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ],
+         "optional": true
+        }
+       }
+      },
+      "email_sharing": {
+       "order": 50,
+       "description": "Please confirm you are aware that all author emails will be shared with Program Chairs.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the sharing of all author emails with Program Chairs."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "data_release": {
+       "order": 51,
+       "description": "Please confirm you are aware that accepted submissions, along with their author names, will be released to the public after the conference is over.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the release of our submission and author names to the public in the event of acceptance."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "3DWM 2026 Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "thecvf.com/ECCV/2026/Workshop/3DWM/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "thecvf.com/ECCV/2026/Workshop/3DWM/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "thecvf.com/ECCV/2026/Workshop/3DWM",
+      "${2/content/authors/value/*/username}"
+     ],
+     "writers": [
+      "thecvf.com/ECCV/2026/Workshop/3DWM",
+      "${2/content/authors/value/*/username}"
+     ],
+     "license": {
+      "param": {
+       "enum": [
+        {
+         "value": "CC BY 4.0",
+         "description": "CC BY 4.0"
+        }
+       ]
+      }
+     }
+    }
+   },
+   "invitations": [
+    "thecvf.com/ECCV/2026/Workshop/3DWM/-/Edit",
+    "thecvf.com/ECCV/2026/Workshop/3DWM/-/Submission/Form_Fields"
+   ],
+   "domain": "thecvf.com/ECCV/2026/Workshop/3DWM",
+   "tcdate": 1784666201128,
+   "tmdate": 1784749714196,
+   "mdate": 1784749714196,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to LifeGenIP 2026 has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "users_to_notify": {
+     "value": [
+      "program_chairs",
+      "submission_authors"
+     ]
+    }
+   },
+   "id": "thecvf.com/ECCV/2026/Workshop/LifeGenIP/-/Submission",
+   "type": "note",
+   "instructions": "Configure the contents of the article submission form, the email notification sent for when a new submission is posted, and the time when the article submission will open (activation) and the article submission due date.",
+   "cdate": 1780833600000,
+   "expdate": 1786883400000,
+   "duedate": 1786881600000,
+   "signatures": [
+    "thecvf.com/ECCV/2026/Workshop/LifeGenIP"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "thecvf.com/ECCV/2026/Workshop/LifeGenIP"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "thecvf.com/ECCV/2026/Workshop/LifeGenIP/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+     "${2/note/content/authorids/value}"
+    ],
+    "writers": [
+     "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+     "${2/note/content/authorids/value}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": ".{1,250}"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": "[^;,\\n]+(,[^,\\n]+)*",
+         "hidden": true
+        }
+       },
+       "description": "Comma separated list of author names."
+      },
+      "authorids": {
+       "value": {
+        "param": {
+         "type": "group[]",
+         "regex": "~.*|([a-z0-9_\\-\\.]{1,}@[a-z0-9_\\-\\.]{2,}\\.[a-z]{2,},){0,}([a-z0-9_\\-\\.]{1,}@[a-z0-9_\\-\\.]{2,}\\.[a-z]{2,})"
+        }
+       },
+       "description": "Search author profile by first, middle and last name or email address. If the profile is not found, you can add the author by completing first, middle, and last names as well as author email address.",
+       "order": 3
+      },
+      "corresponding_author_name": {
+       "value": {
+        "param": {
+         "type": "string"
+        }
+       },
+       "order": 4,
+       "readers": [
+        "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+        "thecvf.com/ECCV/2026/Workshop/LifeGenIP/Submission${{4/id}/number}/Authors"
+       ]
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "corresponding_author_email": {
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "[a-z0-9_\\-\\.]{1,}@[a-z0-9_\\-\\.]{2,}\\.[a-z]{2,}"
+        }
+       },
+       "order": 5,
+       "readers": [
+        "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+        "thecvf.com/ECCV/2026/Workshop/LifeGenIP/Submission${{4/id}/number}/Authors"
+       ]
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$",
+       "value": {
+        "param": {
+         "type": "string",
+         "minLength": 1,
+         "maxLength": 5000,
+         "input": "textarea",
+         "markdown": true
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf (Max: 50 MB)",
+       "value": {
+        "param": {
+         "type": "file",
+         "extensions": [
+          "pdf"
+         ],
+         "maxSize": 50,
+         "optional": true
+        }
+       }
+      },
+      "supplementary_material": {
+       "order": 8,
+       "description": "Optional supplementary material. Please upload a single ZIP or PDF file (Max: 50 MB)",
+       "value": {
+        "param": {
+         "type": "file",
+         "extensions": [
+          "zip",
+          "pdf"
+         ],
+         "maxSize": 50,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "email_sharing": {
+       "order": 50,
+       "description": "Please confirm you are aware that all author emails will be shared with Program Chairs.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the sharing of all author emails with Program Chairs."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "data_release": {
+       "order": 51,
+       "description": "Please confirm you are aware that accepted submissions, along with their author names, will be released to the public after the conference is over.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the release of our submission and author names to the public in the event of acceptance."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "LifeGenIP 2026 Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "thecvf.com/ECCV/2026/Workshop/LifeGenIP/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "thecvf.com/ECCV/2026/Workshop/LifeGenIP/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+      "${2/content/authorids/value}"
+     ],
+     "writers": [
+      "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+      "${2/content/authorids/value}"
+     ],
+     "license": {
+      "param": {
+       "enum": [
+        {
+         "value": "CC BY 4.0",
+         "description": "CC BY 4.0"
+        }
+       ]
+      }
+     }
+    }
+   },
+   "invitations": [
+    "thecvf.com/ECCV/2026/Workshop/LifeGenIP/-/Edit",
+    "thecvf.com/ECCV/2026/Workshop/LifeGenIP/-/Submission/Dates",
+    "thecvf.com/ECCV/2026/Workshop/LifeGenIP/-/Submission/Form_Fields",
+    "thecvf.com/ECCV/2026/Workshop/LifeGenIP/-/Submission/Notifications"
+   ],
+   "domain": "thecvf.com/ECCV/2026/Workshop/LifeGenIP",
+   "tcdate": 1780076330891,
+   "tmdate": 1786707553609,
+   "mdate": 1786707553609,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "content": {
+    "submission_email_template": {
+     "value": "Your submission to ArabicNLP2026-IslamicEval has been {{action}}.\n\nSubmission Number: {{note_number}}\n\nTitle: {{note_title}} {{note_abstract}}\n\nTo view your submission, click here: https://openreview.net/forum?id={{note_forum}}"
+    },
+    "users_to_notify": {
+     "value": [
+      "submission_authors"
+     ]
+    }
+   },
+   "id": "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task/-/Submission",
+   "type": "note",
+   "instructions": "Configure the contents of the article submission form, the email notification sent for when a new submission is posted, and the time when the article submission will open (activation) and the article submission due date.",
+   "humanVerificationRequired": {
+    "limit": 15,
+    "windowMs": 3600000
+   },
+   "cdate": 1786222800000,
+   "expdate": 1786883400000,
+   "duedate": 1786881600000,
+   "signatures": [
+    "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task"
+   ],
+   "readers": [
+    "everyone"
+   ],
+   "writers": [
+    "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task"
+   ],
+   "invitees": [
+    "~"
+   ],
+   "edit": {
+    "signatures": {
+     "param": {
+      "items": [
+       {
+        "prefix": "~.*",
+        "optional": true
+       },
+       {
+        "value": "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task/Program_Chairs",
+        "optional": true
+       }
+      ]
+     }
+    },
+    "readers": [
+     "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task",
+     "${2/note/content/authors/value/*/username}"
+    ],
+    "writers": [
+     "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task",
+     "${2/note/content/authors/value/*/username}"
+    ],
+    "ddate": {
+     "param": {
+      "range": [
+       0,
+       9999999999999
+      ],
+      "optional": true,
+      "deletable": true
+     }
+    },
+    "note": {
+     "content": {
+      "title": {
+       "order": 1,
+       "description": "Title of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "regex": "^.{1,250}$"
+        }
+       }
+      },
+      "authors": {
+       "order": 2,
+       "description": "Search author profile by name or profile ID. All authors must have an OpenReview profile prior to submitting a paper.",
+       "value": {
+        "param": {
+         "type": "author{}",
+         "properties": {
+          "fullname": {
+           "param": {
+            "type": "string"
+           }
+          },
+          "username": {
+           "param": {
+            "type": "string",
+            "regex": "^~\\S+$",
+            "mismatchError": "must be a valid profile ID"
+           }
+          },
+          "institutions": {
+           "param": {
+            "type": "object{}",
+            "properties": {
+             "name": {
+              "param": {
+               "type": "string"
+              }
+             },
+             "domain": {
+              "param": {
+               "type": "string"
+              }
+             },
+             "country": {
+              "param": {
+               "type": "string"
+              }
+             }
+            },
+            "optional": true
+           }
+          }
+         }
+        }
+       }
+      },
+      "keywords": {
+       "description": "Comma separated list of keywords.",
+       "order": 4,
+       "value": {
+        "param": {
+         "type": "string[]",
+         "regex": ".+"
+        }
+       }
+      },
+      "TLDR": {
+       "order": 5,
+       "description": "\"Too Long; Didn't Read\": a short sentence describing your paper",
+       "value": {
+        "param": {
+         "fieldName": "TL;DR",
+         "type": "string",
+         "maxLength": 250,
+         "optional": true,
+         "deletable": true
+        }
+       }
+      },
+      "abstract": {
+       "order": 6,
+       "description": "Abstract of paper. Add TeX formulas using the following formats: $In-line Formula$ or $$Block Formula$$.",
+       "value": {
+        "param": {
+         "type": "string",
+         "maxLength": 5000,
+         "markdown": true,
+         "input": "textarea"
+        }
+       }
+      },
+      "pdf": {
+       "order": 7,
+       "description": "Upload a PDF file that ends with .pdf.",
+       "value": {
+        "param": {
+         "type": "file",
+         "maxSize": 50,
+         "extensions": [
+          "pdf"
+         ],
+         "optional": true
+        }
+       }
+      },
+      "email_sharing": {
+       "order": 50,
+       "description": "Please confirm you are aware that all author emails will be shared with Program Chairs.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the sharing of all author emails with Program Chairs."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "data_release": {
+       "order": 51,
+       "description": "Please confirm you are aware that accepted submissions, along with their author names, will be released to the public after the conference is over.",
+       "value": {
+        "param": {
+         "type": "string",
+         "enum": [
+          "We authorize the release of our submission and author names to the public in the event of acceptance."
+         ],
+         "input": "radio"
+        }
+       }
+      },
+      "venue": {
+       "value": {
+        "param": {
+         "const": "SIGARAB ArabicNLP 2026 IslamicEval Shared Task Submission",
+         "hidden": true
+        }
+       }
+      },
+      "venueid": {
+       "value": {
+        "param": {
+         "const": "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task/Submission",
+         "hidden": true
+        }
+       }
+      }
+     },
+     "id": {
+      "param": {
+       "withVenueid": "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task/Submission",
+       "optional": true
+      }
+     },
+     "ddate": {
+      "param": {
+       "range": [
+        0,
+        9999999999999
+       ],
+       "optional": true,
+       "deletable": true
+      }
+     },
+     "signatures": [
+      "${3/signatures}"
+     ],
+     "readers": [
+      "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task",
+      "${2/content/authors/value/*/username}"
+     ],
+     "writers": [
+      "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task",
+      "${2/content/authors/value/*/username}"
+     ],
+     "license": {
+      "param": {
+       "enum": [
+        {
+         "value": "CC BY 4.0",
+         "description": "CC BY 4.0"
+        }
+       ]
+      }
+     }
+    }
+   },
+   "invitations": [
+    "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task/-/Edit",
+    "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task/-/Submission/Dates"
+   ],
+   "domain": "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task",
+   "tcdate": 1786023988118,
+   "tmdate": 1786447909701,
+   "mdate": 1786447909701,
+   "details": {
+    "writable": false
+   }
+  },
+  {
+   "id": "Test.org/2026/Workshop/X/-/Submission",
+   "cdate": 1780000000000,
+   "duedate": 1790000000000,
+   "expdate": 1790010000000
+  },
+  {
+   "id": "Test.org/2026/Workshop/X/-/Abstract_Submission",
+   "cdate": 1780000000000,
+   "duedate": 1789900000000
+  }
+ ]
+}
