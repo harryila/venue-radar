@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_run": "2026-08-16T03:49:11.049580+00:00",
- "profile_hash": "932b96780ef14511f973ab9b63d002f210b44b4a5eecfb2a162ac8a5d0cba8ef",
+ "last_run": "2026-08-16T04:23:09.171063+00:00",
+ "profile_hash": "8407ec0e374f906916c1b77823fdf055a42cf55bfd512e57a68af1334c98cba1",
  "venues": {
   "-Agora/COVID-19": {
    "archived": false,
@@ -16,12 +16,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "",
    "title": "-Agora COVID-19",
    "verdict": "no",
    "website": "",
-   "why": "Placeholder/dormant venue with a 2050 deadline."
+   "why": "Placeholder/dormant venue unrelated to Harry's fields."
   },
   "3DV/2027/Conference": {
    "archived": false,
@@ -36,12 +37,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "3DV 2027",
    "title": "Fourteenth International Conference on 3D Vision",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://3dvconf.github.io/2027/",
-   "why": "Vision/geometry conference with ML angle but not alignment or LLM-focused."
+   "why": "3D vision conference, unrelated to agents/interp/safety."
   },
   "AAAI.org/2027/Demonstration_Program": {
    "archived": false,
@@ -56,12 +58,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AAAI 27 Demo",
    "title": "AAAI 2027 Demonstration Program",
    "verdict": "adjacent",
    "website": "https://aaai.org/conference/aaai/aaai-27/",
-   "why": "Demo program at a top venue, not a research main track."
+   "why": "AAAI demo track, not a research topic match; demos are listed adjacent regardless of venue."
   },
   "AAAI.org/2027/Innovative_Applications_of_AI": {
    "archived": false,
@@ -76,12 +79,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "IAAI 2027",
    "title": "Thirty-Ninth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-27)",
    "verdict": "adjacent",
    "website": "https://aaai.org/conference/aaai/aaai-27/iaai-27-call/",
-   "why": "AAAI applications track, not the main research track."
+   "why": "Applications track of AAAI, not a core topic (safety/interp/agent-eval) and not the main track."
   },
   "ACM.org/CIKM/2026/Workshop/EARL": {
    "archived": false,
@@ -96,12 +100,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "EARL 2026",
    "title": "EARL: The 3rd Workshop on Evaluating and Applying Recommender Systems with Large Language Models",
    "verdict": "adjacent",
    "website": "https://earl-workshop.github.io",
-   "why": "Applied-LLM workshop on recommender systems, a domain topic."
+   "why": "LLM recommender-system evaluation, general LLM workshop not on core topics."
   },
   "ACM.org/CIKM/2026/Workshop/GaLM": {
    "archived": false,
@@ -116,12 +121,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "GaLM",
    "title": "The 2nd International Workshop on Graph-Augmented LLMs (GaLM): Bridging Language and Structured Knowledge",
    "verdict": "adjacent",
    "website": "https://galm-workshop.github.io",
-   "why": "Graph-augmented LLM workshop, domain-specific application."
+   "why": "Graph-augmented LLMs workshop, general LLM topic not calibration/interp/safety."
   },
   "ACM.org/CIKM/2026/Workshop/LASS": {
    "archived": false,
@@ -136,12 +142,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CIKM 2026 Workshop LASS",
    "title": "The 2nd Workshop on LLM Agents for Social Simulation @CIKM2026",
    "verdict": "adjacent",
    "website": "https://lassworkshop26.github.io/",
-   "why": "LLM agents workshop but topic is social simulation, a domain application."
+   "why": "Applied agent workshop (social simulation setting), agents are the setting not the research question."
   },
   "ACM.org/IIC-AIR/2027/Conference": {
    "archived": false,
@@ -156,12 +163,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IIC-AIR 2027",
    "title": "1ST INDRAPRASTHA INTERNATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE, IoT & ROBOTICS",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://usar.acm.org/iic-air/",
-   "why": "Regional/new AI-IoT-robotics conference, not core alignment/ML."
+   "why": "Brand-new regional AI/IoT/robotics conference, no core topic match."
   },
   "ACM.org/IKDD/CODS/2026/Conference": {
    "archived": false,
@@ -176,12 +184,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ACM IKDD CODS 2026",
    "title": "14th International Conference on Data Science",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://ikdd.acm.org/cods-2026/",
-   "why": "General data science conference, data-centric rather than core ML/alignment."
+   "why": "Regional data science conference, no core topic match."
   },
   "ACM.org/IUI/2027/Workshop/MeMoAI": {
    "archived": false,
@@ -196,12 +205,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "MM/AI",
    "title": "Workshop on Mental Models in Human-AI Interaction",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://mentalmodelsofai.com/",
-   "why": "Human-AI interaction workshop, HCI-leaning rather than core ML/alignment."
+   "why": "Pure HCI workshop on human mental models, not evaluation/interp of AI systems."
   },
   "ACM.org/WebSciX/2026/Conference": {
    "archived": false,
@@ -216,12 +226,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "WebSciX 2026",
    "title": "The Asia-Pacific Satellite Event of ACM WebSci - WebSciX 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://wsl-iiitb.github.io/WebSciX-2026/",
-   "why": "Regional (Asia-Pacific) web science satellite event."
+   "why": "Regional web science satellite event, no core topic match."
   },
   "AI-ZAMAN/2026/Conference": {
    "archived": false,
@@ -236,12 +247,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AI-ZAMAN 2026",
    "title": "2026 Interdisciplinary Conference \"AI-ZAMAN\"",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://aizaman.ru",
-   "why": "Regional interdisciplinary AI conference, not core ML/alignment."
+   "why": "Low-signal regional interdisciplinary AI conference, no core topic match."
   },
   "AI4BCI/2026/Symposium": {
    "archived": false,
@@ -256,12 +268,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AI4BCI 2026",
    "title": "Artificial Intelligence for Brain\u2013Computer Interface",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://www.ai4bci.com/",
-   "why": "AI applied to brain-computer interfaces, a domain-specific application."
+   "why": "Brain-computer interface symposium, unrelated to Harry's fields."
   },
   "AIDEA/2027/Symposium": {
    "archived": false,
@@ -276,12 +289,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AIDEA27",
    "title": "Symposium on Integrating AI and Data Science into Education Across Disciplines",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://aideasymposium.github.io/",
-   "why": "AI/data science in education, a domain-specific application."
+   "why": "AI-for-education symposium, no core topic match."
   },
   "ALTA.asn.au/2026/Archival": {
    "archived": false,
@@ -296,12 +310,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ALTA 2026",
    "title": "The 24th Australasian Language Technology Association Workshop",
    "verdict": "adjacent",
    "website": "https://alta2026.alta.asn.au/",
-   "why": "Regional (Australasian) NLP workshop, not language-agnostic core topic."
+   "why": "General regional NLP workshop, not specifically calibration/interp/agent-eval."
   },
   "ALTA.asn.au/2026/Non-Archival_and_Industry": {
    "archived": false,
@@ -316,12 +331,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ALTA 2026",
    "title": "The 24th Australasian Language Technology Association Workshop (Non-Archival and Industry)",
    "verdict": "adjacent",
    "website": "https://alta2026.alta.asn.au/",
-   "why": "Regional NLP workshop, non-archival/industry track."
+   "why": "Industry track of a regional NLP workshop."
   },
   "APPROX-IA/2027/Workshop": {
    "archived": false,
@@ -336,12 +352,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "APPROX-IA 2027",
    "title": "APPROX-IA: Approximation, Human Judgments and LLMs",
    "verdict": "adjacent",
    "website": "https://www.mshbx.fr/2026/06/25/approximation-human-judgments-and-llms-call-for-abstracts/",
-   "why": "Workshop on LLMs approximating human judgment, not alignment/agents/reasoning core."
+   "why": "LLMs approximating human judgments, evaluation-adjacent but unclear it targets AI systems themselves."
   },
   "ARGAGE/2027/Conference_Abstracts": {
    "archived": false,
@@ -356,12 +373,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ARGAGE 2027",
    "title": "5th Argumentation & Language Conference \"Human Argumentation across Languages and Cultures\"",
    "verdict": "no",
    "website": "https://centridiricerca.unicatt.it/cluc/it/news/2027/argage-2027.html",
-   "why": "Pure linguistics/argumentation conference, no ML angle."
+   "why": "Argumentation theory conference, explicitly excluded topic."
   },
   "ARGAGE/2027/Conference_Panels": {
    "archived": false,
@@ -376,12 +394,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ARGAGE 2027",
    "title": "5th Argumentation & Language Conference \"Human Argumentation across Languages and Cultures\" PANELS",
    "verdict": "no",
    "website": "https://centridiricerca.unicatt.it/cluc/it/news/2027/argage-2027.html",
-   "why": "Pure linguistics/argumentation conference panels, no ML angle."
+   "why": "Argumentation theory conference panels, explicitly excluded topic."
   },
   "BCGL/2026/Conference": {
    "archived": false,
@@ -396,12 +415,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "BCGL 18",
    "title": "BCGL 18: Morphosyntactic Variation and Expressivity",
    "verdict": "no",
    "website": "https://www.crissp.be/bcgl-18-morphosyntactic-variation-and-expressivity/",
-   "why": "Pure morphosyntax linguistics conference, no ML relevance."
+   "why": "Morphosyntax/linguistics conference, explicitly excluded topic."
   },
   "BNAIC-BeNeLearn/2026/Conference": {
    "archived": false,
@@ -416,12 +436,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "BNAIC/BeNeLearn 2026",
    "title": "The 38th Benelux Conference on Artificial Intelligence and the 35th Belgian Dutch Conference on Machine Learning",
    "verdict": "adjacent",
    "website": "https://www.maastrichtuniversity.nl/bnaic2026",
-   "why": "Regional (Benelux) AI/ML conference."
+   "why": "Regional Benelux AI/ML conference, general ML not on core topics."
   },
   "BNAIC-BeNeLearn/2026/Workshop/AI4DT": {
    "archived": false,
@@ -436,12 +457,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AI4DT 2026",
    "title": "Workshop on Artificial Intelligence for Digital Twins: Challenges and Best Practices",
    "verdict": "adjacent",
    "website": "https://ai4dt-workshop.github.io/2026/",
-   "why": "AI for digital twins workshop, a domain-specific application at a regional conference."
+   "why": "AI for digital twins, applied ML domain not core topic."
   },
   "BNAIC-BeNeLearn/2026/Workshop/BOW": {
    "archived": false,
@@ -456,12 +478,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "BOW 26",
    "title": "Bayesian Optimization Workshop @ BNAIC/BeNeLearn 2026",
    "verdict": "adjacent",
    "website": "https://sasan-amini.github.io/BOW26/",
-   "why": "Bayesian optimization workshop at a regional AI conference, not alignment-focused."
+   "why": "Bayesian optimization workshop, general ML theory not core topic."
   },
   "CAMP/2026/Workshop": {
    "archived": false,
@@ -476,12 +499,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CAMP 2026",
    "title": "Ninth Annual California Meeting on Psycholinguistics",
    "verdict": "no",
    "website": "https://camp9ucsb.github.io/conference/",
-   "why": "Pure psycholinguistics meeting, no ML methods angle."
+   "why": "Psycholinguistics meeting, explicitly excluded topic."
   },
   "CAPMW/2026/Conference": {
    "archived": false,
@@ -496,12 +520,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CAPMW 2026",
    "title": "The First Conference on AI for Physics at MeaWorm Corp 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://lct-unv.github.io/capmw2026.github.io/",
-   "why": "AI for physics conference, a domain-specific scientific application."
+   "why": "AI-for-physics conference, application domain unrelated to core topics."
   },
   "CCBR/2026/Conference": {
    "archived": false,
@@ -516,12 +541,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CCBR 2026",
    "title": "The 20th Chinese Conference on Biometric Recognition",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "http://ccbr.mustedu.cn/",
-   "why": "Regional (Chinese) biometric recognition conference, vision with ML angle."
+   "why": "Biometric recognition conference, unrelated to core topics."
   },
   "CoNGA/2026/Conference": {
    "archived": false,
@@ -536,12 +562,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CoNGA 2026",
    "title": "Seventh Conference on Next Generation Arithmetic",
    "verdict": "no",
    "website": "https://posithub.org/conga/2026/",
-   "why": "Number-systems/arithmetic hardware conference, unrelated to ML."
+   "why": "Arithmetic/number-systems conference, hardware-adjacent, no ML/safety angle."
   },
   "D3A/2026/Workshop/MLT": {
    "archived": false,
@@ -556,12 +583,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "D3A MLT 2026",
    "title": "Machine Learning Theory Workshop at D3A 2026",
    "verdict": "adjacent",
    "website": "https://d3aconference.dk",
-   "why": "ML theory workshop, not alignment/agents/LLM-eval focused."
+   "why": "General machine learning theory workshop, not calibration/interp/safety specific."
   },
   "DGfS.de/2026/Conference_Poster_Session": {
    "archived": false,
@@ -576,12 +604,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DGfS-CL 2026 Poster Session",
    "title": "DGfS-CL 2026 Poster Session",
    "verdict": "adjacent",
    "website": "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-ii/forschung-und-zentren/dgfs2026",
-   "why": "National (German) computational linguistics poster session."
+   "why": "General computational linguistics poster session, not core topic."
   },
   "DHARTI/2026/Conference": {
    "archived": false,
@@ -596,12 +625,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DHARTI 2026 Conference",
    "title": "DHARTI 2026 Conference",
    "verdict": "no",
    "website": "https://dhdharti.in/2026/06/26/dharti2026/",
-   "why": "Digital humanities conference, no ML methods angle."
+   "why": "Digital humanities conference, explicitly excluded topic."
   },
   "ECA/2027/Conference": {
    "archived": false,
@@ -616,12 +646,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ECA 2027",
    "title": "European Conference on Argumentation 2027",
    "verdict": "no",
    "website": "https://ecargument.org/",
-   "why": "Pure argumentation/linguistics conference, no ML relevance."
+   "why": "Argumentation conference, explicitly excluded topic."
   },
   "EIAI/2027/Workshop": {
    "archived": false,
@@ -636,12 +667,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "EIAI 2027",
    "title": "Workshop on Epistemic Injustice and AI / 23-24 March 2027",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://bobvantiel.github.io/epistemic-injustice-and-ai/",
-   "why": "Philosophical workshop on epistemic injustice and AI, not technical alignment/ML."
+   "why": "Philosophy/epistemology of AI workshop, not empirical evaluation/interp/safety research."
   },
   "EMNLP/2026/Workshop/AKBC_ARR_Commitment": {
    "archived": false,
@@ -656,12 +688,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AKBC 2026 - ARR Commitment",
    "title": "Workshop on Automated Knowledge Base Construction 2026 - ARR Commitment",
    "verdict": "adjacent",
    "website": "https://www.akbc.ws/2026",
-   "why": "EMNLP workshop on knowledge base construction, a domain topic not core alignment/agents/eval."
+   "why": "Knowledge base construction workshop (ARR commitment), general NLP not core topic."
   },
   "EMNLP/2026/Workshop/BlackboxNLP_ARR_Commitment": {
    "archived": false,
@@ -676,12 +709,13 @@
     }
    ],
    "issue": 17,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "BlackboxNLP 2026 ARR Commitments",
    "title": "The 9th BlackboxNLP Workshop - ARR Commitments",
    "verdict": "core",
    "website": "https://blackboxnlp.github.io/2026/",
-   "why": "EMNLP interpretability workshop for NLP models, directly on his core alignment/interpretability thread."
+   "why": "BlackboxNLP is squarely interpretability of LLMs (ARR commitment track)."
   },
   "EMNLP/2026/Workshop/DocInsights_ARR_Commitment": {
    "archived": false,
@@ -696,12 +730,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "DocInsights 2026",
    "title": "First Workshop on Document Intelligence and Understanding (ARR Commitment)",
    "verdict": "adjacent",
    "website": "https://docinsights-workshop.github.io/docinsights-2026/",
-   "why": "EMNLP workshop on document understanding, a domain-specific application."
+   "why": "Document intelligence/understanding workshop, general NLP not core topic."
   },
   "EMNLP/2026/Workshop/FinNLP_ARR_Commitment": {
    "archived": false,
@@ -716,12 +751,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "FinNLP ARR Commitment",
    "title": "11th Workshop on Financial Technology and Natural Language Processing (ARR Commitment)",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://sigfintech.github.io/finnlp.html",
-   "why": "EMNLP workshop on financial NLP, a domain-specific application."
+   "why": "Financial NLP workshop, application domain outside Harry's fields."
   },
   "EMNLP/2026/Workshop/GroundLM_Shared_Tasks": {
    "archived": false,
@@ -736,12 +772,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "EMNLP 2026 Workshop GroundLM Shared Tasks",
    "title": "Grounding Language Models 2026 Shared Tasks",
    "verdict": "adjacent",
    "website": "https://groundlm.github.io/grouplm_emnlp2026/",
-   "why": "Shared task on grounding language models, task-specific rather than core alignment/agents topic."
+   "why": "Grounding LMs shared task, task itself isn't calibration/eval/interp of LLMs."
   },
   "EMNLP/2026/Workshop/IMPACT-SPEECH_ARR_Commitment": {
    "archived": false,
@@ -756,12 +793,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "IMPACT-SPEECH ARR Commitment",
    "title": "IMPACT-SPEECH: Identifying, Measuring, Preventing, and Assessing Consequences of Bias in Speech LLMs",
    "verdict": "adjacent",
    "website": "https://impactspeech.github.io/",
-   "why": "Bias assessment workshop scoped to speech LLMs, a narrow domain rather than general alignment/safety."
+   "why": "Bias/safety in speech LLMs is a 'safe X for domain' case, application-domain not core."
   },
   "EMNLP/2026/Workshop/LM-KBC_Shared_Task": {
    "archived": false,
@@ -776,12 +814,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "LM-KBC 2026",
    "title": "Workshop on Automated Knowledge Base Construction 2026 - LM-KBC - Shared Task",
    "verdict": "adjacent",
    "website": "https://lm-kbc.github.io/challenge2026",
-   "why": "Shared task on LM-based knowledge base construction, a domain-specific task."
+   "why": "Knowledge base construction shared task, not calibration/eval/interp task."
   },
   "EMNLP/2026/Workshop/LUHME_ARR_Commitment": {
    "archived": false,
@@ -796,12 +835,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "LUHME 2026",
    "title": "3rd Workshop on Language Understanding in the Human-Machine Era (ARR Commitment)",
    "verdict": "adjacent",
    "website": "https://luhme.up.pt/",
-   "why": "Broad workshop on human-machine language understanding, not explicitly alignment/agents/eval focused."
+   "why": "General language-understanding-in-HCI workshop (ARR commitment), not core topic."
   },
   "EMNLP/2026/Workshop/MINT_ARR_Commitment": {
    "archived": false,
@@ -816,12 +856,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ARR Commitment for MINT @ EMNLP 2026",
    "title": "ARR Commitment for EMNLP 2026 Workshop on Multimodal Interaction in Face-to-Face Dialogue (MINT)",
    "verdict": "adjacent",
    "website": "https://mintworkshop.github.io/2026/",
-   "why": "Multimodal face-to-face dialogue interaction is a domain-specific applied workshop, not alignment/agents/reasoning."
+   "why": "Multimodal face-to-face dialogue is a general NLP topic, not agent eval/interp/safety."
   },
   "EMNLP/2026/Workshop/MRL": {
    "archived": false,
@@ -836,12 +877,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "MRL 2026",
    "title": "6th Multilingual Representation Learning Workshop",
    "verdict": "adjacent",
    "website": "https://sigtyp.github.io/ws2026-mrl.html",
-   "why": "Multilingual representation learning workshop, not on alignment/agents/reasoning core topics."
+   "why": "Multilingual representation learning is a general NLP topic outside the core bullets."
   },
   "EMNLP/2026/Workshop/MathNLP_ARR_Commitment": {
    "archived": false,
@@ -856,12 +898,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "MathNLP 2026 ARR Commitment",
    "title": "MathNLP 2026: The 4th Workshop on Mathematical Natural Language Processing (ARR Commitment)",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/mathnlp2026",
-   "why": "Domain-specific (math) NLP workshop rather than general LLM reasoning/alignment."
+   "why": "Math reasoning NLP workshop, general ML/NLP topic not tied to eval/calibration/interp."
   },
   "EMNLP/2026/Workshop/NLLP": {
    "archived": false,
@@ -876,12 +919,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NLLP 2026",
    "title": "Natural Legal Language Processing 2026 Workshop",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://openreview.net/group?id=EMNLP/2026/Workshop/NLLP",
-   "why": "Legal NLP is a domain-specific applied workshop."
+   "why": "Legal NLP is explicitly outside Harry's fields."
   },
   "EMNLP/2026/Workshop/NLLP_ARR_Commitment": {
    "archived": false,
@@ -896,12 +940,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NLLP 2026",
    "title": "Natural Legal Language Processing 2026 Workshop ARR Commitment",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://openreview.net/group?id=EMNLP/2026/Workshop/NLLP_ARR_Commitment",
-   "why": "Legal NLP is a domain-specific applied workshop."
+   "why": "Legal NLP ARR-commitment track, same topic as the workshop."
   },
   "EMNLP/2026/Workshop/ORACLE_ARR_Commitment": {
    "archived": false,
@@ -916,12 +961,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ORACLE",
    "title": "ORACLE: The First Workshop on Open Reasoning Across Cultures & Languages (ARR Submission)",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/workshoporacle/",
-   "why": "Cross-cultural/cross-lingual reasoning workshop is language-specific, not language-agnostic core reasoning."
+   "why": "Cross-cultural/multilingual reasoning workshop, not specifically eval/calibration/interp of AI systems."
   },
   "EMNLP/2026/Workshop/PANDORA_ARR_Commitment": {
    "archived": false,
@@ -935,13 +981,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 97,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "PANDORA 2026",
    "title": "First workshop on Pluralistic AI & NLP: Diversity-aware, Sociotechnical, Responsible Alignment (ARR Commitment)",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "https://pandora-workshop.github.io",
-   "why": "Pluralistic/sociotechnical responsible AI leans toward ethics/fairness rather than technical alignment/safety."
+   "why": "Pluralistic, sociotechnical responsible alignment of AI systems hits the alignment core bullet."
   },
   "EMNLP/2026/Workshop/REALM_ARR_Commitment": {
    "archived": false,
@@ -955,13 +1002,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 62,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "REALM",
    "title": "Second Workshop for Research on Agent Language Models (ARR Submission)",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://realm-workshop.github.io/",
-   "why": "Workshop on agent language models directly matches the LLM agents core topic."
+   "why": "General agent language model research workshop; agents are the setting, not eval/interp/calibration."
   },
   "EMNLP/2026/Workshop/SALMA_ARR_Commitment": {
    "archived": false,
@@ -976,12 +1024,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "SALMA 2026",
    "title": "SALMA 2026: Speech and Audio Language Models Workshop (2nd Edition) (ARR Commitment)",
    "verdict": "adjacent",
    "website": "https://salma-workshop.github.io/salma-2026/",
-   "why": "Speech and audio language models is a modality-specific domain workshop."
+   "why": "Speech and audio language models workshop, a general modality topic outside core bullets."
   },
   "EMNLP/2026/Workshop/UncertaiNLP_ARR_Commitment": {
    "archived": false,
@@ -995,13 +1044,16 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
-   "reminded": [],
+   "issue": 96,
+   "prestige": 1,
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "UncertaiNLP2026 ARR Commitment",
    "title": "Third Workshop on Uncertainty-Aware NLP @ EMNLP 2026 -- ARR Commitment",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "https://uncertainlp.github.io/",
-   "why": "Uncertainty-aware NLP touches evaluation but isn't squarely alignment/safety/agents."
+   "why": "Uncertainty-aware NLP directly matches Harry's calibration/uncertainty work."
   },
   "EMNLP/2026/Workshop/WNUT_ARR_Commitment": {
    "archived": false,
@@ -1016,12 +1068,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WNUT 2026",
    "title": "The 11th Workshop on Natural User-generated Text ARR Commitment",
    "verdict": "adjacent",
    "website": "https://noisy-text.github.io/2026/",
-   "why": "Noisy user-generated text workshop is a classic NLP topic, not core alignment/agents/reasoning."
+   "why": "User-generated text NLP is a general workshop topic, not core."
   },
   "EMNLP/2026/Workshop/WSLP": {
    "archived": false,
@@ -1036,12 +1089,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WSLP-2026",
    "title": "2nd Workshop on Sign Language Processing",
    "verdict": "adjacent",
    "website": "https://exploration-lab.github.io/WSLP-2026/",
-   "why": "Sign language processing is a domain-specific NLP workshop."
+   "why": "Sign language processing is a general NLP modality, not core."
   },
   "EMNLP/2026/Workshop/WaC-13": {
    "archived": false,
@@ -1056,12 +1110,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WaC-13",
    "title": "13th Web-as-Corpus Workshop",
    "verdict": "adjacent",
    "website": "https://wackyworkshop.org",
-   "why": "Web-as-corpus workshop is data/corpus-centric, not core ML topic."
+   "why": "Web-as-corpus construction is data-infrastructure adjacent, not core."
   },
   "EMNLP/2026/Workshop/WaC-13_ARR_Commitment": {
    "archived": false,
@@ -1076,12 +1131,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WaC-13 ARR",
    "title": "13th Web-as-Corpus Workshop ARR Commitment",
    "verdict": "adjacent",
    "website": "https://wackyworkshop.org",
-   "why": "Web-as-corpus workshop is data/corpus-centric, not core ML topic."
+   "why": "Same web-corpus topic via ARR commitment track."
   },
   "EMNLP/2026/Workshop/WiNLP_ARR_Commitment": {
    "archived": false,
@@ -1096,12 +1152,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WiNLP 2026",
    "title": "Tenth Widening NLP Workshop (ARR Commitment)",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://winlp-workshop.github.io",
-   "why": "Widening NLP is a community/inclusion workshop rather than a core research topic."
+   "why": "Widening NLP is explicitly a no per profile calibration examples."
   },
   "FEAR/2026/Workshop": {
    "archived": false,
@@ -1116,12 +1173,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "FEAR",
    "title": "Third International Workshop on Formal Ethical Agents and Robots",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://fearworkshop.github.io/",
-   "why": "Formal ethics for agents/robots is safety-adjacent but not LLM alignment/safety specifically."
+   "why": "Formal ethics for agents/robots is theory-oriented, not ML-methods eval/safety of AI systems."
   },
   "GaC/2027/Conference": {
    "archived": false,
@@ -1136,12 +1194,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "GaC 2027",
    "title": "11th International Conference on Grammar and Corpora",
    "verdict": "no",
    "website": "https://gac2027.phil.hhu.de/",
-   "why": "Pure grammar/corpora linguistics conference unrelated to ML."
+   "why": "Pure grammar and corpus linguistics conference."
   },
   "HPSCAI/2026/Conference": {
    "archived": false,
@@ -1156,12 +1215,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "HPSCAI",
    "title": "HiPARIS-Student-Conference-on-AI",
    "verdict": "adjacent",
    "website": "https://hi-paris.github.io/HiPARIS-Student-Conference-on-AI/",
-   "why": "Regional student AI conference."
+   "why": "General student AI conference, regional/broad ML venue."
   },
   "HiPEAC.net/2027/Workshop/DASIP": {
    "archived": false,
@@ -1176,12 +1236,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DASIP2027",
    "title": "DASIP 2027 Workshop",
    "verdict": "no",
    "website": "https://dasip-2027.github.io/",
-   "why": "Signal/image processing hardware workshop, no ML/AI focus."
+   "why": "Signal/image processing hardware architectures workshop, not ML-focused."
   },
   "IAFLL.org/2027/Conference": {
    "archived": false,
@@ -1196,12 +1257,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IAFLL Porto 2027",
    "title": "18th Biennial Conference of the International Association for Forensic and Legal Linguistics",
    "verdict": "no",
    "website": "www.iafllporto2027.pt",
-   "why": "Forensic/legal linguistics is pure linguistics unrelated to ML."
+   "why": "Forensic and legal linguistics, pure linguistics."
   },
   "IAIM/2026/Conference": {
    "archived": false,
@@ -1216,12 +1278,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "iAIM 2026",
    "title": "International Conference on AI in Medicine 2026",
    "verdict": "adjacent",
    "website": "https://event.ntu.edu.sg/iaim",
-   "why": "AI in medicine is an applied-ML domain conference (medicine)."
+   "why": "AI in medicine is an applied ML domain venue, not core."
   },
   "IC-AMMA/2026/Conference": {
    "archived": false,
@@ -1236,12 +1299,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IC-AMMA 2026",
    "title": "International Conference on Intelligent Methods and Modern Applications 2026 (IC-AMMA 2026)",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/icamma2026/home?authuser=0",
-   "why": "Generic intelligent-methods/applications conference, broadly AI-related but not a core topic."
+   "why": "Generic intelligent methods/applications AI conference, regional."
   },
   "ICASDAI.org/2026/Conference": {
    "archived": false,
@@ -1256,12 +1320,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ICASDAI 2026",
    "title": "International Conference on Applied Science, Digitalization and Artificial Intelligence 2026",
    "verdict": "adjacent",
    "website": "https://icasdai.org/",
-   "why": "Generic applied AI/digitalization conference, not a core topic."
+   "why": "Generic applied science/digitalization/AI conference, regional."
   },
   "ICICT.org/2027/Conference": {
    "archived": false,
@@ -1276,12 +1341,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ICICT 2027",
    "title": "The 10th International Conference on Information and Computer Technologies",
    "verdict": "no",
    "website": "https://icict.org/",
-   "why": "Generic information/computer technologies conference, not ML-focused."
+   "why": "General information and computer technologies conference, not ML-specific."
   },
   "ICVGIP.in/2026/Conference": {
    "archived": false,
@@ -1296,12 +1362,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ICVGIP",
    "title": "Indian Conference on Computer Vision, Graphics & Image Processing",
    "verdict": "adjacent",
    "website": "https://icvgip.in/2026/",
-   "why": "Regional (Indian) computer vision conference with ML angle."
+   "why": "Computer vision/graphics conference, ML-adjacent but not LLM/agent/safety focused."
   },
   "IEEE.org/AIoT/2026/Workshop/SustainableAIoT-Afrasia": {
    "archived": false,
@@ -1316,12 +1383,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SustainableAIoT-Afrasia 2026",
    "title": "SustainableAIoT-Afrasia: Sustainable AIoT for AfroAsian Communities",
    "verdict": "adjacent",
    "website": "https://anon-oss-rgb.github.io/sustainableaiot-afrasia/",
-   "why": "Applied AIoT-for-sustainability workshop, a domain application."
+   "why": "Applied sustainable AIoT domain workshop, not core."
   },
   "IEEE.org/BigData/2026/Workshop/TRUSTMORE": {
    "archived": false,
@@ -1335,13 +1403,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 81,
+   "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "TRUSTMORE 2026",
    "title": "TRUSTMORE 2026: 1st International Workshop on Trustworthy Multimodal Agents",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://trustmoreai.github.io/workshop2026/",
-   "why": "Trustworthiness of multimodal AI agents is evaluation/oversight of AI systems themselves, not an application domain."
+   "why": "Trustworthy multimodal agents is a 'safe X' application-domain workshop, adjacent not core."
   },
   "IEEE.org/CRESS/2026/Conference": {
    "archived": false,
@@ -1356,12 +1425,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IEEE CRESS 2026",
    "title": "2026 IEEE International Conference on Cyber Resilience and Endogenous Safety & Security",
    "verdict": "no",
    "website": "https://www.ieeecress.com/",
-   "why": "Cyber resilience/security conference without an ML methods focus."
+   "why": "Cyber resilience and security conference, not AI safety/ML."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
    "archived": false,
@@ -1376,12 +1446,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "BHI 2026 Abstracts",
    "title": "IEEE-EMBS International Conference on Biomedical and Health Informatics 2026 1-Page Abstracts",
-   "verdict": "no",
+   "verdict": "adjacent",
    "website": "https://bhi.embs.org/2026/",
-   "why": "Biomedical/health informatics abstracts track, medicine without an ML methods angle."
+   "why": "Biomedical/health informatics with an ML angle, applied domain not core."
   },
   "IEEE.org/ICHI/2027/Conference": {
    "archived": false,
@@ -1396,12 +1467,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ICHI",
    "title": "The 15th IEEE International Conference on Healthcare Informatics",
-   "verdict": "no",
+   "verdict": "adjacent",
    "website": "https://zhang-informatics.github.io/ICHI2026/",
-   "why": "Healthcare informatics conference, medicine without an ML methods angle."
+   "why": "Healthcare informatics with ML methods, applied domain not core."
   },
   "IEEE.org/ICICIP/2027/Conference": {
    "archived": false,
@@ -1416,12 +1488,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ICICIP2027",
    "title": "The 15th International Conference on Intelligent Control and Information Processing",
-   "verdict": "no",
+   "verdict": "adjacent",
    "website": "https://conference.cs.cityu.edu.hk/icicip/",
-   "why": "Intelligent control/information processing is traditional control theory, not core ML."
+   "why": "Intelligent control and information processing, ML-adjacent engineering venue."
   },
   "IEEE.org/ICRA/2027/WT-Pre-Proposals": {
    "archived": false,
@@ -1436,12 +1509,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ICRA2027-WT-Pre-Proposals",
    "title": "ICRA 2027 Workshop/Tutorial Pre-Proposals",
    "verdict": "adjacent",
    "website": "https://2027.ieee-icra.org/",
-   "why": "Robotics workshop/tutorial proposal call with ML angle."
+   "why": "Robotics workshop/tutorial proposal call, agents/robotics setting not core eval topic."
   },
   "IEEE.org/IROS/2026/Workshop/AIM-Ctrl": {
    "archived": false,
@@ -1456,12 +1530,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "AIM-Ctrl",
    "title": "AI Meets Control for   Resilient and Reliable Robot Planning",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/aim-ctrl/home-page?authuser=0",
-   "why": "Robotics/control workshop with an ML angle."
+   "why": "AI/control for robot planning, applied robotics agent workshop."
   },
   "IEEE.org/IROS/2026/Workshop/AI_Meets_Autonomy": {
    "archived": false,
@@ -1476,12 +1551,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 AI Meets Autonomy Workshop",
    "title": "3rd AI Meets Autonomy: Vision, Language, and Autonomous Systems Workshop at IROS 2026",
    "verdict": "adjacent",
    "website": "https://www.ai-meets-autonomy.com/",
-   "why": "Vision-language-autonomy robotics workshop with substantial ML angle."
+   "why": "Vision-language autonomous systems, applied robotics with FM angle."
   },
   "IEEE.org/IROS/2026/Workshop/AthleticHumanoid": {
    "archived": false,
@@ -1496,12 +1572,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Workshop AthleticHumanoid",
    "title": "IEEE IROS 2026 Workshop on Perception and Decision Making for Athletic Humanoid Robotics",
    "verdict": "adjacent",
    "website": "https://iros-2026-athletic-humanoid.github.io/workshop/",
-   "why": "Humanoid robotics perception/decision-making workshop with ML angle."
+   "why": "Perception/decision-making for humanoid robots, applied robotics not core."
   },
   "IEEE.org/IROS/2026/Workshop/BEMHAT": {
    "archived": false,
@@ -1516,12 +1593,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "BEMHAT at IROS 2026",
    "title": "Leveraging Behavioral Models in Human-Autonomy Teams (BEMHAT)",
    "verdict": "adjacent",
    "website": "https://sites.google.com/asu.edu/bemhat-iros26/",
-   "why": "Human-autonomy teaming robotics workshop with ML angle."
+   "why": "Behavioral models in human-autonomy teams, applied robotics/HRI not core."
   },
   "IEEE.org/IROS/2026/Workshop/BLPC": {
    "archived": false,
@@ -1536,12 +1614,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 BLPC Workshop",
    "title": "Hybrid Architectures for Embodied Autonomy: Bridging Learning, Planning, and Control",
    "verdict": "adjacent",
    "website": "https://sites.google.com/bu.edu/hybridarchforautonomy",
-   "why": "Embodied autonomy learning/planning/control robotics workshop with ML angle."
+   "why": "Learning/planning/control for embodied autonomy, applied robotics workshop."
   },
   "IEEE.org/IROS/2026/Workshop/Bimanual_Manipulation": {
    "archived": false,
@@ -1556,12 +1635,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Bimanual Manipulation Workshop",
    "title": "Scaling vs Structure: Rethinking Bimanual Manipulation Beyond Single-Arm Policies",
    "verdict": "adjacent",
    "website": "https://bimanual-robot-learning.github.io/",
-   "why": "Robot learning/manipulation workshop with ML angle."
+   "why": "Robot manipulation learning, applied robotics not core."
   },
   "IEEE.org/IROS/2026/Workshop/Bridge4Navigation": {
    "archived": false,
@@ -1576,12 +1656,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 BridgingNavigation",
    "title": "IROS 2026 Workshop Bridging Perspectives in Navigation",
    "verdict": "adjacent",
    "website": "https://bridging-navigation.github.io/website",
-   "why": "Robot navigation workshop with ML angle."
+   "why": "Robot navigation workshop, applied robotics not core."
   },
   "IEEE.org/IROS/2026/Workshop/CompRobotics": {
    "archived": false,
@@ -1596,12 +1677,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CompRobotics2026",
    "title": "Compositional and Modular Learning in the Era of Scaling in Robotics",
    "verdict": "adjacent",
    "website": "https://compositional-robotics.github.io/",
-   "why": "Compositional/modular learning-in-robotics workshop with ML angle."
+   "why": "Compositional/modular learning in robotics, applied robotics not core."
   },
   "IEEE.org/IROS/2026/Workshop/Creativity_in_Assembly": {
    "archived": false,
@@ -1616,12 +1698,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Creativity in Assembly @IROS2026",
    "title": "IEEE IROS 2026 Workshop - Creativity in Assembly",
    "verdict": "no",
    "website": "https://sites.google.com/view/creative-assembly-workshop",
-   "why": "Robot assembly workshop with no ML/AI angle."
+   "why": "Robot assembly creativity workshop, unrelated to alignment, interpretability, or agent evaluation."
   },
   "IEEE.org/IROS/2026/Workshop/DFR": {
    "archived": false,
@@ -1636,12 +1719,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Workshop DFR",
    "title": "IROS 2026 Workshop on Data in Field Robotics: From State Estimation to Navigation",
    "verdict": "no",
    "website": "https://jonasfrey96.github.io/data_in_field_robotics/",
-   "why": "Field robotics state estimation/navigation, not an ML-focused venue."
+   "why": "Field-robotics state estimation and navigation, no LLM/agent safety or interpretability angle."
   },
   "IEEE.org/IROS/2026/Workshop/DOM-R3": {
    "archived": false,
@@ -1656,12 +1740,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "DOM-R3",
    "title": "Deformable Objects Manipulation: Research Foundations, Reproducibility and Real-World Challenges",
    "verdict": "no",
    "website": "https://deformable-workshop.github.io/iros2026/",
-   "why": "Deformable object manipulation research, no ML/foundation-model angle."
+   "why": "Deformable object manipulation research, outside all core topics."
   },
   "IEEE.org/IROS/2026/Workshop/ELSR": {
    "archived": false,
@@ -1676,12 +1761,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS ELSR 2026",
    "title": "The Evolving Landscape of Surgical Robotics: Surgical Autonomy for Today and Tomorrow",
    "verdict": "no",
    "website": "https://sites.google.com/view/iros-elsr-2026/home",
-   "why": "Surgical robotics autonomy; medicine without an explicit ML methods angle."
+   "why": "Surgical robot autonomy, a robotics application domain unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/FM-MRS": {
    "archived": false,
@@ -1696,12 +1782,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Workshop FM-MRS",
    "title": "IROS 2026 Workshop: Foundation Models in Multi-Robot Systems",
    "verdict": "adjacent",
    "website": "https://zhourobotics.github.io/fm-mrs/",
-   "why": "Robotics workshop with a substantial foundation-model angle."
+   "why": "Applies foundation models to multi-robot coordination; agents are the setting, not evaluation/interp/calibration."
   },
   "IEEE.org/IROS/2026/Workshop/FoC": {
    "archived": false,
@@ -1716,12 +1803,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Workshop Future of Construction",
    "title": "IROS 2026 5th Workshop on Future of Construction: Collaborative Robots for Fabrication, Manufacturing, and Inspection",
    "verdict": "no",
    "website": "https://construction-robots.github.io/",
-   "why": "Construction robotics/fabrication workshop, no ML angle."
+   "why": "Construction robotics for fabrication and inspection, no ML-safety relevance."
   },
   "IEEE.org/IROS/2026/Workshop/Full-Shift_Robot_Co-Workers": {
    "archived": false,
@@ -1736,12 +1824,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Active Perception and Interaction for Human Environments",
    "title": "IROS 2026 Workshop on Full-Shift Robot Co-Workers",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://chuchuchen.net/robotworker-26/",
-   "why": "Robot perception/interaction workshop, ML-adjacent robotics."
+   "why": "Perception for human-robot co-working, unrelated to core topics."
   },
   "IEEE.org/IROS/2026/Workshop/HEAI": {
    "archived": false,
@@ -1756,12 +1845,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "HEAI 2026",
    "title": "Second Workshop on Human-aware Embodied AI (HEAI) - IROS 2026",
    "verdict": "adjacent",
    "website": "https://heai-iros26-workshop.github.io/",
-   "why": "Human-aware embodied AI workshop, robotics/AI but not core alignment/LLM topic."
+   "why": "Embodied AI/human-aware robotics workshop; applied agents setting, not agent evaluation or interpretability itself."
   },
   "IEEE.org/IROS/2026/Workshop/HRD": {
    "archived": false,
@@ -1776,12 +1866,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "HRD",
    "title": "Human-Robot Dialogue Workshop at IROS 2026",
    "verdict": "adjacent",
    "website": "https://human-robot-dialogue.github.io",
-   "why": "Human-robot dialogue workshop, NLP-robotics intersection."
+   "why": "Human-robot dialogue agents workshop, but about interaction design not agent evaluation/calibration/interp."
   },
   "IEEE.org/IROS/2026/Workshop/IARL": {
    "archived": false,
@@ -1796,12 +1887,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IARL 2026",
    "title": "1st International Workshop on Industrial Applications for Robot Learning",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://aistairc.github.io/IROS2026-workshop/",
-   "why": "Robot learning workshop with explicit learning angle."
+   "why": "Industrial applications of robot learning, outside core topics."
   },
   "IEEE.org/IROS/2026/Workshop/IIG": {
    "archived": false,
@@ -1816,12 +1908,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IIG-Workshop-2026",
    "title": "The Workshop and Competition on Intelligent Information Gathering for Single and Multi-Robot Systems",
    "verdict": "no",
    "website": "https://frostlab.byu.edu/IIG-workshop/",
-   "why": "Information gathering/planning for robots, no clear ML methods angle."
+   "why": "Information-gathering competition for multi-robot systems, unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/Insect-Scale_Autonomy": {
    "archived": false,
@@ -1836,12 +1929,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Workshop Insect-Scale Autonomy",
    "title": "IROS 2026 Workshop on Insect-Scale Autonomy",
    "verdict": "no",
    "website": "https://insect-autonomy.github.io/",
-   "why": "Micro-robotics hardware workshop, no ML angle."
+   "why": "Insect-scale robot autonomy hardware/design, no ML-safety angle."
   },
   "IEEE.org/IROS/2026/Workshop/LAFR": {
    "archived": false,
@@ -1856,12 +1950,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 LAFR Workshop",
    "title": "IROS 2026 Workshop on Learning and Formal Methods for Robotics (LAFR)",
    "verdict": "adjacent",
    "website": "https://lafr-workshop.github.io/",
-   "why": "Learning and formal methods for robotics, ML-adjacent."
+   "why": "Formal methods and verification for robot learning; verification is of robots, not general AI systems."
   },
   "IEEE.org/IROS/2026/Workshop/LTP": {
    "archived": false,
@@ -1876,12 +1971,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "LTP-WS 2026",
    "title": "2nd Workshop on Long-Term Perception for Human-Centric Autonomy (LTP): Towards Undo for the Physical World",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://mit-spark.github.io/Longterm-Perception-WS/#",
-   "why": "Long-term perception for autonomy, ML-driven robotics perception."
+   "why": "Long-term perception for human-centric autonomy, a perception/mapping topic unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/MAS-BW": {
    "archived": false,
@@ -1896,12 +1992,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "MAS-BW26",
    "title": "Multi-Agent Systems: Beyond the Warehouse",
    "verdict": "adjacent",
    "website": "https://sites.google.com/mtu.edu/masbw-iros26/home",
-   "why": "Multi-agent robotic systems workshop, agents but not LLM agents."
+   "why": "Multi-agent robotic systems workshop, akin to AAMAS-style venues rather than agent evaluation/interp."
   },
   "IEEE.org/IROS/2026/Workshop/Modular_Robots": {
    "archived": false,
@@ -1916,12 +2013,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IEEE IROS 2026 Workshop Modular Robots",
    "title": "IROS 2026 Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots",
    "verdict": "no",
    "website": "https://modular-robot-workshop.github.io/iros2026-modular-robot-workshop-site/",
-   "why": "Reconfigurable modular robot hardware, no ML angle."
+   "why": "Reconfigurable modular robot hardware/design, outside core topics."
   },
   "IEEE.org/IROS/2026/Workshop/OntoAgenticAI": {
    "archived": false,
@@ -1936,12 +2034,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "OntoAgenticAI26",
    "title": "Toward Human-Level Robotic Teammates",
    "verdict": "adjacent",
    "website": "https://www.ontoagenticai26.info/",
-   "why": "Agentic AI for robotic teammates, robotics-flavored AI."
+   "why": "Agentic AI for robotic teammates; applied-agent robotics setting, not evaluation/interpretability of agents."
   },
   "IEEE.org/IROS/2026/Workshop/PWMS": {
    "archived": false,
@@ -1956,12 +2055,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "PWMS",
    "title": "Physical World Models for Scaling Embodied AI",
    "verdict": "adjacent",
    "website": "https://physical-world-models.github.io/IROS2026/",
-   "why": "Physical world models for embodied AI, ML/foundation-model robotics."
+   "why": "World models for embodied AI scaling, a modeling topic rather than agent evaluation/interp/calibration."
   },
   "IEEE.org/IROS/2026/Workshop/R4R": {
    "archived": false,
@@ -1976,12 +2076,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 R4R Workshop",
    "title": "IEEE IROS 2026 Workshop Why Rust for Robotics: A Perspective From Industry",
    "verdict": "no",
    "website": "https://rust-for-robotics.github.io/iros2026/",
-   "why": "Rust programming language for robotics, no ML content."
+   "why": "Industry perspective on using Rust for robotics software, unrelated to ML research."
   },
   "IEEE.org/IROS/2026/Workshop/ReS_AI": {
    "archived": false,
@@ -1996,12 +2097,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ReS AI 2026",
    "title": "1st Workshop on Embodied Neuro-Symbolic AI for Reliable and Safe Robotics (ReS AI)",
    "verdict": "adjacent",
    "website": "https://embodied-nesy.github.io/",
-   "why": "Safe robotics is a domain-specific safety topic, not AI-system alignment."
+   "why": "\"Reliable and safe robotics\" is safe-X for an application domain (robotics), not evaluation of AI systems themselves."
   },
   "IEEE.org/IROS/2026/Workshop/Rethinking_Uncertainty": {
    "archived": false,
@@ -2016,12 +2118,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IEEE IROS 2026 Workshop Rethinking Uncertainty",
    "title": "Rethinking Uncertainty for Modern Robotics Paradigms",
    "verdict": "adjacent",
    "website": "https://rethinking-uncertainty.github.io/",
-   "why": "Uncertainty quantification for robotics, ML-adjacent topic."
+   "why": "Uncertainty in robotics state estimation/control paradigms, not calibration/uncertainty in LLM agents."
   },
   "IEEE.org/IROS/2026/Workshop/RoBoWoMo": {
    "archived": false,
@@ -2036,12 +2139,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "RoBoWoMo 2026",
    "title": "Workshop on Bridging the Gap between Neural and Symbolic World Models for Robot Planning, Reasoning, and Action",
    "verdict": "adjacent",
    "website": "https://worldmodelworkshop.github.io/",
-   "why": "Neural/symbolic world models for robot planning, ML-flavored robotics."
+   "why": "Neural-symbolic world models for robot planning, a modeling topic not agent evaluation/interp."
   },
   "IEEE.org/IROS/2026/Workshop/Robot-Codesign": {
    "archived": false,
@@ -2056,12 +2160,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026",
    "title": "IROS 2026 Workshop on Learning-based Robot Co-design: Generative and Iterative Approaches",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://sites.google.com/view/robot-codesign-iros",
-   "why": "Learning-based generative robot co-design, ML robotics."
+   "why": "Generative robot co-design, outside core topics."
   },
   "IEEE.org/IROS/2026/Workshop/S2RCC": {
    "archived": false,
@@ -2076,12 +2181,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "S2RCC 2026",
    "title": "IROS 2026 First Workshop on Sim2Real and Classical Control: From Rigorous Theory to Data-Driven Robotics",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "sim2realgap.github.io/sim2real-and-control-workshop-iros2026/",
-   "why": "Sim2real and data-driven control for robotics, ML-adjacent."
+   "why": "Sim2real and classical control theory, unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/SRW": {
    "archived": false,
@@ -2096,12 +2202,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IEEE IROS 2026 Workshop SRW",
    "title": "IEEE IROS 2026 Space Robotics Workshop: Space Exploration and Sustained Operations Beyond Earth",
    "verdict": "no",
    "website": "https://space-robots.org/iros2026/",
-   "why": "Space robotics workshop, no ML angle."
+   "why": "Space robotics and operations, outside core topics."
   },
   "IEEE.org/IROS/2026/Workshop/Scalable_Tactile_Manipulation": {
    "archived": false,
@@ -2116,12 +2223,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Workshop Scalable Tactile Manipulation",
    "title": "IROS 2026 Workshop on Scalable Tactile Sensing for Dexterous Manipulation",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://tactile-dexterity-iros.github.io/",
-   "why": "Tactile dexterous manipulation, typically learning-based robotics."
+   "why": "Tactile sensing for dexterous manipulation, unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/Social_Robot_Navigation": {
    "archived": false,
@@ -2136,15 +2244,16 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "5th Workshop on Social Robot Navigation",
    "title": "5th Workshop on Social Robot Navigation: From Humans, to Robots, and to the World",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://socialnav2026.pages.dev/",
-   "why": "Social robot navigation, often ML/learning-based policies."
+   "why": "Social navigation for robots, outside core topics."
   },
   "IEEE.org/IROS/2026/Workshop/SurgTwin": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2156,12 +2265,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "SurgTwin @ IROS 2026",
    "title": "From Generative AI to Digital Twins: Perception, Simulation, and Learning for Surgical Robotics",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://utkauraslab.github.io/surgtwin-workshop.github.io/",
-   "why": "Generative AI and learning for surgical digital twins, applied-domain ML."
+   "why": "Generative AI and digital twins for surgical robotics, an application domain unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/ThinkingMuscle": {
    "archived": false,
@@ -2176,12 +2286,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ThinkingMuscleWorksop",
    "title": "When Muscles Think -- Workshop at iROS 2026",
    "verdict": "no",
    "website": "https://sites.google.com/ucsd.edu/iros26-ws/home",
-   "why": "Bio-inspired actuation workshop, no clear ML angle."
+   "why": "Muscle-based/soft robotics actuation, outside core topics."
   },
   "IEEE.org/IROS/2026/Workshop/Touch-to-Action": {
    "archived": false,
@@ -2196,12 +2307,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 Touch-to-Action Workshop",
    "title": "IROS 2026 Workshop, \"Small Data, Rich Sensing: Multimodal Learning for Robotic Manipulation\"",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "http://multimodal-learn.github.io/",
-   "why": "Multimodal learning for robotic manipulation, ML-flavored robotics."
+   "why": "Multimodal learning for robotic manipulation, unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/Touch2Action": {
    "archived": false,
@@ -2216,12 +2328,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Touch2Action",
    "title": "Touch-to-Action: Enhancing Robot Manipulation through Tactile Perception",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "http://iros-touch2action.github.io/",
-   "why": "Tactile perception for manipulation, ML-adjacent robotics."
+   "why": "Tactile perception for robot manipulation, unrelated to core interests."
   },
   "IEEE.org/IROS/2026/Workshop/VAS": {
    "archived": false,
@@ -2236,12 +2349,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "VAS Workshop at IROS 2026",
    "title": "AI and the Verification of Autonomous Systems - Workshop at IROS 2026",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/vas-iros-workshop/",
-   "why": "Verification of autonomous systems is domain-specific safety, not general AI alignment."
+   "why": "Verification of autonomous systems is safety/verification for an application domain, not AI-system evaluation itself."
   },
   "IEEE.org/IROS/2026/Workshop/WORLDS": {
    "archived": false,
@@ -2256,12 +2370,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IROS 2026 WORLDS Workshop",
    "title": "IEEE IROS 2026 Workshop on WORLDS: World Models and Spatial Intelligence for Physical AI",
    "verdict": "adjacent",
    "website": "https://worlds-iros2026.github.io/",
-   "why": "World models and spatial intelligence for physical AI, foundation-model robotics."
+   "why": "World models and spatial intelligence for physical AI, a modeling topic not agent evaluation/interp/calibration."
   },
   "IEEE.org/IROS/2026/Workshop/WPNMR": {
    "archived": false,
@@ -2276,12 +2391,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "WPNMR 2026",
    "title": "Workshop on Perception and Navigation for Marine Robotics at IROS 2026",
    "verdict": "no",
    "website": "https://www.marinerobotics.info/",
-   "why": "Marine robotics perception/navigation, no ML angle."
+   "why": "Marine robotics perception and navigation, outside core topics."
   },
   "IEEE.org/MiTA/2027/Conference": {
    "archived": false,
@@ -2296,12 +2412,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "MiTA 2027",
    "title": "The 14th International Conference on Machine Intelligence Theory and Applications",
    "verdict": "adjacent",
    "website": "https://annual-mita.org",
-   "why": "Generic machine intelligence theory conference, not a top-tier ML/NLP or alignment venue."
+   "why": "General machine intelligence theory/applications conference, not specifically alignment/safety/interp/agent-eval."
   },
   "IIR/2026/Workshop": {
    "archived": false,
@@ -2316,12 +2433,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IIR 2026",
    "title": "16th Italian Information Retrieval Workshop (IIR 2026)",
    "verdict": "adjacent",
    "website": "https://iir2026.diag.uniroma1.it/",
-   "why": "Regional (Italian) information retrieval workshop."
+   "why": "General information-retrieval workshop, ML/NLP-adjacent but not about calibration, interpretability, or agent evaluation."
   },
   "IJTCS-FAW/2026/Conference": {
    "archived": false,
@@ -2336,12 +2454,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IJTCS-FAW 2026",
    "title": "International Joint Conference on Theoretical Computer Science \u2013 Frontier of Algorithmic Wisdom",
    "verdict": "no",
    "website": "https://ijtcs-faw2026.github.io/IJTCS-FAW2026/",
-   "why": "Theoretical CS/algorithmic wisdom conference, unrelated to ML."
+   "why": "Theoretical computer science on algorithms, pure theory unrelated to ML."
   },
   "IWCLUL/2026/Workshop": {
    "archived": false,
@@ -2356,12 +2475,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IWCLUL 2026",
    "title": "The 11th International Workshop on Computational Linguistics for Uralic Languages 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://acl-sigur.github.io/iwclul2026.html",
-   "why": "Language-specific (Uralic) computational linguistics workshop."
+   "why": "Computational linguistics for Uralic languages, pure linguistics venue."
   },
   "JDSE/2026/Conference": {
    "archived": false,
@@ -2376,12 +2496,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "JDSE 2026",
    "title": "11th Junior conference on Data Science and Engineering",
    "verdict": "adjacent",
    "website": "https://hebergement.universite-paris-saclay.fr/jdse/jdse2026/",
-   "why": "Junior/student data science and engineering conference."
+   "why": "Junior data science and engineering conference, general ML/data topic without a core-bullet focus."
   },
   "JITA/2026/Conference": {
    "archived": false,
@@ -2396,12 +2517,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "JITA 2026",
    "title": "Junior conference on Informatics: Theory and Applications",
    "verdict": "adjacent",
    "website": "https://www.jita.universite-paris-saclay.fr/",
-   "why": "Junior/student informatics conference, broad scope."
+   "why": "Junior informatics theory/applications conference, broad and low-signal, not specifically alignment/safety/agent-eval."
   },
   "JWOC/2026/Conference": {
    "archived": false,
@@ -2416,12 +2538,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "JWOC 2026",
    "title": "Eighth Junior Conference on Wireless and Optical Communication and Networking",
    "verdict": "no",
    "website": "https://hebergement.universite-paris-saclay.fr/jwoc/",
-   "why": "Wireless/optical networking with no ML angle."
+   "why": "Wireless/optical networking, no ML or AI relevance."
   },
   "KolKom/2026/Conference": {
    "archived": false,
@@ -2436,12 +2559,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "KolKom 2026",
    "title": "43rd Kolloquium \u00fcber Kombinatorik",
    "verdict": "no",
    "website": "kolkom26.zib.de",
-   "why": "Pure combinatorics, unrelated to ML."
+   "why": "Pure combinatorics colloquium, unrelated to ML."
   },
   "LIFT2/2026/Conference": {
    "archived": false,
@@ -2456,12 +2580,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LIFT2 2026",
    "title": "Journ\u00e9es d'\u00e9tudes 2026 du r\u00e9seau th\u00e9matique LIFT2",
    "verdict": "no",
    "website": "https://mgrobol.codeberg.page/lift26/",
-   "why": "Pure linguistics network meeting."
+   "why": "French linguistics/language-tech network journ\u00e9es, not LLM/agent research."
   },
   "LOCO/2026/Workshop": {
    "archived": false,
@@ -2476,12 +2601,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LOCO 2026",
    "title": "The 1st Workshop on Learning and Optimal COntrol",
    "verdict": "adjacent",
    "website": "https://p1-learning-control.github.io/LOCO2026/",
-   "why": "Learning-based control workshop, ML-adjacent but not alignment/LLM focus."
+   "why": "Learning-based optimal control is general ML/RL, not agent evaluation or safety."
   },
   "MICCAI.org/2026/Challenge/BIG-MRI": {
    "archived": false,
@@ -2496,12 +2622,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "BIG-MRI",
    "title": "Breast Imaging Group MRI Challenge",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://openreview.net/group?id=MICCAI.org/2026/Challenge/BIG-MRI",
-   "why": "Medical imaging challenge with substantial ML methods angle."
+   "why": "Medical imaging challenge, application domain unrelated to LLM alignment/agents."
   },
   "MICCAI.org/2026/Challenge/L2R": {
    "archived": false,
@@ -2516,12 +2643,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "L2R 2026",
    "title": "Learn2Reg 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://learn2reg.grand-challenge.org/",
-   "why": "Deep-learning image registration challenge, vision/ML angle."
+   "why": "Medical image registration challenge, off Harry's core topics."
   },
   "MICCAI.org/2026/Challenge/MEC": {
    "archived": false,
@@ -2536,12 +2664,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "MICCAI MEC 2026",
    "title": "Thirteenth MICCAI Educational Challenge",
    "verdict": "no",
    "website": "https://miccai-sb.github.io/challenge.html",
-   "why": "Educational challenge for medical imaging, not a research/ML venue."
+   "why": "Medical education challenge, not an ML research topic Harry works in."
   },
   "MICCAI.org/2026/Challenge/MedReason": {
    "archived": false,
@@ -2556,12 +2685,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "MedReason2026",
    "title": "MICCAI MedReason Challenge 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://medreason26.github.io/",
-   "why": "Medical reasoning challenge, domain-specific ML application."
+   "why": "Medical imaging reasoning challenge, application domain not LLM/agent safety."
   },
   "MICCAI.org/2026/Workshop/AMPLIFAI": {
    "archived": false,
@@ -2576,12 +2706,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "AMPLIFAI",
    "title": "Annotated Multi-Phase Liver Imaging For Artificial Intelligence",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://www.codabench.org/competitions/14290/",
-   "why": "Medical imaging annotation workshop with ML angle."
+   "why": "Liver imaging annotation workshop, unrelated to alignment/agents/interp."
   },
   "MICCAI.org/2026/Workshop/Deep-Brea3th": {
    "archived": false,
@@ -2596,12 +2727,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Deep-Brea3th 2026",
    "title": "3rd Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment Challenges in breast care",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://deep-breath-miccai.github.io/deepbreath-2026",
-   "why": "AI/imaging workshop for breast care, domain-specific ML."
+   "why": "Breast imaging AI workshop, medical application domain outside core topics."
   },
   "MICCAI.org/2026/Workshop/METIS": {
    "archived": false,
@@ -2616,12 +2748,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "METIS 2026",
    "title": "Multidisciplinary Evaluation and Translation in Imaging and CAI Science (METIS) at MICCAI 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://metis-miccai26.github.io/",
-   "why": "Evaluation/translation in medical imaging, ML methods but medical domain."
+   "why": "Clinical imaging evaluation workshop, medical domain not LLM/agent focus."
   },
   "ML4H/2026/Demo_Track": {
    "archived": false,
@@ -2636,12 +2769,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ML4H 2026 Demo Track",
    "title": "2026 Machine Learning for Health Symposium Demo Track",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://ml4h.ahli.cc/",
-   "why": "Demo track at a health-ML venue, demos never core."
+   "why": "Health ML demo track, application domain unrelated to alignment/agent research."
   },
   "ML4H/2026/Symposium": {
    "archived": false,
@@ -2656,12 +2790,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ML4H 2026",
    "title": "Machine Learning for Health 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://ml4h.ahli.cc",
-   "why": "ML for health is an application domain, not core alignment/LLM topic."
+   "why": "ML for health symposium, application domain not core to alignment/interp/agents."
   },
   "NERC/2026/Conference": {
    "archived": false,
@@ -2676,12 +2811,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "NERC 2026",
    "title": "Northeast Robotics Colloquium 2026",
    "verdict": "adjacent",
    "website": "https://nerc2026.github.io/",
-   "why": "Regional robotics colloquium with ML angle."
+   "why": "General robotics colloquium, agents are the setting not the alignment/eval question."
   },
   "NLDL.org/2027/Abstracts": {
    "archived": false,
@@ -2696,12 +2832,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "NLDL 2027 Abstracts",
    "title": "Northern Lights Deep Learning Conference Abstracts 2027",
    "verdict": "adjacent",
    "website": "https://www.nldl.org/submission/call-for-papers",
-   "why": "Regional deep learning conference abstracts track."
+   "why": "General regional deep learning conference, not on a core topic."
   },
   "NeurIPS.cc/2026/Affinity_Support_Pilot_Program": {
    "archived": false,
@@ -2716,12 +2853,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Affinity Support Pilot Program",
    "title": "Affinity Support Pilot Program at the Fortieth Annual Conference on Neural Information Processing Systems",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://neurips.cc/",
-   "why": "NeurIPS-affiliated support program, not a core research track."
+   "why": "Administrative affinity-group support program, not a research topic track."
   },
   "NeurIPS.cc/2026/Education_Track": {
    "archived": false,
@@ -2736,12 +2874,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Education Track",
    "title": "NeurIPS 2026 Education Track",
    "verdict": "adjacent",
    "website": "https://neurips.cc/Conferences/2026",
-   "why": "Education track at NeurIPS, not core research topic."
+   "why": "Education/mentorship track, not tied to a specific research topic."
   },
   "NeurIPS.cc/2026/Workshop/AABA4ET": {
    "archived": false,
@@ -2755,13 +2894,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 50,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AABA4ET NeurIPS 2026",
    "title": "2nd Workshop on Agentic AI Benchmarks and Applications for Enterprise Tasks (NeurIPS 2026)",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://sites.google.com/view/aaba4et",
-   "why": "NeurIPS workshop on LLM agents and benchmarks, a core topic."
+   "why": "Applied agent benchmarks for enterprise tasks; agents are the setting, not the question."
   },
   "NeurIPS.cc/2026/Workshop/AI-Native_Academia": {
    "archived": false,
@@ -2776,12 +2916,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AI-Native Academia @ NeurIPS 2026",
    "title": "NeurIPS 2026 Workshop on AI-Native Academia: Authorship, Peer Review, and Conference Governance under AI",
    "verdict": "adjacent",
    "website": "https://ai-native-academia.github.io",
-   "why": "Workshop on AI's effect on academia/peer review, not alignment or agents itself."
+   "why": "AI's effect on peer review/academia governance, not alignment/interp/agent eval research."
   },
   "NeurIPS.cc/2026/Workshop/AI4ChipDesign": {
    "archived": false,
@@ -2796,12 +2937,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AI4ChipDesign 2026",
    "title": "AI for Chip Design - NeurIPS 2026 Workshop",
    "verdict": "adjacent",
    "website": "https://neurips-ai-for-chip-design-2026.github.io/",
-   "why": "Applied AI workshop for a domain (chip design), not core."
+   "why": "Applied AI-for-chip-design domain workshop, not a core alignment/agent topic."
   },
   "NeurIPS.cc/2026/Workshop/AI4DD": {
    "archived": false,
@@ -2816,12 +2958,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS2026-AI4DD",
    "title": "NeurIPS 2026 Workshop on AI for Drug Discovery: Bridging the Translation Gap",
    "verdict": "adjacent",
    "website": "https://ai4dd-neurips2026.github.io/",
-   "why": "AI applied to drug discovery, domain-specific."
+   "why": "Applied AI-for-drug-discovery domain workshop, outside core topics."
   },
   "NeurIPS.cc/2026/Workshop/AI4GOOD": {
    "archived": false,
@@ -2836,12 +2979,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AI4GOOD Workshop @ NeurIPS 2026",
    "title": "Trustworthy AI for Good (AI4GOOD) Workshop @ NeurIPS 2026",
    "verdict": "adjacent",
    "website": "https://trustworthy-ai-for-good.github.io/",
-   "why": "\"Trustworthy AI for Good\" is domain-application framed, not core AI safety."
+   "why": "Trustworthy AI applied to social-good domain, application-flavored not core."
   },
   "NeurIPS.cc/2026/Workshop/AI4MetaScience": {
    "archived": false,
@@ -2856,12 +3000,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AI4MetaScience",
    "title": "NeurIPS 2026 Workshop on AI for Meta\u2011Science: Scaling and Organizing Science in the Age of AI",
    "verdict": "adjacent",
    "website": "https://ai4metascience.org/",
-   "why": "AI for science/meta-science is a domain application."
+   "why": "AI-for-science-organization domain workshop, not alignment/interp/agent eval."
   },
   "NeurIPS.cc/2026/Workshop/AI4PowerGrids": {
    "archived": false,
@@ -2876,12 +3021,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AI4PowerGrids 2026",
    "title": "AI Foundations for Power Grids @ NeurIPS 2026",
    "verdict": "adjacent",
    "website": "https://ai4powergrids.github.io",
-   "why": "AI applied to power grids, domain-specific."
+   "why": "Applied AI-for-power-grids domain workshop, outside core topics."
   },
   "NeurIPS.cc/2026/Workshop/AI4Science": {
    "archived": false,
@@ -2896,12 +3042,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS2026-AI4Science",
    "title": "NeurIPS 2026 AI for Science Workshop: Verification in the Age of AI Scientists",
    "verdict": "adjacent",
    "website": "https://ai4sciencecommunity.github.io/neurips26.html",
-   "why": "AI for science domain application, not core alignment/agents topic."
+   "why": "Verification framed within AI-for-science application domain, not general AI evaluation."
   },
   "NeurIPS.cc/2026/Workshop/AIDaR": {
    "archived": false,
@@ -2916,12 +3063,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AIDaR @ NeurIPS 2026",
    "title": "AIDaR: AI Data Readiness for Scientific Discovery",
    "verdict": "adjacent",
    "website": "https://aidar-workshop.github.io/2026/",
-   "why": "Data readiness for scientific discovery, data-centric/domain-specific."
+   "why": "AI data readiness for science is a datasets/benchmarks topic, not core."
   },
   "NeurIPS.cc/2026/Workshop/AIM": {
    "archived": false,
@@ -2936,12 +3084,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AIM NeurIPS2026",
    "title": "AI Agents for Biomedical Imaging and Multimodal Clinical Data at NeurIPS2026",
    "verdict": "adjacent",
    "website": "https://aim-neurips26.github.io/",
-   "why": "AI agents applied to biomedical imaging, a domain-specific application."
+   "why": "Applied agent workshop for biomedical imaging, domain-specific not core agent evaluation."
   },
   "NeurIPS.cc/2026/Workshop/AISciK": {
    "archived": false,
@@ -2956,12 +3105,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AISciK 2026",
    "title": "AI & Science: Evolution or Extinction?",
    "verdict": "adjacent",
    "website": "https://aiscik.github.io/",
-   "why": "AI for science themed workshop, domain-specific."
+   "why": "Broad AI-for-science discussion workshop, not on a core topic."
   },
   "NeurIPS.cc/2026/Workshop/AIWILD": {
    "archived": false,
@@ -2976,12 +3126,13 @@
     }
    ],
    "issue": 56,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 AIWILD",
    "title": "Third Workshop on Agents in the Wild: Safety, Security, and Beyond",
    "verdict": "core",
    "website": "https://agentwild-workshop.github.io/neurips2026/",
-   "why": "NeurIPS workshop on AI agent safety and security, core alignment/agents topic."
+   "why": "Agent safety/security workshop directly hits agent oversight and safety."
   },
   "NeurIPS.cc/2026/Workshop/AI_and_the_Self": {
    "archived": false,
@@ -2996,12 +3147,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AI and the Self 2026",
    "title": "AI and the Self: Human Identity, Authenticity, and Agency in the Age of AI",
    "verdict": "adjacent",
    "website": "https://aintheself.github.io/",
-   "why": "Philosophical/social identity angle on AI, not core alignment-of-systems work."
+   "why": "Human identity/agency under AI is societal framing, not AI-system evaluation/interp."
   },
   "NeurIPS.cc/2026/Workshop/ASCI": {
    "archived": false,
@@ -3016,12 +3168,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ASCI",
    "title": "AI at Scale for Clinical Impact: Cancer Pathology Foundation Models",
    "verdict": "adjacent",
    "website": "https://asci.artificialintelligencepathology.org/",
-   "why": "Clinical pathology foundation models, domain-specific medical application."
+   "why": "Clinical pathology foundation models, medical application domain not core."
   },
   "NeurIPS.cc/2026/Workshop/ATTRIB": {
    "archived": false,
@@ -3036,12 +3189,13 @@
     }
    ],
    "issue": 68,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ATTRIB 2026",
    "title": "Third NeurIPS Workshop on Attributing Model Behavior at Scale: Data Attribution and Provenance",
    "verdict": "core",
    "website": "https://attrib-workshop.cc/",
-   "why": "NeurIPS workshop on data attribution/provenance, core interpretability topic."
+   "why": "Attributing model behavior at scale is core interpretability/model-behavior work."
   },
   "NeurIPS.cc/2026/Workshop/AXIOM": {
    "archived": false,
@@ -3056,12 +3210,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AXIOM",
    "title": "AXIOM: Foundations of Efficient Deep Learning",
    "verdict": "adjacent",
    "website": "https://axiom-neurips2026.github.io/",
-   "why": "Efficient deep learning foundations, not alignment/agents/LLM-eval focused."
+   "why": "Efficient deep learning foundations, general ML topic not core."
   },
   "NeurIPS.cc/2026/Workshop/Africa_in_AI": {
    "archived": false,
@@ -3076,12 +3231,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Africa at NeurIPS 2026",
    "title": "Africa in AI Affinity Group at Neural Information Processing Systems (NeurIPS) 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://africainai.mailab.io/",
-   "why": "Regional/affinity group workshop, not topic-specific to core areas."
+   "why": "Regional affinity group meeting, not tied to a specific research topic."
   },
   "NeurIPS.cc/2026/Workshop/AgenticLS": {
    "archived": false,
@@ -3096,12 +3252,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop AgenticLS",
    "title": "NeurIPS 2026 Agentic AI for Biological Discovery Workshop",
    "verdict": "adjacent",
    "website": "https://agenticls.github.io",
-   "why": "Agentic AI applied to biological discovery, a domain-specific application."
+   "why": "Applied agent workshop for biological discovery, domain-specific not core."
   },
   "NeurIPS.cc/2026/Workshop/AgenticOS": {
    "archived": false,
@@ -3115,13 +3272,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 53,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 AgenticOS Workshop",
    "title": "NeurIPS 2026 AgenticOS Workshop",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://agentic-fmos.github.io/",
-   "why": "NeurIPS workshop centered on agentic foundation-model systems, core agents topic."
+   "why": "Systems-flavored agent workshop (agentic OS), agents as setting not the research question."
   },
   "NeurIPS.cc/2026/Workshop/AgenticWeb": {
    "archived": false,
@@ -3135,13 +3293,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 72,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS Workshop on Agentic Web 2026",
    "title": "1st NeurIPS Workshop on Agentic Web: Decentralized, Continually-Adapting Agent Ecosystems",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "theagenticweb.ai",
-   "why": "NeurIPS workshop on decentralized LLM agent ecosystems, core agents topic."
+   "why": "Applied decentralized agent-ecosystem workshop, agents as setting not core question."
   },
   "NeurIPS.cc/2026/Workshop/AutoMLR": {
    "archived": false,
@@ -3156,12 +3315,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 AutoMLR Workshop",
    "title": "40th Conference on Neural Information Processing Systems Workshop for Autonomous Machine Learning Research",
    "verdict": "adjacent",
    "website": "https://automlr.com",
-   "why": "Autonomous ML research agents workshop, narrowly scoped application of agents."
+   "why": "Autonomous ML research agents workshop is capability-focused, not agent evaluation/safety."
   },
   "NeurIPS.cc/2026/Workshop/BabyVLM": {
    "archived": false,
@@ -3176,12 +3336,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "BabyVLM",
    "title": "BabyVLM Workshop NEURIPS 2026",
    "verdict": "adjacent",
    "website": "https://babyvlm.github.io/#cfp",
-   "why": "Developmental/cognitive-inspired VLM workshop, not core alignment/agents topic."
+   "why": "Cognitively-inspired VLM training workshop, general ML topic not core."
   },
   "NeurIPS.cc/2026/Workshop/BeNTo": {
    "archived": false,
@@ -3196,12 +3357,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "BeNTo Workshop NeurIPS 2026",
    "title": "Beyond Next Token Prediction: Diffusion and Flow Models for Next-Generation Decoding",
    "verdict": "adjacent",
    "website": "https://bento-neurips.github.io/",
-   "why": "Generative modeling architectures workshop, not alignment/agents/LLM-eval focused."
+   "why": "Diffusion/flow decoding models workshop, general LM architecture topic not core."
   },
   "NeurIPS.cc/2026/Workshop/BiAlign": {
    "archived": false,
@@ -3216,12 +3378,13 @@
     }
    ],
    "issue": 36,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "BiAlign Workshop 2026",
    "title": "NeurIPS 2026 Workshop on Dynamic Alignment in Human-AI Coupled Systems",
    "verdict": "core",
    "website": "https://bialign-workshop.github.io/",
-   "why": "Workshop centers on human-AI alignment, matching the alignment core bullet."
+   "why": "Dynamic alignment in human-AI coupled systems is squarely an oversight/alignment topic."
   },
   "NeurIPS.cc/2026/Workshop/BrainBodyFM": {
    "archived": false,
@@ -3236,12 +3399,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop BrainBodyFM",
    "title": "NeurIPS 2026 Workshop on Foundation Models for the Brain and Body",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://brainbodyfm-workshop.github.io",
-   "why": "Foundation models for brain/body is domain-specific, not alignment/agents/reasoning/eval."
+   "why": "Foundation models for brain/body neuroscience, unrelated to alignment, interp, or agent eval."
   },
   "NeurIPS.cc/2026/Workshop/CL4FMAgents": {
    "archived": false,
@@ -3256,12 +3420,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "CL4FMAgents @ NeurIPS 2026",
    "title": "NeurIPS 2026 Workshop on Continual Learning in the Era of Foundation Models and Embodied Agents",
    "verdict": "adjacent",
    "website": "https://neurips26-cl4fmagents.github.io",
-   "why": "Continual learning for embodied agents, not squarely alignment/safety/eval."
+   "why": "Continual learning for embodied agents is an applied/systems-flavored agent workshop."
   },
   "NeurIPS.cc/2026/Workshop/CLEA": {
    "archived": false,
@@ -3276,12 +3441,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS-CLEA 2026",
    "title": "NeurIPS 2026 Workshop on Continual Learning for Enterprise AI Agents",
    "verdict": "adjacent",
    "website": "https://clea-neurips.github.io/",
-   "why": "Continual learning for enterprise agents, methodology-focused not safety/eval."
+   "why": "Continual learning for enterprise agents is an applied agent workshop, not agent eval/interp."
   },
   "NeurIPS.cc/2026/Workshop/CODEC-FM": {
    "archived": false,
@@ -3296,12 +3462,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "CODEC-FM 2026",
    "title": "NeurIPS Workshop on Collaborative, Open, and Decentralized Training of Foundation Models",
    "verdict": "adjacent",
    "website": "https://collaborative-open-decentralized-fomo.github.io/",
-   "why": "Decentralized FM training infra, not a core topic."
+   "why": "General ML workshop on decentralized foundation-model training, not a core topic."
   },
   "NeurIPS.cc/2026/Workshop/CWM": {
    "archived": false,
@@ -3316,12 +3483,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop CWM",
    "title": "NeurIPS 2026 Workshop on Continual World Models",
    "verdict": "adjacent",
    "website": "https://continual-world-models-workshop.github.io",
-   "why": "World models/continual learning, not alignment/agents/reasoning/eval focus."
+   "why": "World models workshop, explicitly a non-core general ML topic."
   },
   "NeurIPS.cc/2026/Workshop/Child_Safety_in_AI": {
    "archived": false,
@@ -3336,12 +3504,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Child Safety in AI Workshop",
    "title": "NeurIPS 2026 Workshop on Child Safety in AI",
    "verdict": "adjacent",
    "website": "https://childsafety-ai.github.io/",
-   "why": "AI safety applied to a specific domain (child protection), not general AI safety research."
+   "why": "Safety of an application domain (child safety), not evaluation/safety of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/DevAI": {
    "archived": false,
@@ -3356,12 +3525,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "DevAI 2026",
    "title": "DevAI Workshop: Developmental Perspectives on AI",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/devai-workshop-2026/",
-   "why": "Developmental/cognitive-science lens on AI, not core alignment/agents/eval topic."
+   "why": "Developmental perspectives on AI is a general AI workshop, not squarely alignment/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/DiffuLM": {
    "archived": false,
@@ -3376,12 +3546,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "DiffuLM",
    "title": "Diffusion Language Models: Foundations, Efficiency, and Reasoning",
    "verdict": "adjacent",
    "website": "https://7amin.github.io/diffulm-neurips2026/",
-   "why": "Diffusion LM architecture/efficiency is main focus, reasoning only a sub-topic."
+   "why": "Diffusion language models, an explicitly listed non-core NLP/ML topic."
   },
   "NeurIPS.cc/2026/Workshop/DynaFront": {
    "archived": false,
@@ -3396,12 +3567,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "DynaFront@NeurIPS26",
    "title": "Dynamics at the Frontiers of Optimization, Sampling, and Games",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/dynafrontneurips26",
-   "why": "General ML theory (optimization/sampling/games), not a core topic."
+   "why": "Optimization/sampling/games theory, general ML theory not tied to a core bullet."
   },
   "NeurIPS.cc/2026/Workshop/E-values": {
    "archived": false,
@@ -3416,12 +3588,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop E-values",
    "title": "NeurIPS 2026 Workshop on E-values: From Statistics To ML",
    "verdict": "adjacent",
    "website": "https://e-values-workshop.github.io/",
-   "why": "Statistics-to-ML theory workshop, not core topic."
+   "why": "Statistics-to-ML workshop, general ML theory not tied to a core bullet."
   },
   "NeurIPS.cc/2026/Workshop/EIML": {
    "archived": false,
@@ -3436,12 +3609,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "The Roots of Intelligence",
    "title": "NeurIPS 2026 Workshop: Epistemic Intelligence in Machine Learning",
    "verdict": "adjacent",
    "website": "https://epistemic-intelligence-in-ml.github.io",
-   "why": "Epistemic intelligence in ML is general cognition/ML theory, not core topic."
+   "why": "Epistemic intelligence in ML is general ML theory, not specifically LLM-agent calibration/eval."
   },
   "NeurIPS.cc/2026/Workshop/EvoRobust": {
    "archived": false,
@@ -3456,12 +3630,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "EvoRobust@NeurIPS 2026",
    "title": "NeurIPS 2026 Workshop - Self-Evolving Diversity-Driven Search for Robust AI Systems",
    "verdict": "adjacent",
    "website": "https://neurips.cc/Conferences/2026",
-   "why": "Evolutionary search for robustness is methodology-focused, not core safety/eval research."
+   "why": "Evolutionary search for robust AI systems is general robustness research, not safety/interp evaluation."
   },
   "NeurIPS.cc/2026/Workshop/FAST": {
    "archived": false,
@@ -3475,13 +3650,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 31,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "FAST 2026",
    "title": "Foundations of Agentic Systems Theory",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://fast-workshop.github.io",
-   "why": "Foundations of agentic systems theory is squarely LLM agents as main topic."
+   "why": "Theoretical foundations of agentic systems; agents are the setting, not eval/interp/oversight."
   },
   "NeurIPS.cc/2026/Workshop/FLLMPT": {
    "archived": false,
@@ -3496,12 +3672,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "FLLMPT NeurIPS 2026",
    "title": "NeurIPS 2026 Workshop on Foundations of LLM Post-Training in Changing Environments",
    "verdict": "adjacent",
    "website": "https://www.fllmpt-work.shop/",
-   "why": "LLM post-training in changing environments, not explicitly alignment/safety/eval."
+   "why": "Foundations of LLM post-training, an explicitly listed non-core topic."
   },
   "NeurIPS.cc/2026/Workshop/FLMSec": {
    "archived": false,
@@ -3516,12 +3693,13 @@
     }
    ],
    "issue": 14,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "FLMSec 2026",
    "title": "Foundations of Language Model Security: Theory, Practice, and Fundamental Limits",
    "verdict": "core",
    "website": "https://flmsec.github.io/",
-   "why": "Language model security theory/limits fits the safety/oversight core bullet."
+   "why": "Language model security and red-teaming is safety of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/FMTS": {
    "archived": false,
@@ -3536,12 +3714,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "FMTS 2026",
    "title": "NeurIPS 2026 Workshop: Foundation Models for Temporal Systems  From Forecasting to World Modeling",
    "verdict": "adjacent",
    "website": "https://fmts-workshop.github.io/",
-   "why": "Foundation models for forecasting/world modeling, a domain application not core topic."
+   "why": "Foundation models for forecasting/world modeling, a general ML topic not core."
   },
   "NeurIPS.cc/2026/Workshop/GDDL": {
    "archived": false,
@@ -3556,12 +3735,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop GDDL",
    "title": "NeurIPS 2026 Workshop: Bridging Optimal Transport, Learning and Structured Data: Toward Geometric Distributional Learning",
    "verdict": "adjacent",
    "website": "https://gddl-neurips-2026.github.io",
-   "why": "Optimal transport/geometric learning theory, not core topic."
+   "why": "Optimal transport and geometric distributional learning, general ML theory not core."
   },
   "NeurIPS.cc/2026/Workshop/GEM_Bio": {
    "archived": false,
@@ -3576,12 +3756,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop GEM Bio",
    "title": "NeurIPS Workshop on Integrating Generative and Experimental Platforms for Biomolecular Design (GEM)",
    "verdict": "adjacent",
    "website": "https://www.gembio.ai/",
-   "why": "Generative models for biomolecular design, a biology application domain."
+   "why": "Generative ML for biomolecular design, a domain application with an ML-methods angle."
   },
   "NeurIPS.cc/2026/Workshop/GenAI4Health": {
    "archived": false,
@@ -3596,12 +3777,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop GenAI4Health",
    "title": "The Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential",
    "verdict": "adjacent",
    "website": "https://genai4health.github.io/",
-   "why": "Applied GenAI workshop whose subject is the health domain."
+   "why": "Clinical trust for agentic health systems is trustworthy-X in a medical application domain."
   },
   "NeurIPS.cc/2026/Workshop/GenAI4Health_Demonstration_Paper_Track": {
    "archived": false,
@@ -3616,12 +3798,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop GenAI4Health Demonstration Paper Track",
    "title": "The Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential - Demonstration Paper Track",
    "verdict": "adjacent",
    "website": "https://genai4health.github.io/",
-   "why": "Demo track of a health-domain workshop."
+   "why": "Demo track of GenAI4Health, same medical-application topic as the parent workshop."
   },
   "NeurIPS.cc/2026/Workshop/GenAI4Health_Position_Paper_Track": {
    "archived": false,
@@ -3636,12 +3819,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop GenAI4Health Position Paper Track",
    "title": "The Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential - Position Paper Track",
    "verdict": "adjacent",
    "website": "https://genai4health.github.io/",
-   "why": "Position-paper track of a health-domain workshop."
+   "why": "Position track of GenAI4Health, same medical-application topic as the parent workshop."
   },
   "NeurIPS.cc/2026/Workshop/GlobalSouthAI": {
    "archived": false,
@@ -3656,12 +3840,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 GlobalSouthAI",
    "title": "NeurIPS 2026 GlobalSouthAI",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/globalsouthai-neurips26/home",
-   "why": "Regional/inclusion-focused AI workshop, not a specific core topic."
+   "why": "Broad community-focused AI workshop spanning many topics, not a specific core bullet."
   },
   "NeurIPS.cc/2026/Workshop/HAIC": {
    "archived": false,
@@ -3676,12 +3861,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS-26 HAIC Workshop",
    "title": "2026 NeurIPS Workshop Human-AI Coevolution",
    "verdict": "adjacent",
    "website": "http://Neurips2026haic.com",
-   "why": "Human-AI coevolution is HCI-adjacent, not squarely alignment/safety."
+   "why": "Human-AI coevolution is broad human-AI interaction, not squarely alignment/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/IAB": {
    "archived": false,
@@ -3696,12 +3882,13 @@
     }
    ],
    "issue": 27,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "IAB @NeurIPS 2026 Workshop",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026",
    "verdict": "core",
    "website": "https://iab-agents.github.io/",
-   "why": "Interpreting agent behavior combines interpretability and LLM agents, both core topics."
+   "why": "Interpreting agent behavior is directly interpretability of LLM agents."
   },
   "NeurIPS.cc/2026/Workshop/IAB_Competition_Paper_Track": {
    "archived": false,
@@ -3715,13 +3902,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 98,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop IAB Competition Paper Track",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026 - Competition Paper Track",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "http://glee-competition.com; https://iab-agents.github.io/",
-   "why": "Competition track format, treated like demo/challenge tracks."
+   "why": "Competition track of the Interpreting Agent Behavior workshop, same core topic."
   },
   "NeurIPS.cc/2026/Workshop/IAEval": {
    "archived": false,
@@ -3736,12 +3924,13 @@
     }
    ],
    "issue": 54,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "IAEval 2026",
    "title": "Workshop on Evaluation of Interactive Agents @ NeurIPS 2026",
    "verdict": "core",
    "website": "https://eval-interactive-agents-workshop.github.io/",
-   "why": "Evaluation of interactive agents is LLM agent evaluation as the main topic."
+   "why": "Evaluation of interactive agents matches the core agent-evaluation bullet."
   },
   "NeurIPS.cc/2026/Workshop/ICBINB-BIO": {
    "archived": false,
@@ -3756,12 +3945,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ICBINB-BIO",
    "title": "I Can\u2019t Believe It\u2019s Not Better (ICBINB): Failure Modes of AI in Biology",
    "verdict": "adjacent",
    "website": "https://icbinb-bio.github.io/",
-   "why": "AI failure modes in biology, a domain-specific application."
+   "why": "AI failure modes in biology is a domain application, not AI-systems'-own safety/eval."
   },
   "NeurIPS.cc/2026/Workshop/InfPriv": {
    "archived": false,
@@ -3776,12 +3966,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "InfPriv 2026",
    "title": "Beyond Private Training: The New Landscape of AI Privacy",
    "verdict": "adjacent",
    "website": "https://beyond-private-training.ai.studio/",
-   "why": "AI privacy is a related but distinct topic from alignment/safety/interp/oversight/eval."
+   "why": "AI privacy is a trust-adjacent topic not named among the core alignment/safety/interp bullets."
   },
   "NeurIPS.cc/2026/Workshop/Interp4Discovery": {
    "archived": false,
@@ -3796,12 +3987,13 @@
     }
    ],
    "issue": 34,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Interp4Discovery",
    "title": "NeurIPS 2026 Workshop on Interpretability for Discovery",
    "verdict": "core",
    "website": "https://interpretability4discovery.github.io/",
-   "why": "Interpretability of AI systems is an explicit core topic."
+   "why": "Interpretability for scientific discovery is squarely a core interpretability topic."
   },
   "NeurIPS.cc/2026/Workshop/InterpScience": {
    "archived": false,
@@ -3816,12 +4008,13 @@
     }
    ],
    "issue": 26,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "InterpScience 2026",
    "title": "Interpretability as a Science: NeurIPS 2026 Workshop",
    "verdict": "core",
    "website": "https://interpscience.github.io/",
-   "why": "Interpretability as a science is an explicit core topic."
+   "why": "Interpretability as a science is squarely a core interpretability topic."
   },
   "NeurIPS.cc/2026/Workshop/JUDGe": {
    "archived": false,
@@ -3836,12 +4029,13 @@
     }
    ],
    "issue": 41,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "JUDGe 2026",
    "title": "First Workshop on Reliable Evaluation for Language Models (JUDGe)",
    "verdict": "core",
    "website": "https://judge2026.github.io",
-   "why": "Reliable evaluation of language models is LLM evaluation as the main topic."
+   "why": "Reliable evaluation of language models matches the core LLM-evaluation bullet."
   },
   "NeurIPS.cc/2026/Workshop/LIGHT": {
    "archived": false,
@@ -3856,12 +4050,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "LIGHT",
    "title": "Neurips 2026 Workshop - LIGHT: Deployable Small Foundation Models",
    "verdict": "adjacent",
    "website": "https://almaai-disi-unibo.github.io/neurips2026-light-smallModels/",
-   "why": "Deployable small foundation models is an efficiency/deployment topic, not core."
+   "why": "Deployable small foundation models, an explicitly listed efficient-DL non-core topic."
   },
   "NeurIPS.cc/2026/Workshop/LP4FM": {
    "archived": false,
@@ -3876,12 +4071,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop LP4FM",
    "title": "NeurIPS 2026 Workshop on Linguistic Principles for Foundation Models",
    "verdict": "adjacent",
    "website": "https://lp4fm.github.io/",
-   "why": "Linguistic principles for foundation models leans linguistics, not core topic."
+   "why": "Linguistic principles for foundation models is a general NLP topic, not core."
   },
   "NeurIPS.cc/2026/Workshop/LXAI": {
    "archived": false,
@@ -3896,12 +4092,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "LXAI @ NeurIPS 2026",
    "title": "LatinX in AI Workshop @ NeurIPS 2026",
    "verdict": "adjacent",
    "website": "https://www.latinxinai.org/neurips-2026",
-   "why": "Affinity-group AI workshop covering general topics, not a specific core topic."
+   "why": "LatinX-in-AI community workshop spans general AI topics, not core-specific."
   },
   "NeurIPS.cc/2026/Workshop/MATH-AI": {
    "archived": false,
@@ -3915,13 +4112,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 84,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop MATH-AI",
    "title": "The Sixth Workshop on Mathematical Reasoning and AI",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://mathai-2026.github.io/",
-   "why": "Mathematical reasoning and AI centers on LLM reasoning as the main topic."
+   "why": "Mathematical reasoning and AI, an explicitly listed non-core topic."
   },
   "NeurIPS.cc/2026/Workshop/ML4Molecules": {
    "archived": false,
@@ -3936,12 +4134,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ML4Molecules 2026",
    "title": "NeurIPS 2026 Workshop on Agentic Systems for Molecular Sciences",
    "verdict": "adjacent",
    "website": "https://moleculediscovery.github.io/workshop2026/",
-   "why": "Agentic systems applied to molecular science, a domain-specific application."
+   "why": "Agentic systems for molecular science is an applied-agent workshop in a science domain."
   },
   "NeurIPS.cc/2026/Workshop/ML4SpatialBio": {
    "archived": false,
@@ -3956,12 +4155,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ML4SpatialBio 2026",
    "title": "NeurIPS Workshop on Machine Learning for Spatially Resolved High-dimensional Biology",
    "verdict": "adjacent",
    "website": "https://imsb-uke.github.io/ml4spatialbio-2026/",
-   "why": "ML for spatial biology, a domain-specific application."
+   "why": "ML for spatially resolved biology, a domain application with an ML-methods angle."
   },
   "NeurIPS.cc/2026/Workshop/MLForSys": {
    "archived": false,
@@ -3976,12 +4176,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "MLForSys2026",
    "title": "Machine Learning for Systems 2026",
    "verdict": "adjacent",
    "website": "https://mlforsystems.org",
-   "why": "ML for systems is an applied domain, not core topic."
+   "why": "Machine learning for systems is a general ML/systems topic, not core."
   },
   "NeurIPS.cc/2026/Workshop/MLxOR": {
    "archived": false,
@@ -3996,12 +4197,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop MLxOR",
    "title": "NeurIPS 2026 Second Workshop on ML\u00d7OR: Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making",
    "verdict": "adjacent",
    "website": "https://mlxor-2026.github.io/",
-   "why": "ML for operations research decision-making, not core topic."
+   "why": "Uncertainty-aware decision-making here is general OR/ML, not LLM-agent-specific calibration."
   },
   "NeurIPS.cc/2026/Workshop/MPLR-FM": {
    "archived": false,
@@ -4016,12 +4218,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "PriLOM",
    "title": "Privacy in the Era of Large Opaque Models: Theoretical, Legal, and Practical Perspectives",
    "verdict": "adjacent",
    "website": "https://neurips-workshop2026.github.io/foundation_model_agentic_privacy/",
-   "why": "Privacy of foundation/agentic models is safety-adjacent but not core alignment/safety/interpretability."
+   "why": "Privacy of foundation/agentic models is a related but distinct concern from alignment/safety/interp/eval."
   },
   "NeurIPS.cc/2026/Workshop/Med-Reasoner": {
    "archived": false,
@@ -4036,12 +4239,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Med-Reasoner 2026 NeurIPS",
    "title": "NeurIPS 2026 Workshop on Medical Reasoning with Vision Language Foundation Models",
    "verdict": "adjacent",
    "website": "https://med-reasoner.github.io/neurips2026/",
-   "why": "Applied LLM/VLM workshop in a medical domain."
+   "why": "Medical reasoning with VLMs is an application-domain workshop, not core alignment/safety/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/Meta-Agents": {
    "archived": false,
@@ -4055,13 +4259,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 43,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop Meta-Agents",
    "title": "First Workshop on Meta Agents: Managing Agents that Manage Agents",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://meta-agents-workshop.github.io/",
-   "why": "LLM agents (agent orchestration/management) is the venue's main topic."
+   "why": "Applied/systems agent-management workshop; agents are the setting, not evaluation/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/MusIML": {
    "archived": false,
@@ -4076,12 +4281,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop MusIML",
    "title": "The 7th Muslims in ML (MusIML) Workshop at NeurIPS 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://www.musiml.org/",
-   "why": "Affinity-group community workshop, not a specific core research topic."
+   "why": "Affinity-group community workshop, not a research topic."
   },
   "NeurIPS.cc/2026/Workshop/NEmo": {
    "archived": false,
@@ -4096,12 +4302,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NEmo",
    "title": "Neuro-Symbolic Embodied Intelligence",
    "verdict": "adjacent",
    "website": "https://nemo.semantic.review/",
-   "why": "Embodied/robotics workshop with an ML angle."
+   "why": "Neuro-symbolic embodied intelligence is general robotics/ML, not core alignment/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/NeurReps_Extended_Abstracts": {
    "archived": false,
@@ -4116,12 +4323,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop NeurReps Extended Abstracts",
    "title": "NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (Extended Abstract Track)",
    "verdict": "adjacent",
    "website": "https://neurreps.org/",
-   "why": "General ML representation theory, not alignment/agents/eval."
+   "why": "Symmetry/geometry in neural representations is general representation-learning theory, not LLM/agent interpretability."
   },
   "NeurIPS.cc/2026/Workshop/NeurReps_Findings": {
    "archived": false,
@@ -4136,12 +4344,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop NeurReps Findings",
    "title": "NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (Findings Track)",
    "verdict": "adjacent",
    "website": "https://neurreps.org/",
-   "why": "General ML representation theory, not alignment/agents/eval."
+   "why": "Symmetry/geometry in neural representations is general representation-learning theory, not LLM/agent interpretability."
   },
   "NeurIPS.cc/2026/Workshop/NeurReps_Proceedings": {
    "archived": false,
@@ -4156,12 +4365,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop NeurReps Proceedings",
    "title": "NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (Proceedings Track)",
    "verdict": "adjacent",
    "website": "https://neurreps.org/",
-   "why": "General ML representation theory, not alignment/agents/eval."
+   "why": "Symmetry/geometry in neural representations is general representation-learning theory, not LLM/agent interpretability."
   },
   "NeurIPS.cc/2026/Workshop/NeuralArtifacts": {
    "archived": false,
@@ -4176,12 +4386,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeuralArtifacts",
    "title": "Neural Network Artifacts as a New Data Modality",
    "verdict": "adjacent",
    "website": "artifactsasdata.org",
-   "why": "Niche ML data-modality topic outside core bullets."
+   "why": "Treats NN weights as a data modality; adjacent to interpretability but not eval/safety/agent-behavior of core bullets."
   },
   "NeurIPS.cc/2026/Workshop/NewInML": {
    "archived": false,
@@ -4196,12 +4407,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NewInML workshop @ NeurIPS 2026",
    "title": "New In Machine Learning (NewInML) Workshop @NeurIPS 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://newinml.github.io/NewInML2026NeurIPS/",
-   "why": "General newcomer/career ML workshop, not a core topic."
+   "why": "Newcomer/mentorship community workshop, not a research topic."
   },
   "NeurIPS.cc/2026/Workshop/ODI": {
    "archived": false,
@@ -4216,12 +4428,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ODI 2026",
    "title": "On-Device Intelligence: Foundation Models under Real-World Constraints",
    "verdict": "adjacent",
    "website": "https://odi2026.github.io/",
-   "why": "On-device efficiency for foundation models, not core alignment/agents/eval."
+   "why": "On-device efficient foundation models is general/efficient-DL, not core safety/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/OPT": {
    "archived": false,
@@ -4236,12 +4449,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "OPT 2026",
    "title": "OPT 2026: Optimization for Machine Learning (NeurIPS 2026 Workshop)",
    "verdict": "adjacent",
    "website": "https://opt-ml.org/",
-   "why": "Optimization for ML is general ML theory, not core."
+   "why": "General ML optimization theory, not core alignment/safety/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/PALM": {
    "archived": false,
@@ -4256,12 +4470,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop PALM",
    "title": "NeurIPS 2026 Workshop: Personalized, Aligned, Long-Term Memory for AI Systems",
    "verdict": "adjacent",
    "website": "https://palm-neurips-2026.github.io/",
-   "why": "Personalized long-term memory systems, not squarely alignment/agents/eval."
+   "why": "Memory for AI systems is an applied-agent topic (memory for agents), not core evaluation/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/PTA": {
    "archived": false,
@@ -4276,12 +4491,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop PTA",
    "title": "PTA: From Pretrained Representations to Acting Agents",
    "verdict": "adjacent",
    "website": "https://ptaworkshop.github.io/",
-   "why": "Representations-to-acting-agents leans embodied/robotics rather than LLM agents."
+   "why": "Applied workshop on pretrained-rep-to-acting agents; systems/applied, not agent eval/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/PhysUnderstand": {
    "archived": false,
@@ -4296,12 +4512,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop PhysUnderstand",
    "title": "NeurIPS 2026 Workshop on Physical Understanding for Decision-Making: Bridging Foundation Models and Reliable Agents",
    "verdict": "adjacent",
    "website": "sites.google.com/view/neurips-2026-workshop-pudm",
-   "why": "Foundation models for physical-world decision-making is a domain application."
+   "why": "Physical-world decision-making for robotics/agents is domain-applied, not core agent evaluation/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/PhysWorldAI": {
    "archived": false,
@@ -4316,12 +4533,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "PhysWorldAI",
    "title": "The 1st Workshop on Physical World AI: Geometry, Characteristics, and Multimodal Sensing (NeurIPS 2026)",
    "verdict": "adjacent",
    "website": "https://physworld-org.github.io/physworld.github.io/",
-   "why": "Physical-world multimodal sensing, robotics/vision with ML angle."
+   "why": "Vision/robotics with multimodal sensing, application-domain, not core."
   },
   "NeurIPS.cc/2026/Workshop/Pre-to-Post": {
    "archived": false,
@@ -4336,12 +4554,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Pre-to-Post NeurIPS 2026",
    "title": "NeurIPS 2026 Workshop: Transitioning from Pre-Training to Post-Training",
    "verdict": "adjacent",
    "website": "https://pretrain2posttrain.github.io",
-   "why": "LLM training pipeline topic, not agents/alignment/eval specifically."
+   "why": "General LLM training-pipeline workshop (pre-to-post-training), not core alignment/safety/interp topic."
   },
   "NeurIPS.cc/2026/Workshop/PriGM": {
    "archived": false,
@@ -4356,12 +4575,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "PriGM NeurIPS2026",
    "title": "NeurIPS 2026 Workshop on Principles of Generative Modeling (PriGM)",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/prigmneurips2026/home",
-   "why": "Generative modeling theory, not core alignment/agents/eval."
+   "why": "General generative-modeling theory workshop, not core."
   },
   "NeurIPS.cc/2026/Workshop/QueerInAI": {
    "archived": false,
@@ -4376,12 +4596,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "QueerInAI AbilityInAI 2026",
    "title": "Queer in AI and {Dis}Ability in AI Workshop at NeurIPS 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://www.queerinai.com/neurips-2026",
-   "why": "Affinity-group community workshop, not a specific core research topic."
+   "why": "Affinity-group community workshop, not a research topic."
   },
   "NeurIPS.cc/2026/Workshop/RAAAI": {
    "archived": false,
@@ -4395,13 +4616,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 45,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "RAAAI NeurIPS 2026",
    "title": "Workshop on Resource-Aware Agentic AI",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://resource-aware-workshop.github.io/",
-   "why": "Agentic AI is the venue's main topic."
+   "why": "Resource-efficient agentic AI is an applied/systems-flavored agent workshop, not core agent eval/interp."
   },
   "NeurIPS.cc/2026/Workshop/RCMLR": {
    "archived": false,
@@ -4416,12 +4638,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "RCMLR 2026",
    "title": "Responsible Communication of Machine Learning Research in Biomedicine",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://translatingmlresearch.github.io/RCMLR/",
-   "why": "Responsible-communication topic applied to biomedicine domain."
+   "why": "Science-communication-in-biomedicine workshop, no ML-methods research angle."
   },
   "NeurIPS.cc/2026/Workshop/RL4XS": {
    "archived": false,
@@ -4436,12 +4659,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "RL4XS Workshop",
    "title": "Reinforcement Learning for Experimental Sciences Workshop",
    "verdict": "adjacent",
    "website": "https://rl-experimental-sciences-workshop.github.io/",
-   "why": "RL applied to experimental sciences, a domain application."
+   "why": "RL applied to experimental sciences is a domain-application ML topic, not core."
   },
   "NeurIPS.cc/2026/Workshop/RPS": {
    "archived": false,
@@ -4456,12 +4680,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "RPS Workshop 2026",
    "title": "Representations for the Physical Sciences Workshop @ NeurIPS 2026",
    "verdict": "adjacent",
    "website": "https://representations-physical-sciences.github.io/workshop-2026/",
-   "why": "Representations for physical sciences, a domain application."
+   "why": "Representation learning for physical sciences is a domain-application topic, not core."
   },
   "NeurIPS.cc/2026/Workshop/RTCA": {
    "archived": false,
@@ -4475,13 +4700,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 46,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop RTCA",
    "title": "NeurIPS 2026 Workshop Real-Time Conversational Agents: Toward Natural Multimodal Interaction",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://rtcaneurips26.github.io/",
-   "why": "Conversational LLM agents are the venue's main topic."
+   "why": "Applied conversational-agent workshop on multimodal interaction, not agent eval/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/ReMuCAI": {
    "archived": false,
@@ -4495,13 +4721,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 51,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ReMuCAI 2026",
    "title": "NeurIPS 2026 Workshop on Real-Time Multimodal Conversational AI",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://sites.google.com/view/remucai",
-   "why": "Multimodal conversational LLM agents are the venue's main topic."
+   "why": "Applied real-time multimodal conversational-AI workshop, not core agent eval/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/RoCo-Spring": {
    "archived": false,
@@ -4516,12 +4743,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "RoCo-Spring 2026",
    "title": "RoCo-Spring: The Robust Correspondence Challenge",
    "verdict": "adjacent",
    "website": "https://roco-spring.github.io/",
-   "why": "Vision correspondence challenge, robotics/vision with ML angle."
+   "why": "Correspondence-matching shared task in vision, not calibration/eval/interp of LLMs."
   },
   "NeurIPS.cc/2026/Workshop/RoboPAD": {
    "archived": false,
@@ -4536,12 +4764,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 RoboPAD",
    "title": "RoboPAD: Post-Training Adaptation of Robot Foundation Models",
    "verdict": "adjacent",
    "website": "https://robotpad2026.github.io/",
-   "why": "Robot foundation model adaptation, robotics domain."
+   "why": "Robot foundation-model post-training is robotics with an FM angle, not core."
   },
   "NeurIPS.cc/2026/Workshop/Robotics_World_Modeling": {
    "archived": false,
@@ -4556,12 +4785,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Robotics World Modeling Workshop",
    "title": "Robot Learning with World Models: Capabilities, Frontiers, and Challenges",
    "verdict": "adjacent",
    "website": "https://robowm-ws.github.io/",
-   "why": "Robot learning with world models, robotics domain."
+   "why": "Robot learning with world models, robotics-with-FM angle, not core."
   },
   "NeurIPS.cc/2026/Workshop/SLM-Agents": {
    "archived": false,
@@ -4575,13 +4805,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": 15,
+   "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "SLM-Agents",
    "title": "SLM-Agents: 1st NeurIPS Workshop on SLMs for Agentic Systems",
-   "verdict": "core",
+   "verdict": "adjacent",
    "website": "https://slmw2026.github.io/",
-   "why": "LLM (small) agentic systems are the venue's main topic."
+   "why": "Small models for agentic systems is an applied-agent workshop topic, not core agent eval/interp."
   },
   "NeurIPS.cc/2026/Workshop/STODY": {
    "archived": false,
@@ -4596,12 +4827,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop STODY",
    "title": "NeurIPS 2026 Workshop on AI for Stochastic Dynamics: From Theoretical Foundations to Scientific Applications",
    "verdict": "adjacent",
    "website": "https://eethanshi.github.io/stochastic-dynamics-2026/",
-   "why": "AI for scientific/stochastic-dynamics applications, a domain topic."
+   "why": "AI for stochastic dynamics is a scientific-domain ML application, not core."
   },
   "NeurIPS.cc/2026/Workshop/SaTQuML": {
    "archived": false,
@@ -4616,12 +4848,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 SaTQuML Workshop",
    "title": "NeurIPS 2026 Workshop on SaTQuML: Secure and Trustworthy Quantum Machine Learning",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://satquml.github.io/",
-   "why": "Trustworthy quantum ML \u2014 trustworthy-X where X is an application domain."
+   "why": "Secure/trustworthy quantum ML falls outside Harry's LLM-focused core fields."
   },
   "NeurIPS.cc/2026/Workshop/Sim2Sci": {
    "archived": false,
@@ -4636,12 +4869,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Sim2Sci 2026",
    "title": "Sim2Science: ML with Imperfect Scientific Models",
    "verdict": "adjacent",
    "website": "https://www.sim2science.com/",
-   "why": "ML for scientific simulation, a domain application."
+   "why": "ML with imperfect scientific models is a domain-application ML topic, not core."
   },
   "NeurIPS.cc/2026/Workshop/Simbiochem": {
    "archived": false,
@@ -4656,12 +4890,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Simbiochem 2026",
    "title": "The 2nd Workshop on Simulations for Biology and Chemistry",
    "verdict": "adjacent",
    "website": "www.simbiochem.com",
-   "why": "Simulations for biology/chemistry, a domain application."
+   "why": "Simulations for biology/chemistry, domain-application ML, not core."
   },
   "NeurIPS.cc/2026/Workshop/SocialAgent": {
    "archived": false,
@@ -4676,12 +4911,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "SocialAgent@NeurIPS 2026",
    "title": "Second Workshop on Large Language Models for Social Reasoning and Simulation",
    "verdict": "adjacent",
    "website": "https://social-llm-workshop.github.io/",
-   "why": "Applied LLM workshop on social reasoning/simulation, an explicit domain example."
+   "why": "LLMs for social reasoning/simulation is an applied social-simulation agent workshop, not core."
   },
   "NeurIPS.cc/2026/Workshop/TAE": {
    "archived": false,
@@ -4696,12 +4932,13 @@
     }
    ],
    "issue": 47,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 TAE",
    "title": "NeurIPS 2026 Trust-AI-Eval Workshop",
    "verdict": "core",
    "website": "https://tai-eval.github.io",
-   "why": "Trust and evaluation of AI systems themselves is a core-bullet topic."
+   "why": "Trust-AI-Eval workshop is squarely about evaluation/trustworthiness of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/TCCML": {
    "archived": false,
@@ -4716,12 +4953,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "TCCML @ NeurIPS 2026",
    "title": "Tackling Climate Change with Machine Learning: workshop at NeurIPS 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://www.climatechange.ai/events/neurips2026",
-   "why": "ML for climate change, a domain application."
+   "why": "Climate-change application domain, outside Harry's fields."
   },
   "NeurIPS.cc/2026/Workshop/TCCML_Tutorials_Track": {
    "archived": false,
@@ -4736,12 +4974,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Tutorials TCCML NeurIPS 2026",
    "title": "[Tutorials track] Tackling Climate Change with Machine Learning: workshop at NeurIPS 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://www.climatechange.ai/events/neurips2026",
-   "why": "Tutorial track, explicitly adjacent even at top venues."
+   "why": "Climate-change tutorials track, outside Harry's fields."
   },
   "NeurIPS.cc/2026/Workshop/TS-LIMITS": {
    "archived": false,
@@ -4756,12 +4995,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop TS-LIMITS",
    "title": "Workshop TS-LIMITS @NeurIPS 2026 -- Generalization for Time Series in Tight Settings: Latency, Inference, Memory, prIvacy and susTainability",
    "verdict": "adjacent",
    "website": "https://ts-limits.github.io/",
-   "why": "Time-series generalization under efficiency constraints, not core."
+   "why": "Efficient/generalizable time-series learning under tight constraints, general ML not core."
   },
   "NeurIPS.cc/2026/Workshop/TTCL": {
    "archived": false,
@@ -4776,12 +5016,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 TTCL Workshop",
    "title": "NeurIPS 2026 Workshop on Towards Test-Time Continual Learning Agents",
    "verdict": "adjacent",
    "website": "ttcl-agents.github.io",
-   "why": "General continual-learning-for-agents topic, not clearly LLM-agent specific."
+   "why": "Continual learning for agents is an applied-agent workshop topic, not core agent eval/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/UserSim": {
    "archived": false,
@@ -4795,13 +5036,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 99,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "UserSim NeurIPS 2026",
    "title": "NeurIPS 2026 Workshop on Grounded User Simulation for Model Evaluation and Training: Diversity, Fidelity, and Validity",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "https://usersim-workshop.github.io/",
-   "why": "User-simulation methodology for model evaluation, plausibly relevant but not core evaluation-of-AI-safety topic."
+   "why": "Grounded user simulation for model evaluation is direct evaluation of AI systems/agents."
   },
   "NeurIPS.cc/2026/Workshop/VERICODEGEN": {
    "archived": false,
@@ -4816,12 +5058,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop VERICODEGEN",
    "title": "NeurIPS 2026 Workshop on AI for Verifiable Coding",
    "verdict": "adjacent",
    "website": "https://vericodegen.github.io/",
-   "why": "AI-for-coding-verification workshop, not alignment/agents/evaluation as core topic."
+   "why": "AI for verifiable coding is a general code-gen workshop, not alignment/safety/interp of AI systems."
   },
   "NeurIPS.cc/2026/Workshop/VERICODEGEN_Competition": {
    "archived": false,
@@ -4836,12 +5079,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 Workshop VERICODEGEN Competition",
    "title": "NeurIPS 2026 Workshop on AI for Verifiable Coding Competition Track",
    "verdict": "adjacent",
    "website": "https://vericodegen.github.io/index.html#challenge",
-   "why": "Competition track of the verifiable-coding workshop, same applied-coding focus."
+   "why": "Competition track of the same verifiable-coding workshop, code-gen focus not core."
   },
   "NeurIPS.cc/2026/Workshop/VLM4RWD": {
    "archived": false,
@@ -4856,12 +5100,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "VLM4RWD2026",
    "title": "Grounded and Faithful Vision-Language Models for Real-World Deployment 2026",
    "verdict": "adjacent",
    "website": "https://vlm4rwd.github.io",
-   "why": "VLM grounding/faithfulness for deployment is applied, not core alignment/interpretability."
+   "why": "Grounding/faithfulness of VLMs for deployment is general capability work, not safety/interp/calibration."
   },
   "NeurIPS.cc/2026/Workshop/Verify-Agents": {
    "archived": false,
@@ -4876,12 +5121,13 @@
     }
    ],
    "issue": 57,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "NeurIPS 2026 verify-agents",
    "title": "NeurIPS 2026 Workshop Who Verifies the Agents? Toward Reliable Agent Development",
    "verdict": "core",
    "website": "https://verify-agents-workshop.github.io/",
-   "why": "NeurIPS workshop on agent reliability/oversight matches core LLM-agents/oversight topic."
+   "why": "Reliable agent development and verification of agent behavior hits the LLM-agent evaluation/oversight bullet directly."
   },
   "NeurIPS.cc/2026/Workshop/WMHS": {
    "archived": false,
@@ -4896,12 +5142,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WMHS 2026",
    "title": "World Models for High-Stakes Health: Reliable Clinical Trial Simulation and Intervention-Aware Reasoning @ NeurIPS 2026",
    "verdict": "adjacent",
    "website": "https://wmhs-neurips.github.io/WMHS/",
-   "why": "World models applied to clinical trials is a domain-specific (health) workshop."
+   "why": "Reliable clinical trial simulation is trustworthy-X in health, an application domain not AI-system eval itself."
   },
   "NeurIPS.cc/2026/Workshop/WM_PAI": {
    "archived": false,
@@ -4916,12 +5163,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WM PAI Workshop",
    "title": "World Models in Physical AI Workshop",
    "verdict": "adjacent",
    "website": "http://www.worldmodels-physicalai.com/",
-   "why": "World models for physical AI/robotics, not alignment or LLM-agent core topic."
+   "why": "World models for physical AI/robotics, foundation-model angle but not safety/interp/agent-eval."
   },
   "NeurIPS.cc/2026/Workshop/WRL": {
    "archived": false,
@@ -4936,12 +5184,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WRL@NeurIPS 2026",
    "title": "8th Robot Learning Workshop:  Is Physical AI Going Zero-Shot?",
    "verdict": "adjacent",
    "website": "https://www.robot-learning.ml/2026/",
-   "why": "Robot learning workshop with substantial ML angle but not core topic."
+   "why": "Robot learning workshop, robotics setting not the core alignment/interp/calibration topics."
   },
   "NeurIPS.cc/2026/Workshop/WiML": {
    "archived": false,
@@ -4949,19 +5198,20 @@
    "invitations": [
     {
      "cdate": 1785135600000,
-     "duedate": 1787018400000,
-     "expdate": 1787020200000,
+     "duedate": 1787054340000,
+     "expdate": 1787056140000,
      "id": "NeurIPS.cc/2026/Workshop/WiML/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WiML @ NeurIPS 2026",
    "title": "Women in Machine Learning Workshop @ NeurIPS 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2026/",
-   "why": "General ML affinity workshop, not focused on a core alignment/agents/evaluation topic."
+   "why": "Affinity/mentorship workshop, not a research-topic match."
   },
   "NeurIPS.cc/2026/Workshop/XAI4Science": {
    "archived": false,
@@ -4975,13 +5225,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 100,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "XAI4Science",
    "title": "XAI4Science: Knowledge Discovery and Trust through Interpretable Foundation Models",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "https://xai4science.github.io/",
-   "why": "Interpretable foundation models applied to scientific discovery, an application domain."
+   "why": "Interpretable foundation models for knowledge discovery mirrors the 'Interpretability for Discovery' core example."
   },
   "NorSK/2026/Conference": {
    "archived": false,
@@ -4996,12 +5247,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "NorSK 1",
    "title": "Norsk Spr\u00e5kteknologikonferanse 2026 \u2013 NorSK 1",
    "verdict": "adjacent",
    "website": "https://norsk-sprakteknologikonferanse.github.io/nettside/",
-   "why": "Regional/national language-tech conference."
+   "why": "Regional Norwegian language-tech conference, general NLP not a core topic."
   },
   "OIST.jp/2027/MLSS_Okinawa": {
    "archived": false,
@@ -5016,12 +5268,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "MLSS 2027 Okinawa",
    "title": "Machine Learning Summer School 2027 Okinawa",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://oist.github.io/mlss2027okinawa/",
-   "why": "ML summer school, not a core-topic research venue but broadly ML-related."
+   "why": "A summer school program, not a research publication venue on a core topic."
   },
   "OpenReview.net/Anonymous_Preprint": {
    "archived": false,
@@ -5036,12 +5289,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "",
    "title": "OpenReview.net Anonymous Preprint",
    "verdict": "no",
    "website": "",
-   "why": "Placeholder preprint server, not a real venue."
+   "why": "Generic preprint host with no defined topic."
   },
   "PKU.edu/2026/AI_TechDay": {
    "archived": false,
@@ -5056,12 +5310,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AI TechDay 26",
    "title": "Peking University 2026 Artificial Intelligence Tech-Day",
    "verdict": "adjacent",
    "website": "https://next.tongclass.ac.cn/",
-   "why": "General AI tech day, unclear research focus but broadly AI-related."
+   "why": "Generic university AI showcase with no specified core topic."
   },
   "PhraConRep/2027/Conference": {
    "archived": false,
@@ -5076,12 +5331,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "PhraConRep 2027",
    "title": "International Conference on Formulaic Language and Construction Grammar: Applications in Translation, Lexicography, and Foreign Language Teaching",
    "verdict": "no",
    "website": "https://blog.studiumdigitale.uni-frankfurt.de/phracon-2027/",
-   "why": "Pure linguistics/construction grammar conference, no ML angle."
+   "why": "Construction grammar/formulaic language conference is pure linguistics."
   },
   "SADASC.com/2027/Conference": {
    "archived": false,
@@ -5096,12 +5352,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SADASC'27",
    "title": "The Seventh International Conference on Smart Applications and Data Analysis for Smart Cyber-Physical Systems",
    "verdict": "adjacent",
    "website": "https://sadasc.com/",
-   "why": "Smart cyber-physical systems/data analysis, unclear but plausible ML component."
+   "why": "Smart cyber-physical systems/data-analysis conference, unclear ML focus, low-signal regional host."
   },
   "SIGARAB.org/ArabicNLP/2026/AISA-ArabicFC_Shared_Task": {
    "archived": false,
@@ -5116,12 +5373,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-AISA-ArabicFC",
    "title": "ArabicNLP 2026 Shared Task on AISA-ArabicFC: Arabic Function Calling for Agentic AI Systems",
    "verdict": "adjacent",
    "website": "https://huggingface.co/spaces/TuwaiqAcademy/AISA-ArabicFC-Shared-Task",
-   "why": "Language-specific (Arabic) shared task, per tie-break rule."
+   "why": "Function-calling shared task for agentic systems; applied-agent capability, not agent evaluation/interp."
   },
   "SIGARAB.org/ArabicNLP/2026/AlexandriaX_Shared_Task": {
    "archived": false,
@@ -5136,12 +5394,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026 - AlexandriaX-2026",
    "title": "AlexandriaX Shared Task @ ArabicNLP 2026",
    "verdict": "adjacent",
    "website": "https://alexandriax.dlnlp.ai/",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Generic ArabicNLP shared task, not calibration/eval/interp of LLMs specifically."
   },
   "SIGARAB.org/ArabicNLP/2026/ArGuard_Shared_Task": {
    "archived": false,
@@ -5156,12 +5415,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-ArGuard",
    "title": "ArabicNLP 2026 Shared Task on ArGuard: Harmful Content Detection in Arabic Memes and LLM Prompts",
    "verdict": "adjacent",
    "website": "https://araieval.github.io/ArGuard2026",
-   "why": "Language-specific (Arabic) harmful-content shared task."
+   "why": "Harmful content detection in memes/prompts is content-moderation application, not AI-system eval itself."
   },
   "SIGARAB.org/ArabicNLP/2026/AraDF_Shared_Task": {
    "archived": false,
@@ -5176,12 +5436,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP 2026",
    "title": "ArabicNLP2026-AraDF26",
    "verdict": "adjacent",
    "website": "https://huggingface.co/spaces/ArabicSpeech/ara-df-2026",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Arabic deepfake-style detection shared task, dataset/benchmark not core AI-safety topic."
   },
   "SIGARAB.org/ArabicNLP/2026/AraGenre_Shared_Task": {
    "archived": false,
@@ -5196,12 +5457,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AraGenre",
    "title": "ArabicNLP2026-AraGenre2026",
    "verdict": "adjacent",
    "website": "https://wp.lancs.ac.uk/aragenre/",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Genre classification shared task, general NLP not core."
   },
   "SIGARAB.org/ArabicNLP/2026/AraSeg_Shared_Task": {
    "archived": false,
@@ -5216,12 +5478,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-AraSeg",
    "title": "ArabicNLP 2026 Shared Task on Arabic Sentence Segmentation Shared Task",
    "verdict": "adjacent",
    "website": "https://www.araseg.aramlab.ai/",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Sentence segmentation shared task, general NLP not core."
   },
   "SIGARAB.org/ArabicNLP/2026/BAREC_Shared_Task": {
    "archived": false,
@@ -5236,12 +5499,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-BAREC",
    "title": "ArabicNLP 2026 Shared Task on BAREC Shared Task 2026",
    "verdict": "adjacent",
    "website": "https://barec.camel-lab.com/sharedtask2026",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Readability shared task, general NLP not core."
   },
   "SIGARAB.org/ArabicNLP/2026/DialectSentEval_Shared_Task": {
    "archived": false,
@@ -5256,12 +5520,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-DialectSentEval",
    "title": "ArabicNLP 2026 Shared Task on Arabic Dialect Sentiment Analysis and Swapping",
    "verdict": "adjacent",
    "website": "https://ezzini.github.io/DialectSentEval2026",
-   "why": "Language-specific (Arabic dialect) shared task."
+   "why": "Dialect sentiment analysis shared task, general NLP not core."
   },
   "SIGARAB.org/ArabicNLP/2026/HalluScoring_Shared_Task": {
    "archived": false,
@@ -5275,13 +5540,16 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
-   "reminded": [],
+   "issue": 95,
+   "prestige": 3,
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "HalluScoring2026",
    "title": "ArabicNLP2026-HalluScoring",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "https://halluscoring.github.io/HalluScoring-2026/",
-   "why": "Language-specific (Arabic) hallucination shared task."
+   "why": "Hallucination scoring is evaluation of LLM output reliability/factuality, hitting the AI-system evaluation bullet."
   },
   "SIGARAB.org/ArabicNLP/2026/ImageEval_Shared_Task": {
    "archived": false,
@@ -5296,12 +5564,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-ImageEval",
    "title": "ArabicNLP 2026 Shared Task on ImageEval 2026: Culturally Grounded Arabic Multimodal Evaluation",
    "verdict": "adjacent",
    "website": "https://imageeval2026.github.io/",
-   "why": "Language-specific (Arabic) multimodal eval shared task."
+   "why": "Culturally grounded multimodal evaluation benchmark, general capability eval not calibration/safety."
   },
   "SIGARAB.org/ArabicNLP/2026/IslamicEval_Shared_Task": {
    "archived": false,
@@ -5315,13 +5584,17 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
-   "reminded": [],
+   "issue": 94,
+   "prestige": 3,
+   "reminded": [
+    "T-7",
+    "T-2"
+   ],
    "subtitle": "ArabicNLP2026-IslamicEval",
    "title": "IslamicEval 2026 Shared Task: Fine-grained Hallucination Detection in Arabic Islamic Content",
-   "verdict": "adjacent",
+   "verdict": "core",
    "website": "https://sites.google.com/view/islamiceval2026/home",
-   "why": "Language-specific (Arabic) hallucination shared task."
+   "why": "Fine-grained hallucination detection is evaluation of LLM output reliability, matching the AI-system evaluation bullet."
   },
   "SIGARAB.org/ArabicNLP/2026/KnowledgeGraphEval_Shared_Task": {
    "archived": false,
@@ -5336,12 +5609,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-KnowledgeGraphEval2026",
    "title": "ArabicNLP 2026 Shared Task on KnowledgeGraphEval2026",
    "verdict": "adjacent",
    "website": "https://sina.birzeit.edu/KnowledgeGraphEval",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Knowledge-graph evaluation shared task, general NLP/dataset benchmark not core."
   },
   "SIGARAB.org/ArabicNLP/2026/NADI_Shared_Task": {
    "archived": false,
@@ -5356,12 +5630,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-NADI",
    "title": "ArabicNLP 2026 Shared Task: The Second Multidialectal Arabic Speech Processing Shared Task (NADI-2026)",
    "verdict": "adjacent",
    "website": "https://nadi.dlnlp.ai/2026/",
-   "why": "Language-specific (Arabic) speech processing shared task."
+   "why": "Dialectal Arabic speech processing shared task, general NLP not core."
   },
   "SIGARAB.org/ArabicNLP/2026/StanceEval_Shared_Task": {
    "archived": false,
@@ -5376,12 +5651,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ArabicNLP2026-StanceEval",
    "title": "ArabicNLP 2026 Shared Task on Stance Detection",
    "verdict": "adjacent",
    "website": "https://stanceeval.github.io",
-   "why": "Language-specific (Arabic) shared task."
+   "why": "Stance detection shared task, general NLP not core."
   },
   "SLTC/2026/Conference": {
    "archived": false,
@@ -5396,12 +5672,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SLTC 2026",
    "title": "Swedish Language Technology Conference 2026",
    "verdict": "adjacent",
    "website": "https://www.ltu.se/en/research/research-subjects/machine-learning/the-swedish-language-technology-conference",
-   "why": "Regional/national language-technology conference."
+   "why": "Regional Swedish language technology conference, general NLP not core."
   },
   "SPELLL.org/2026/Workshop/LC4": {
    "archived": false,
@@ -5416,12 +5693,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LC4 SPELLL2026",
    "title": "Fifth workshop on Low Resource Cross Domain, Cross Lingual, Cross Modal Content Analysis (LC4) @ SPELLL 2026",
    "verdict": "adjacent",
    "website": "https://lc4workshop.github.io/",
-   "why": "Low-resource/cross-lingual content-analysis workshop, language-specific."
+   "why": "Low-resource/cross-lingual content analysis workshop, general NLP not core."
   },
   "SPELLL.org/2026/Workshop/Regional-FAKE": {
    "archived": false,
@@ -5436,12 +5714,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Regional-FAKE 2026",
    "title": "Fifth Workshop on Fake News Detection in Low-Resource Languages",
    "verdict": "adjacent",
    "website": "https://spelll.org/workshop.html#TIMELINES-FOR-WORKSHOP-PROPOSALS",
-   "why": "Fake-news detection in low-resource languages, domain- and language-specific."
+   "why": "Fake news detection in low-resource languages, application-domain trustworthiness not AI-system eval itself."
   },
   "SWRS/2026/Symposium": {
    "archived": false,
@@ -5456,12 +5735,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SWRS 2026",
    "title": "Southwest Robotics Symposium 2026",
    "verdict": "adjacent",
    "website": "https://swrobotics.engineering.asu.edu/",
-   "why": "Regional robotics symposium."
+   "why": "Regional robotics symposium, robotics setting not core alignment/interp topics."
   },
   "TAAI.org/2026/Conference": {
    "archived": false,
@@ -5476,12 +5756,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "TAAI 2026",
    "title": "The 31st Conference on Technologies and Applications of Artificial Intelligence (TAAI 2026)",
    "verdict": "adjacent",
    "website": "https://taai2026.github.io/",
-   "why": "Regional/national AI conference."
+   "why": "Regional/national AI conference (Taiwan) with broad scope, not a core-topic match."
   },
   "TAASP.at/2026/Workshop": {
    "archived": false,
@@ -5496,12 +5777,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "TAASP 2026",
    "title": "Ninth Workshop on Trends and Applications of Answer Set Programming",
    "verdict": "no",
    "website": "http://taasp.at/2026/",
-   "why": "Answer Set Programming theory, unrelated to ML."
+   "why": "Answer set programming is symbolic AI theory unrelated to ML."
   },
   "TimeMachine.eu/RFC": {
    "archived": false,
@@ -5516,12 +5798,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "",
    "title": "TimeMachine.eu RFC",
    "verdict": "no",
    "website": "",
-   "why": "Placeholder venue with no real submission scope."
+   "why": "Placeholder RFC venue with no defined research topic."
   },
   "WCMNM/2027/Conference": {
    "archived": false,
@@ -5536,12 +5819,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "WCMNM2027",
    "title": "9th World Congress on Micro and Nano Manufacturing",
    "verdict": "no",
    "website": "https://na.eventscloud.com/website/93824/",
-   "why": "Micro/nano manufacturing hardware conference, no ML angle."
+   "why": "Micro and nano manufacturing conference, unrelated to ML."
   },
   "Word-Formation/2026/Workshop/Distributed_Morphology": {
    "archived": false,
@@ -5556,12 +5840,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Word-Formation in Distributed Morphology Workshop",
    "title": "Word-Formation Theories & Typology and Universals in Word-Formation, Word-Formation in Distributed Morphology Workshop",
    "verdict": "no",
    "website": "https://word-formation.flf.vu.lt/workshops/word-formation-in-distributed-morphology",
-   "why": "Pure linguistics/morphology workshop, unrelated to ML."
+   "why": "Distributed Morphology word-formation workshop is pure linguistics."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_ARR_Commitment": {
    "archived": false,
@@ -5576,12 +5861,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "GeBNLP 2026",
    "title": "7th Workshop on Gender Bias in Natural Language Processing @AACL-IJCNLP 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "gebnlp-workshop.github.io",
-   "why": "Applied NLP workshop on gender bias, a domain topic not core alignment."
+   "why": "Gender bias in NLP is explicitly outside the core/adjacent scope."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_Direct_Submission": {
    "archived": false,
@@ -5596,12 +5882,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "GeBNLP 2026",
    "title": "7th Workshop on Gender Bias in Natural Language Processing @AACL-IJCNLP 2026",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "gebnlp-workshop.github.io",
-   "why": "Applied NLP workshop on gender bias, a domain topic not core alignment."
+   "why": "Same Gender Bias in NLP workshop via direct-submission track, explicitly outside scope."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/LT4CPR": {
    "archived": false,
@@ -5616,12 +5903,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "LT4CPR AACL 2026",
    "title": "First Workshop on Language Technologies for Crisis Preparedness and Response",
    "verdict": "adjacent",
    "website": "https://lt4cpr.github.io/aacl2026-workshop-LT4CPR/index.html",
-   "why": "Applied NLP for crisis response is a domain workshop, not alignment/agents/eval."
+   "why": "Language tech for crisis response is an NLP application domain, not alignment/interp/agent evaluation."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/Multi-LLL": {
    "archived": false,
@@ -5636,12 +5924,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Multi-LLL 2026",
    "title": "AACL-IJCNLP 2026 Workshop Multi-LLL",
    "verdict": "adjacent",
    "website": "https://xiaoaugenstern.github.io/Multi-LLL-2026/",
-   "why": "Multilingual/lifelong-learning NLP workshop, not a core alignment/agents/eval topic."
+   "why": "General multilingual/lifelong-learning NLP workshop, not a core topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/Multi-LLL_ARR_Commitment": {
    "archived": false,
@@ -5656,12 +5945,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Multi-LLL 2026 ARR Commitment",
    "title": "AACL-IJCNLP 2026 Workshop Multi-LLL ARR Commitment",
    "verdict": "adjacent",
    "website": "https://xiaoaugenstern.github.io/Multi-LLL-2026/",
-   "why": "Same workshop via ARR commitment track, still domain-specific NLP."
+   "why": "ARR-commitment track of Multi-LLL, same topic as the workshop."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche": {
    "archived": false,
@@ -5676,12 +5966,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AACL-IJCNLP 2026 Workshop MultiPsyche",
    "title": "The First Workshop on Multimodal, Multilingual, and Multicultural Mental Health and Psychotherapy",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/multipsyche",
-   "why": "Applied NLP/AI workshop on mental health, a domain application not alignment/agents."
+   "why": "NLP for mental health/psychotherapy is an applied domain, not core alignment/agent/interp work."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/NORA": {
    "archived": false,
@@ -5696,12 +5987,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AACL-IJCNLP 2026 Workshop NORA",
    "title": "NORA: The Third Workshop on KNOwledge GRaphs & Agentic Systems Interplay",
    "verdict": "adjacent",
    "website": "https://nora-workshop.github.io/AACL2026/",
-   "why": "Knowledge graphs & agentic systems interplay is agent-adjacent but domain/technique-specific, not core LLM agents."
+   "why": "Knowledge graphs + agentic systems interplay is a systems-flavored agent workshop, agents as setting not the question."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/NORA_ARR_Commitment": {
    "archived": false,
@@ -5716,12 +6008,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AACL-IJCNLP 2026 Workshop NORA - ARR Commitment",
    "title": "NORA: The Third Workshop on KNOwledge GRaphs & Agentic Systems Interplay - ARR Commitment",
    "verdict": "adjacent",
    "website": "https://nora-workshop.github.io/AACL2026/",
-   "why": "Same KG/agentic-systems workshop via ARR commitment."
+   "why": "ARR-commitment track of NORA, same applied-agent topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_Direct_Submission": {
    "archived": false,
@@ -5736,12 +6029,13 @@
     }
    ],
    "issue": 61,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "PlurVA-LLM",
    "title": "The First Workshop on Pluralistic Value Alignment of LLMs",
    "verdict": "core",
    "website": "https://plurvallm2026.github.io/",
-   "why": "Pluralistic value alignment of LLMs is squarely an alignment topic."
+   "why": "Pluralistic value alignment of LLMs is squarely an AI alignment topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/TrustAudio": {
    "archived": false,
@@ -5756,12 +6050,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "TrustAudio 2026",
    "title": "TrustAudio: Workshop on Secure, Safe, and Privacy-Preserving Speech and Audio AI",
    "verdict": "adjacent",
    "website": "https://trustaudio.github.io/",
-   "why": "Trustworthy/safe audio AI is a 'trustworthy X' domain-specific workshop, not general AI safety."
+   "why": "Trustworthy/safe audio AI is 'safe X' for an application domain, explicitly adjacent not core."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/TrustAudio_ARR_Commitment": {
    "archived": false,
@@ -5776,12 +6071,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "TrustAudio 2026",
    "title": "TrustAudio: Workshop on Secure, Safe, and Privacy-Preserving Speech and Audio AI",
    "verdict": "adjacent",
    "website": "https://trustaudio.github.io/",
-   "why": "Same audio-AI trust workshop via ARR commitment."
+   "why": "ARR-commitment track of TrustAudio, same application-domain trust topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/WASP": {
    "archived": false,
@@ -5796,12 +6092,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "WASP 2026",
    "title": "Fourth Workshop on Artificial Intelligence for Scientific Publications",
    "verdict": "adjacent",
    "website": "https://ui.adsabs.harvard.edu/WIESP/2026/",
-   "why": "AI for scientific publications is an applied NLP domain workshop."
+   "why": "AI for scientific publications is a general NLP application, not a core topic."
   },
   "aclweb.org/INLG/2026/Conference_Direct_Submissions": {
    "archived": false,
@@ -5816,12 +6113,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "INLG 2026",
    "title": "19th International Conference on Natural Language Generation",
    "verdict": "adjacent",
    "website": "https://2026.inlgmeeting.org",
-   "why": "NLG main conference is broad NLP but not one of the listed top-family main tracks."
+   "why": "General NLG conference, not in core alignment/agent/interp bullets."
   },
   "aclweb.org/INLG/2026/GenChal": {
    "archived": false,
@@ -5836,12 +6134,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "INLG 2026 GenChal",
    "title": "19th International Natural Language Generation Conference: Generation Challenges",
    "verdict": "adjacent",
    "website": "https://2026.inlgmeeting.org",
-   "why": "NLG shared-task challenge track, not a core topic venue."
+   "why": "NLG shared task, not calibration/eval/interp of LLMs specifically."
   },
   "aclweb.org/INLG/2026/Workshop/Industrial_NLP": {
    "archived": false,
@@ -5856,12 +6155,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Industrial NLP",
    "title": "Industrial NLP: NLP Research Towards Safety, Reliability, and Real-World Impact",
    "verdict": "adjacent",
    "website": "https://industrialnlp.github.io",
-   "why": "Industry-track workshop, explicitly adjacent per profile regardless of topic overlap."
+   "why": "Industry-flavored NLP workshop on real-world reliability, industry tracks are adjacent per rules."
   },
   "aclweb.org/INLG/2026/Workshop/Industrial_NLP_ARR_Commitment": {
    "archived": false,
@@ -5876,12 +6176,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Industrial NLP ARR",
    "title": "ARR Commitment Link to Industrial NLP",
    "verdict": "adjacent",
    "website": "https://industrialnlp.github.io",
-   "why": "Same industry-track workshop via ARR commitment."
+   "why": "ARR-commitment track of Industrial NLP, same industry-applied topic."
   },
   "afcv.org/ACCV/2026/Workshop/CV4DC_Non-Proceedings_Track": {
    "archived": false,
@@ -5896,12 +6197,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CV4DC 2026",
    "title": "Workshop on Computer Vision for Developing Countries (CV4DC) at ACCV 2026 (Non-Proceedings Track)",
    "verdict": "adjacent",
    "website": "https://cv4dc.github.io/2026/",
-   "why": "Computer vision for developing countries has a substantial ML/vision angle but is application-domain specific."
+   "why": "General computer vision for developing countries, outside core LLM/agent/interp topics."
   },
   "afcv.org/ACCV/2026/Workshop/CV4DC_Proceedings_Track": {
    "archived": false,
@@ -5916,12 +6218,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CV4DC 2026",
    "title": "Workshop on Computer Vision for Developing Countries (CV4DC) at ACCV 2026 (Proceedings Track)",
    "verdict": "adjacent",
    "website": "https://cv4dc.github.io/2026/",
-   "why": "Same CV-for-development workshop, proceedings track."
+   "why": "General computer vision for developing countries, outside core LLM/agent/interp topics."
   },
   "afcv.org/ACCV/2026/Workshop/EMV-UNE": {
    "archived": false,
@@ -5936,12 +6239,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "EMV-UNE",
    "title": "First International Challenge Workshop \u201dEvent Monitoring in Videos for Urban and Natural Environments\u201d",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/emv-une1/",
-   "why": "Event monitoring in urban/natural environments is vision + urban-computing, a listed adjacent category."
+   "why": "CV workshop on video event monitoring, general ML unrelated to core topics."
   },
   "afcv.org/ACCV/2026/Workshop/LFSD-CV": {
    "archived": false,
@@ -5956,12 +6260,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LFSD-CV",
    "title": "International Workshop on Learning from Small Data in Computer Vision",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/smalldata-cv-2026/home",
-   "why": "Vision-focused learning-from-small-data workshop with an ML angle, not core topics."
+   "why": "Small-data computer vision workshop, general ML not core."
   },
   "afcv.org/ACCV/2026/Workshop/MADiMa": {
    "archived": false,
@@ -5976,12 +6281,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "MADiMa 2026",
    "title": "10th Multimodal AI for Dietary Intelligence, Management, and Assessment Workshop",
    "verdict": "adjacent",
    "website": "https://madima.org/",
-   "why": "Multimodal AI for dietary assessment is a domain-application vision/AI workshop."
+   "why": "Multimodal AI for dietary assessment is an applied health domain, not core."
   },
   "afcv.org/ACCV/2026/Workshop/MM4SciReal": {
    "archived": false,
@@ -5996,12 +6302,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "MM4SciReal 2026",
    "title": "MM4SciReal: Multimodal AI for Science and the Real World",
    "verdict": "adjacent",
    "website": "https://mm4scireal.github.io/",
-   "why": "Multimodal AI for science/real-world applications, not alignment/agents/eval focused."
+   "why": "Multimodal AI for science/real world is a general application area, not core."
   },
   "afcv.org/ACCV/2026/Workshop/Subspaces": {
    "archived": false,
@@ -6016,12 +6323,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Subspaces ACCV26",
    "title": "Subspaces in the Era of Foundation Models (ACCV 2026 Workshop)",
    "verdict": "adjacent",
    "website": "https://subspaces-workshop.github.io/2026/",
-   "why": "Representation/subspace analysis for foundation models is plausibly interpretability-adjacent but not clearly so."
+   "why": "Representation-learning workshop for foundation models, general ML not core."
   },
   "afcv.org/ACCV/2026/Workshop/TrustFMI": {
    "archived": false,
@@ -6036,12 +6344,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "TrustFMI2026",
    "title": "Trustworthy Foundation Models in Medical Imaging (TrustFMI)",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://rashedlab.github.io/TrustFMI",
-   "why": "Trustworthy foundation models in medical imaging is the profile's canonical adjacent 'trustworthy X' example."
+   "why": "Trustworthy foundation models for medical imaging is a 'trustworthy X' application-domain venue (explicitly excluded), and its 2028 deadline suggests a dormant listing."
   },
   "afcv.org/ACCV/2026/Workshop/WhoIsBehindTheAvatar": {
    "archived": false,
@@ -6056,12 +6365,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "WBA",
    "title": "Who is Behind the Avatar? Verifying Teleoperator Identity in Reenacted Avatar Videos",
    "verdict": "adjacent",
    "website": "https://sites.google.com/yy.d3c.osaka-u.ac.jp/wba2026",
-   "why": "Identity verification in avatar videos is a vision/ML security niche, not alignment or agents."
+   "why": "Video identity verification/forensics workshop, general CV not about AI-system behavior."
   },
   "aiasplus.org/AIAS/2026/Workshop/AIASci_ARR_Commitment": {
    "archived": false,
@@ -6076,12 +6386,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AIASci 2026",
    "title": "(ARR Commitment) The 1st Workshop on End-to-End Research Workflow, Methods, and Applications for AI-Assisted Science",
    "verdict": "adjacent",
    "website": "https://aiasciworkshop.github.io/",
-   "why": "AI-assisted science workflows are an applied AI-for-science domain workshop."
+   "why": "AI-assisted science research workflow is a general AI application, not core."
   },
   "albertarobotics.ca/RISEx/2026/Conference": {
    "archived": false,
@@ -6096,12 +6407,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "RISEx",
    "title": "Robotics & Intelligent Systems Expo",
    "verdict": "adjacent",
    "website": "https://conference.albertarobotics.ca/",
-   "why": "Robotics expo/conference without a clearly stated core ML/alignment focus."
+   "why": "Regional robotics expo, general robotics without alignment/agent-eval focus."
   },
   "bmva.org/BMVC/2026/Workshop/BD-MedVis": {
    "archived": false,
@@ -6116,12 +6428,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "BMVC 2026 Workshop BD-MedVis",
    "title": "BMVC 2026 Workshop on Biomarker-Driven Medical Vision Intelligence",
    "verdict": "adjacent",
    "website": "https://bmvc-bdmedvis.github.io/",
-   "why": "Medical vision workshop with an ML angle, but domain-specific application."
+   "why": "Biomarker-driven medical vision workshop, applied health domain not core."
   },
   "bmva.org/BMVC/2026/Workshop/GlobalSouthCV": {
    "archived": false,
@@ -6136,12 +6449,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "GlobalSouthCV",
    "title": "BMVC 2026 GlobalSouthCV",
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/globalsouthcv-bmvc26/home",
-   "why": "Regional computer-vision workshop with an ML angle."
+   "why": "CV workshop for the Global South, general application not core."
   },
   "bmva.org/BMVC/2026/Workshop/MMAIRS": {
    "archived": false,
@@ -6156,12 +6470,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "BMVC26  MMAIRS",
    "title": "BMVC 2026 Workshop on Multimodal AI for real-world Systems",
    "verdict": "adjacent",
    "website": "https://bmvc-multimodal.gitlab.io/website/",
-   "why": "Multimodal AI for real-world systems, an applied workshop at a non-core-family venue."
+   "why": "Multimodal AI for real-world systems, general ML not core."
   },
   "bza.edu.cn/Beijing_Zhongguancun_Academy/ICAIS/2026/Conference": {
    "archived": false,
@@ -6176,12 +6491,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ICAIS 2026",
    "title": "The 2nd International Conference on AI Scientists",
    "verdict": "adjacent",
    "website": "https://icais.ai/2026/",
-   "why": "AI-for-science / AI scientists conference is an applied domain, not general alignment or LLM agents."
+   "why": "AI scientists / AI-for-science conference, general AI application not core."
   },
   "cipsc.org.cn/CCMT/2026/Conference": {
    "archived": false,
@@ -6196,12 +6512,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CCMT 2026",
    "title": "The 22nd China Conference on Machine Translation and Multilingual Technology",
    "verdict": "adjacent",
    "website": "http://sc.cipsc.org.cn/mt/conference/2026/",
-   "why": "Regional/national machine translation conference."
+   "why": "Machine translation/multilingual tech conference, general NLP not core."
   },
   "deepmath-conference.com/DeepMath/2026": {
    "archived": false,
@@ -6216,12 +6533,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DeepMath 2026",
    "title": "DeepMath",
    "verdict": "adjacent",
    "website": "https://deepmath-conference.com/",
-   "why": "Deep learning for mathematics is application-specific reasoning, not clearly general LLM reasoning as main topic."
+   "why": "Math reasoning conference, general ML topic explicitly listed as adjacent."
   },
   "eacl.org/EACL/2027/Industry_Track": {
    "archived": false,
@@ -6236,12 +6554,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "EACL 2027 IT",
    "title": "EACL 2027 Industry Track",
    "verdict": "adjacent",
    "website": "https://2027.eacl.org/",
-   "why": "Industry track, explicitly listed as adjacent regardless of parent conference."
+   "why": "EACL industry track, explicitly listed as adjacent (industry tracks never core)."
   },
   "eacl.org/EACL/2027/SRW": {
    "archived": false,
@@ -6256,12 +6575,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "EACL 2027 SRW",
    "title": "EACL 2027 Student Research Workshop Submission",
    "verdict": "adjacent",
    "website": "https://2027.eacl.org/calls/",
-   "why": "Student research workshop, explicitly adjacent per profile."
+   "why": "Student research workshop, explicitly listed as adjacent regardless of host prestige."
   },
   "eacl.org/EACL/2027/SRW_Pre-submission_Mentorship": {
    "archived": false,
@@ -6276,12 +6596,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "EACL 2027 SRW Pre-submission Mentorship",
    "title": "EACL 2027 Student Research Workshop Pre-submission Mentorship",
    "verdict": "adjacent",
    "website": "https://2027.eacl.org/calls/",
-   "why": "SRW mentorship program, same adjacent treatment as the SRW itself."
+   "why": "Mentorship program tied to EACL SRW, not a core research topic."
   },
   "hidden-ref.org/Hidden_REF/2026/Competition": {
    "archived": false,
@@ -6296,12 +6617,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "HREFcomp",
    "title": "Hidden REF Competition 2026",
    "verdict": "no",
    "website": "https://hidden-ref.org/hidden-ref-competition/",
-   "why": "Research-impact/REF competition unrelated to AI/ML publishing."
+   "why": "Research-recognition competition for non-traditional outputs, unrelated to AI/ML research topics."
   },
   "ifaamas.org/AAMAS/2027/Conference": {
    "archived": false,
@@ -6316,12 +6638,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "AAMAS 2027",
    "title": "26th International Conference on Autonomous Agents and Multiagent Systems",
    "verdict": "adjacent",
    "website": "TBD",
-   "why": "Autonomous agents/multiagent systems broadly, not specifically LLM agents as main topic."
+   "why": "Multiagent systems conference; agents are the setting, not calibration/interp/eval of agent behavior."
   },
   "ijcai.org/IJCAI-ECAI/2026/Workshop/CLEAR": {
    "archived": false,
@@ -6336,12 +6659,13 @@
     }
    ],
    "issue": 65,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CLEAR Workshop 2026",
    "title": "Collaborative Methods and Tools for Engineering and Evaluating Transparency in AI - IJCAI\u2013ECAI 2026",
    "verdict": "core",
    "website": "https://clear-ws.github.io/2026/",
-   "why": "Engineering and evaluating transparency in AI is squarely an interpretability/oversight topic."
+   "why": "Engineering and evaluating transparency in AI is interpretability of AI systems themselves."
   },
   "imstat.org/IMS/2026/FSML": {
    "archived": false,
@@ -6356,12 +6680,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "FSML 2026",
    "title": "The Second Workshop on Frontiers in Statistical Machine Learning",
    "verdict": "adjacent",
    "website": "https://fsml-ims-workshop.org/",
-   "why": "Statistical machine learning broadly, not alignment/agents/eval focused."
+   "why": "Statistical machine learning workshop, general ML theory not core alignment/agent/interp topic."
   },
   "purdue.edu/Purdue_University/AI4EdgeBook/2026": {
    "archived": false,
@@ -6376,12 +6701,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AI4EdgeBook 2026",
    "title": "Artificial Intelligence for the Edge: Efficient Computer Vision and Language Models \u2014 Book Chapter Submissions",
    "verdict": "adjacent",
    "website": "https://docs.google.com/document/d/1m8cIhggNpJlcbGP0O2tQ1as1-tNKnZqNd2HWYODasvg/edit?usp=sharing",
-   "why": "Edge-efficient CV/LM book chapter call, an applied ML topic outside core bullets."
+   "why": "Book chapter call on efficient CV/LMs for edge devices, general efficient-DL topic."
   },
   "robot-learning.org/CoRL/2026/Workshop/Agentic_Robotics": {
    "archived": false,
@@ -6396,12 +6722,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CoRL 2026 Workshop Agentic Robotics",
    "title": "CoRL 2026 Workshop on Agentic Robotics",
    "verdict": "adjacent",
    "website": "https://agentic-robotics-workshop.github.io/",
-   "why": "Agentic robotics workshop has an ML/agent angle but is robotics-domain specific, not LLM agents as main topic."
+   "why": "Applied agentic robotics workshop, agents-for-robotics is a systems-flavored setting, not agent evaluation/interp."
   },
   "robot-learning.org/CoRL/2026/Workshop/CSIR": {
    "archived": false,
@@ -6416,12 +6743,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CSIR 2026",
    "title": "CoRL 2026 Workshop on Continually Self-Improving Robots",
    "verdict": "adjacent",
    "website": "https://csircorl.github.io/website/",
-   "why": "Robotics/world-model workshop with an ML angle, not alignment or LLM-focused."
+   "why": "Continual self-improvement for robots is an applied robotics/continual-learning workshop, not agent evaluation or interpretability."
   },
   "robot-learning.org/CoRL/2026/Workshop/GroundedDrivingWMs": {
    "archived": false,
@@ -6436,12 +6764,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CoRL 2026 G4DWM-AD Workshop",
    "title": "CoRL 2026 Workshop on Grounded 4D Multimodal World Models for Autonomous Driving Decision Making",
    "verdict": "adjacent",
    "website": "https://arlo0o.github.io/Grounded-Driving-World-Models_Workshop/",
-   "why": "Autonomous-driving world models is a robotics/vision domain application."
+   "why": "World models for autonomous driving is applied robotics/CV, not alignment or agent-evaluation research."
   },
   "robot-learning.org/CoRL/2026/Workshop/PhysWM": {
    "archived": false,
@@ -6456,12 +6785,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CoRL 2026 Workshop PhysWM",
    "title": "CoRL 2026 Workshop on Bringing Physics Simulation and World Models Together for Robotic Manipulation",
    "verdict": "adjacent",
    "website": "https://corl26ws-physwm.github.io/",
-   "why": "Robotics manipulation + world models, ML angle but not core topics."
+   "why": "Physics-simulation world models for manipulation is applied robotics, not Harry's core interp/safety focus."
   },
   "robot-learning.org/CoRL/2026/Workshop/SPAIS": {
    "archived": false,
@@ -6476,12 +6806,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "SPAIS CoRL 2026",
    "title": "The Science of Physical AI Safety workshop @ CoRL 2026",
    "verdict": "adjacent",
    "website": "https://spais-ws.org",
-   "why": "Physical AI safety is robotics-safety engineering, not LLM alignment/interpretability."
+   "why": "Safety of physical AI is a domain-specific 'safe X' (robotics) venue, not safety/alignment of AI systems themselves."
   },
   "robot-learning.org/CoRL/2026/Workshop/Scaling_H2R": {
    "archived": false,
@@ -6496,12 +6827,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Scaling H2R 2026",
    "title": "Scaling Human2Robot Workshop @ CoRL 2026",
    "verdict": "adjacent",
    "website": "https://scaling-h2r-corl.github.io/",
-   "why": "Robot learning workshop, domain-specific robotics topic."
+   "why": "Human-to-robot learning scaling is applied robotics, outside interpretability/alignment/agent-eval scope."
   },
   "robot-learning.org/CoRL/2026/Workshop/Sim2Real2Field": {
    "archived": false,
@@ -6516,12 +6848,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Sim2Real2Field Workshop 2026",
    "title": "CoRL 2026 Workshop on Sim-to-Real-to-Field",
    "verdict": "adjacent",
    "website": "https://sim2real2field-corl26.github.io/",
-   "why": "Robotics sim-to-real workshop, not alignment/LLM focused."
+   "why": "Sim-to-real robotics transfer workshop, not agent evaluation or interpretability research."
   },
   "robot-learning.org/CoRL/2026/Workshop/UncertainWM": {
    "archived": false,
@@ -6536,12 +6869,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "UncertainWM 2026",
    "title": "CoRL 2026 Modeling Uncertainty in Robotic World Models Workshop",
    "verdict": "adjacent",
    "website": "https://uncertainwm2026.github.io/",
-   "why": "Robotic world-model uncertainty workshop, ML angle but robotics domain."
+   "why": "Uncertainty modeling here targets robotic world models, not LLM-agent calibration or evaluation."
   },
   "ronin-institute.org/SOIS/2026": {
    "archived": false,
@@ -6556,12 +6890,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SOIS",
    "title": "Summer of Independent Scholarship, Ronin Institute",
    "verdict": "no",
    "website": "https://www.ronin-institute.org/events",
-   "why": "General independent-scholarship program, not ML/AI-specific."
+   "why": "General independent-scholarship program with no ML/AI research focus."
   },
   "smashcon.org/SMASH/2026/Symposium": {
    "archived": false,
@@ -6576,12 +6911,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SMASH 2026",
    "title": "Second Symposium on Model Accountability, Sustainability and Healthcare",
    "verdict": "adjacent",
    "website": "https://smashcon.org/",
-   "why": "Model accountability applied to healthcare is a trustworthy-X-in-a-domain venue."
+   "why": "Model accountability in healthcare is a trustworthy-AI application-domain venue, not core alignment/interp topic."
   },
   "smfi.in/SMF/2025/Conference": {
    "archived": false,
@@ -6596,12 +6932,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SMF 2025",
    "title": "Strategic Management Forum Conference 2025",
    "verdict": "no",
    "website": "https://www.iimj.ac.in/smf-2025.php",
-   "why": "Strategic management/business conference, no ML content."
+   "why": "Strategic management/business conference unrelated to ML or AI research."
   },
   "tau.ac.il/TAU/2026/Horvathfest": {
    "archived": false,
@@ -6616,12 +6953,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Horvathfest",
    "title": "Paper in honor of Julia Horvath",
    "verdict": "no",
    "website": "horvathfest2026@gmail.com",
-   "why": "Linguistics festschrift, unrelated to ML."
+   "why": "Linguistics festschrift, pure linguistics with no ML angle."
   },
   "thecvf.com/ECCV/2026/Workshop/3DWM": {
    "archived": false,
@@ -6636,12 +6974,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "3DWM 2026",
    "title": "3D in the Era of World Models",
    "verdict": "adjacent",
    "website": "https://eccv2026-3d-world-models.github.io/",
-   "why": "3D vision/world-models workshop, vision domain not core alignment/LLM topic."
+   "why": "3D world models workshop is computer vision, not interpretability, alignment, or agent evaluation."
   },
   "thecvf.com/ECCV/2026/Workshop/DexHAND_Non-Proceedings": {
    "archived": false,
@@ -6649,19 +6988,20 @@
    "invitations": [
     {
      "cdate": 1779494340000,
-     "duedate": 1787356740000,
-     "expdate": 1787358540000,
+     "duedate": 1788220740000,
+     "expdate": 1788222540000,
      "id": "thecvf.com/ECCV/2026/Workshop/DexHAND_Non-Proceedings/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "DexHAND 2026 Non-Proceedings",
    "title": "Workshop on Observing and Acting as Dexterous Hands Non-Proceedings",
    "verdict": "adjacent",
    "website": "https://hands-workshop.org/workshop2026.html",
-   "why": "Robotics/vision dexterous-hand workshop."
+   "why": "Dexterous-hand manipulation workshop is applied robotics/vision, outside core safety/interp/agent-eval scope."
   },
   "thecvf.com/ECCV/2026/Workshop/HOI": {
    "archived": false,
@@ -6676,12 +7016,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "ECCV 2026 WS HOI",
    "title": "ECCV 2026 Workshop on Force-Grounded, Cross-View Articulated Manipulation",
    "verdict": "adjacent",
    "website": "https://timengelbracht.github.io/Hoi-Dataset-Website/workshop.html",
-   "why": "Vision/robotics manipulation workshop."
+   "why": "Force-grounded articulated manipulation is applied robotics/vision, not Harry's core research areas."
   },
   "thecvf.com/ECCV/2026/Workshop/HSI": {
    "archived": false,
@@ -6696,12 +7037,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "HSI 2026",
    "title": "The First Workshop on Human Scene Interaction",
    "verdict": "adjacent",
    "website": "https://www.hsi-workshop.com/",
-   "why": "Human-scene-interaction vision workshop, not core topics."
+   "why": "Human-scene interaction is a computer vision workshop unrelated to alignment/interp/agent evaluation."
   },
   "thecvf.com/ECCV/2026/Workshop/LifeGenIP": {
    "archived": false,
@@ -6716,12 +7058,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LifeGenIP 2026",
    "title": "The 1st Workshop on LifeGenIP: Life-Cycle Intellectual Property Governance of Visual Generative Models",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://lifegenip.cc/",
-   "why": "Generative-model IP governance, legal/data-centric angle not alignment/safety."
+   "why": "IP governance of generative visual models is a legal/policy topic, not ML methods or safety research."
   },
   "thecvf.com/ECCV/2026/Workshop/LifeGenIP_Non-Archival": {
    "archived": false,
@@ -6736,12 +7079,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LifeGenIP 2026 Non-Archival Track",
    "title": "The 1st Workshop on LifeGenIP: Life-Cycle Intellectual Property Governance of Visual Generative Models (Non-Archival Track)",
-   "verdict": "adjacent",
+   "verdict": "no",
    "website": "https://lifegenip.cc/",
-   "why": "Same non-archival track on generative-model IP governance."
+   "why": "Same IP-governance topic as its archival track, outside ML-methods or safety scope."
   },
   "thecvf.com/WACV/2027/Tutorials": {
    "archived": false,
@@ -6756,12 +7100,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "WACV 2027 Tutorials",
    "title": "The IEEE/CVF Winter Conference on Applications of Computer Vision Tutorials 2027",
    "verdict": "adjacent",
    "website": "https://wacv.thecvf.com/Conferences/2027",
-   "why": "Tutorial program at a top vision venue, tutorials are explicitly adjacent."
+   "why": "CV tutorials track, listed as adjacent-type venue (tutorials) regardless of topic."
   },
   "uagraria.edu.ec/CITI/2027/Conference": {
    "archived": false,
@@ -6776,12 +7121,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CITI 2027",
    "title": "12th International Conference on Technologies and Innovation",
    "verdict": "no",
    "website": "https://congresos.uagraria.edu.ec/",
-   "why": "General technology/innovation conference with no clear ML focus."
+   "why": "General technology and innovation conference with no ML/AI research focus."
   },
   "ufms.br/UFMS/2026/WOP-FACOM": {
    "archived": false,
@@ -6796,12 +7142,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "WOP-FACOM",
    "title": "Workshop de Pesquisa da P\u00f3s-Gradua\u00e7\u00e3o da FACOM 2026",
    "verdict": "no",
    "website": "https://facom.ufms.br/secomp",
-   "why": "General postgraduate CS research workshop, not ML-specific."
+   "why": "Generic Brazilian CS graduate research workshop with no stated AI/ML focus."
   },
   "umich.edu/University_of_Michigan/2026/CAIDM": {
    "archived": false,
@@ -6816,12 +7163,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CAIDM 2026",
    "title": "Causal AI for Decision Making Workshop",
    "verdict": "adjacent",
    "website": "https://ai.engin.umich.edu/events/causal-ai-for-decision-making-workshop/",
-   "why": "Causal AI workshop, ML-relevant but not alignment/agents/reasoning/eval focus."
+   "why": "Causal AI for decision making is a general ML workshop, not squarely on alignment, interpretability, or agent evaluation."
   },
   "uni-konstanz.de/Universit\u00e4t_Konstanz/2026/Mulitmod_KN": {
    "archived": false,
@@ -6836,12 +7184,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Mulitmod_KN_2026",
    "title": "Multimodal aspects of silence, noise and the signal",
    "verdict": "no",
    "website": "https://www.sfb1760.uni-konstanz.de/talks-and-events/workshops-and-conferences/multimodal-speech-corpora/",
-   "why": "Multimodal linguistics/phonetics workshop, pure linguistics."
+   "why": "Multimodal linguistics of silence/noise is pure linguistics/phonetics, no ML angle."
   },
   "unicornsummit.net/Unicorn_Summit/2026/South_America": {
    "archived": false,
@@ -6856,12 +7205,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Unicorn Summit",
    "title": "Unicorn Summit - South America",
    "verdict": "no",
    "website": "https://sa.unicornsummit.net/",
-   "why": "Startup/business summit, not an academic ML venue."
+   "why": "Startup/business summit unrelated to AI research."
   }
  }
 }
