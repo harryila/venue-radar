@@ -10,7 +10,8 @@ when something core appears, reminds you before deadlines, and keeps
 1. Fetches every open-submission invitation from OpenReview (api2 + legacy api).
 2. Diffs against [state.json](state.json): new venues, deadline changes, expiries.
 3. Judges **new** venues once against [profile.md](profile.md) via `claude -p`
-   (verdict: core / adjacent / no). Editing profile.md re-judges everything active.
+   running **Fable 5 at max reasoning effort** (verdict: core / adjacent / no,
+   plus a 1–3 prestige rating). Editing profile.md re-judges everything active.
 4. Renders [venues.md](venues.md) and notifies:
    - New **core** venue → GitHub issue (+ email). **The issue is your decision
      tracker: close it when you've decided, and that venue goes silent forever.**

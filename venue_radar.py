@@ -141,8 +141,9 @@ def classify_batch(profile, batch):
     last = None
     for _ in range(2):
         try:
-            r = subprocess.run(["claude", "-p", "--output-format", "json"],
-                               input=prompt, capture_output=True, text=True, timeout=900)
+            r = subprocess.run(["claude", "-p", "--model", "claude-fable-5",
+                                "--effort", "max", "--output-format", "json"],
+                               input=prompt, capture_output=True, text=True, timeout=1800)
             if r.returncode != 0:
                 raise ValueError(f"claude exit {r.returncode}: {r.stderr[:500]}")
             result = json.loads(r.stdout).get("result")
