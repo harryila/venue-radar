@@ -443,6 +443,7 @@ def main():
         classify_ok = not to_judge  # pending work skipped: don't advance profile hash
         to_judge = []
     newly_core = [vid for vid in changes["revived"] if sv[vid].get("verdict") == "core"]
+    demoted = []
     for i in range(0, len(to_judge), BATCH):
         batch_ids = to_judge[i:i + BATCH]
         batch = [{"venue": vid, "title": sv[vid]["title"], "subtitle": sv[vid]["subtitle"],
@@ -459,11 +460,29 @@ def main():
             sv[vid]["verdict"], sv[vid]["why"] = verdict["verdict"], verdict["why"]
             if verdict["verdict"] == "core" and was != "core" and not sv[vid].get("issue"):
                 newly_core.append(vid)
+            elif was == "core" and verdict["verdict"] != "core" and sv[vid].get("issue"):
+                demoted.append(vid)  # a profile re-judge downgraded it: retire its issue
         print(f"classified {min(i + BATCH, len(to_judge))}/{len(to_judge)}")
 
     # If gh itself is down, fail fast BEFORE any notification went out: nothing
     # is committed, nothing is sent, and tomorrow's run redoes everything cleanly.
     open_nums = open_issue_numbers(repo) if not dry else set()
+
+    for vid in demoted:
+        v = sv[vid]
+        if not dry and v["issue"] in open_nums:
+            try:
+                close_issue(repo, v["issue"],
+                            f"Re-judged as **{v['verdict']}** under the updated profile — "
+                            "closing. It stays listed in venues.md.")
+                open_nums.discard(v["issue"])
+                time.sleep(1.0)
+            except RuntimeError as e:
+                print(f"[warn] demotion close failed for {vid}: {e}")
+        elif dry:
+            print(f"[dry] would close demoted issue #{v['issue']}: {v['title']}")
+        v["issue"] = None
+        v["reminded"] = []
 
     notified = set()
     # Every active core venue without an issue gets one — not just this run's

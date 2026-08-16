@@ -9,37 +9,54 @@ UC Berkeley student working on AI/ML. Main thread: **AI alignment and safety** �
 the direction I most want to publish in (I've missed an AAAI AI Alignment track
 and a COLM AIMs workshop before; never again). Broadly active in ML/NLP: LLMs,
 agents, evaluation. Background thread in geospatial data and data infrastructure.
-Realistic submission profile: solo or small-team papers — workshops, shared
-tasks, and focused main-track papers are all feasible; huge-compute benchmarks
-are not.
+Realistic submission profile: solo or small-team papers.
 
-## Core — seriously consider submitting (open an issue, email me)
+## Calibration — read this first
 
-- Anything alignment / safety / interpretability / oversight / value learning /
-  AI governance-with-technical-content. Any venue with "alignment", "safety",
-  "trustworthy", "interpretability" in its name or scope is automatically core.
-- LLM agents, tool use, reasoning, evaluation/benchmarking of LLMs.
-- General ML / NLP main tracks and workshops (NeurIPS/ICML/ICLR/ACL/EMNLP/COLM
-  families and their workshops) where a small-team paper is realistic.
-- Shared tasks in NLP/ML that a small team can enter.
+**Core must be rare.** Of ~340 open venues on a typical day, roughly 10–25
+should be core — an issue and an email land on my phone for each one, so core
+means "Harry should actually consider spending weeks on a submission here."
+When in doubt whether something clears that bar, it does not: use adjacent.
 
-## Adjacent — list it, don't ping me
+## Core — seriously consider submitting (issue + email)
 
+- Alignment / safety / interpretability / oversight / evaluations **of AI
+  systems themselves**: alignment tracks, AI-safety workshops, interpretability
+  venues, dangerous-capability or frontier-model evaluation. The *name* matching
+  "safe/trustworthy" is NOT enough — a "trustworthy X" venue about some
+  application domain (medical imaging, finance, autonomous driving) is adjacent.
+- LLM agents, LLM reasoning, LLM evaluation/benchmarking as the venue's main
+  topic.
+- Main tracks of the top ML/NLP families: NeurIPS, ICML, ICLR, ACL, EMNLP,
+  NAACL, EACL (main track only), COLM, AAAI (main track only).
+- Workshops at those families **only when the workshop's own topic is one of
+  the bullets above** (an alignment workshop at NeurIPS: core; a recommender-
+  systems or graph-learning workshop at a top venue: adjacent).
+
+## Adjacent — list in venues.md, never ping
+
+- Industry tracks, student research workshops, demo/demonstration programs,
+  tutorials — even at top venues.
+- Regional or national AI/ML conferences (Benelux, Australasian, national
+  symposia, etc.).
+- Applied-LLM workshops whose subject is a domain (recommenders, social
+  simulation, education, BCI, digital twins, web science...).
 - Geospatial ML, remote sensing, urban computing.
 - Data infrastructure, datasets-and-benchmarks tracks, data-centric AI.
 - Robotics/vision venues with a substantial ML or foundation-model angle.
-- Domain applications of ML (science, health, climate) with a methods component.
+- "Trustworthy/safe X" venues where X is an application domain.
 
 ## No — don't list
 
-- Pure theory unrelated to ML, hardware/circuits, networking/systems without ML,
-  pure HCI, medicine/biology without an ML methods angle.
-- Venues where participation requires industrial-scale compute or lab-only data.
+- Pure linguistics/psycholinguistics, pure theory unrelated to ML,
+  hardware/circuits, networking/systems without ML, pure HCI,
+  medicine/biology without an ML methods angle.
+- Placeholder or dormant venues (e.g. deadlines decades away).
 
 ## Tie-breaking rules
 
 - Unsure between **adjacent** and **no** → prefer **adjacent**.
-- Unsure between **core** and **adjacent** → **core** only if a small-team
-  submission is realistically feasible in the time remaining; otherwise adjacent.
-- Regional/language-specific NLP venues (e.g. ArabicNLP, WMT language tracks):
-  adjacent unless the task is language-agnostic.
+- Unsure between **core** and **adjacent** → prefer **adjacent** (see
+  Calibration).
+- Regional/language-specific NLP shared tasks: adjacent unless language-agnostic
+  AND on a core topic.
