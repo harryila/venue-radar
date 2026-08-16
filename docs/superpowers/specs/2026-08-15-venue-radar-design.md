@@ -112,3 +112,25 @@ Expected volume: 1–3 emails/week, most weeks fewer.
 
 - Actions: ~1–2 min/day ≈ 40 min/month of the 2,000 free private-repo minutes.
 - Claude: ~3–10 new venues/day, one batched call — negligible against the subscription; first-run backfill ~9 calls, one time.
+
+## Post-review hardening (2026-08-15)
+
+An adversarial multi-agent review (20 confirmed findings) tightened the design:
+
+- **Grace windows:** venues between `duedate` and `expdate` have no future due;
+  every render path handles that ("past due (grace)") instead of crashing.
+- **Profile-hash atomicity:** the stored hash only advances when classification
+  fully succeeded, so an edit's re-judge pass retries after claude failures.
+- **Revival:** an archived venue that reappears (extension after expiry, new
+  cycle on the same id) is un-archived with a fresh issue and reminders.
+- **Persistent issue creation:** every active core venue without an issue gets
+  one each run (paced 1.5s for GitHub's secondary rate limit) — self-healing
+  after transient gh failures.
+- **Fail-fast on gh:** if listing open issues fails, the run aborts before any
+  notification, keeping runs atomic.
+- **Reminder tiers collapse** (late discovery ≠ two pings on consecutive days)
+  and same-run double-notifications are suppressed.
+- **Digest:** idempotent per day, catches up a missed Monday, excludes the
+  backfill cohort from "new this week".
+- **CI:** subprocess timeouts are caught; the state commit rebases onto any
+  profile.md push that landed mid-run.
