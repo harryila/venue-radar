@@ -1,6 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_run": "2026-08-16T13:36:48.894423+00:00",
+ "last_digest": "2026-08-17",
+ "last_run": "2026-08-17T13:44:13.023259+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -765,8 +766,8 @@
    "invitations": [
     {
      "cdate": 1785628800000,
-     "duedate": 1786899540000,
-     "expdate": 1786901340000,
+     "duedate": 1787331540000,
+     "expdate": 1787333340000,
      "id": "EMNLP/2026/Workshop/GroundLM_Shared_Tasks/-/Submission",
      "kind": "Submission"
     }
@@ -1100,13 +1101,13 @@
    "why": "Sign language processing \u2014 ML-heavy NLP but outside the core bullets."
   },
   "EMNLP/2026/Workshop/WaC-13": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-17",
    "invitations": [
     {
-     "cdate": 1785921214481,
-     "duedate": 1786881540000,
-     "expdate": 1786883340000,
+     "cdate": 1786965441535,
+     "duedate": 1787054340000,
+     "expdate": 1787056140000,
      "id": "EMNLP/2026/Workshop/WaC-13/-/Submission",
      "kind": "Submission"
     }
@@ -1162,14 +1163,35 @@
    "website": "https://winlp-workshop.github.io",
    "why": "Widening NLP is an explicit no-list example (ARR-commitment track)."
   },
+  "ENCODE/2026/Conference": {
+   "archived": false,
+   "first_seen": "2026-08-17",
+   "invitations": [
+    {
+     "cdate": 1779613200000,
+     "duedate": 1787435940000,
+     "expdate": 1787437740000,
+     "id": "ENCODE/2026/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "ENCODE2026",
+   "title": "Deliberation, Social Choice, and Democratic Innovation: Closing Conference of the ENCODE Project",
+   "verdict": "no",
+   "website": "https://www.eur.nl/en/esphil/events/encode-closing-conference-2026-11-11",
+   "why": "Deliberative democracy and social choice from a philosophy/political-science project, with no ML or AI-systems focus."
+  },
   "FEAR/2026/Workshop": {
    "archived": false,
    "first_seen": "2026-08-16",
    "invitations": [
     {
      "cdate": 1780876800000,
-     "duedate": 1786967940000,
-     "expdate": 1786969740000,
+     "duedate": 1787097540000,
+     "expdate": 1787099340000,
      "id": "FEAR/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -1313,7 +1335,7 @@
    "why": "Generic applied-AI regional conference \u2014 adjacent per the regional AI/ML conference rule."
   },
   "ICAITD/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1339,8 +1361,8 @@
    "invitations": [
     {
      "cdate": 1786348800000,
-     "duedate": 1789030800000,
-     "expdate": 1789032600000,
+     "duedate": 1791669540000,
+     "expdate": 1791671340000,
      "id": "ICASDAI.org/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -1549,8 +1571,8 @@
    "invitations": [
     {
      "cdate": 1781080858000,
-     "duedate": 1787198340000,
-     "expdate": 1787200140000,
+     "duedate": 1788148740000,
+     "expdate": 1788150540000,
      "id": "IEEE.org/IROS/2026/Workshop/AIM-Ctrl/-/Submission",
      "kind": "Submission"
     }
@@ -1775,7 +1797,7 @@
    "why": "Deformable-object manipulation robotics, clearly outside LLM interp/agents/eval."
   },
   "IEEE.org/IROS/2026/Workshop/ELSR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1801,8 +1823,8 @@
    "invitations": [
     {
      "cdate": 1781567940000,
-     "duedate": 1786949940000,
-     "expdate": 1786951740000,
+     "duedate": 1787554740000,
+     "expdate": 1787556540000,
      "id": "IEEE.org/IROS/2026/Workshop/FM-MRS/-/Submission",
      "kind": "Submission"
     }
@@ -1880,7 +1902,7 @@
    "why": "Embodied-AI/robotics with a foundation-model flavor; applied setting, not a core bullet."
   },
   "IEEE.org/IROS/2026/Workshop/HRD": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1901,13 +1923,13 @@
    "why": "Dialogue/NLP applied to robots, an applied-agent setting rather than agent evaluation or interpretability."
   },
   "IEEE.org/IROS/2026/Workshop/IARL": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-17",
    "invitations": [
     {
      "cdate": 1780912800000,
-     "duedate": 1786881540000,
-     "expdate": 1786883340000,
+     "duedate": 1787054340000,
+     "expdate": 1787056140000,
      "id": "IEEE.org/IROS/2026/Workshop/IARL/-/Submission",
      "kind": "Submission"
     }
@@ -2741,7 +2763,7 @@
    "why": "Breast-care imaging AI workshop, medicine-focused."
   },
   "MICCAI.org/2026/Workshop/METIS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3313,8 +3335,8 @@
    "invitations": [
     {
      "cdate": 1784073600000,
-     "duedate": 1787356800000,
-     "expdate": 1787358600000,
+     "duedate": 1787961600000,
+     "expdate": 1787963400000,
      "id": "NeurIPS.cc/2026/Workshop/AutoMLR/-/Submission",
      "kind": "Submission"
     }
@@ -5706,7 +5728,7 @@
    "why": "Low-resource cross-lingual/cross-modal content analysis \u2014 multilingual NLP at a regional host."
   },
   "SPELLL.org/2026/Workshop/Regional-FAKE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6147,7 +6169,7 @@
    "why": "Shared-task (generation challenges) track, and the tasks are generation rather than calibration/eval/interp of LLMs."
   },
   "aclweb.org/INLG/2026/Workshop/Industrial_NLP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6462,7 +6484,7 @@
    "why": "Community/regional CV venue with no FM/LLM angle, matching the Widening-NLP/WiML pattern the profile marks no."
   },
   "bmva.org/BMVC/2026/Workshop/MMAIRS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6734,6 +6756,27 @@
    "website": "https://agentic-robotics-workshop.github.io/",
    "why": "Agents-for-robotics workshop \u2014 an applied/systems agent venue the profile explicitly keeps adjacent."
   },
+  "robot-learning.org/CoRL/2026/Workshop/BiDexTool": {
+   "archived": false,
+   "first_seen": "2026-08-17",
+   "invitations": [
+    {
+     "cdate": 1786953600000,
+     "duedate": 1791532800000,
+     "expdate": 1791534600000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/BiDexTool/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "BiDexTool 2026",
+   "title": "CoRL 2026 Workshop on Bimanual Dexterous Tool Use: From Contact-Rich Execution to Generalist Robot Intelligence",
+   "verdict": "adjacent",
+   "website": "https://bimanual-tool.github.io/",
+   "why": "Robot-learning workshop on dexterous manipulation toward generalist robots \u2014 robotics with a foundation-model angle, an applied-agent setting rather than a core topic."
+  },
   "robot-learning.org/CoRL/2026/Workshop/CSIR": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6755,6 +6798,27 @@
    "website": "https://csircorl.github.io/website/",
    "why": "Continually self-improving robots \u2014 continual-learning-for-agents/robotics application, explicitly an adjacent category."
   },
+  "robot-learning.org/CoRL/2026/Workshop/Contact-Rich_Loco-Manipulation": {
+   "archived": false,
+   "first_seen": "2026-08-17",
+   "invitations": [
+    {
+     "cdate": 1786946400000,
+     "duedate": 1789624800000,
+     "expdate": 1789626600000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/Contact-Rich_Loco-Manipulation/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CoRL 2026 Workshop Contact-Rich Loco-Manipulation",
+   "title": "Open Problems in Contact-Rich Loco-Manipulation",
+   "verdict": "adjacent",
+   "website": "https://contact-rich-loco-manipulation.github.io",
+   "why": "ML-for-robotics workshop on contact-rich loco-manipulation; robotics application work, none of the core alignment/interp/agent-evaluation bullets."
+  },
   "robot-learning.org/CoRL/2026/Workshop/GroundedDrivingWMs": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6775,6 +6839,27 @@
    "verdict": "adjacent",
    "website": "https://arlo0o.github.io/Grounded-Driving-World-Models_Workshop/",
    "why": "World models for autonomous driving is an applied robotics/vision topic, not a core safety/interp/agent-eval bullet."
+  },
+  "robot-learning.org/CoRL/2026/Workshop/LEAP": {
+   "archived": false,
+   "first_seen": "2026-08-17",
+   "invitations": [
+    {
+     "cdate": 1786924800000,
+     "duedate": 1792195140000,
+     "expdate": 1792196940000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/LEAP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "LEAP 2026",
+   "title": "4th CoRL Workshop on Learning Effective Abstractions for Planning (LEAP)",
+   "verdict": "adjacent",
+   "website": "https://leap-workshop.github.io/",
+   "why": "Learning abstractions for robot planning is applied robotics/planning ML, not evaluation, interpretability, or safety of AI systems."
   },
   "robot-learning.org/CoRL/2026/Workshop/PhysWM": {
    "archived": false,
