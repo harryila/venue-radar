@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-17",
- "last_run": "2026-08-17T13:44:13.023259+00:00",
+ "last_run": "2026-08-18T13:48:26.726996+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -235,6 +235,111 @@
    "website": "https://wsl-iiitb.github.io/WebSciX-2026/",
    "why": "Regional web-science satellite event, only ML-adjacent in topic."
   },
+  "ACML.org/2026/Workshop/AMIW": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1787011200000,
+     "duedate": 1792411140000,
+     "expdate": 1792412940000,
+     "id": "ACML.org/2026/Workshop/AMIW/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AMIW 2026",
+   "title": "ACML 2026: Asia-Pacific Music Intelligence Workshop",
+   "verdict": "adjacent",
+   "website": "https://amiw.kthrlab.jp/amiw2026",
+   "why": "Music-AI application workshop, ML-but-not-core topic at a regional conference."
+  },
+  "ACML.org/2026/Workshop/FMLTS": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786975260000,
+     "duedate": 1788098340000,
+     "expdate": 1788100140000,
+     "id": "ACML.org/2026/Workshop/FMLTS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "FMLTS 2026",
+   "title": "Future of Machine Learning for Time Series",
+   "verdict": "adjacent",
+   "website": "https://fmlts.github.io/",
+   "why": "General time-series ML workshop, hits no core bullet."
+  },
+  "ACML.org/2026/Workshop/GraphML": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786975200000,
+     "duedate": 1792414740000,
+     "expdate": 1792416540000,
+     "id": "ACML.org/2026/Workshop/GraphML/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "GraphML 2026",
+   "title": "ACML 2026 Workshop on Graph Machine Learning: Foundations, Frontiers, and Applications",
+   "verdict": "adjacent",
+   "website": "https://acml2026-graphml-workshop.github.io/webpage/",
+   "why": "General graph-ML workshop outside his core topics."
+  },
+  "ACML.org/2026/Workshop/OE-Agent": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786975200000,
+     "duedate": 1792278000000,
+     "expdate": 1792279800000,
+     "id": "ACML.org/2026/Workshop/OE-Agent/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "OE-Agent 2026",
+   "title": "ACML2026: Open and Efficient Agentic AI for Resource-Constrained Environments",
+   "verdict": "adjacent",
+   "website": "https://acml2026-oeagent.github.io",
+   "why": "Applied/efficiency agent workshop \u2014 agents as setting, explicitly adjacent per profile."
+  },
+  "ACML.org/2026/Workshop/SustainableML": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786991400000,
+     "duedate": 1790101800000,
+     "expdate": 1790103600000,
+     "id": "ACML.org/2026/Workshop/SustainableML/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "SustainableML-Afrasia 2026",
+   "title": "SustainableML-Afrasia: Efficient and Trustworthy Machine Learning for Resource-Constrained, Climate-Vulnerable Communities across Asia and Africa",
+   "verdict": "adjacent",
+   "website": "https://anon-oss-rgb.github.io/ACML-SustainableML/",
+   "why": "Efficient/trustworthy-ML-for-communities application venue, not safety/interp of AI itself."
+  },
   "AI-ZAMAN/2026/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -402,6 +507,27 @@
    "verdict": "no",
    "website": "https://centridiricerca.unicatt.it/cluc/it/news/2027/argage-2027.html",
    "why": "Panels track of the same argumentation conference \u2014 same 'no' as the venue topic."
+  },
+  "AfriLang_AI/2026/Conference": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1787011140000,
+     "duedate": 1790985540000,
+     "expdate": 1790987340000,
+     "id": "AfriLang_AI/2026/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AfriLang AI 2026",
+   "title": "AI for African languages conference 2026",
+   "verdict": "adjacent",
+   "website": "https://afrilangai.github.io/",
+   "why": "Multilingual/regional NLP conference, explicitly adjacent territory."
   },
   "BCGL/2026/Conference": {
    "archived": false,
@@ -613,6 +739,27 @@
    "website": "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-ii/forschung-und-zentren/dgfs2026",
    "why": "Computational-linguistics poster session at a German linguistics meeting \u2014 general CL, regional."
   },
+  "DGfS.de/2027/Conference_Poster_Session": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786697869300,
+     "duedate": 1790719200000,
+     "expdate": 1790721000000,
+     "id": "DGfS.de/2027/Conference_Poster_Session/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "DGfS-CL 2027 Poster Session",
+   "title": "DGfS-CL 2027 Poster Session",
+   "verdict": "no",
+   "website": "https://www.gw.uni-jena.de/en/101200/dgfs-2027",
+   "why": "Linguistics-society poster session \u2014 pure linguistics is on the no list."
+  },
   "DHARTI/2026/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -711,7 +858,9 @@
    ],
    "issue": 106,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "BlackboxNLP 2026 ARR Commitments",
    "title": "The 9th BlackboxNLP Workshop - ARR Commitments",
    "verdict": "core",
@@ -1085,8 +1234,8 @@
    "invitations": [
     {
      "cdate": 1780920000000,
-     "duedate": 1787227200000,
-     "expdate": 1787229000000,
+     "duedate": 1787572800000,
+     "expdate": 1787574600000,
      "id": "EMNLP/2026/Workshop/WSLP/-/Submission",
      "kind": "Submission"
     }
@@ -1101,7 +1250,7 @@
    "why": "Sign language processing \u2014 ML-heavy NLP but outside the core bullets."
   },
   "EMNLP/2026/Workshop/WaC-13": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-17",
    "invitations": [
     {
@@ -1293,7 +1442,7 @@
    "why": "Forensic and legal linguistics \u2014 pure linguistics, explicit no."
   },
   "IAIM/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1797,13 +1946,13 @@
    "why": "Deformable-object manipulation robotics, clearly outside LLM interp/agents/eval."
   },
   "IEEE.org/IROS/2026/Workshop/ELSR": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-18",
    "invitations": [
     {
      "cdate": 1781510400000,
-     "duedate": 1786953600000,
-     "expdate": 1786955400000,
+     "duedate": 1788163200000,
+     "expdate": 1788165000000,
      "id": "IEEE.org/IROS/2026/Workshop/ELSR/-/Submission",
      "kind": "Submission"
     }
@@ -1923,7 +2072,7 @@
    "why": "Dialogue/NLP applied to robots, an applied-agent setting rather than agent evaluation or interpretability."
   },
   "IEEE.org/IROS/2026/Workshop/IARL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-17",
    "invitations": [
     {
@@ -2264,8 +2413,8 @@
    "invitations": [
     {
      "cdate": 1784520000000,
-     "duedate": 1787025540000,
-     "expdate": 1787027340000,
+     "duedate": 1787630340000,
+     "expdate": 1787632140000,
      "id": "IEEE.org/IROS/2026/Workshop/Scalable_Tactile_Manipulation/-/Submission",
      "kind": "Submission"
     }
@@ -2299,6 +2448,27 @@
    "verdict": "no",
    "website": "https://socialnav2026.pages.dev/",
    "why": "Social robot navigation/HRI, no LLM or evaluation-of-AI topic."
+  },
+  "IEEE.org/IROS/2026/Workshop/SurgTwin": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1780308000000,
+     "duedate": 1789099140000,
+     "expdate": 1789100940000,
+     "id": "IEEE.org/IROS/2026/Workshop/SurgTwin/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SurgTwin @ IROS 2026",
+   "title": "From Generative AI to Digital Twins: Perception, Simulation, and Learning for Surgical Robotics",
+   "verdict": "adjacent",
+   "website": "https://utkauraslab.github.io/surgtwin-workshop.github.io/",
+   "why": "Surgical robotics with a generative-AI/foundation-model angle \u2014 applied robotics, adjacent."
   },
   "IEEE.org/IROS/2026/Workshop/ThinkingMuscle": {
    "archived": false,
@@ -2385,7 +2555,7 @@
    "why": "Verification of autonomous systems \u2014 safe/trustworthy-X with embodied autonomy as the application domain, per the profile's carve-out."
   },
   "IEEE.org/IROS/2026/Workshop/WORLDS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2657,6 +2827,27 @@
    "website": "https://openreview.net/group?id=MICCAI.org/2026/Challenge/BIG-MRI",
    "why": "Breast-MRI medical imaging challenge, medicine-focused and outside his fields."
   },
+  "MICCAI.org/2026/Challenge/FLARE": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786939200000,
+     "duedate": 1789358400000,
+     "expdate": 1789360200000,
+     "id": "MICCAI.org/2026/Challenge/FLARE/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "MICCAI FLARE 2026",
+   "title": "MICCAI FLARE 2026: Fast, Low-resource, Accurate, Robust, and Effectual Medical Image Analysis",
+   "verdict": "no",
+   "website": "https://flare-medfm.github.io/",
+   "why": "Medical-imaging challenge; medical imaging venues are calibrated as no."
+  },
   "MICCAI.org/2026/Challenge/L2R": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -2700,7 +2891,7 @@
    "why": "Educational challenge for medical imaging, outside his fields."
   },
   "MICCAI.org/2026/Challenge/MedReason": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2721,7 +2912,7 @@
    "why": "Shared task evaluating AI/LLM medical reasoning \u2014 eval angle but a medical application domain, so adjacent not core."
   },
   "MICCAI.org/2026/Workshop/AMPLIFAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3014,6 +3205,27 @@
    "website": "https://trustworthy-ai-for-good.github.io/",
    "why": "Trustworthy AI for social-good applications \u2014 a 'trustworthy X' application venue, not safety of AI itself."
   },
+  "NeurIPS.cc/2026/Workshop/AI4Mat": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786968000000,
+     "duedate": 1788091200000,
+     "expdate": 1788093000000,
+     "id": "NeurIPS.cc/2026/Workshop/AI4Mat/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AI4Mat-NeurIPS-2026",
+   "title": "AI for Accelerated Materials Design - NeurIPS 2026",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/ai4mat/home",
+   "why": "AI-for-materials application workshop at NeurIPS, topic hits no core bullet."
+  },
   "NeurIPS.cc/2026/Workshop/AI4MetaScience": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -3125,8 +3337,8 @@
    "invitations": [
     {
      "cdate": 1785666879200,
-     "duedate": 1788008400000,
-     "expdate": 1788010200000,
+     "duedate": 1788897540000,
+     "expdate": 1788899340000,
      "id": "NeurIPS.cc/2026/Workshop/AISciK/-/Submission",
      "kind": "Submission"
     }
@@ -3644,6 +3856,27 @@
    "website": "https://epistemic-intelligence-in-ml.github.io",
    "why": "Epistemic-intelligence/roots-of-intelligence themes are not squarely calibration, evaluation, or interpretability of LLMs, so doubt resolves to adjacent."
   },
+  "NeurIPS.cc/2026/Workshop/EconML": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786971600000,
+     "duedate": 1788091140000,
+     "expdate": 1788092940000,
+     "id": "NeurIPS.cc/2026/Workshop/EconML/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "EconML NeurIPS2026",
+   "title": "Workshop on Economics for Machine Learning at NeurIPS 2026",
+   "verdict": "adjacent",
+   "website": "https://econml26-workshop.github.io/",
+   "why": "Economics-and-ML workshop at NeurIPS, not an alignment/interp/agent-eval topic."
+  },
   "NeurIPS.cc/2026/Workshop/EvoRobust": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -4066,6 +4299,27 @@
    "website": "https://judge2026.github.io",
    "why": "Reliable evaluation of language models hits the evaluation-of-AI-systems core bullet and is a named core calibration example."
   },
+  "NeurIPS.cc/2026/Workshop/LCFM": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786968000000,
+     "duedate": 1789127940000,
+     "expdate": 1789129740000,
+     "id": "NeurIPS.cc/2026/Workshop/LCFM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "LCFM @ Neurips 2026",
+   "title": "Neurips 2026 Workshop Long Context Foundation Model",
+   "verdict": "adjacent",
+   "website": "https://longcontextfm.github.io/",
+   "why": "Long-context LLM modeling workshop \u2014 general LLM topic at a top venue, not core."
+  },
   "NeurIPS.cc/2026/Workshop/LIGHT": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -4114,8 +4368,8 @@
    "invitations": [
     {
      "cdate": 1784635200000,
-     "duedate": 1787313540000,
-     "expdate": 1787315340000,
+     "duedate": 1787745540000,
+     "expdate": 1787747340000,
      "id": "NeurIPS.cc/2026/Workshop/LXAI/-/Submission",
      "kind": "Submission"
     }
@@ -4786,8 +5040,8 @@
    "invitations": [
     {
      "cdate": 1784476800000,
-     "duedate": 1788091140000,
-     "expdate": 1788092940000,
+     "duedate": 1789041540000,
+     "expdate": 1789043340000,
      "id": "NeurIPS.cc/2026/Workshop/RoboPAD/-/Submission",
      "kind": "Submission"
     }
@@ -5227,8 +5481,8 @@
    "invitations": [
     {
      "cdate": 1785135600000,
-     "duedate": 1787054340000,
-     "expdate": 1787056140000,
+     "duedate": 1787572740000,
+     "expdate": 1787574540000,
      "id": "NeurIPS.cc/2026/Workshop/WiML/-/Submission",
      "kind": "Submission"
     }
@@ -5269,8 +5523,8 @@
    "invitations": [
     {
      "cdate": 1785402000000,
-     "duedate": 1788299940000,
-     "expdate": 1788301740000,
+     "duedate": 1788904740000,
+     "expdate": 1788906540000,
      "id": "NorSK/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -5874,6 +6128,27 @@
    "website": "https://word-formation.flf.vu.lt/workshops/word-formation-in-distributed-morphology",
    "why": "Distributed-morphology word-formation workshop \u2014 morphosyntax/pure linguistics, an explicit no category."
   },
+  "aclweb.org/AACL-IJCNLP/2026/Conference": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1787054340000,
+     "duedate": 1787745540000,
+     "expdate": 1787747340000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 124,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AACL-IJCNLP 2026",
+   "title": "The 5th Asia-Pacific Chapter of the Association for Computational Linguistics & the 15th International Joint Conference on Natural Language Processing",
+   "verdict": "core",
+   "website": "https://2026.aaclnet.org/",
+   "why": "AACL main conference \u2014 flagship-family main track is an explicit core bullet."
+  },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_ARR_Commitment": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6210,6 +6485,27 @@
    "website": "https://industrialnlp.github.io",
    "why": "ARR-commitment track of the industrial-NLP workshop; same adjacent verdict as its topic."
   },
+  "afcv.org/ACCV/2026/Workshop/AECV": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786633200000,
+     "duedate": 1789484340000,
+     "expdate": 1789486140000,
+     "id": "afcv.org/ACCV/2026/Workshop/AECV/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AECV 2026",
+   "title": "ACCV 2026 Workshop on Advances in Event-based Computer Vision",
+   "verdict": "adjacent",
+   "website": "https://app.notion.com/p/keio-univ/Call-for-Papers-AECV-2026-0d7ccea98d4d4b18947048d81ba46937",
+   "why": "Event-based vision workshop \u2014 vision outside his fields but still ML, so adjacent not no."
+  },
   "afcv.org/ACCV/2026/Workshop/CV4DC_Non-Proceedings_Track": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6504,6 +6800,27 @@
    "website": "https://bmvc-multimodal.gitlab.io/website/",
    "why": "Applied multimodal-AI workshop \u2014 VLM/multimodal work the profile lists as adjacent."
   },
+  "bmva.org/BMVC/2026/Workshop/TrustVis": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786967940000,
+     "duedate": 1789300740000,
+     "expdate": 1789302540000,
+     "id": "bmva.org/BMVC/2026/Workshop/TrustVis/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "BMVC 2026 Workshop TrustVis",
+   "title": "BMVC 2026 Workshop on Trustworthy Visual AI for Online and Public Safety",
+   "verdict": "adjacent",
+   "website": "https://trustvis-bmvc2026.github.io/",
+   "why": "'Trustworthy X' where X is a vision/public-safety application \u2014 adjacent by rule."
+  },
   "bza.edu.cn/Beijing_Zhongguancun_Academy/ICAIS/2026/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6566,6 +6883,27 @@
    "verdict": "core",
    "website": "https://deepmath-conference.com/",
    "why": "DeepMath is named verbatim as core in the profile's calibration examples (the MATH-AI/DeepMath math-reasoning family)."
+  },
+  "eacl.org/EACL/2027/Demo": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1787054340000,
+     "duedate": 1790251140000,
+     "expdate": 1790252940000,
+     "id": "eacl.org/EACL/2027/Demo/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "EACL Demo 2027",
+   "title": "EACL 2027 System Demonstrations Track",
+   "verdict": "adjacent",
+   "website": "https://2027.eacl.org/",
+   "why": "EACL demo track \u2014 demos are explicitly adjacent, never core."
   },
   "eacl.org/EACL/2027/Industry_Track": {
    "archived": false,
@@ -6740,7 +7078,7 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786539600000,
+     "cdate": 1786971600000,
      "duedate": 1790427540000,
      "expdate": 1790429340000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Agentic_Robotics/-/Submission",
@@ -6881,6 +7219,27 @@
    "verdict": "adjacent",
    "website": "https://corl26ws-physwm.github.io/",
    "why": "Physics simulation and world models for robotic manipulation is applied robotics, where agents are the setting not the question."
+  },
+  "robot-learning.org/CoRL/2026/Workshop/RoboMem": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786979799100,
+     "duedate": 1790337540000,
+     "expdate": 1790339340000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/RoboMem/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CoRL 2026 RoboMem",
+   "title": "CoRL 2026 Workshop on Memory for Robot Foundation Models",
+   "verdict": "adjacent",
+   "website": "https://corl2026-memory.github.io/",
+   "why": "Memory-for-robot-agents workshop \u2014 applied agent/robotics setting, explicitly adjacent."
   },
   "robot-learning.org/CoRL/2026/Workshop/SPAIS": {
    "archived": false,
@@ -7176,6 +7535,69 @@
    "website": "https://lifegenip.cc/",
    "why": "Non-archival track of the same IP-governance workshop, so it inherits the same adjacent verdict."
   },
+  "thecvf.com/ECCV/2026/Workshop/PPVLM": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786136400000,
+     "duedate": 1787076000000,
+     "expdate": 1787077800000,
+     "id": "thecvf.com/ECCV/2026/Workshop/PPVLM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "PPVLM",
+   "title": "ECCV 2026 Workshop on Privacy-Preserving Visual Localization and Mapping",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/ppvlm2026/home",
+   "why": "Privacy-preserving localization/mapping \u2014 vision/geospatial application, adjacent via background only."
+  },
+  "thecvf.com/WACV/2026/Workshop/SynRDinBAS": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1787011140000,
+     "duedate": 1791244740000,
+     "expdate": 1791246540000,
+     "id": "thecvf.com/WACV/2026/Workshop/SynRDinBAS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SynRDinBAS 2027",
+   "title": "Synthetic Realities and Data in Biometric Analysis and Security",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/synrdinbaswacv2027",
+   "why": "Biometrics/synthetic-data vision workshop \u2014 applied vision/security, not a core topic."
+  },
+  "thecvf.com/WACV/2027/Conference_Round_2": {
+   "archived": false,
+   "first_seen": "2026-08-18",
+   "invitations": [
+    {
+     "cdate": 1786968000000,
+     "duedate": 1787659140000,
+     "expdate": 1787660940000,
+     "id": "thecvf.com/WACV/2027/Conference_Round_2/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WACV 2027",
+   "title": "Winter Conference on Applications of Computer Vision 2027",
+   "verdict": "adjacent",
+   "website": "https://wacv.thecvf.com/Conferences/2027",
+   "why": "Vision conference main track \u2014 not among the listed flagship main tracks, so adjacent."
+  },
   "thecvf.com/WACV/2027/Tutorials": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -7203,8 +7625,8 @@
    "invitations": [
     {
      "cdate": 1782432000000,
-     "duedate": 1787875200000,
-     "expdate": 1787877000000,
+     "duedate": 1789516800000,
+     "expdate": 1789518600000,
      "id": "uagraria.edu.ec/CITI/2027/Conference/-/Submission",
      "kind": "Submission"
     }
