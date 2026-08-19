@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-17",
- "last_run": "2026-08-18T13:48:26.726996+00:00",
+ "last_run": "2026-08-19T13:49:45.448618+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -114,7 +114,7 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786381461660,
+     "cdate": 1787117864931,
      "duedate": 1787615940000,
      "expdate": 1787617740000,
      "id": "ACM.org/CIKM/2026/Workshop/GaLM/-/Submission",
@@ -656,7 +656,7 @@
    "why": "AI-for-physics at a low-signal corporate host \u2014 applied ML outside his areas."
   },
   "CCBR/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1059,7 +1059,7 @@
    "why": "ARR-commitment track of a mathematical-reasoning/NLP workshop hosted in the ACL/EMNLP flagship family \u2014 the MATH-AI-style core bullet."
   },
   "EMNLP/2026/Workshop/NLLP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1234,8 +1234,8 @@
    "invitations": [
     {
      "cdate": 1780920000000,
-     "duedate": 1787572800000,
-     "expdate": 1787574600000,
+     "duedate": 1787637540000,
+     "expdate": 1787639340000,
      "id": "EMNLP/2026/Workshop/WSLP/-/Submission",
      "kind": "Submission"
     }
@@ -1339,8 +1339,8 @@
    "invitations": [
     {
      "cdate": 1780876800000,
-     "duedate": 1787097540000,
-     "expdate": 1787099340000,
+     "duedate": 1787270340000,
+     "expdate": 1787272140000,
      "id": "FEAR/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -1405,8 +1405,8 @@
    "invitations": [
     {
      "cdate": 1783328400000,
-     "duedate": 1787104740000,
-     "expdate": 1787106540000,
+     "duedate": 1787831940000,
+     "expdate": 1787833740000,
      "id": "HiPEAC.net/2027/Workshop/DASIP/-/Submission",
      "kind": "Submission"
     }
@@ -1545,6 +1545,27 @@
    "verdict": "adjacent",
    "website": "https://icict.org/",
    "why": "Generic information/computing technologies conference with AI tracks \u2014 low-signal general CS, adjacent at best."
+  },
+  "ICLR.cc/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-08-19",
+   "invitations": [
+    {
+     "cdate": 1787140740000,
+     "duedate": 1789819140000,
+     "expdate": 1789820940000,
+     "id": "ICLR.cc/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 125,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ICLR 2027",
+   "title": "The Fifteenth International Conference on Learning Representations",
+   "verdict": "core",
+   "website": "https://iclr.cc/Conferences/2027",
+   "why": "ICLR main track, explicitly a core flagship main-track venue in the profile."
   },
   "ICVGIP.in/2026/Conference": {
    "archived": false,
@@ -2308,8 +2329,8 @@
    "invitations": [
     {
      "cdate": 1782187200000,
-     "duedate": 1787572800000,
-     "expdate": 1787574600000,
+     "duedate": 1788177600000,
+     "expdate": 1788179400000,
      "id": "IEEE.org/IROS/2026/Workshop/Rethinking_Uncertainty/-/Submission",
      "kind": "Submission"
     }
@@ -2371,8 +2392,8 @@
    "invitations": [
     {
      "cdate": 1782475200000,
-     "duedate": 1787198400000,
-     "expdate": 1787200200000,
+     "duedate": 1788235200000,
+     "expdate": 1788237000000,
      "id": "IEEE.org/IROS/2026/Workshop/S2RCC/-/Submission",
      "kind": "Submission"
     }
@@ -2595,6 +2616,27 @@
    "verdict": "no",
    "website": "https://www.marinerobotics.info/",
    "why": "Marine robotics perception and navigation, outside his fields."
+  },
+  "IEEE.org/ISMAR/2026/Workshop/XR4HRI": {
+   "archived": false,
+   "first_seen": "2026-08-19",
+   "invitations": [
+    {
+     "cdate": 1781506800000,
+     "duedate": 1788609540000,
+     "expdate": 1788611340000,
+     "id": "IEEE.org/ISMAR/2026/Workshop/XR4HRI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "XR4HRI 2026",
+   "title": "1st ISMAR Workshop on Extended Reality for Human-Robot Interaction",
+   "verdict": "no",
+   "website": "https://sites.google.com/view/xr4hri-workshop/",
+   "why": "XR interfaces for human-robot interaction is HCI/robotics without an ML-methods or foundation-model angle, outside his fields."
   },
   "IEEE.org/MiTA/2027/Conference": {
    "archived": false,
@@ -4158,8 +4200,8 @@
    "invitations": [
     {
      "cdate": 1786190444300,
-     "duedate": 1788091140000,
-     "expdate": 1788092940000,
+     "duedate": 1788350340000,
+     "expdate": 1788352140000,
      "id": "NeurIPS.cc/2026/Workshop/IAB_Competition_Paper_Track/-/Submission",
      "kind": "Submission"
     }
@@ -4452,8 +4494,8 @@
    "invitations": [
     {
      "cdate": 1784091600000,
-     "duedate": 1787918400000,
-     "expdate": 1787920200000,
+     "duedate": 1788004800000,
+     "expdate": 1788006600000,
      "id": "NeurIPS.cc/2026/Workshop/MLForSys/-/Submission",
      "kind": "Submission"
     }
@@ -5060,7 +5102,7 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1785350125410,
+     "cdate": 1787067773426,
      "duedate": 1787399940000,
      "expdate": 1787401740000,
      "id": "NeurIPS.cc/2026/Workshop/Robotics_World_Modeling/-/Submission",
@@ -5165,7 +5207,7 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1785855429767,
+     "cdate": 1787080802069,
      "duedate": 1788047940000,
      "expdate": 1788049740000,
      "id": "NeurIPS.cc/2026/Workshop/Simbiochem/-/Submission",
@@ -5686,7 +5728,7 @@
    "why": "Arabic NLP shared task with no calibration/eval/interp-of-LLMs angle, so it stays in the shared-task adjacent bucket."
   },
   "SIGARAB.org/ArabicNLP/2026/ArGuard_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5982,13 +6024,13 @@
    "why": "Low-resource cross-lingual/cross-modal content analysis \u2014 multilingual NLP at a regional host."
   },
   "SPELLL.org/2026/Workshop/Regional-FAKE": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-19",
    "invitations": [
     {
      "cdate": 1785922200000,
-     "duedate": 1786905000000,
-     "expdate": 1786906800000,
+     "duedate": 1787250540000,
+     "expdate": 1787252340000,
      "id": "SPELLL.org/2026/Workshop/Regional-FAKE/-/Submission",
      "kind": "Submission"
     }
@@ -6142,7 +6184,9 @@
    ],
    "issue": 124,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AACL-IJCNLP 2026",
    "title": "The 5th Asia-Pacific Chapter of the Association for Computational Linguistics & the 15th International Joint Conference on Natural Language Processing",
    "verdict": "core",
@@ -7520,8 +7564,8 @@
    "invitations": [
     {
      "cdate": 1780833600000,
-     "duedate": 1787140800000,
-     "expdate": 1787142600000,
+     "duedate": 1787313600000,
+     "expdate": 1787315400000,
      "id": "thecvf.com/ECCV/2026/Workshop/LifeGenIP_Non-Archival/-/Submission",
      "kind": "Submission"
     }
@@ -7535,8 +7579,29 @@
    "website": "https://lifegenip.cc/",
    "why": "Non-archival track of the same IP-governance workshop, so it inherits the same adjacent verdict."
   },
-  "thecvf.com/ECCV/2026/Workshop/PPVLM": {
+  "thecvf.com/ECCV/2026/Workshop/MARS2": {
    "archived": false,
+   "first_seen": "2026-08-19",
+   "invitations": [
+    {
+     "cdate": 1780358340000,
+     "duedate": 1787313600000,
+     "expdate": 1787315400000,
+     "id": "thecvf.com/ECCV/2026/Workshop/MARS2/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "MARS2 2026",
+   "title": "2nd Workshop on Multimodal Reasoning and Slow Thinking in the Large Model Era: Towards System 2 and Beyond",
+   "verdict": "adjacent",
+   "website": "https://mars2workshop.github.io/eccv2026/",
+   "why": "Multimodal/system-2 reasoning workshop at ECCV \u2014 LLM reasoning outside the flagship families and not math/formal, so vision-with-foundation-model adjacent."
+  },
+  "thecvf.com/ECCV/2026/Workshop/PPVLM": {
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
