@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-17",
- "last_run": "2026-08-19T13:49:45.448618+00:00",
+ "last_run": "2026-08-20T13:51:29.580436+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -94,8 +94,8 @@
    "invitations": [
     {
      "cdate": 1784097219400,
-     "duedate": 1787659140000,
-     "expdate": 1787660940000,
+     "duedate": 1788091140000,
+     "expdate": 1788092940000,
      "id": "ACM.org/CIKM/2026/Workshop/EARL/-/Submission",
      "kind": "Submission"
     }
@@ -1050,7 +1050,8 @@
    "issue": 102,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "MathNLP 2026 ARR Commitment",
    "title": "MathNLP 2026: The 4th Workshop on Mathematical Natural Language Processing (ARR Commitment)",
@@ -1677,7 +1678,7 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786424258818,
+     "cdate": 1787184509721,
      "duedate": 1790078340000,
      "expdate": 1790080140000,
      "id": "IEEE.org/ICHI/2027/Conference/-/Submission",
@@ -1757,7 +1758,7 @@
    "why": "Robot planning/control workshop \u2014 applied robotics agents, agents as setting not question."
   },
   "IEEE.org/IROS/2026/Workshop/AI_Meets_Autonomy": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2156,7 +2157,7 @@
    "why": "Micro-robot hardware and autonomy, outside ML/NLP."
   },
   "IEEE.org/IROS/2026/Workshop/LAFR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2307,9 +2308,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1782907200000,
-     "duedate": 1787227200000,
-     "expdate": 1787229000000,
+     "cdate": 1782993540000,
+     "duedate": 1788004740000,
+     "expdate": 1788006540000,
      "id": "IEEE.org/IROS/2026/Workshop/ReS_AI/-/Submission",
      "kind": "Submission"
     }
@@ -2953,6 +2954,27 @@
    "website": "https://medreason26.github.io/",
    "why": "Shared task evaluating AI/LLM medical reasoning \u2014 eval angle but a medical application domain, so adjacent not core."
   },
+  "MICCAI.org/2026/Challenge/TREAT-MMTB": {
+   "archived": false,
+   "first_seen": "2026-08-20",
+   "invitations": [
+    {
+     "cdate": 1787151540000,
+     "duedate": 1787497140000,
+     "expdate": 1787498940000,
+     "id": "MICCAI.org/2026/Challenge/TREAT-MMTB/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "TREAT-MMTB 2026",
+   "title": "Transformative Research and Efficient AI Technologies for Multimodal Management of Tuberculosis 2026",
+   "verdict": "no",
+   "website": "https://treat-mmtb.mi2rl.co/",
+   "why": "Medical challenge on tuberculosis management \u2014 medicine application without an ML-methods angle, like the Trustworthy-FMs-in-medical-imaging no-example."
+  },
   "MICCAI.org/2026/Workshop/AMPLIFAI": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -3437,7 +3459,7 @@
    "why": "Human identity, authenticity, and agency \u2014 humanities/HCI topic without ML methods."
   },
   "NeurIPS.cc/2026/Workshop/ASCI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3924,7 +3946,7 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1784799374244,
+     "cdate": 1787201835900,
      "duedate": 1788092940000,
      "expdate": 1788094740000,
      "id": "NeurIPS.cc/2026/Workshop/EvoRobust/-/Submission",
@@ -5102,9 +5124,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1787067773426,
-     "duedate": 1787399940000,
-     "expdate": 1787401740000,
+     "cdate": 1787196829503,
+     "duedate": 1788091140000,
+     "expdate": 1788092940000,
      "id": "NeurIPS.cc/2026/Workshop/Robotics_World_Modeling/-/Submission",
      "kind": "Submission"
     }
@@ -5877,7 +5899,7 @@
    "why": "Shared task on scoring hallucinations in LLM output \u2014 the task itself is evaluation of LLMs, hitting the shared-task carve-out for safety-relevant evals."
   },
   "SIGARAB.org/ArabicNLP/2026/ImageEval_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6739,6 +6761,27 @@
    "website": "https://sites.google.com/yy.d3c.osaka-u.ac.jp/wba2026",
    "why": "Avatar/deepfake teleoperator identity-verification is a niche CV/biometrics topic with no LLM angle."
   },
+  "aiasplus.org/AIAS/2026/Workshop/AIASci": {
+   "archived": false,
+   "first_seen": "2026-08-20",
+   "invitations": [
+    {
+     "cdate": 1787227200000,
+     "duedate": 1789214340000,
+     "expdate": 1789216140000,
+     "id": "aiasplus.org/AIAS/2026/Workshop/AIASci/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AIASci 2026",
+   "title": "The 1st Workshop on End-to-End Research Workflow, Methods, and Applications for AI-Assisted Science",
+   "verdict": "adjacent",
+   "website": "https://aiasciworkshop.github.io/",
+   "why": "AI-assisted science workflows is an applied AI/agents application domain, not alignment, interpretability, or evaluation of AI systems themselves."
+  },
   "aiasplus.org/AIAS/2026/Workshop/AIASci_ARR_Commitment": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6808,8 +6851,8 @@
    "invitations": [
     {
      "cdate": 1785522600000,
-     "duedate": 1788652740000,
-     "expdate": 1788654540000,
+     "duedate": 1789991940000,
+     "expdate": 1789993740000,
      "id": "bmva.org/BMVC/2026/Workshop/GlobalSouthCV/-/Submission",
      "kind": "Submission"
     }
@@ -6824,13 +6867,13 @@
    "why": "Community/regional CV venue with no FM/LLM angle, matching the Widening-NLP/WiML pattern the profile marks no."
   },
   "bmva.org/BMVC/2026/Workshop/MMAIRS": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-20",
    "invitations": [
     {
      "cdate": 1785758400000,
-     "duedate": 1786928400000,
-     "expdate": 1786930200000,
+     "duedate": 1789084800000,
+     "expdate": 1789086600000,
      "id": "bmva.org/BMVC/2026/Workshop/MMAIRS/-/Submission",
      "kind": "Submission"
     }
@@ -7116,6 +7159,27 @@
    "verdict": "adjacent",
    "website": "https://docs.google.com/document/d/1m8cIhggNpJlcbGP0O2tQ1as1-tNKnZqNd2HWYODasvg/edit?usp=sharing",
    "why": "Efficient edge CV/language models book chapters \u2014 efficient DL is explicitly adjacent in the profile."
+  },
+  "pusan.ac.kr/PNU/2026/Foundation_Models": {
+   "archived": false,
+   "first_seen": "2026-08-20",
+   "invitations": [
+    {
+     "cdate": 1787184000000,
+     "duedate": 1793577480000,
+     "expdate": 1793579280000,
+     "id": "pusan.ac.kr/PNU/2026/Foundation_Models/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "PNU 2026",
+   "title": "2026 PNU Foundation Models",
+   "verdict": "adjacent",
+   "website": "https://tsi-yoontae.github.io/#teaching",
+   "why": "General foundation-models venue at a regional university (course-style page), so general LLM/ML topic but no core bullet."
   },
   "robot-learning.org/CoRL/2026/Workshop/Agentic_Robotics": {
    "archived": false,
