@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-17",
- "last_run": "2026-08-20T13:51:29.580436+00:00",
+ "last_run": "2026-08-21T13:50:40.715650+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -173,7 +173,7 @@
    "why": "Brand-new regional AI/IoT/robotics conference \u2014 regional AI conferences are adjacent."
   },
   "ACM.org/IKDD/CODS/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -888,6 +888,27 @@
    "website": "https://docinsights-workshop.github.io/docinsights-2026/",
    "why": "Document-intelligence workshop (ARR-commitment track) \u2014 applied NLP outside the core bullets."
   },
+  "EMNLP/2026/Workshop/DocInsights_Shared_Task": {
+   "archived": false,
+   "first_seen": "2026-08-21",
+   "invitations": [
+    {
+     "cdate": 1787270340000,
+     "duedate": 1789516740000,
+     "expdate": 1789518540000,
+     "id": "EMNLP/2026/Workshop/DocInsights_Shared_Task/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "DocInsights 2026",
+   "title": "First Workshop on Document Intelligence and Understanding (Shared Task Submission)",
+   "verdict": "adjacent",
+   "website": "https://docinsights-workshop.github.io/docinsights-2026/",
+   "why": "Shared task on document intelligence/understanding at an EMNLP workshop \u2014 applied NLP, and the task itself is not calibration/eval/interp of LLMs, so it stays adjacent per the shared-task rule."
+  },
   "EMNLP/2026/Workshop/FinNLP_ARR_Commitment": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -1200,7 +1221,8 @@
    "issue": 104,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "UncertaiNLP2026 ARR Commitment",
    "title": "Third Workshop on Uncertainty-Aware NLP @ EMNLP 2026 -- ARR Commitment",
@@ -1335,7 +1357,7 @@
    "why": "Deliberative democracy and social choice from a philosophy/political-science project, with no ML or AI-systems focus."
   },
   "FEAR/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1758,13 +1780,13 @@
    "why": "Robot planning/control workshop \u2014 applied robotics agents, agents as setting not question."
   },
   "IEEE.org/IROS/2026/Workshop/AI_Meets_Autonomy": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-21",
    "invitations": [
     {
      "cdate": 1784091600000,
-     "duedate": 1787219940000,
-     "expdate": 1787221740000,
+     "duedate": 1787731140000,
+     "expdate": 1787732940000,
      "id": "IEEE.org/IROS/2026/Workshop/AI_Meets_Autonomy/-/Submission",
      "kind": "Submission"
     }
@@ -1868,8 +1890,8 @@
    "invitations": [
     {
      "cdate": 1783580400000,
-     "duedate": 1787382000000,
-     "expdate": 1787383800000,
+     "duedate": 1788008400000,
+     "expdate": 1788010200000,
      "id": "IEEE.org/IROS/2026/Workshop/Bridge4Navigation/-/Submission",
      "kind": "Submission"
     }
@@ -1947,7 +1969,7 @@
    "why": "Robotics data/datasets-and-benchmarks focus, adjacent only via the data-infrastructure background, not core topics."
   },
   "IEEE.org/IROS/2026/Workshop/DOM-R3": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2036,8 +2058,8 @@
    "invitations": [
     {
      "cdate": 1783708500000,
-     "duedate": 1787371140000,
-     "expdate": 1787372940000,
+     "duedate": 1788407940000,
+     "expdate": 1788409740000,
      "id": "IEEE.org/IROS/2026/Workshop/Full-Shift_Robot_Co-Workers/-/Submission",
      "kind": "Submission"
     }
@@ -2157,13 +2179,13 @@
    "why": "Micro-robot hardware and autonomy, outside ML/NLP."
   },
   "IEEE.org/IROS/2026/Workshop/LAFR": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-21",
    "invitations": [
     {
-     "cdate": 1783314040700,
-     "duedate": 1787202060000,
-     "expdate": 1787203860000,
+     "cdate": 1783339240700,
+     "duedate": 1788220740000,
+     "expdate": 1788222540000,
      "id": "IEEE.org/IROS/2026/Workshop/LAFR/-/Submission",
      "kind": "Submission"
     }
@@ -2262,7 +2284,7 @@
    "why": "Agentic AI for robotic teammates \u2014 applied agents in robotics, agents as setting not subject of evaluation."
   },
   "IEEE.org/IROS/2026/Workshop/PWMS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2556,7 +2578,7 @@
    "why": "Tactile perception for robot manipulation, clearly outside LLM interp/agents/eval."
   },
   "IEEE.org/IROS/2026/Workshop/VAS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3086,8 +3108,8 @@
    "invitations": [
     {
      "cdate": 1783918800000,
-     "duedate": 1787259600000,
-     "expdate": 1787261400000,
+     "duedate": 1787346000000,
+     "expdate": 1787347800000,
      "id": "NERC/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4019,7 +4041,8 @@
    "issue": 105,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "FLMSec 2026",
    "title": "Foundations of Language Model Security: Theory, Practice, and Fundamental Limits",
@@ -4033,8 +4056,8 @@
    "invitations": [
     {
      "cdate": 1785844800000,
-     "duedate": 1788091172200,
-     "expdate": 1788092972200,
+     "duedate": 1789559972200,
+     "expdate": 1789561772200,
      "id": "NeurIPS.cc/2026/Workshop/FMTS/-/Submission",
      "kind": "Submission"
     }
@@ -4810,8 +4833,8 @@
    "invitations": [
     {
      "cdate": 1785621540000,
-     "duedate": 1787659140000,
-     "expdate": 1787660940000,
+     "duedate": 1788091140000,
+     "expdate": 1788092940000,
      "id": "NeurIPS.cc/2026/Workshop/PALM/-/Submission",
      "kind": "Submission"
     }
@@ -5146,8 +5169,8 @@
    "invitations": [
     {
      "cdate": 1785596425900,
-     "duedate": 1787490000000,
-     "expdate": 1787491800000,
+     "duedate": 1788008400000,
+     "expdate": 1788010200000,
      "id": "NeurIPS.cc/2026/Workshop/SLM-Agents/-/Submission",
      "kind": "Submission"
     }
@@ -5890,7 +5913,8 @@
    "issue": 103,
    "prestige": 2,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "HalluScoring2026",
    "title": "ArabicNLP2026-HalluScoring",
@@ -6046,7 +6070,7 @@
    "why": "Low-resource cross-lingual/cross-modal content analysis \u2014 multilingual NLP at a regional host."
   },
   "SPELLL.org/2026/Workshop/Regional-FAKE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-19",
    "invitations": [
     {
@@ -6682,9 +6706,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786772176780,
-     "duedate": 1790899140000,
-     "expdate": 1790900940000,
+     "cdate": 1787256476820,
+     "duedate": 1790294340000,
+     "expdate": 1790296140000,
      "id": "afcv.org/ACCV/2026/Workshop/MM4SciReal/-/Submission",
      "kind": "Submission"
     }
@@ -7412,6 +7436,27 @@
    "website": "https://sim2real2field-corl26.github.io/",
    "why": "Sim-to-real robot deployment is applied robotics, outside the core LLM safety/interp/eval bullets."
   },
+  "robot-learning.org/CoRL/2026/Workshop/UMI_Arena": {
+   "archived": false,
+   "first_seen": "2026-08-21",
+   "invitations": [
+    {
+     "cdate": 1787205729500,
+     "duedate": 1792216740000,
+     "expdate": 1792218540000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/UMI_Arena/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CoRL 2026 Workshop UMI Arena",
+   "title": "CoRL 2026 Workshop on The UMI Arena From Handheld Devices to Real-World Policies",
+   "verdict": "adjacent",
+   "website": "https://umi-arena.airoa.io/",
+   "why": "CoRL workshop on robot manipulation policies from handheld data collection \u2014 robot learning with a policy/foundation-model flavor, which the profile lists as adjacent, not a core alignment/interp/agent-eval topic."
+  },
   "robot-learning.org/CoRL/2026/Workshop/UncertainWM": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -7623,7 +7668,7 @@
    "why": "IP governance of visual generative models is a legal/policy 'trustworthy X' angle on vision models, not safety/interp of AI systems themselves."
   },
   "thecvf.com/ECCV/2026/Workshop/LifeGenIP_Non-Archival": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7644,7 +7689,7 @@
    "why": "Non-archival track of the same IP-governance workshop, so it inherits the same adjacent verdict."
   },
   "thecvf.com/ECCV/2026/Workshop/MARS2": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-19",
    "invitations": [
     {
