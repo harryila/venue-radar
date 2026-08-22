@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-17",
- "last_run": "2026-08-21T13:50:40.715650+00:00",
+ "last_run": "2026-08-22T13:36:42.544706+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -529,6 +529,27 @@
    "website": "https://afrilangai.github.io/",
    "why": "Multilingual/regional NLP conference, explicitly adjacent territory."
   },
+  "Analytical-Connectionism.net/2026/Summer_School": {
+   "archived": false,
+   "first_seen": "2026-08-22",
+   "invitations": [
+    {
+     "cdate": 1787299225000,
+     "duedate": 1806444000000,
+     "expdate": 1806445800000,
+     "id": "Analytical-Connectionism.net/2026/Summer_School/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AC2526",
+   "title": "Analytical-Connectionism 2025-2026",
+   "verdict": "adjacent",
+   "website": "https://www.analytical-connectionism.net/",
+   "why": "Summer school on analytical theory of neural networks \u2014 science-of-deep-learning training program, and schools/tutorials are adjacent by rule, not a core interpretability paper venue."
+  },
   "BCGL/2026/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -931,7 +952,7 @@
    "why": "Financial NLP (ARR-commitment track) \u2014 FinNLP is an explicit 'no' example."
   },
   "EMNLP/2026/Workshop/GroundLM_Shared_Tasks": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -994,7 +1015,7 @@
    "why": "Shared task on KB construction from LMs \u2014 not a calibration/eval/interp task."
   },
   "EMNLP/2026/Workshop/LUHME_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1057,7 +1078,7 @@
    "why": "Multilingual representation learning is an explicit adjacent example (general NLP workshop topic)."
   },
   "EMNLP/2026/Workshop/MathNLP_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1157,7 +1178,9 @@
    ],
    "issue": 109,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "PANDORA 2026",
    "title": "First workshop on Pluralistic AI & NLP: Diversity-aware, Sociotechnical, Responsible Alignment (ARR Commitment)",
    "verdict": "core",
@@ -1591,7 +1614,7 @@
    "why": "ICLR main track, explicitly a core flagship main-track venue in the profile."
   },
   "ICVGIP.in/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1843,7 +1866,7 @@
    "why": "Behavioral models for human-autonomy teaming \u2014 applied robotics/HRI, no core bullet."
   },
   "IEEE.org/IROS/2026/Workshop/BLPC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2431,7 +2454,7 @@
    "why": "Sim2real and classical control theory, no LLM/foundation-model or AI-evaluation angle."
   },
   "IEEE.org/IROS/2026/Workshop/SRW": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2935,7 +2958,7 @@
    "why": "Medical image registration challenge, outside his fields."
   },
   "MICCAI.org/2026/Challenge/MEC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3103,7 +3126,7 @@
    "why": "Established ML-for-health symposium \u2014 applied domain outside the core bullets."
   },
   "NERC/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4032,18 +4055,15 @@
    "invitations": [
     {
      "cdate": 1784721659100,
-     "duedate": 1787486400000,
-     "expdate": 1787488200000,
+     "duedate": 1787918400000,
+     "expdate": 1787920200000,
      "id": "NeurIPS.cc/2026/Workshop/FLMSec/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 105,
    "prestige": 1,
-   "reminded": [
-    "T-7",
-    "T-2"
-   ],
+   "reminded": [],
    "subtitle": "FLMSec 2026",
    "title": "Foundations of Language Model Security: Theory, Practice, and Fundamental Limits",
    "verdict": "core",
@@ -4232,7 +4252,9 @@
    ],
    "issue": 108,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "IAB @NeurIPS 2026 Workshop",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026",
    "verdict": "core",
@@ -4358,7 +4380,9 @@
    ],
    "issue": 107,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "InterpScience 2026",
    "title": "Interpretability as a Science: NeurIPS 2026 Workshop",
    "verdict": "core",
@@ -5794,7 +5818,7 @@
    "why": "Shared task detecting harmful human-generated content \u2014 content moderation application, not safety of AI systems themselves."
   },
   "SIGARAB.org/ArabicNLP/2026/AraDF_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5878,7 +5902,7 @@
    "why": "Arabic readability-assessment shared task \u2014 general NLP, evaluating text rather than LLMs."
   },
   "SIGARAB.org/ArabicNLP/2026/DialectSentEval_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6070,13 +6094,13 @@
    "why": "Low-resource cross-lingual/cross-modal content analysis \u2014 multilingual NLP at a regional host."
   },
   "SPELLL.org/2026/Workshop/Regional-FAKE": {
-   "archived": true,
-   "first_seen": "2026-08-19",
+   "archived": false,
+   "first_seen": "2026-08-22",
    "invitations": [
     {
      "cdate": 1785922200000,
-     "duedate": 1787250540000,
-     "expdate": 1787252340000,
+     "duedate": 1787423340000,
+     "expdate": 1787425140000,
      "id": "SPELLL.org/2026/Workshop/Regional-FAKE/-/Submission",
      "kind": "Submission"
     }
@@ -7163,6 +7187,27 @@
    "website": "https://fsml-ims-workshop.org/",
    "why": "Statistical machine-learning theory/methods workshop \u2014 general ML that hits no core bullet."
   },
+  "majancollege.edu.om/Majan_College/2026/Advancing_Sustainable_Futures": {
+   "archived": false,
+   "first_seen": "2026-08-22",
+   "invitations": [
+    {
+     "cdate": 1787270340000,
+     "duedate": 1798761540000,
+     "expdate": 1798763340000,
+     "id": "majancollege.edu.om/Majan_College/2026/Advancing_Sustainable_Futures/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "Advancing Sustainable Futures",
+   "title": "Call for Book Chapters:  Advancing Sustainable Futures: Perspectives on AI and Environmental Stewardship",
+   "verdict": "adjacent",
+   "website": "https://majancollege.edu.om",
+   "why": "Book-chapter call on AI for environmental stewardship \u2014 an application domain only worth a glance via the geospatial background, never core."
+  },
   "purdue.edu/Purdue_University/AI4EdgeBook/2026": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -7878,7 +7923,7 @@
    "why": "Multimodal speech-corpora work on silence and noise is linguistics/phonetics, excluded as pure linguistics."
   },
   "unicornsummit.net/Unicorn_Summit/2026/South_America": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
