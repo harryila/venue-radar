@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-17",
- "last_run": "2026-08-22T13:36:42.544706+00:00",
+ "last_run": "2026-08-23T13:37:42.891922+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -114,9 +114,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1787117864931,
-     "duedate": 1787615940000,
-     "expdate": 1787617740000,
+     "cdate": 1787447578950,
+     "duedate": 1788220740000,
+     "expdate": 1788222540000,
      "id": "ACM.org/CIKM/2026/Workshop/GaLM/-/Submission",
      "kind": "Submission"
     }
@@ -880,7 +880,8 @@
    "issue": 106,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "BlackboxNLP 2026 ARR Commitments",
    "title": "The 9th BlackboxNLP Workshop - ARR Commitments",
@@ -1144,7 +1145,7 @@
    "why": "ARR-commitment track of the legal-NLP workshop \u2014 same explicit no-list topic."
   },
   "EMNLP/2026/Workshop/ORACLE_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1235,8 +1236,8 @@
    "invitations": [
     {
      "cdate": 1780617540000,
-     "duedate": 1787443140000,
-     "expdate": 1787444940000,
+     "duedate": 1787572740000,
+     "expdate": 1787574540000,
      "id": "EMNLP/2026/Workshop/UncertaiNLP_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -1254,7 +1255,7 @@
    "why": "ARR-commitment track of Uncertainty-Aware NLP \u2014 an explicit core calibration example (calibration/uncertainty in LLMs)."
   },
   "EMNLP/2026/Workshop/WNUT_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1343,8 +1344,8 @@
    "invitations": [
     {
      "cdate": 1775048340000,
-     "duedate": 1787662740000,
-     "expdate": 1787664540000,
+     "duedate": 1787749140000,
+     "expdate": 1787750940000,
      "id": "EMNLP/2026/Workshop/WiNLP_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -1359,7 +1360,7 @@
    "why": "Widening NLP is an explicit no-list example (ARR-commitment track)."
   },
   "ENCODE/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-17",
    "invitations": [
     {
@@ -2958,13 +2959,13 @@
    "why": "Medical image registration challenge, outside his fields."
   },
   "MICCAI.org/2026/Challenge/MEC": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-23",
    "invitations": [
     {
-     "cdate": 1785608717173,
-     "duedate": 1787399940000,
-     "expdate": 1787401740000,
+     "cdate": 1787488107438,
+     "duedate": 1787572740000,
+     "expdate": 1787574540000,
      "id": "MICCAI.org/2026/Challenge/MEC/-/Submission",
      "kind": "Submission"
     }
@@ -3042,7 +3043,7 @@
    "why": "Liver-imaging annotation challenge, medicine-focused."
   },
   "MICCAI.org/2026/Workshop/Deep-Brea3th": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3475,7 +3476,9 @@
    ],
    "issue": 117,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "NeurIPS 2026 AIWILD",
    "title": "Third Workshop on Agents in the Wild: Safety, Security, and Beyond",
    "verdict": "core",
@@ -3504,13 +3507,13 @@
    "why": "Human identity, authenticity, and agency \u2014 humanities/HCI topic without ML methods."
   },
   "NeurIPS.cc/2026/Workshop/ASCI": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-23",
    "invitations": [
     {
-     "cdate": 1784924630206,
-     "duedate": 1787184000000,
-     "expdate": 1787185800000,
+     "cdate": 1787426906722,
+     "duedate": 1787961600000,
+     "expdate": 1787963400000,
      "id": "NeurIPS.cc/2026/Workshop/ASCI/-/Submission",
      "kind": "Submission"
     }
@@ -3727,7 +3730,9 @@
    ],
    "issue": 111,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "BiAlign Workshop 2026",
    "title": "NeurIPS 2026 Workshop on Dynamic Alignment in Human-AI Coupled Systems",
    "verdict": "core",
@@ -4029,7 +4034,7 @@
    "why": "Theoretical foundations of agentic systems is agent design theory rather than evaluation, oversight, or interpretation of agent behavior."
   },
   "NeurIPS.cc/2026/Workshop/FLLMPT": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4063,7 +4068,9 @@
    ],
    "issue": 105,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "FLMSec 2026",
    "title": "Foundations of Language Model Security: Theory, Practice, and Fundamental Limits",
    "verdict": "core",
@@ -4296,7 +4303,9 @@
    ],
    "issue": 116,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "IAEval 2026",
    "title": "Workshop on Evaluation of Interactive Agents @ NeurIPS 2026",
    "verdict": "core",
@@ -4359,7 +4368,9 @@
    ],
    "issue": 110,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "Interp4Discovery",
    "title": "NeurIPS 2026 Workshop on Interpretability for Discovery",
    "verdict": "core",
@@ -4403,7 +4414,9 @@
    ],
    "issue": 113,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "JUDGe 2026",
    "title": "First Workshop on Reliable Evaluation for Language Models (JUDGe)",
    "verdict": "core",
@@ -5327,7 +5340,9 @@
    ],
    "issue": 114,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "NeurIPS 2026 TAE",
    "title": "NeurIPS 2026 Trust-AI-Eval Workshop",
    "verdict": "core",
@@ -5516,7 +5531,9 @@
    ],
    "issue": 118,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "NeurIPS 2026 verify-agents",
    "title": "NeurIPS 2026 Workshop Who Verifies the Agents? Toward Reliable Agent Development",
    "verdict": "core",
@@ -5621,7 +5638,9 @@
    ],
    "issue": 115,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "XAI4Science",
    "title": "XAI4Science: Knowledge Discovery and Trust through Interpretable Foundation Models",
    "verdict": "core",
@@ -5760,8 +5779,8 @@
    "invitations": [
     {
      "cdate": 1785826800000,
-     "duedate": 1787468340000,
-     "expdate": 1787470140000,
+     "duedate": 1787518740000,
+     "expdate": 1787520540000,
      "id": "SIGARAB.org/ArabicNLP/2026/AISA-ArabicFC_Shared_Task/-/Submission",
      "kind": "Submission"
     }
@@ -5776,7 +5795,7 @@
    "why": "Shared task on Arabic function calling for agentic systems \u2014 applied agent capability, not calibration/eval/interp of LLMs."
   },
   "SIGARAB.org/ArabicNLP/2026/AlexandriaX_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5860,7 +5879,7 @@
    "why": "Arabic genre-classification shared task \u2014 general NLP."
   },
   "SIGARAB.org/ArabicNLP/2026/AraSeg_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5881,7 +5900,7 @@
    "why": "Arabic sentence-segmentation shared task \u2014 core-NLP pipeline work, not a core bullet."
   },
   "SIGARAB.org/ArabicNLP/2026/BAREC_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5928,8 +5947,8 @@
    "invitations": [
     {
      "cdate": 1786741200000,
-     "duedate": 1787432340000,
-     "expdate": 1787434140000,
+     "duedate": 1787518740000,
+     "expdate": 1787520540000,
      "id": "SIGARAB.org/ArabicNLP/2026/HalluScoring_Shared_Task/-/Submission",
      "kind": "Submission"
     }
@@ -5989,7 +6008,7 @@
    "why": "Hallucination detection scoped to Arabic Islamic religious content \u2014 trustworthy-X domain evaluation, so adjacent on the doubt tie-break."
   },
   "SIGARAB.org/ArabicNLP/2026/KnowledgeGraphEval_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6010,7 +6029,7 @@
    "why": "Shared task evaluating Arabic knowledge graphs \u2014 resource evaluation, not evaluation of LLMs."
   },
   "SIGARAB.org/ArabicNLP/2026/NADI_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6031,7 +6050,7 @@
    "why": "Multidialectal Arabic speech-processing shared task \u2014 speech application."
   },
   "SIGARAB.org/ArabicNLP/2026/StanceEval_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6094,7 +6113,7 @@
    "why": "Low-resource cross-lingual/cross-modal content analysis \u2014 multilingual NLP at a regional host."
   },
   "SPELLL.org/2026/Workshop/Regional-FAKE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-22",
    "invitations": [
     {
@@ -6516,7 +6535,7 @@
    "why": "AI for scientific publications is applied NLP that hits no core bullet."
   },
   "aclweb.org/INLG/2026/Conference_Direct_Submissions": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6537,7 +6556,7 @@
    "why": "Natural language generation conference; the profile explicitly lists INLG as adjacent."
   },
   "aclweb.org/INLG/2026/GenChal": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7045,9 +7064,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1779396375208,
-     "duedate": 1795996800000,
-     "expdate": 1795998600000,
+     "cdate": 1787487297479,
+     "duedate": 1789214340000,
+     "expdate": 1789216140000,
      "id": "eacl.org/EACL/2027/Industry_Track/-/Submission",
      "kind": "Submission"
     }
