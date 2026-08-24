@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-08-17",
- "last_run": "2026-08-23T13:37:42.891922+00:00",
+ "last_digest": "2026-08-24",
+ "last_run": "2026-08-24T13:55:46.190664+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -979,8 +979,8 @@
    "invitations": [
     {
      "cdate": 1780272000000,
-     "duedate": 1787616000000,
-     "expdate": 1787617800000,
+     "duedate": 1788307140000,
+     "expdate": 1788308940000,
      "id": "EMNLP/2026/Workshop/IMPACT-SPEECH_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -1041,9 +1041,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1774524176253,
-     "duedate": 1787659140000,
-     "expdate": 1787660940000,
+     "cdate": 1787554798138,
+     "duedate": 1788263940000,
+     "expdate": 1788265740000,
      "id": "EMNLP/2026/Workshop/MINT_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -1103,13 +1103,13 @@
    "why": "ARR-commitment track of a mathematical-reasoning/NLP workshop hosted in the ACL/EMNLP flagship family \u2014 the MATH-AI-style core bullet."
   },
   "EMNLP/2026/Workshop/NLLP": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-24",
    "invitations": [
     {
      "cdate": 1779163200000,
-     "duedate": 1787140740000,
-     "expdate": 1787142540000,
+     "duedate": 1788350340000,
+     "expdate": 1788352140000,
      "id": "EMNLP/2026/Workshop/NLLP/-/Submission",
      "kind": "Submission"
     }
@@ -1231,7 +1231,7 @@
    "why": "ARR track on speech/audio language models \u2014 speech is an explicit adjacent topic."
   },
   "EMNLP/2026/Workshop/UncertaiNLP_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1825,7 +1825,7 @@
    "why": "Vision-language autonomy workshop \u2014 robotics with a foundation-model angle, adjacent by rule."
   },
   "IEEE.org/IROS/2026/Workshop/AthleticHumanoid": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2035,7 +2035,7 @@
    "why": "Surgical robotics domain workshop with no ML-methods or LLM angle."
   },
   "IEEE.org/IROS/2026/Workshop/FM-MRS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2182,7 +2182,7 @@
    "why": "Robotic information-gathering/planning and competition, no LLM or AI-evaluation topic."
   },
   "IEEE.org/IROS/2026/Workshop/Insect-Scale_Autonomy": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2495,6 +2495,27 @@
    "verdict": "no",
    "website": "https://tactile-dexterity-iros.github.io/",
    "why": "Tactile sensing hardware for manipulation, outside ML/NLP."
+  },
+  "IEEE.org/IROS/2026/Workshop/ScaleInfra": {
+   "archived": false,
+   "first_seen": "2026-08-24",
+   "invitations": [
+    {
+     "cdate": 1781006400000,
+     "duedate": 1787659200000,
+     "expdate": 1787661000000,
+     "id": "IEEE.org/IROS/2026/Workshop/ScaleInfra/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ScaleInfra@IROS2026",
+   "title": "IROS 2026 Workshop on Building Scalable Infrastructure for Robot Learning: From Data Scaling to Real-World Deployment",
+   "verdict": "adjacent",
+   "website": "https://scale-infra.github.io/iros2026/",
+   "why": "Robot-learning data/infrastructure workshop \u2014 hits the geospatial/data-infrastructure and robotics-adjacent background bullets, never core on its own."
   },
   "IEEE.org/IROS/2026/Workshop/Social_Robot_Navigation": {
    "archived": false,
@@ -2816,9 +2837,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1778520790307,
-     "duedate": 1788134400000,
-     "expdate": 1788136200000,
+     "cdate": 1787563237858,
+     "duedate": 1788220740000,
+     "expdate": 1788222540000,
      "id": "JWOC/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2959,7 +2980,7 @@
    "why": "Medical image registration challenge, outside his fields."
   },
   "MICCAI.org/2026/Challenge/MEC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-23",
    "invitations": [
     {
@@ -3001,7 +3022,7 @@
    "why": "Shared task evaluating AI/LLM medical reasoning \u2014 eval angle but a medical application domain, so adjacent not core."
   },
   "MICCAI.org/2026/Challenge/TREAT-MMTB": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-20",
    "invitations": [
     {
@@ -3258,8 +3279,8 @@
    "invitations": [
     {
      "cdate": 1785016800000,
-     "duedate": 1787954340000,
-     "expdate": 1787956140000,
+     "duedate": 1788263940000,
+     "expdate": 1788265740000,
      "id": "NeurIPS.cc/2026/Workshop/AI4ChipDesign/-/Submission",
      "kind": "Submission"
     }
@@ -3491,8 +3512,8 @@
    "invitations": [
     {
      "cdate": 1784725200000,
-     "duedate": 1788005700000,
-     "expdate": 1788007500000,
+     "duedate": 1788610500000,
+     "expdate": 1788612300000,
      "id": "NeurIPS.cc/2026/Workshop/AI_and_the_Self/-/Submission",
      "kind": "Submission"
     }
@@ -3996,9 +4017,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1787201835900,
-     "duedate": 1788092940000,
-     "expdate": 1788094740000,
+     "cdate": 1787546922862,
+     "duedate": 1789302540000,
+     "expdate": 1789304340000,
      "id": "NeurIPS.cc/2026/Workshop/EvoRobust/-/Submission",
      "kind": "Submission"
     }
@@ -4034,13 +4055,13 @@
    "why": "Theoretical foundations of agentic systems is agent design theory rather than evaluation, oversight, or interpretation of agent behavior."
   },
   "NeurIPS.cc/2026/Workshop/FLLMPT": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-24",
    "invitations": [
     {
      "cdate": 1785279600000,
-     "duedate": 1787482800000,
-     "expdate": 1787484600000,
+     "duedate": 1788645600000,
+     "expdate": 1788647400000,
      "id": "NeurIPS.cc/2026/Workshop/FLLMPT/-/Submission",
      "kind": "Submission"
     }
@@ -5609,8 +5630,8 @@
    "invitations": [
     {
      "cdate": 1785135600000,
-     "duedate": 1787572740000,
-     "expdate": 1787574540000,
+     "duedate": 1787659140000,
+     "expdate": 1787660940000,
      "id": "NeurIPS.cc/2026/Workshop/WiML/-/Submission",
      "kind": "Submission"
     }
@@ -5774,7 +5795,7 @@
    "why": "Data analysis and smart applications for cyber-physical systems \u2014 peripheral applied-ML venue, adjacent on the tie-break."
   },
   "SIGARAB.org/ArabicNLP/2026/AISA-ArabicFC_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5858,7 +5879,7 @@
    "why": "Arabic audio-deepfake detection shared task \u2014 speech/media-forensics application."
   },
   "SIGARAB.org/ArabicNLP/2026/AraGenre_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5879,13 +5900,13 @@
    "why": "Arabic genre-classification shared task \u2014 general NLP."
   },
   "SIGARAB.org/ArabicNLP/2026/AraSeg_Shared_Task": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-24",
    "invitations": [
     {
      "cdate": 1785844800000,
-     "duedate": 1787486340000,
-     "expdate": 1787488140000,
+     "duedate": 1787831940000,
+     "expdate": 1787833740000,
      "id": "SIGARAB.org/ArabicNLP/2026/AraSeg_Shared_Task/-/Submission",
      "kind": "Submission"
     }
@@ -5942,7 +5963,7 @@
    "why": "Arabic dialect sentiment-analysis shared task \u2014 general NLP."
   },
   "SIGARAB.org/ArabicNLP/2026/HalluScoring_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6274,7 +6295,8 @@
    "issue": 124,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "AACL-IJCNLP 2026",
    "title": "The 5th Asia-Pacific Chapter of the Association for Computational Linguistics & the 15th International Joint Conference on Natural Language Processing",
@@ -7500,6 +7522,27 @@
    "website": "https://sim2real2field-corl26.github.io/",
    "why": "Sim-to-real robot deployment is applied robotics, outside the core LLM safety/interp/eval bullets."
   },
+  "robot-learning.org/CoRL/2026/Workshop/TAG": {
+   "archived": false,
+   "first_seen": "2026-08-24",
+   "invitations": [
+    {
+     "cdate": 1787572740000,
+     "duedate": 1791547140000,
+     "expdate": 1791548940000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/TAG/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "TAG 2026",
+   "title": "CoRL 2026 Workshop on The Action Gap: Large Generative Models Learn Rich Knowledge",
+   "verdict": "adjacent",
+   "website": "https://actiongapworkshop.github.io",
+   "why": "Robotics workshop on large generative models for action \u2014 robotics with a foundation-model angle is adjacent, not a core topic."
+  },
   "robot-learning.org/CoRL/2026/Workshop/UMI_Arena": {
    "archived": false,
    "first_seen": "2026-08-21",
@@ -7541,6 +7584,27 @@
    "verdict": "adjacent",
    "website": "https://uncertainwm2026.github.io/",
    "why": "Uncertainty here is about robotic world models, not calibration or reasoning under uncertainty of LLM agents, so it stays adjacent robotics."
+  },
+  "robot-learning.org/CoRL/2026/Workshop/WEBP": {
+   "archived": false,
+   "first_seen": "2026-08-24",
+   "invitations": [
+    {
+     "cdate": 1787547600000,
+     "duedate": 1791608340000,
+     "expdate": 1791610140000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/WEBP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CoRL 2026 WEBP",
+   "title": "CoRL 2026 Workshop on Everything Beneath the Policy",
+   "verdict": "adjacent",
+   "website": "https://beneath-the-policy.github.io/",
+   "why": "Robot-learning systems/infrastructure beneath policy training \u2014 robotics/systems with an ML angle is adjacent, not core."
   },
   "ronin-institute.org/SOIS/2026": {
    "archived": false,
@@ -7879,7 +7943,7 @@
    "why": "Regional technologies-and-innovation conference with some AI content, which the profile lists as adjacent."
   },
   "ufms.br/UFMS/2026/WOP-FACOM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
