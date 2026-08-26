@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-24",
- "last_run": "2026-08-25T13:55:28.987321+00:00",
+ "last_run": "2026-08-26T13:58:16.082398+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -150,6 +150,27 @@
    "verdict": "adjacent",
    "website": "https://lassworkshop26.github.io/",
    "why": "Applied agent workshop (social simulation), which the profile explicitly marks adjacent."
+  },
+  "ACM.org/ICAIF/2026/Workshop/AI4F": {
+   "archived": false,
+   "first_seen": "2026-08-26",
+   "invitations": [
+    {
+     "cdate": 1787443200000,
+     "duedate": 1791417540000,
+     "expdate": 1791419340000,
+     "id": "ACM.org/ICAIF/2026/Workshop/AI4F/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ACM ICAIF 2026 Workshop AI4F",
+   "title": "ICAIF 2026 | The 3rd Workshop on LLMs and Generative AI for Finance",
+   "verdict": "no",
+   "website": "https://ai4f.org",
+   "why": "LLMs applied to finance is a FinNLP-style applied-domain venue, explicitly on the no list."
   },
   "ACM.org/IIC-AIR/2027/Conference": {
    "archived": false,
@@ -341,7 +362,7 @@
    "why": "Efficient/trustworthy-ML-for-communities application venue, not safety/interp of AI itself."
   },
   "AI-ZAMAN/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -381,6 +402,27 @@
    "verdict": "adjacent",
    "website": "https://www.ai4bci.com/",
    "why": "ML applied to brain-computer interfaces \u2014 an application domain, not a core topic."
+  },
+  "AIAL/Symposium/2026": {
+   "archived": false,
+   "first_seen": "2026-08-26",
+   "invitations": [
+    {
+     "cdate": 1787436000000,
+     "duedate": 1792015200000,
+     "expdate": 1792017000000,
+     "id": "AIAL/Symposium/2026/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AIAL",
+   "title": "Annual Scientific Symposium 2026",
+   "verdict": "adjacent",
+   "website": "https://aial.com.ly",
+   "why": "Regional general AI symposium with no core-topic focus \u2014 regional conferences are listed, never pinged."
   },
   "AIDEA/2027/Symposium": {
    "archived": false,
@@ -845,7 +887,7 @@
    "why": "Philosophy workshop on epistemic injustice \u2014 ethics/bias-style venue the profile marks 'no'."
   },
   "EMNLP/2026/Workshop/AKBC_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1302,8 +1344,8 @@
    "invitations": [
     {
      "cdate": 1780920000000,
-     "duedate": 1787682540000,
-     "expdate": 1787684340000,
+     "duedate": 1787768940000,
+     "expdate": 1787770740000,
      "id": "EMNLP/2026/Workshop/WSLP/-/Submission",
      "kind": "Submission"
     }
@@ -1360,7 +1402,7 @@
    "why": "ARR-commitment track of the web-as-corpus workshop \u2014 same datasets/data-infrastructure verdict."
   },
   "EMNLP/2026/Workshop/WiNLP_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1783,7 +1825,7 @@
    "why": "Intelligent control and information processing \u2014 ML-flavored applied control, outside core bullets."
   },
   "IEEE.org/ICIST/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-25",
    "invitations": [
     {
@@ -1846,7 +1888,7 @@
    "why": "Robot planning/control workshop \u2014 applied robotics agents, agents as setting not question."
   },
   "IEEE.org/IROS/2026/Workshop/AI_Meets_Autonomy": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-21",
    "invitations": [
     {
@@ -1867,13 +1909,13 @@
    "why": "Vision-language autonomy workshop \u2014 robotics with a foundation-model angle, adjacent by rule."
   },
   "IEEE.org/IROS/2026/Workshop/AthleticHumanoid": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-26",
    "invitations": [
     {
      "cdate": 1784264400000,
-     "duedate": 1787547600000,
-     "expdate": 1787549400000,
+     "duedate": 1788321540000,
+     "expdate": 1788323340000,
      "id": "IEEE.org/IROS/2026/Workshop/AthleticHumanoid/-/Submission",
      "kind": "Submission"
     }
@@ -2035,13 +2077,13 @@
    "why": "Robotics data/datasets-and-benchmarks focus, adjacent only via the data-infrastructure background, not core topics."
   },
   "IEEE.org/IROS/2026/Workshop/DOM-R3": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-26",
    "invitations": [
     {
      "cdate": 1785524132800,
-     "duedate": 1787317200000,
-     "expdate": 1787319000000,
+     "duedate": 1788094800000,
+     "expdate": 1788096600000,
      "id": "IEEE.org/IROS/2026/Workshop/DOM-R3/-/Submission",
      "kind": "Submission"
     }
@@ -2098,13 +2140,13 @@
    "why": "Robotics with a foundation-model angle; agents/robots are the setting, not evaluation of AI itself."
   },
   "IEEE.org/IROS/2026/Workshop/FoC": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-26",
    "invitations": [
     {
      "cdate": 1780920000000,
-     "duedate": 1787659140000,
-     "expdate": 1787660940000,
+     "duedate": 1788263940000,
+     "expdate": 1788265740000,
      "id": "IEEE.org/IROS/2026/Workshop/FoC/-/Submission",
      "kind": "Submission"
     }
@@ -2350,13 +2392,13 @@
    "why": "Agentic AI for robotic teammates \u2014 applied agents in robotics, agents as setting not subject of evaluation."
   },
   "IEEE.org/IROS/2026/Workshop/PWMS": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-26",
    "invitations": [
     {
      "cdate": 1781049600000,
-     "duedate": 1787270340000,
-     "expdate": 1787272140000,
+     "duedate": 1788998340000,
+     "expdate": 1789000140000,
      "id": "IEEE.org/IROS/2026/Workshop/PWMS/-/Submission",
      "kind": "Submission"
     }
@@ -2438,9 +2480,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1783090740000,
-     "duedate": 1787749140000,
-     "expdate": 1787750940000,
+     "cdate": 1783094340000,
+     "duedate": 1788182940000,
+     "expdate": 1788184740000,
      "id": "IEEE.org/IROS/2026/Workshop/RoBoWoMo/-/Submission",
      "kind": "Submission"
     }
@@ -3604,7 +3646,9 @@
    ],
    "issue": 122,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "ATTRIB 2026",
    "title": "Third NeurIPS Workshop on Attributing Model Behavior at Scale: Data Attribution and Provenance",
    "verdict": "core",
@@ -3934,8 +3978,8 @@
    "invitations": [
     {
      "cdate": 1785214800000,
-     "duedate": 1788094740000,
-     "expdate": 1788096540000,
+     "duedate": 1788785940000,
+     "expdate": 1788787740000,
      "id": "NeurIPS.cc/2026/Workshop/DevAI/-/Submission",
      "kind": "Submission"
     }
@@ -4132,7 +4176,8 @@
    "issue": 105,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "FLMSec 2026",
    "title": "Foundations of Language Model Security: Theory, Practice, and Fundamental Limits",
@@ -4345,7 +4390,9 @@
    ],
    "issue": 112,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "NeurIPS 2026 Workshop IAB Competition Paper Track",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026 - Competition Paper Track",
    "verdict": "core",
@@ -4454,7 +4501,9 @@
    ],
    "issue": 107,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "InterpScience 2026",
    "title": "Interpretability as a Science: NeurIPS 2026 Workshop",
    "verdict": "core",
@@ -4553,8 +4602,8 @@
    "invitations": [
     {
      "cdate": 1784635200000,
-     "duedate": 1787745540000,
-     "expdate": 1787747340000,
+     "duedate": 1787831940000,
+     "expdate": 1787833740000,
      "id": "NeurIPS.cc/2026/Workshop/LXAI/-/Submission",
      "kind": "Submission"
     }
@@ -4574,8 +4623,8 @@
    "invitations": [
     {
      "cdate": 1784980740000,
-     "duedate": 1790423940000,
-     "expdate": 1790425740000,
+     "duedate": 1788782340000,
+     "expdate": 1788784140000,
      "id": "NeurIPS.cc/2026/Workshop/MATH-AI/-/Submission",
      "kind": "Submission"
     }
@@ -4595,8 +4644,8 @@
    "invitations": [
     {
      "cdate": 1784844000000,
-     "duedate": 1788040740000,
-     "expdate": 1788042540000,
+     "duedate": 1788091140000,
+     "expdate": 1788092940000,
      "id": "NeurIPS.cc/2026/Workshop/ML4Molecules/-/Submission",
      "kind": "Submission"
     }
@@ -4800,13 +4849,13 @@
    "why": "Extended-abstract track of a geometry-of-representations workshop \u2014 general ML representation theory, not interpretability of model behavior."
   },
   "NeurIPS.cc/2026/Workshop/NeurReps_Findings": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-26",
    "invitations": [
     {
-     "cdate": 1786381995319,
-     "duedate": 1787659140000,
-     "expdate": 1787660940000,
+     "cdate": 1787675230105,
+     "duedate": 1788868740000,
+     "expdate": 1788870540000,
      "id": "NeurIPS.cc/2026/Workshop/NeurReps_Findings/-/Submission",
      "kind": "Submission"
     }
@@ -4952,8 +5001,8 @@
    "invitations": [
     {
      "cdate": 1785225639600,
-     "duedate": 1788091140000,
-     "expdate": 1788092940000,
+     "duedate": 1788695940000,
+     "expdate": 1788697740000,
      "id": "NeurIPS.cc/2026/Workshop/PTA/-/Submission",
      "kind": "Submission"
     }
@@ -4968,7 +5017,7 @@
    "why": "Building acting agents from pretrained representations \u2014 applied agent-building, not agent evaluation or interp."
   },
   "NeurIPS.cc/2026/Workshop/PhysUnderstand": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5162,8 +5211,8 @@
    "invitations": [
     {
      "cdate": 1784980740000,
-     "duedate": 1788091140000,
-     "expdate": 1788092940000,
+     "duedate": 1789037940000,
+     "expdate": 1789039740000,
      "id": "NeurIPS.cc/2026/Workshop/RTCA/-/Submission",
      "kind": "Submission"
     }
@@ -5350,9 +5399,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1787080802069,
-     "duedate": 1788047940000,
-     "expdate": 1788049740000,
+     "cdate": 1787673334322,
+     "duedate": 1788609540000,
+     "expdate": 1788611340000,
      "id": "NeurIPS.cc/2026/Workshop/Simbiochem/-/Submission",
      "kind": "Submission"
     }
@@ -6342,7 +6391,7 @@
    "why": "Distributed-morphology word-formation workshop \u2014 morphosyntax/pure linguistics, an explicit no category."
   },
   "aclweb.org/AACL-IJCNLP/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -6786,6 +6835,27 @@
    "verdict": "no",
    "website": "https://sites.google.com/view/emv-une1/",
    "why": "Video event-monitoring CV challenge with no LLM or foundation-model angle."
+  },
+  "afcv.org/ACCV/2026/Workshop/HUFPEI": {
+   "archived": false,
+   "first_seen": "2026-08-26",
+   "invitations": [
+    {
+     "cdate": 1787702400000,
+     "duedate": 1790899140000,
+     "expdate": 1790900940000,
+     "id": "afcv.org/ACCV/2026/Workshop/HUFPEI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "HUFPEI 2016",
+   "title": "International Workshop on Human Understanding, Future Prediction, and Embodied Intelligence",
+   "verdict": "adjacent",
+   "website": "https://hufpei-workshop.github.io/accv2026/",
+   "why": "Vision/embodied-intelligence workshop at ACCV \u2014 robotics/vision with agents as the setting, not agent evaluation or interpretability."
   },
   "afcv.org/ACCV/2026/Workshop/LFSD-CV": {
    "archived": false,
