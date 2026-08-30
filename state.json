@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-24",
- "last_run": "2026-08-29T17:03:18.524001+00:00",
+ "last_run": "2026-08-30T17:17:39.533439+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -94,8 +94,8 @@
    "invitations": [
     {
      "cdate": 1784097219400,
-     "duedate": 1788091140000,
-     "expdate": 1788092940000,
+     "duedate": 1788177540000,
+     "expdate": 1788179340000,
      "id": "ACM.org/CIKM/2026/Workshop/EARL/-/Submission",
      "kind": "Submission"
     }
@@ -278,7 +278,7 @@
    "why": "Short-paper track of the same WWW conference; same web/IR/ML topic outside the core bullets, so same verdict as the venue."
   },
   "ACM.org/WebSciX/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -320,7 +320,7 @@
    "why": "Music-AI application workshop, ML-but-not-core topic at a regional conference."
   },
   "ACML.org/2026/Workshop/FMLTS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -1721,7 +1721,7 @@
    "why": "ICLR main track, explicitly a core flagship main-track venue in the profile."
   },
   "ICOMP.cc/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-28",
    "invitations": [
     {
@@ -2141,7 +2141,7 @@
    "why": "Robotics data/datasets-and-benchmarks focus, adjacent only via the data-infrastructure background, not core topics."
   },
   "IEEE.org/IROS/2026/Workshop/DOM-R3": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-26",
    "invitations": [
     {
@@ -3065,7 +3065,7 @@
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
   "MICCAI.org/2026/Challenge/BIG-MRI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3112,8 +3112,8 @@
    "invitations": [
     {
      "cdate": 1786078800000,
-     "duedate": 1788235200000,
-     "expdate": 1788237000000,
+     "duedate": 1788321540000,
+     "expdate": 1788323340000,
      "id": "MICCAI.org/2026/Challenge/L2R/-/Submission",
      "kind": "Submission"
     }
@@ -3469,8 +3469,8 @@
    "invitations": [
     {
      "cdate": 1785414024000,
-     "duedate": 1788265800000,
-     "expdate": 1788267600000,
+     "duedate": 1788350400000,
+     "expdate": 1788352200000,
      "id": "NeurIPS.cc/2026/Workshop/AI4GOOD/-/Submission",
      "kind": "Submission"
     }
@@ -3485,7 +3485,7 @@
    "why": "Trustworthy AI for social-good applications \u2014 a 'trustworthy X' application venue, not safety of AI itself."
   },
   "NeurIPS.cc/2026/Workshop/AI4Mat": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -3506,7 +3506,7 @@
    "why": "AI-for-materials application workshop at NeurIPS, topic hits no core bullet."
   },
   "NeurIPS.cc/2026/Workshop/AI4MetaScience": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3590,7 +3590,7 @@
    "why": "Scientific data readiness/infrastructure \u2014 background-adjacent, never core."
   },
   "NeurIPS.cc/2026/Workshop/AIM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3645,7 +3645,9 @@
    ],
    "issue": 117,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "NeurIPS 2026 AIWILD",
    "title": "Third Workshop on Agents in the Wild: Safety, Security, and Beyond",
    "verdict": "core",
@@ -3674,13 +3676,13 @@
    "why": "Human identity, authenticity, and agency \u2014 humanities/HCI topic without ML methods."
   },
   "NeurIPS.cc/2026/Workshop/ASCI": {
-   "archived": true,
-   "first_seen": "2026-08-23",
+   "archived": false,
+   "first_seen": "2026-08-30",
    "invitations": [
     {
-     "cdate": 1787426906722,
-     "duedate": 1787961600000,
-     "expdate": 1787963400000,
+     "cdate": 1788055086135,
+     "duedate": 1788134400000,
+     "expdate": 1788136200000,
      "id": "NeurIPS.cc/2026/Workshop/ASCI/-/Submission",
      "kind": "Submission"
     }
@@ -3700,17 +3702,15 @@
    "invitations": [
     {
      "cdate": 1785542400000,
-     "duedate": 1788350340000,
-     "expdate": 1788352140000,
+     "duedate": 1788695940000,
+     "expdate": 1788697740000,
      "id": "NeurIPS.cc/2026/Workshop/ATTRIB/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 122,
    "prestige": 1,
-   "reminded": [
-    "T-7"
-   ],
+   "reminded": [],
    "subtitle": "ATTRIB 2026",
    "title": "Third NeurIPS Workshop on Attributing Model Behavior at Scale: Data Attribution and Provenance",
    "verdict": "core",
@@ -3718,7 +3718,7 @@
    "why": "Attributing model behavior \u2014 interpretability of AI systems themselves (explicit calibration core: ATTRIB)."
   },
   "NeurIPS.cc/2026/Workshop/AXIOM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3781,7 +3781,7 @@
    "why": "Agents for biological discovery \u2014 applied agent workshop."
   },
   "NeurIPS.cc/2026/Workshop/AgenticOS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3823,7 +3823,7 @@
    "why": "Decentralized web-agent ecosystems \u2014 applied agent workshop (calibration adjacent: Agentic Web)."
   },
   "NeurIPS.cc/2026/Workshop/AutoMLR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3930,7 +3930,7 @@
    "why": "Foundation models for brain/body data is a biology application with an ML angle, not a core safety/interp/agent-eval topic."
   },
   "NeurIPS.cc/2026/Workshop/CL4FMAgents": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3972,7 +3972,7 @@
    "why": "Continual learning for enterprise agents is explicitly named adjacent in the profile's calibration examples."
   },
   "NeurIPS.cc/2026/Workshop/CODEC-FM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3993,7 +3993,7 @@
    "why": "Decentralized/collaborative FM training is systems and training infrastructure, hitting no core bullet."
   },
   "NeurIPS.cc/2026/Workshop/CWM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4014,7 +4014,7 @@
    "why": "World models are explicitly listed adjacent as a general ML topic outside the core bullets."
   },
   "NeurIPS.cc/2026/Workshop/Child_Safety_in_AI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4061,8 +4061,8 @@
    "invitations": [
     {
      "cdate": 1785528000000,
-     "duedate": 1788206340000,
-     "expdate": 1788208140000,
+     "duedate": 1788638340000,
+     "expdate": 1788640140000,
      "id": "NeurIPS.cc/2026/Workshop/DiffuLM/-/Submission",
      "kind": "Submission"
     }
@@ -4103,8 +4103,8 @@
    "invitations": [
     {
      "cdate": 1785848400000,
-     "duedate": 1788094800000,
-     "expdate": 1788096600000,
+     "duedate": 1788699600000,
+     "expdate": 1788701400000,
      "id": "NeurIPS.cc/2026/Workshop/E-values/-/Submission",
      "kind": "Submission"
     }
@@ -4119,7 +4119,7 @@
    "why": "E-values are statistical testing methodology bridging to ML, not evaluation of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/EIML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4182,7 +4182,7 @@
    "why": "Embodied spatial reasoning is robotics/embodied-vision, not math/formal LLM reasoning or agent evaluation, so it misses every core bullet despite the NeurIPS host."
   },
   "NeurIPS.cc/2026/Workshop/EconML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -4421,8 +4421,8 @@
    "invitations": [
     {
      "cdate": 1784116800000,
-     "duedate": 1788037140000,
-     "expdate": 1788038940000,
+     "duedate": 1788609540000,
+     "expdate": 1788611340000,
      "id": "NeurIPS.cc/2026/Workshop/GlobalSouthAI/-/Submission",
      "kind": "Submission"
     }
@@ -4471,7 +4471,9 @@
    ],
    "issue": 108,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "IAB @NeurIPS 2026 Workshop",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026",
    "verdict": "core",
@@ -4492,7 +4494,9 @@
    ],
    "issue": 112,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "NeurIPS 2026 Workshop IAB Competition Paper Track",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026 - Competition Paper Track",
    "verdict": "core",
@@ -4500,7 +4504,7 @@
    "why": "Competition paper track of the IAB workshop; same verdict as its interp-of-agent-behavior topic."
   },
   "NeurIPS.cc/2026/Workshop/IAEval": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4612,7 +4616,7 @@
    "why": "Interpretability as a Science hits the interpretability core bullet and is a named core calibration example."
   },
   "NeurIPS.cc/2026/Workshop/JUDGe": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4662,8 +4666,8 @@
    "invitations": [
     {
      "cdate": 1785016800000,
-     "duedate": 1788040800000,
-     "expdate": 1788042600000,
+     "duedate": 1788177600000,
+     "expdate": 1788179400000,
      "id": "NeurIPS.cc/2026/Workshop/LIGHT/-/Submission",
      "kind": "Submission"
     }
@@ -4741,7 +4745,7 @@
    "why": "MATH-AI at the NeurIPS family is the explicit mathematical-reasoning-of-LLMs core bullet."
   },
   "NeurIPS.cc/2026/Workshop/ML4Molecules": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4788,8 +4792,8 @@
    "invitations": [
     {
      "cdate": 1784091600000,
-     "duedate": 1788177600000,
-     "expdate": 1788179400000,
+     "duedate": 1788263940000,
+     "expdate": 1788265740000,
      "id": "NeurIPS.cc/2026/Workshop/MLForSys/-/Submission",
      "kind": "Submission"
     }
@@ -4825,7 +4829,7 @@
    "why": "Uncertainty-aware decision-making here is OR/optimization methodology, not calibration or reasoning under uncertainty of LLM agents."
   },
   "NeurIPS.cc/2026/Workshop/MPLR-FM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4850,9 +4854,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1785736800000,
-     "duedate": 1788065940000,
-     "expdate": 1788067740000,
+     "cdate": 1787893140000,
+     "duedate": 1788670740000,
+     "expdate": 1788672540000,
      "id": "NeurIPS.cc/2026/Workshop/Med-Reasoner/-/Submission",
      "kind": "Submission"
     }
@@ -4893,8 +4897,8 @@
    "invitations": [
     {
      "cdate": 1784563200000,
-     "duedate": 1788033600000,
-     "expdate": 1788035400000,
+     "duedate": 1788984000000,
+     "expdate": 1788985800000,
      "id": "NeurIPS.cc/2026/Workshop/MusIML/-/Submission",
      "kind": "Submission"
     }
@@ -5014,7 +5018,7 @@
    "why": "Weights-as-a-data-modality is general ML methodology, not interp/eval of AI behavior."
   },
   "NeurIPS.cc/2026/Workshop/NewInML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5077,7 +5081,7 @@
    "why": "Optimization for ML is a general ML workshop outside the core bullets."
   },
   "NeurIPS.cc/2026/Workshop/PALM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5224,7 +5228,7 @@
    "why": "Affinity-group workshop, same category as WiML in the no list."
   },
   "NeurIPS.cc/2026/Workshop/RAAAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5245,7 +5249,7 @@
    "why": "Resource-efficiency for agentic AI is explicitly listed as an applied-agent adjacent topic."
   },
   "NeurIPS.cc/2026/Workshop/RCMLR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5287,7 +5291,7 @@
    "why": "RL applied to experimental sciences \u2014 ML-for-science application."
   },
   "NeurIPS.cc/2026/Workshop/RPS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5417,9 +5421,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1785596425900,
-     "duedate": 1788613200000,
-     "expdate": 1788615000000,
+     "cdate": 1785600025900,
+     "duedate": 1788786000000,
+     "expdate": 1788787800000,
      "id": "NeurIPS.cc/2026/Workshop/SLM-Agents/-/Submission",
      "kind": "Submission"
     }
@@ -5455,13 +5459,13 @@
    "why": "AI for stochastic dynamics in scientific applications \u2014 ML-for-science."
   },
   "NeurIPS.cc/2026/Workshop/SaTQuML": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-30",
    "invitations": [
     {
      "cdate": 1786795200000,
-     "duedate": 1788004800000,
-     "expdate": 1788006600000,
+     "duedate": 1788695940000,
+     "expdate": 1788697740000,
      "id": "NeurIPS.cc/2026/Workshop/SaTQuML/-/Submission",
      "kind": "Submission"
     }
@@ -5518,7 +5522,7 @@
    "why": "Simulations for biology/chemistry with an ML-methods angle \u2014 science application, tie-breaks to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/SocialAgent": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5539,7 +5543,7 @@
    "why": "LLMs for social reasoning/simulation \u2014 social-simulation agent workshops are explicitly adjacent."
   },
   "NeurIPS.cc/2026/Workshop/TAE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5563,7 +5567,7 @@
    "why": "Trust-AI-Eval's own topic is evaluating trustworthiness of AI systems themselves, hitting the safety/evaluation core bullet (JUDGe-style)."
   },
   "NeurIPS.cc/2026/Workshop/TCCML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5584,7 +5588,7 @@
    "why": "Climate change application of ML, not a core topic."
   },
   "NeurIPS.cc/2026/Workshop/TCCML_Tutorials_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5651,9 +5655,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786378346630,
-     "duedate": 1788091140000,
-     "expdate": 1788092940000,
+     "cdate": 1788054351734,
+     "duedate": 1788350340000,
+     "expdate": 1788352140000,
      "id": "NeurIPS.cc/2026/Workshop/UserSim/-/Submission",
      "kind": "Submission"
     }
@@ -5731,7 +5735,7 @@
    "why": "VLM grounding/faithfulness for real-world deployment \u2014 a general multimodal workshop, and VLM workshops are explicitly adjacent."
   },
   "NeurIPS.cc/2026/Workshop/Verify-Agents": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5776,13 +5780,13 @@
    "why": "World models for clinical-trial simulation \u2014 trustworthy-X health application, not evaluation of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/WM_PAI": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-30",
    "invitations": [
     {
      "cdate": 1785074400000,
-     "duedate": 1788011940000,
-     "expdate": 1788013740000,
+     "duedate": 1788645540000,
+     "expdate": 1788647340000,
      "id": "NeurIPS.cc/2026/Workshop/WM_PAI/-/Submission",
      "kind": "Submission"
     }
@@ -5797,13 +5801,13 @@
    "why": "World-models workshop \u2014 explicitly listed as an adjacent general-ML topic in the profile."
   },
   "NeurIPS.cc/2026/Workshop/WRL": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-08-30",
    "invitations": [
     {
      "cdate": 1785051836600,
-     "duedate": 1788004740000,
-     "expdate": 1788006540000,
+     "duedate": 1788436740000,
+     "expdate": 1788438540000,
      "id": "NeurIPS.cc/2026/Workshop/WRL/-/Submission",
      "kind": "Submission"
     }
@@ -5852,7 +5856,9 @@
    ],
    "issue": 115,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "XAI4Science",
    "title": "XAI4Science: Knowledge Discovery and Trust through Interpretable Foundation Models",
    "verdict": "core",
@@ -6720,7 +6726,8 @@
    "issue": 119,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "PlurVA-LLM",
    "title": "The First Workshop on Pluralistic Value Alignment of LLMs",
@@ -6855,7 +6862,7 @@
    "why": "Industry-oriented applied-NLP workshop \u2014 safety/reliability wording in the name is not enough to hit a core bullet."
   },
   "aclweb.org/INLG/2026/Workshop/Industrial_NLP_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7331,7 +7338,8 @@
    "issue": 120,
    "prestige": 2,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "DeepMath 2026",
    "title": "DeepMath",
@@ -7501,7 +7509,8 @@
    "issue": 121,
    "prestige": 2,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "CLEAR Workshop 2026",
    "title": "Collaborative Methods and Tools for Engineering and Evaluating Transparency in AI - IJCAI\u2013ECAI 2026",
