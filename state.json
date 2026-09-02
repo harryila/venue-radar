@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-31",
- "last_run": "2026-09-01T17:16:36.659032+00:00",
+ "last_run": "2026-09-02T17:05:36.513883+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -425,13 +425,13 @@
    "why": "Regional interdisciplinary AI conference \u2014 adjacent by the regional-conference rule."
   },
   "AI4BCI/2026/Symposium": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-02",
    "invitations": [
     {
      "cdate": 1778059157400,
-     "duedate": 1788217200000,
-     "expdate": 1788219000000,
+     "duedate": 1792065540000,
+     "expdate": 1792067340000,
      "id": "AI4BCI/2026/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -1100,7 +1100,7 @@
    "why": "Shared-task track on grounding LMs \u2014 shared tasks stay adjacent unless about calibration/eval/interp."
   },
   "EMNLP/2026/Workshop/IMPACT-SPEECH_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1126,8 +1126,8 @@
    "invitations": [
     {
      "cdate": 1786838400000,
-     "duedate": 1788825600000,
-     "expdate": 1788913800000,
+     "duedate": 1789171200000,
+     "expdate": 1789259400000,
      "id": "EMNLP/2026/Workshop/Insights_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -1250,7 +1250,7 @@
    "why": "ARR-commitment track of a mathematical-reasoning/NLP workshop hosted in the ACL/EMNLP flagship family \u2014 the MATH-AI-style core bullet."
   },
   "EMNLP/2026/Workshop/NLLP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-24",
    "invitations": [
     {
@@ -1466,7 +1466,7 @@
    "why": "Web-as-corpus is datasets/data-infrastructure \u2014 adjacent by the background rule, never core."
   },
   "EMNLP/2026/Workshop/WaC-13_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1889,7 +1889,7 @@
    "why": "Cyber resilience and security engineering \u2014 systems/security without an ML-methods core."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1973,7 +1973,7 @@
    "why": "General information science and technology conference with ML content but no core topic \u2014 general-conference adjacent."
   },
   "IEEE.org/ICRA/2027/WT-Pre-Proposals": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2036,7 +2036,7 @@
    "why": "Vision-language autonomy workshop \u2014 robotics with a foundation-model angle, adjacent by rule."
   },
   "IEEE.org/IROS/2026/Workshop/AthleticHumanoid": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-26",
    "invitations": [
     {
@@ -2097,6 +2097,27 @@
    "verdict": "adjacent",
    "website": "https://sites.google.com/bu.edu/hybridarchforautonomy",
    "why": "Learning-planning-control architectures for embodied autonomy \u2014 applied robotics."
+  },
+  "IEEE.org/IROS/2026/Workshop/Beyond_Exteroception": {
+   "archived": false,
+   "first_seen": "2026-09-02",
+   "invitations": [
+    {
+     "cdate": 1788246000000,
+     "duedate": 1789887600000,
+     "expdate": 1789889400000,
+     "id": "IEEE.org/IROS/2026/Workshop/Beyond_Exteroception/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "IROS 2026 Beyond Exteroception",
+   "title": "IROS 2026 Workshop on Beyond Exteroception: Interoceptive Perception for Resilient Robotics",
+   "verdict": "no",
+   "website": "https://superodometry.com/interoception",
+   "why": "Robotics interoceptive sensing/resilience workshop with no LLM or foundation-model angle, outside his ML/NLP fields."
   },
   "IEEE.org/IROS/2026/Workshop/Bimanual_Manipulation": {
    "archived": true,
@@ -2393,7 +2414,7 @@
    "why": "Robotic information-gathering/planning and competition, no LLM or AI-evaluation topic."
   },
   "IEEE.org/IROS/2026/Workshop/Insect-Scale_Autonomy": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-25",
    "invitations": [
     {
@@ -2482,8 +2503,8 @@
    "invitations": [
     {
      "cdate": 1784606400000,
-     "duedate": 1788350340000,
-     "expdate": 1788352140000,
+     "duedate": 1789041540000,
+     "expdate": 1789043340000,
      "id": "IEEE.org/IROS/2026/Workshop/Modular_Robots/-/Submission",
      "kind": "Submission"
     }
@@ -2603,7 +2624,7 @@
    "why": "Uncertainty quantification for robotics, not reasoning-under-uncertainty or calibration of LLM agents."
   },
   "IEEE.org/IROS/2026/Workshop/RoBoWoMo": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2876,13 +2897,13 @@
    "why": "World models and spatial intelligence for physical AI, an adjacent general-ML topic applied to robotics."
   },
   "IEEE.org/IROS/2026/Workshop/WPNMR": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-02",
    "invitations": [
     {
      "cdate": 1782882000000,
-     "duedate": 1788238800000,
-     "expdate": 1788240600000,
+     "duedate": 1788411600000,
+     "expdate": 1788413400000,
      "id": "IEEE.org/IROS/2026/Workshop/WPNMR/-/Submission",
      "kind": "Submission"
     }
@@ -3107,7 +3128,7 @@
    "why": "French national computational-linguistics network meeting \u2014 regional NLP community event, not a core topic."
   },
   "LOCO/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3170,7 +3191,7 @@
    "why": "Medical-imaging challenge; medical imaging venues are calibrated as no."
   },
   "MICCAI.org/2026/Challenge/L2R": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3469,8 +3490,8 @@
    "invitations": [
     {
      "cdate": 1783080000000,
-     "duedate": 1788562800000,
-     "expdate": 1788564600000,
+     "duedate": 1788638340000,
+     "expdate": 1788640140000,
      "id": "NeurIPS.cc/2026/Education_Track/-/Submission",
      "kind": "Submission"
     }
@@ -3569,7 +3590,7 @@
    "why": "ML-for-drug-discovery application workshop."
   },
   "NeurIPS.cc/2026/Workshop/AI4GOOD": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3765,8 +3786,8 @@
    "invitations": [
     {
      "cdate": 1784725200000,
-     "duedate": 1788700500000,
-     "expdate": 1788702300000,
+     "duedate": 1788959700000,
+     "expdate": 1788961500000,
      "id": "NeurIPS.cc/2026/Workshop/AI_and_the_Self/-/Submission",
      "kind": "Submission"
     }
@@ -4701,7 +4722,7 @@
    "why": "Interpretability for Discovery hits the interpretability-of-AI-systems core bullet and is a named core calibration example."
   },
   "NeurIPS.cc/2026/Workshop/InterpScience": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5234,7 +5255,7 @@
    "why": "Building acting agents from pretrained representations \u2014 applied agent-building, not agent evaluation or interp."
   },
   "NeurIPS.cc/2026/Workshop/PhysUnderstand": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-01",
    "invitations": [
     {
@@ -5381,7 +5402,7 @@
    "why": "Responsible communication of ML research in biomedicine is a meta/communication topic, not core; unsure tie-breaks to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/RL4XS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5762,7 +5783,7 @@
    "why": "Continual learning for agents is explicitly listed as an applied-agent adjacent topic."
   },
   "NeurIPS.cc/2026/Workshop/UserSim": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6781,13 +6802,13 @@
    "why": "Direct-submission track of Gender Bias in NLP \u2014 the profile lists GeBNLP as no, and tracks inherit the workshop's verdict."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/LT4CPR": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-02",
    "invitations": [
     {
      "cdate": 1786597200000,
-     "duedate": 1788263940000,
-     "expdate": 1788265740000,
+     "duedate": 1788868800000,
+     "expdate": 1788870600000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/LT4CPR/-/Submission",
      "kind": "Submission"
     }
@@ -8004,6 +8025,27 @@
    "website": "https://leap-workshop.github.io/",
    "why": "Learning abstractions for robot planning is applied robotics/planning ML, not evaluation, interpretability, or safety of AI systems."
   },
+  "robot-learning.org/CoRL/2026/Workshop/Learn_Deploy": {
+   "archived": false,
+   "first_seen": "2026-09-02",
+   "invitations": [
+    {
+     "cdate": 1788285540000,
+     "duedate": 1791223140000,
+     "expdate": 1791224940000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/Learn_Deploy/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CoRL 2026 Workshop Learn@Deploy",
+   "title": "CoRL 2026 Workshop on Robot Learning at Deployment",
+   "verdict": "adjacent",
+   "website": "https://learn-at-deploy.github.io/",
+   "why": "Robot-learning deployment workshop at CoRL \u2014 robotics with a learning/foundation-model angle, agents as setting not his question."
+  },
   "robot-learning.org/CoRL/2026/Workshop/PhysWM": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -8907,6 +8949,27 @@
    "website": "https://mivia.unisa.it/wastevision2027/",
    "why": "Computer vision for waste monitoring \u2014 applied environmental-sensing vision, not a core topic."
   },
+  "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning": {
+   "archived": false,
+   "first_seen": "2026-09-02",
+   "invitations": [
+    {
+     "cdate": 1788300000000,
+     "duedate": 1788609600000,
+     "expdate": 1788611400000,
+     "id": "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "RoL IP 2026",
+   "title": "Robot Learning Integrated Project Workshop",
+   "verdict": "no",
+   "website": "https://www.ias.informatik.tu-darmstadt.de/Teaching/IP-RobotLearning",
+   "why": "University-internal robot-learning course project workshop, not a publication venue in his fields."
+  },
   "uagraria.edu.ec/CITI/2027/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -8955,8 +9018,8 @@
    "invitations": [
     {
      "cdate": 1786510800000,
-     "duedate": 1789819140000,
-     "expdate": 1789820940000,
+     "duedate": 1790423940000,
+     "expdate": 1790425740000,
      "id": "umich.edu/University_of_Michigan/2026/CAIDM/-/Submission",
      "kind": "Submission"
     }
