@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-31",
- "last_run": "2026-09-02T17:05:36.513883+00:00",
+ "last_run": "2026-09-03T16:59:43.619819+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -278,7 +278,7 @@
    "why": "Short-paper track of the same WWW conference; same web/IR/ML topic outside the core bullets, so same verdict as the venue."
   },
   "ACM.org/WebSciX/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
@@ -1889,13 +1889,13 @@
    "why": "Cyber resilience and security engineering \u2014 systems/security without an ML-methods core."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-03",
    "invitations": [
     {
      "cdate": 1777593600000,
-     "duedate": 1788307140000,
-     "expdate": 1788308940000,
+     "duedate": 1793577540000,
+     "expdate": 1793579340000,
      "id": "IEEE.org/EMBS/BHI/2026/Abstracts/-/Submission",
      "kind": "Submission"
     }
@@ -2314,8 +2314,8 @@
    "invitations": [
     {
      "cdate": 1783708500000,
-     "duedate": 1788407940000,
-     "expdate": 1788409740000,
+     "duedate": 1789099140000,
+     "expdate": 1789100940000,
      "id": "IEEE.org/IROS/2026/Workshop/Full-Shift_Robot_Co-Workers/-/Submission",
      "kind": "Submission"
     }
@@ -2330,7 +2330,7 @@
    "why": "Robot perception and physical human-robot interaction, no LLM/foundation-model angle."
   },
   "IEEE.org/IROS/2026/Workshop/HEAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2897,7 +2897,7 @@
    "why": "World models and spatial intelligence for physical AI, an adjacent general-ML topic applied to robotics."
   },
   "IEEE.org/IROS/2026/Workshop/WPNMR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-02",
    "invitations": [
     {
@@ -3111,9 +3111,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1780351200000,
-     "duedate": 1789984740000,
-     "expdate": 1789986540000,
+     "cdate": 1780401600000,
+     "duedate": 1790675940000,
+     "expdate": 1790677740000,
      "id": "LIFT2/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4028,7 +4028,8 @@
    "issue": 111,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "BiAlign Workshop 2026",
    "title": "NeurIPS 2026 Workshop on Dynamic Alignment in Human-AI Coupled Systems",
@@ -4439,7 +4440,7 @@
    "why": "Foundation models for forecasting and world modeling is a general ML topic (world models are explicitly adjacent)."
   },
   "NeurIPS.cc/2026/Workshop/GDDL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4565,7 +4566,7 @@
    "why": "Regional/affinity community workshop analogous to WiML and Widening NLP in the profile's no list."
   },
   "NeurIPS.cc/2026/Workshop/HAIC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4656,7 +4657,7 @@
    "why": "Evaluation of interactive agents hits the agent-evaluation core bullet and is a named core calibration example."
   },
   "NeurIPS.cc/2026/Workshop/ICBINB-BIO": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4698,7 +4699,7 @@
    "why": "AI privacy is a trustworthy-ML pillar the profile does not include among its core bullets."
   },
   "NeurIPS.cc/2026/Workshop/Interp4Discovery": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5465,7 +5466,7 @@
    "why": "Real-time multimodal conversational agent systems \u2014 applied agents, not agent eval/interp."
   },
   "NeurIPS.cc/2026/Workshop/ReMuCAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5528,7 +5529,7 @@
    "why": "Post-training of robot foundation models \u2014 robotics with a foundation-model angle."
   },
   "NeurIPS.cc/2026/Workshop/Robotics_World_Modeling": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5612,7 +5613,7 @@
    "why": "Secure/trustworthy quantum ML \u2014 quantum ML is explicitly on the no list."
   },
   "NeurIPS.cc/2026/Workshop/Sim2Sci": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5933,7 +5934,7 @@
    "why": "World-models workshop \u2014 explicitly listed as an adjacent general-ML topic in the profile."
   },
   "NeurIPS.cc/2026/Workshop/WRL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-30",
    "invitations": [
     {
@@ -7293,8 +7294,8 @@
    "invitations": [
     {
      "cdate": 1786291140000,
-     "duedate": 1789657200000,
-     "expdate": 1789659000000,
+     "duedate": 1790456400000,
+     "expdate": 1790458200000,
      "id": "afcv.org/ACCV/2026/Workshop/Subspaces/-/Submission",
      "kind": "Submission"
     }
@@ -8425,13 +8426,13 @@
    "why": "3D vision and world models is a vision-with-foundation-models topic, adjacent under the profile."
   },
   "thecvf.com/ECCV/2026/Workshop/DexHAND_Non-Proceedings": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-03",
    "invitations": [
     {
      "cdate": 1779494340000,
-     "duedate": 1788220740000,
-     "expdate": 1788222540000,
+     "duedate": 1788911940000,
+     "expdate": 1788913740000,
      "id": "thecvf.com/ECCV/2026/Workshop/DexHAND_Non-Proceedings/-/Submission",
      "kind": "Submission"
     }
@@ -8822,6 +8823,27 @@
    "verdict": "adjacent",
    "website": "https://praw-workshop.github.io/",
    "why": "Vision/AI applied to physical retail \u2014 application-domain workshop, no core bullet."
+  },
+  "thecvf.com/WACV/2027/Workshop/SEAI": {
+   "archived": false,
+   "first_seen": "2026-09-03",
+   "invitations": [
+    {
+     "cdate": 1788411600000,
+     "duedate": 1791003600000,
+     "expdate": 1791005400000,
+     "id": "thecvf.com/WACV/2027/Workshop/SEAI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SEAI @ WACV 2027",
+   "title": "Workshop on Social Embodied AI at WACV 2027",
+   "verdict": "adjacent",
+   "website": "https://wacv27seai.synoring.ai/",
+   "why": "Social embodied AI workshop at a vision conference \u2014 vision/robotics agents as an application setting, not alignment, interpretability, or evaluation of AI systems."
   },
   "thecvf.com/WACV/2027/Workshop/SIGNAL": {
    "archived": false,
