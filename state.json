@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-08-31",
- "last_run": "2026-09-03T16:59:43.619819+00:00",
+ "last_run": "2026-09-04T16:48:34.261744+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -430,8 +430,8 @@
    "invitations": [
     {
      "cdate": 1778059157400,
-     "duedate": 1792065540000,
-     "expdate": 1792067340000,
+     "duedate": 1792151940000,
+     "expdate": 1792153740000,
      "id": "AI4BCI/2026/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -681,9 +681,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1788168663383,
-     "duedate": 1788566340000,
-     "expdate": 1788568140000,
+     "cdate": 1788513675207,
+     "duedate": 1788609540000,
+     "expdate": 1788611340000,
      "id": "BNAIC-BeNeLearn/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -801,6 +801,27 @@
    "verdict": "adjacent",
    "website": "http://ccbr.mustedu.cn/",
    "why": "Regional biometric-recognition (vision) conference with no core-topic overlap."
+  },
+  "CLUG-EVAS/2026/Workshop": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1787659200000,
+     "duedate": 1791979140000,
+     "expdate": 1791980940000,
+     "id": "CLUG-EVAS/2026/Workshop/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CLUG-EVAS 2026",
+   "title": "2nd Workshop on Artificial Cultural Reasoning: Cross- Border Language Processing & Empirical Validation",
+   "verdict": "adjacent",
+   "website": "https://curia-gr.github.io",
+   "why": "Cultural/cross-border language processing is general multilingual-flavored NLP at a low-signal host, hitting no core bullet."
   },
   "CoNGA/2026/Conference": {
    "archived": true,
@@ -1784,13 +1805,13 @@
    "why": "ICLR main track, explicitly a core flagship main-track venue in the profile."
   },
   "ICOMP.cc/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-08-28",
+   "archived": false,
+   "first_seen": "2026-09-04",
    "invitations": [
     {
      "cdate": 1773100860000,
-     "duedate": 1788047940000,
-     "expdate": 1788049740000,
+     "duedate": 1788739140000,
+     "expdate": 1788740940000,
      "id": "ICOMP.cc/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2645,7 +2666,7 @@
    "why": "Neural/symbolic world models for robot planning \u2014 world-models topic in an applied robotics setting."
   },
   "IEEE.org/IROS/2026/Workshop/Robot-Codesign": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3316,6 +3337,27 @@
    "website": "https://deep-breath-miccai.github.io/deepbreath-2026",
    "why": "Breast-care imaging AI workshop, medicine-focused."
   },
+  "MICCAI.org/2026/Workshop/EMA": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1788364800000,
+     "duedate": 1789488000000,
+     "expdate": 1789489800000,
+     "id": "MICCAI.org/2026/Workshop/EMA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "EMA 2026",
+   "title": "Efficient Medical AI 2026",
+   "verdict": "no",
+   "website": "https://sites.google.com/view/ema2026",
+   "why": "Efficient AI for the medical-imaging application domain, matching the Trustworthy-FMs-in-Medical-Imaging no-example."
+  },
   "MICCAI.org/2026/Workshop/METIS": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -3772,7 +3814,8 @@
    "issue": 117,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "NeurIPS 2026 AIWILD",
    "title": "Third Workshop on Agents in the Wild: Safety, Security, and Beyond",
@@ -3837,7 +3880,8 @@
    "issue": 122,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "ATTRIB 2026",
    "title": "Third NeurIPS Workshop on Attributing Model Behavior at Scale: Data Attribution and Provenance",
@@ -4550,8 +4594,8 @@
    "invitations": [
     {
      "cdate": 1784116800000,
-     "duedate": 1788609540000,
-     "expdate": 1788611340000,
+     "duedate": 1788695880000,
+     "expdate": 1788697680000,
      "id": "NeurIPS.cc/2026/Workshop/GlobalSouthAI/-/Submission",
      "kind": "Submission"
     }
@@ -4601,7 +4645,8 @@
    "issue": 108,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "IAB @NeurIPS 2026 Workshop",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026",
@@ -4624,7 +4669,8 @@
    "issue": 112,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "NeurIPS 2026 Workshop IAB Competition Paper Track",
    "title": "The 1st Workshop on Interpreting Agent Behavior (IAB) at NeurIPS 2026 - Competition Paper Track",
@@ -5990,7 +6036,8 @@
    "issue": 115,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "XAI4Science",
    "title": "XAI4Science: Knowledge Discovery and Trust through Interpretable Foundation Models",
@@ -6427,8 +6474,8 @@
    "invitations": [
     {
      "cdate": 1787864400000,
-     "duedate": 1788523200000,
-     "expdate": 1788525000000,
+     "duedate": 1788696000000,
+     "expdate": 1788697800000,
      "id": "SIGARAB.org/ArabicNLP/2026/Overview_Shared_Task/-/Submission",
      "kind": "Submission"
     }
@@ -6469,8 +6516,8 @@
    "invitations": [
     {
      "cdate": 1785585600000,
-     "duedate": 1788739140000,
-     "expdate": 1788740940000,
+     "duedate": 1789559940000,
+     "expdate": 1789561740000,
      "id": "SLTC/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -6632,7 +6679,7 @@
    "why": "Dormant digital-humanities placeholder with a 2030 deadline \u2014 both a no-topic and a placeholder venue."
   },
   "UCCTS/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
@@ -6657,9 +6704,9 @@
    "first_seen": "2026-09-01",
    "invitations": [
     {
-     "cdate": 1788213600000,
-     "duedate": 1790373600000,
-     "expdate": 1790375400000,
+     "cdate": 1788472800000,
+     "duedate": 1791201600000,
+     "expdate": 1791203400000,
      "id": "UniReps.org/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -6679,8 +6726,8 @@
    "invitations": [
     {
      "cdate": 1779235200000,
-     "duedate": 1788479940000,
-     "expdate": 1788481740000,
+     "duedate": 1788566340000,
+     "expdate": 1788568140000,
      "id": "WCMNM/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -7399,8 +7446,8 @@
    "invitations": [
     {
      "cdate": 1781481600000,
-     "duedate": 1788480000000,
-     "expdate": 1788481800000,
+     "duedate": 1788998400000,
+     "expdate": 1789000200000,
      "id": "albertarobotics.ca/RISEx/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -7686,6 +7733,27 @@
    "verdict": "adjacent",
    "website": "https://2027.eacl.org/calls/",
    "why": "Pre-submission mentorship program \u2014 mentorship programs are explicitly adjacent in the profile."
+  },
+  "etaps.org/TACAS/2027/Conference_AE": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1788461244977,
+     "duedate": 1793275140000,
+     "expdate": 1793276940000,
+     "id": "etaps.org/TACAS/2027/Conference_AE/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "TACAS 2027 AE",
+   "title": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Artifact Evaluation",
+   "verdict": "no",
+   "website": "https://etaps.org/2027/conferences/tacas/",
+   "why": "Formal-methods tool artifact evaluation with no ML angle is pure systems/theory outside his fields."
   },
   "evalscience.org/AgentEvalSci/2026/Symposium": {
    "archived": false,
@@ -8320,6 +8388,27 @@
    "website": "https://www.ronin-institute.org/events",
    "why": "A general independent-scholarship program with no ML/NLP topic at all."
   },
+  "sci-harbor.com/SciVeri-Bench/2026/Internal_Review": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1788184800000,
+     "duedate": 1791003540000,
+     "expdate": 1791005340000,
+     "id": "sci-harbor.com/SciVeri-Bench/2026/Internal_Review/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "SciVeri-Bench Task Internal Review 2026",
+   "title": "SciVeri-Bench Scientific Task Internal Review 2026",
+   "verdict": "adjacent",
+   "website": "https://sci-harbor.com/",
+   "why": "A scientific-verification benchmark/shared-task review falls under datasets-and-benchmarks, not calibration/eval/interp of LLMs."
+  },
   "smashcon.org/SMASH/2026/Symposium": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -8403,6 +8492,27 @@
    "verdict": "no",
    "website": "https://www.codabench.org/competitions/12650/",
    "why": "Foundation models for CT image diagnosis is medical imaging, matching the profile's no-list (Trustworthy FMs in Medical Imaging)."
+  },
+  "thecvf.com/ECCV/2026/Challenge/SHOW3D": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1788188400000,
+     "duedate": 1789743600000,
+     "expdate": 1789745400000,
+     "id": "thecvf.com/ECCV/2026/Challenge/SHOW3D/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SHOW3D 2026",
+   "title": "SHOW3D Challenge at Observing and Acting as Dexterous Hands",
+   "verdict": "adjacent",
+   "website": "https://www.codabench.org/competitions/17756/",
+   "why": "A 3D dexterous-hand vision challenge is a vision shared task, not agent evaluation or interpretability."
   },
   "thecvf.com/ECCV/2026/Workshop/3DWM": {
    "archived": true,
@@ -8677,6 +8787,27 @@
    "website": "https://mv-lab.github.io/ainime/",
    "why": "Applied generative vision for animation is ML but far from interp/agents/eval; general-ML workshops outside core bullets stay adjacent."
   },
+  "thecvf.com/WACV/2027/Workshop/CV4EO": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1788498000000,
+     "duedate": 1790873940000,
+     "expdate": 1790875740000,
+     "id": "thecvf.com/WACV/2027/Workshop/CV4EO/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CV4EO 2027",
+   "title": "4th Workshop on Computer Vision for Earth Observation Applications at WACV 2027",
+   "verdict": "adjacent",
+   "website": "https://geoai.ornl.gov/cv4eo-wacv/",
+   "why": "Earth-observation computer vision matches his geospatial-ML background, which the profile lists as adjacent-never-core."
+  },
   "thecvf.com/WACV/2027/Workshop/EOF": {
    "archived": false,
    "first_seen": "2026-08-28",
@@ -8781,6 +8912,27 @@
    "verdict": "adjacent",
    "website": "https://chenliu-1996.github.io/LVR-WACV2027/",
    "why": "Computer-vision workshop at WACV (vision/VLM territory, foundation-model angle at best), not alignment/interp/eval of AI systems or LLM agent behavior."
+  },
+  "thecvf.com/WACV/2027/Workshop/MAVU": {
+   "archived": false,
+   "first_seen": "2026-09-04",
+   "invitations": [
+    {
+     "cdate": 1788134400000,
+     "duedate": 1793491200000,
+     "expdate": 1793493000000,
+     "id": "thecvf.com/WACV/2027/Workshop/MAVU/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WACV MAVU 2027 workshop",
+   "title": "First Workshop on Multifacet Analysis for Video Understanding (MAVU)",
+   "verdict": "adjacent",
+   "website": "https://zyaocoder.github.io/MAVU-workshop-2027/",
+   "why": "Video-understanding analysis is general vision work with no alignment, interpretability, or agent-evaluation focus."
   },
   "thecvf.com/WACV/2027/Workshop/MaCVi": {
    "archived": false,
