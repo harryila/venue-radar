@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-08-31",
- "last_run": "2026-09-06T16:07:24.444556+00:00",
+ "last_digest": "2026-09-07",
+ "last_run": "2026-09-07T18:11:35.473668+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -241,8 +241,8 @@
    "invitations": [
     {
      "cdate": 1787961600000,
-     "duedate": 1791655200000,
-     "expdate": 1791657000000,
+     "duedate": 1792414800000,
+     "expdate": 1792416600000,
      "id": "ACM.org/TheWebConf/2027/Conference_Long_Papers/-/Submission",
      "kind": "Submission"
     }
@@ -262,8 +262,8 @@
    "invitations": [
     {
      "cdate": 1787961600000,
-     "duedate": 1794196740000,
-     "expdate": 1794198540000,
+     "duedate": 1794315600000,
+     "expdate": 1794317400000,
      "id": "ACM.org/TheWebConf/2027/Conference_Short_Papers/-/Submission",
      "kind": "Submission"
     }
@@ -1721,7 +1721,7 @@
    "why": "Generic applied-AI regional conference \u2014 adjacent per the regional AI/ML conference rule."
   },
   "ICAITD/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-06",
    "invitations": [
     {
@@ -1826,7 +1826,7 @@
    "why": "Call to propose workshops, not a research paper track \u2014 not an ICLR main track, so not core despite the flagship host."
   },
   "ICOMP.cc/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-04",
    "invitations": [
     {
@@ -2288,7 +2288,7 @@
    "why": "Deformable-object manipulation robotics, clearly outside LLM interp/agents/eval."
   },
   "IEEE.org/IROS/2026/Workshop/ELSR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -2456,13 +2456,13 @@
    "why": "Robotic information-gathering/planning and competition, no LLM or AI-evaluation topic."
   },
   "IEEE.org/IROS/2026/Workshop/Insect-Scale_Autonomy": {
-   "archived": true,
-   "first_seen": "2026-08-25",
+   "archived": false,
+   "first_seen": "2026-09-07",
    "invitations": [
     {
-     "cdate": 1785671940000,
-     "duedate": 1788350340000,
-     "expdate": 1788352140000,
+     "cdate": 1786881540000,
+     "duedate": 1789559940000,
+     "expdate": 1789561740000,
      "id": "IEEE.org/IROS/2026/Workshop/Insect-Scale_Autonomy/-/Submission",
      "kind": "Submission"
     }
@@ -2498,7 +2498,7 @@
    "why": "Safe/verified robotics via learning and formal methods \u2014 trustworthy-X where X is a robotics application domain."
   },
   "IEEE.org/IROS/2026/Workshop/LTP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2687,13 +2687,13 @@
    "why": "Neural/symbolic world models for robot planning \u2014 world-models topic in an applied robotics setting."
   },
   "IEEE.org/IROS/2026/Workshop/Robot-Codesign": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-07",
    "invitations": [
     {
      "cdate": 1785902400000,
-     "duedate": 1788494400000,
-     "expdate": 1788496200000,
+     "duedate": 1789358400000,
+     "expdate": 1789360200000,
      "id": "IEEE.org/IROS/2026/Workshop/Robot-Codesign/-/Submission",
      "kind": "Submission"
     }
@@ -2855,7 +2855,7 @@
    "why": "Soft-robotics/embodied-computation hardware, outside his fields."
   },
   "IEEE.org/IROS/2026/Workshop/Touch-to-Action": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2876,7 +2876,7 @@
    "why": "Tactile/multimodal learning for robotic manipulation with no foundation-model or AI-evaluation angle."
   },
   "IEEE.org/IROS/2026/Workshop/Touch2Action": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3002,13 +3002,13 @@
    "why": "Generic machine-intelligence conference \u2014 regional/low-signal general AI venue, listed but never core."
   },
   "IIR/2026/Workshop": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-07",
    "invitations": [
     {
      "cdate": 1782434013700,
-     "duedate": 1788696000000,
-     "expdate": 1788697800000,
+     "duedate": 1789300800000,
+     "expdate": 1789302600000,
      "id": "IIR/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -3779,7 +3779,7 @@
    "why": "Scientific data readiness/infrastructure \u2014 background-adjacent, never core."
   },
   "NeurIPS.cc/2026/Workshop/AIM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-01",
    "invitations": [
     {
@@ -3995,7 +3995,7 @@
    "why": "Agents-for-OS systems workshop (calibration adjacent: AgenticOS)."
   },
   "NeurIPS.cc/2026/Workshop/AgenticWeb": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4229,7 +4229,7 @@
    "why": "Safety of an application domain (child safety), explicitly an adjacent calibration example, not safety of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/DevAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4526,7 +4526,7 @@
    "why": "Optimal transport and geometric distributional learning is ML methods theory outside the core bullets."
   },
   "NeurIPS.cc/2026/Workshop/GEM_Bio": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4610,7 +4610,7 @@
    "why": "Position-paper track of the GenAI4Health workshop; same verdict as its health-application topic."
   },
   "NeurIPS.cc/2026/Workshop/GlobalSouthAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4880,7 +4880,7 @@
    "why": "Deployable small foundation models is an efficiency/small-model topic the profile keeps adjacent."
   },
   "NeurIPS.cc/2026/Workshop/LP4FM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4922,7 +4922,7 @@
    "why": "Affinity-group workshop analogous to WiML in the profile's no list."
   },
   "NeurIPS.cc/2026/Workshop/MATH-AI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5051,13 +5051,13 @@
    "why": "Privacy of large opaque models is a trustworthy-ML pillar outside the profile's core bullets."
   },
   "NeurIPS.cc/2026/Workshop/Med-Reasoner": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-07",
    "invitations": [
     {
      "cdate": 1787893140000,
-     "duedate": 1788670740000,
-     "expdate": 1788672540000,
+     "duedate": 1788843540000,
+     "expdate": 1788845340000,
      "id": "NeurIPS.cc/2026/Workshop/Med-Reasoner/-/Submission",
      "kind": "Submission"
     }
@@ -5198,7 +5198,7 @@
    "why": "Proceedings track of the same symmetry/geometry-in-representations workshop; general ML, not a core topic."
   },
   "NeurIPS.cc/2026/Workshop/NeuralArtifacts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5618,7 +5618,7 @@
    "why": "Robot learning with world models \u2014 world models and robotics are adjacent categories."
   },
   "NeurIPS.cc/2026/Workshop/SLM-Agents": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5639,7 +5639,7 @@
    "why": "Small models for agentic systems, explicitly calibrated adjacent."
   },
   "NeurIPS.cc/2026/Workshop/STODY": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6491,7 +6491,7 @@
    "why": "Multidialectal Arabic speech-processing shared task \u2014 speech application."
   },
   "SIGARAB.org/ArabicNLP/2026/Overview_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
@@ -6701,11 +6701,11 @@
    "why": "Dormant digital-humanities placeholder with a 2030 deadline \u2014 both a no-topic and a placeholder venue."
   },
   "UCCTS/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-08-31",
+   "archived": false,
+   "first_seen": "2026-09-07",
    "invitations": [
     {
-     "cdate": 1788159600000,
+     "cdate": 1788764400000,
      "duedate": 1795211940000,
      "expdate": 1795213740000,
      "id": "UCCTS/2027/Conference/-/Submission",
@@ -7502,7 +7502,7 @@
    "why": "Established ML learning-theory conference, but not alignment/interp/eval or a listed flagship main track."
   },
   "bmva.org/BMVC/2026/Workshop/BD-MedVis": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7888,8 +7888,8 @@
    "invitations": [
     {
      "cdate": 1780754340000,
-     "duedate": 1790899140000,
-     "expdate": 1790900940000,
+     "duedate": 1792540740000,
+     "expdate": 1792542540000,
      "id": "imstat.org/IMS/2026/FSML/-/Submission",
      "kind": "Submission"
     }
@@ -8154,6 +8154,27 @@
    "verdict": "adjacent",
    "website": "https://learn-at-deploy.github.io/",
    "why": "Robot-learning deployment workshop at CoRL \u2014 robotics with a learning/foundation-model angle, agents as setting not his question."
+  },
+  "robot-learning.org/CoRL/2026/Workshop/Oopsie": {
+   "archived": false,
+   "first_seen": "2026-09-07",
+   "invitations": [
+    {
+     "cdate": 1788786000000,
+     "duedate": 1790762340000,
+     "expdate": 1790764140000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/Oopsie/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "Oopsie-Workshop CoRL 2026",
+   "title": "\"Oops, I Erred\" \u2014 Collecting, Curating and Using Imperfect Data for Realistic Scenarios",
+   "verdict": "adjacent",
+   "website": "https://workshop.oopsie-data.com/",
+   "why": "CoRL workshop on collecting and curating imperfect robot-learning data \u2014 datasets/data-infrastructure for robotics, which the profile lists as adjacent, never core."
   },
   "robot-learning.org/CoRL/2026/Workshop/PhysWM": {
    "archived": false,
@@ -9164,7 +9185,7 @@
    "why": "Computer vision for waste monitoring \u2014 applied environmental-sensing vision, not a core topic."
   },
   "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-06",
    "invitations": [
     {
