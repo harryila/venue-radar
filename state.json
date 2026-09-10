@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-07",
- "last_run": "2026-09-09T17:05:57.341569+00:00",
+ "last_run": "2026-09-10T16:57:09.336061+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -131,7 +131,7 @@
    "why": "Graph-augmented LLMs is a general LLM/knowledge topic hitting no core bullet."
   },
   "ACM.org/CIKM/2026/Workshop/LASS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2587,8 +2587,8 @@
    "invitations": [
     {
      "cdate": 1784606400000,
-     "duedate": 1789041540000,
-     "expdate": 1789043340000,
+     "duedate": 1789214340000,
+     "expdate": 1789216140000,
      "id": "IEEE.org/IROS/2026/Workshop/Modular_Robots/-/Submission",
      "kind": "Submission"
     }
@@ -2624,7 +2624,7 @@
    "why": "Agentic AI for robotic teammates \u2014 applied agents in robotics, agents as setting not subject of evaluation."
   },
   "IEEE.org/IROS/2026/Workshop/PWMS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-26",
    "invitations": [
     {
@@ -2750,7 +2750,7 @@
    "why": "Robot hardware co-design, hardware-design topic outside his fields."
   },
   "IEEE.org/IROS/2026/Workshop/S2RCC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3128,7 +3128,7 @@
    "why": "Junior/student data-science conference \u2014 SRW-style regional venue, adjacent by rule."
   },
   "JITA/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4000,8 +4000,8 @@
    "invitations": [
     {
      "cdate": 1784505600000,
-     "duedate": 1788998400000,
-     "expdate": 1789000200000,
+     "duedate": 1789084800000,
+     "expdate": 1789086600000,
      "id": "NeurIPS.cc/2026/Workshop/Africa_in_AI/-/Submission",
      "kind": "Submission"
     }
@@ -4292,7 +4292,7 @@
    "why": "Safety of an application domain (child safety), explicitly an adjacent calibration example, not safety of AI systems themselves."
   },
   "NeurIPS.cc/2026/Workshop/DevAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-08",
    "invitations": [
     {
@@ -4610,7 +4610,7 @@
    "why": "Biomolecular design is a biology application with an ML angle, not a core topic."
   },
   "NeurIPS.cc/2026/Workshop/GenAI4Health": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4631,7 +4631,7 @@
    "why": "Agentic GenAI and clinical trust for health is a 'trustworthy X' application domain, which the profile keeps adjacent."
   },
   "NeurIPS.cc/2026/Workshop/GenAI4Health_Demonstration_Paper_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4652,7 +4652,7 @@
    "why": "Demonstration track of the GenAI4Health workshop; same verdict as its health-application topic."
   },
   "NeurIPS.cc/2026/Workshop/GenAI4Health_Position_Paper_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5161,8 +5161,8 @@
    "invitations": [
     {
      "cdate": 1784563200000,
-     "duedate": 1788984000000,
-     "expdate": 1788985800000,
+     "duedate": 1789416000000,
+     "expdate": 1789417800000,
      "id": "NeurIPS.cc/2026/Workshop/MusIML/-/Submission",
      "kind": "Submission"
     }
@@ -5182,8 +5182,8 @@
    "invitations": [
     {
      "cdate": 1785283140000,
-     "duedate": 1789084740000,
-     "expdate": 1789086540000,
+     "duedate": 1789473540000,
+     "expdate": 1789475340000,
      "id": "NeurIPS.cc/2026/Workshop/NEmo/-/Submission",
      "kind": "Submission"
     }
@@ -5413,8 +5413,8 @@
    "invitations": [
     {
      "cdate": 1785628740000,
-     "duedate": 1788998340000,
-     "expdate": 1789000140000,
+     "duedate": 1789257540000,
+     "expdate": 1789259340000,
      "id": "NeurIPS.cc/2026/Workshop/PhysWorldAI/-/Submission",
      "kind": "Submission"
     }
@@ -5450,7 +5450,7 @@
    "why": "Pre-to-post-training pipeline workshop, explicitly calibrated adjacent."
   },
   "NeurIPS.cc/2026/Workshop/PriGM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5476,8 +5476,8 @@
    "invitations": [
     {
      "cdate": 1784066400000,
-     "duedate": 1789128000000,
-     "expdate": 1789129800000,
+     "duedate": 1789228800000,
+     "expdate": 1789230600000,
      "id": "NeurIPS.cc/2026/Workshop/QueerInAI/-/Submission",
      "kind": "Submission"
     }
@@ -5581,8 +5581,8 @@
    "invitations": [
     {
      "cdate": 1784980740000,
-     "duedate": 1789037940000,
-     "expdate": 1789039740000,
+     "duedate": 1789124340000,
+     "expdate": 1789126140000,
      "id": "NeurIPS.cc/2026/Workshop/RTCA/-/Submission",
      "kind": "Submission"
     }
@@ -5644,8 +5644,8 @@
    "invitations": [
     {
      "cdate": 1784476800000,
-     "duedate": 1789041540000,
-     "expdate": 1789043340000,
+     "duedate": 1789300740000,
+     "expdate": 1789302540000,
      "id": "NeurIPS.cc/2026/Workshop/RoboPAD/-/Submission",
      "kind": "Submission"
     }
@@ -7593,8 +7593,8 @@
    "invitations": [
     {
      "cdate": 1781481600000,
-     "duedate": 1788998400000,
-     "expdate": 1789000200000,
+     "duedate": 1789106340000,
+     "expdate": 1789108140000,
      "id": "albertarobotics.ca/RISEx/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -8305,6 +8305,27 @@
    "verdict": "adjacent",
    "website": "https://learn-at-deploy.github.io/",
    "why": "Robot-learning deployment workshop at CoRL \u2014 robotics with a learning/foundation-model angle, agents as setting not his question."
+  },
+  "robot-learning.org/CoRL/2026/Workshop/LfC": {
+   "archived": false,
+   "first_seen": "2026-09-10",
+   "invitations": [
+    {
+     "cdate": 1788930000000,
+     "duedate": 1791003540000,
+     "expdate": 1791005340000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/LfC/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "LfC Workshop CoRL 2026",
+   "title": "CoRL 2026 Workshop on Learning from Corrections and Interventions",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/lfcworkshopcorl2026/home",
+   "why": "Robot-learning workshop on learning from human corrections \u2014 applied robotics/agents setting, not alignment, interp, or LLM-agent evaluation per the core bullets."
   },
   "robot-learning.org/CoRL/2026/Workshop/Oopsie": {
    "archived": false,
@@ -9230,6 +9251,27 @@
    "website": "https://wacv27seai.synoring.ai/",
    "why": "Social embodied AI workshop at a vision conference \u2014 vision/robotics agents as an application setting, not alignment, interpretability, or evaluation of AI systems."
   },
+  "thecvf.com/WACV/2027/Workshop/SENSE": {
+   "archived": false,
+   "first_seen": "2026-09-10",
+   "invitations": [
+    {
+     "cdate": 1789056000000,
+     "duedate": 1791705540000,
+     "expdate": 1791707340000,
+     "id": "thecvf.com/WACV/2027/Workshop/SENSE/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SENSE",
+   "title": "Sensing via agEntic reasoNing SystEms\u00a0First Edition",
+   "verdict": "adjacent",
+   "website": "https://sensewacv.github.io/Website/",
+   "why": "Applied vision/sensing workshop using agentic reasoning \u2014 agents as the setting, not evaluation/interp of agent behavior, so adjacent per the applied-agent rule."
+  },
   "thecvf.com/WACV/2027/Workshop/SIGNAL": {
    "archived": false,
    "first_seen": "2026-08-27",
@@ -9378,13 +9420,13 @@
    "why": "Computer vision for waste monitoring \u2014 applied environmental-sensing vision, not a core topic."
   },
   "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning": {
-   "archived": true,
-   "first_seen": "2026-09-06",
+   "archived": false,
+   "first_seen": "2026-09-10",
    "invitations": [
     {
      "cdate": 1788300000000,
-     "duedate": 1788775200000,
-     "expdate": 1788777000000,
+     "duedate": 1789120800000,
+     "expdate": 1789122600000,
      "id": "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning/-/Submission",
      "kind": "Submission"
     }
