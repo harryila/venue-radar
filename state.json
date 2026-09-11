@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-07",
- "last_run": "2026-09-10T16:57:09.336061+00:00",
+ "last_run": "2026-09-11T16:58:45.612310+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -341,13 +341,13 @@
    "why": "Music-AI application workshop, ML-but-not-core topic at a regional conference."
   },
   "ACML.org/2026/Workshop/FMLTS": {
-   "archived": true,
-   "first_seen": "2026-08-18",
+   "archived": false,
+   "first_seen": "2026-09-11",
    "invitations": [
     {
      "cdate": 1786975260000,
-     "duedate": 1788098340000,
-     "expdate": 1788100140000,
+     "duedate": 1792414740000,
+     "expdate": 1792416540000,
      "id": "ACML.org/2026/Workshop/FMLTS/-/Submission",
      "kind": "Submission"
     }
@@ -934,8 +934,8 @@
    "invitations": [
     {
      "cdate": 1785868209100,
-     "duedate": 1789064940000,
-     "expdate": 1789066740000,
+     "duedate": 1789928940000,
+     "expdate": 1789930740000,
      "id": "DHARTI/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2309,7 +2309,7 @@
    "why": "Robotics data/datasets-and-benchmarks focus, adjacent only via the data-infrastructure background, not core topics."
   },
   "IEEE.org/IROS/2026/Workshop/DOM-R3": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
@@ -2393,7 +2393,7 @@
    "why": "Construction robotics application, outside his fields."
   },
   "IEEE.org/IROS/2026/Workshop/Full-Shift_Robot_Co-Workers": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2477,7 +2477,7 @@
    "why": "Applied robot-learning workshop; ML methods but industrial robotics is the topic, not a core bullet."
   },
   "IEEE.org/IROS/2026/Workshop/IIG": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2587,8 +2587,8 @@
    "invitations": [
     {
      "cdate": 1784606400000,
-     "duedate": 1789214340000,
-     "expdate": 1789216140000,
+     "duedate": 1789300740000,
+     "expdate": 1789302540000,
      "id": "IEEE.org/IROS/2026/Workshop/Modular_Robots/-/Submission",
      "kind": "Submission"
     }
@@ -2855,7 +2855,7 @@
    "why": "Social robot navigation/HRI, no LLM or evaluation-of-AI topic."
   },
   "IEEE.org/IROS/2026/Workshop/SurgTwin": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -3485,7 +3485,7 @@
    "why": "Demo track of a health-ML venue \u2014 demos and applied health are both adjacent."
   },
   "ML4H/2026/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4000,8 +4000,8 @@
    "invitations": [
     {
      "cdate": 1784505600000,
-     "duedate": 1789084800000,
-     "expdate": 1789086600000,
+     "duedate": 1789171200000,
+     "expdate": 1789173000000,
      "id": "NeurIPS.cc/2026/Workshop/Africa_in_AI/-/Submission",
      "kind": "Submission"
     }
@@ -4397,7 +4397,7 @@
    "why": "Epistemic-intelligence/roots-of-intelligence themes are not squarely calibration, evaluation, or interpretability of LLMs, so doubt resolves to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/ESR_Demo_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-27",
    "invitations": [
     {
@@ -4418,7 +4418,7 @@
    "why": "Demo track of an embodied spatial reasoning workshop \u2014 robotics/vision with a foundation-model angle, and demos are explicitly adjacent."
   },
   "NeurIPS.cc/2026/Workshop/ESR_Paper_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-27",
    "invitations": [
     {
@@ -4906,8 +4906,8 @@
    "invitations": [
     {
      "cdate": 1786968000000,
-     "duedate": 1789127940000,
-     "expdate": 1789129740000,
+     "duedate": 1789387140000,
+     "expdate": 1789388940000,
      "id": "NeurIPS.cc/2026/Workshop/LCFM/-/Submission",
      "kind": "Submission"
     }
@@ -5476,8 +5476,8 @@
    "invitations": [
     {
      "cdate": 1784066400000,
-     "duedate": 1789228800000,
-     "expdate": 1789230600000,
+     "duedate": 1789300800000,
+     "expdate": 1789302600000,
      "id": "NeurIPS.cc/2026/Workshop/QueerInAI/-/Submission",
      "kind": "Submission"
     }
@@ -5576,7 +5576,7 @@
    "why": "Representations for physical sciences \u2014 ML-for-science application."
   },
   "NeurIPS.cc/2026/Workshop/RTCA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7107,7 +7107,7 @@
    "first_seen": "2026-09-06",
    "invitations": [
     {
-     "cdate": 1788681022542,
+     "cdate": 1789136754244,
      "duedate": 1789559940000,
      "expdate": 1789561740000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_Direct_Submission/-/Submission",
@@ -7593,8 +7593,8 @@
    "invitations": [
     {
      "cdate": 1781481600000,
-     "duedate": 1789106340000,
-     "expdate": 1789108140000,
+     "duedate": 1789192740000,
+     "expdate": 1789194540000,
      "id": "albertarobotics.ca/RISEx/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -7693,7 +7693,7 @@
    "why": "Community/regional CV venue with no FM/LLM angle, matching the Widening-NLP/WiML pattern the profile marks no."
   },
   "bmva.org/BMVC/2026/Workshop/MMAIRS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-20",
    "invitations": [
     {
@@ -8643,7 +8643,7 @@
    "why": "A scientific-verification benchmark/shared-task review falls under datasets-and-benchmarks, not calibration/eval/interp of LLMs."
   },
   "smashcon.org/SMASH/2026/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
@@ -9110,8 +9110,8 @@
    "invitations": [
     {
      "cdate": 1787769000000,
-     "duedate": 1796063340000,
-     "expdate": 1796065140000,
+     "duedate": 1792069200000,
+     "expdate": 1792071000000,
      "id": "thecvf.com/WACV/2027/Workshop/GeoCV/-/Submission",
      "kind": "Submission"
     }
@@ -9420,7 +9420,7 @@
    "why": "Computer vision for waste monitoring \u2014 applied environmental-sensing vision, not a core topic."
   },
   "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-10",
    "invitations": [
     {
