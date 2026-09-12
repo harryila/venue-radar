@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-07",
- "last_run": "2026-09-11T16:58:45.612310+00:00",
+ "last_run": "2026-09-12T16:09:07.823675+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -1163,7 +1163,7 @@
    "why": "Bias measurement in speech LLMs (ARR-commitment track) \u2014 speech/bias topic, not his core safety bullets."
   },
   "EMNLP/2026/Workshop/Insights_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
@@ -1839,7 +1839,9 @@
    ],
    "issue": 125,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "ICLR 2027",
    "title": "The Fifteenth International Conference on Learning Representations",
    "verdict": "core",
@@ -1936,8 +1938,8 @@
    "invitations": [
     {
      "cdate": 1784142000000,
-     "duedate": 1789541940000,
-     "expdate": 1789543740000,
+     "duedate": 1791183540000,
+     "expdate": 1791185340000,
      "id": "IEEE.org/BigData/2026/Workshop/TRUSTMORE/-/Submission",
      "kind": "Submission"
     }
@@ -2251,8 +2253,8 @@
    "invitations": [
     {
      "cdate": 1784091600000,
-     "duedate": 1789448400000,
-     "expdate": 1789450200000,
+     "duedate": 1789232400000,
+     "expdate": 1789234200000,
      "id": "IEEE.org/IROS/2026/Workshop/CompRobotics/-/Submission",
      "kind": "Submission"
     }
@@ -3196,8 +3198,8 @@
    "invitations": [
     {
      "cdate": 1779235200000,
-     "duedate": 1790812740000,
-     "expdate": 1790814540000,
+     "duedate": 1791158340000,
+     "expdate": 1791160140000,
      "id": "KolKom/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3511,8 +3513,8 @@
    "invitations": [
     {
      "cdate": 1788184800000,
-     "duedate": 1789300740000,
-     "expdate": 1789302540000,
+     "duedate": 1789905540000,
+     "expdate": 1789907340000,
      "id": "ML4PS/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -3995,7 +3997,7 @@
    "why": "Efficient deep learning \u2014 explicitly listed adjacent topic."
   },
   "NeurIPS.cc/2026/Workshop/Africa_in_AI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4208,13 +4210,13 @@
    "why": "Continual learning for foundation-model/embodied agents is an applied-agent theme the profile lists as adjacent (agents are the setting, not the question)."
   },
   "NeurIPS.cc/2026/Workshop/CLEA": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-12",
    "invitations": [
     {
      "cdate": 1784908800000,
-     "duedate": 1788609540000,
-     "expdate": 1788611340000,
+     "duedate": 1789300740000,
+     "expdate": 1789302540000,
      "id": "NeurIPS.cc/2026/Workshop/CLEA/-/Submission",
      "kind": "Submission"
     }
@@ -5936,7 +5938,7 @@
    "why": "User-simulation methodology for model evaluation and training \u2014 simulator fidelity is the topic, so core-vs-adjacent doubt resolves to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/VERICODEGEN": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7210,7 +7212,7 @@
    "why": "Natural language generation conference; the profile explicitly lists INLG as adjacent."
   },
   "aclweb.org/INLG/2026/GenChal": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
@@ -7551,8 +7553,8 @@
    "invitations": [
     {
      "cdate": 1787227200000,
-     "duedate": 1789214340000,
-     "expdate": 1789216140000,
+     "duedate": 1789815540000,
+     "expdate": 1789817340000,
      "id": "aiasplus.org/AIAS/2026/Workshop/AIASci/-/Submission",
      "kind": "Submission"
     }
@@ -7588,7 +7590,7 @@
    "why": "ARR-commitment track of an AI-assisted-science workflow workshop \u2014 applied LLM/agent use, not evaluation, interpretability, or alignment of the systems."
   },
   "albertarobotics.ca/RISEx/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7719,8 +7721,8 @@
    "invitations": [
     {
      "cdate": 1786967940000,
-     "duedate": 1789300740000,
-     "expdate": 1789302540000,
+     "duedate": 1790164740000,
+     "expdate": 1790166540000,
      "id": "bmva.org/BMVC/2026/Workshop/TrustVis/-/Submission",
      "kind": "Submission"
     }
@@ -7842,7 +7844,7 @@
    "why": "EACL demo track \u2014 demos are explicitly adjacent, never core."
   },
   "eacl.org/EACL/2027/Industry_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9313,6 +9315,27 @@
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/synrdinbaswacv2027",
    "why": "Synthetic-data biometrics/vision workshop \u2014 ML application territory, not safety/interp/agent-evaluation of AI systems."
+  },
+  "thecvf.com/WACV/2027/Workshop/UniMUG": {
+   "archived": false,
+   "first_seen": "2026-09-12",
+   "invitations": [
+    {
+     "cdate": 1789214400000,
+     "duedate": 1791633540000,
+     "expdate": 1791635340000,
+     "id": "thecvf.com/WACV/2027/Workshop/UniMUG/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "UniMUG 2027",
+   "title": "First Workshop on Visual Storytelling with Unified Multimodal Understanding and Generation",
+   "verdict": "adjacent",
+   "website": "https://unimug.github.io/unimug2027/",
+   "why": "Vision workshop on multimodal (VLM-style) storytelling/generation \u2014 hits no core bullet, fits the adjacent vision-with-foundation-model bucket."
   },
   "thecvf.com/WACV/2027/Workshop/UrbanState": {
    "archived": false,
