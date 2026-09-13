@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-07",
- "last_run": "2026-09-12T16:09:07.823675+00:00",
+ "last_run": "2026-09-13T16:55:43.959694+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -2248,7 +2248,7 @@
    "why": "Robot navigation workshop \u2014 applied robotics."
   },
   "IEEE.org/IROS/2026/Workshop/CompRobotics": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2584,7 +2584,7 @@
    "why": "Multi-robot/multi-agent systems: agents are the applied setting, not the question of agent behavior evaluation."
   },
   "IEEE.org/IROS/2026/Workshop/Modular_Robots": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3046,7 +3046,7 @@
    "why": "Generic machine-intelligence conference \u2014 regional/low-signal general AI venue, listed but never core."
   },
   "IIR/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-07",
    "invitations": [
     {
@@ -3067,13 +3067,13 @@
    "why": "National (Italian) information-retrieval workshop \u2014 regional ML/IR venue."
   },
   "IJTCS-FAW/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-13",
    "invitations": [
     {
      "cdate": 1785427200000,
-     "duedate": 1788868740000,
-     "expdate": 1788870540000,
+     "duedate": 1789559940000,
+     "expdate": 1789561740000,
      "id": "IJTCS-FAW/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3997,13 +3997,13 @@
    "why": "Efficient deep learning \u2014 explicitly listed adjacent topic."
   },
   "NeurIPS.cc/2026/Workshop/Africa_in_AI": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-13",
    "invitations": [
     {
      "cdate": 1784505600000,
-     "duedate": 1789171200000,
-     "expdate": 1789173000000,
+     "duedate": 1789344000000,
+     "expdate": 1789345800000,
      "id": "NeurIPS.cc/2026/Workshop/Africa_in_AI/-/Submission",
      "kind": "Submission"
     }
@@ -4210,7 +4210,7 @@
    "why": "Continual learning for foundation-model/embodied agents is an applied-agent theme the profile lists as adjacent (agents are the setting, not the question)."
   },
   "NeurIPS.cc/2026/Workshop/CLEA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-12",
    "invitations": [
     {
@@ -4462,7 +4462,7 @@
    "why": "Economics-and-ML workshop at NeurIPS, not an alignment/interp/agent-eval topic."
   },
   "NeurIPS.cc/2026/Workshop/EvoRobust": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5410,7 +5410,7 @@
    "why": "Physical/world understanding for embodied decision-making is applied; agents are the setting, not the question."
   },
   "NeurIPS.cc/2026/Workshop/PhysWorldAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5473,7 +5473,7 @@
    "why": "Principles of generative modeling is general ML theory, not a core bullet."
   },
   "NeurIPS.cc/2026/Workshop/QueerInAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5641,7 +5641,7 @@
    "why": "Vision correspondence challenge \u2014 a shared task not about calibration/eval/interp of LLMs."
   },
   "NeurIPS.cc/2026/Workshop/RoboPAD": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7026,8 +7026,8 @@
    "invitations": [
     {
      "cdate": 1785931200000,
-     "duedate": 1789387200000,
-     "expdate": 1789389000000,
+     "duedate": 1789905540000,
+     "expdate": 1789907340000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche/-/Submission",
      "kind": "Submission"
     }
@@ -7046,9 +7046,9 @@
    "first_seen": "2026-08-27",
    "invitations": [
     {
-     "cdate": 1787848848427,
-     "duedate": 1789387200000,
-     "expdate": 1789389000000,
+     "cdate": 1789284121700,
+     "duedate": 1790423940000,
+     "expdate": 1790425740000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -7632,13 +7632,13 @@
    "why": "Established ML learning-theory conference, but not alignment/interp/eval or a listed flagship main track."
   },
   "bmva.org/BMVC/2026/Workshop/BD-MedVis": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-13",
    "invitations": [
     {
      "cdate": 1786057140000,
-     "duedate": 1788739140000,
-     "expdate": 1788740940000,
+     "duedate": 1789585140000,
+     "expdate": 1789586940000,
      "id": "bmva.org/BMVC/2026/Workshop/BD-MedVis/-/Submission",
      "kind": "Submission"
     }
@@ -8419,8 +8419,8 @@
    "invitations": [
     {
      "cdate": 1786590000000,
-     "duedate": 1790873940000,
-     "expdate": 1790875740000,
+     "duedate": 1790942340000,
+     "expdate": 1790944140000,
      "id": "robot-learning.org/CoRL/2026/Workshop/SPAIS/-/Submission",
      "kind": "Submission"
     }
@@ -9231,6 +9231,27 @@
    "verdict": "adjacent",
    "website": "https://praw-workshop.github.io/",
    "why": "Vision/AI applied to physical retail \u2014 application-domain workshop, no core bullet."
+  },
+  "thecvf.com/WACV/2027/Workshop/RWS": {
+   "archived": false,
+   "first_seen": "2026-09-13",
+   "invitations": [
+    {
+     "cdate": 1789300800000,
+     "duedate": 1789646340000,
+     "expdate": 1789648140000,
+     "id": "thecvf.com/WACV/2027/Workshop/RWS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "RWS 2027",
+   "title": "Real World Surveillance: Applications and Challenges, 7th",
+   "verdict": "no",
+   "website": "https://vap.aau.dk/rws/",
+   "why": "Computer-vision surveillance applications workshop \u2014 an application vision domain with no LLM, agent, interpretability, or evaluation-of-AI angle, matching the profile's excluded application venues."
   },
   "thecvf.com/WACV/2027/Workshop/SEAI": {
    "archived": false,
