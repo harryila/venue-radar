@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-14",
- "last_run": "2026-09-14T18:30:04.183412+00:00",
+ "last_run": "2026-09-15T17:36:47.696539+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -929,7 +929,7 @@
    "why": "General ML-theory workshop at a regional Danish conference."
   },
   "DGfS.de/2026/Conference_Poster_Session": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2042,9 +2042,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1787184509721,
-     "duedate": 1790078340000,
-     "expdate": 1790080140000,
+     "cdate": 1789435419166,
+     "duedate": 1791633540000,
+     "expdate": 1791635340000,
      "id": "IEEE.org/ICHI/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2099,6 +2099,27 @@
    "verdict": "adjacent",
    "website": "https://conference.cs.cityu.edu.hk/icist/",
    "why": "General information science and technology conference with ML content but no core topic \u2014 general-conference adjacent."
+  },
+  "IEEE.org/ICRA/2027/Arts_and_Robotics": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789459200000,
+     "duedate": 1796112000000,
+     "expdate": 1796113800000,
+     "id": "IEEE.org/ICRA/2027/Arts_and_Robotics/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ICRA 2027",
+   "title": "Arts in Robotics ICRA 2027",
+   "verdict": "no",
+   "website": "https://sites.google.com/berkeley.edu/arts-in-robotics-icra-27/call-for-paper",
+   "why": "Arts-and-robotics workshop with no ML/LLM or foundation-model angle, outside his fields."
   },
   "IEEE.org/ICRA/2027/WT-Pre-Proposals": {
    "archived": true,
@@ -2521,13 +2542,13 @@
    "why": "Applied robot-learning workshop; ML methods but industrial robotics is the topic, not a core bullet."
   },
   "IEEE.org/IROS/2026/Workshop/IIG": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-15",
    "invitations": [
     {
      "cdate": 1784008800000,
-     "duedate": 1789127940000,
-     "expdate": 1789129740000,
+     "duedate": 1790078340000,
+     "expdate": 1790080140000,
      "id": "IEEE.org/IROS/2026/Workshop/IIG/-/Submission",
      "kind": "Submission"
     }
@@ -3466,7 +3487,7 @@
    "why": "Breast-care imaging AI workshop, medicine-focused."
   },
   "MICCAI.org/2026/Workshop/EMA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-04",
    "invitations": [
     {
@@ -3513,8 +3534,8 @@
    "invitations": [
     {
      "cdate": 1784075415600,
-     "duedate": 1789473600000,
-     "expdate": 1789475400000,
+     "duedate": 1789560000000,
+     "expdate": 1789561800000,
      "id": "ML4H/2026/Demo_Track/-/Submission",
      "kind": "Submission"
     }
@@ -3618,8 +3639,8 @@
    "invitations": [
     {
      "cdate": 1784066400000,
-     "duedate": 1789509540000,
-     "expdate": 1789511340000,
+     "duedate": 1789941540000,
+     "expdate": 1789943340000,
      "id": "NLDL.org/2027/Abstracts/-/Submission",
      "kind": "Submission"
     }
@@ -4039,7 +4060,7 @@
    "why": "Efficient deep learning \u2014 explicitly listed adjacent topic."
   },
   "NeurIPS.cc/2026/Workshop/Africa_in_AI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-13",
    "invitations": [
     {
@@ -5200,7 +5221,7 @@
    "why": "Systems workshop on managing agent hierarchies \u2014 agents as setting, and explicitly calibrated adjacent."
   },
   "NeurIPS.cc/2026/Workshop/MusIML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5221,7 +5242,7 @@
    "why": "Affinity-group workshop, same category as WiML/Widening NLP in the no list."
   },
   "NeurIPS.cc/2026/Workshop/NEmo": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5515,7 +5536,7 @@
    "why": "Principles of generative modeling is general ML theory, not a core bullet."
   },
   "NeurIPS.cc/2026/Workshop/QueerInAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
@@ -5667,8 +5688,8 @@
    "invitations": [
     {
      "cdate": 1786838340000,
-     "duedate": 1789513140000,
-     "expdate": 1789514940000,
+     "duedate": 1790427540000,
+     "expdate": 1790429340000,
      "id": "NeurIPS.cc/2026/Workshop/RoCo-Spring/-/Submission",
      "kind": "Submission"
     }
@@ -6072,8 +6093,8 @@
    "invitations": [
     {
      "cdate": 1785456000000,
-     "duedate": 1789513140000,
-     "expdate": 1789514940000,
+     "duedate": 1789559940000,
+     "expdate": 1789561740000,
      "id": "NeurIPS.cc/2026/Workshop/WMHS/-/Submission",
      "kind": "Submission"
     }
@@ -6645,8 +6666,8 @@
    "invitations": [
     {
      "cdate": 1785585600000,
-     "duedate": 1789559940000,
-     "expdate": 1789561740000,
+     "duedate": 1790510340000,
+     "expdate": 1790512140000,
      "id": "SLTC/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -6827,6 +6848,27 @@
    "verdict": "no",
    "website": "https://www.universiteitleiden.nl/en/events/2027/06/uccts-2027---using-corpora-in-contrastive-and-translation-studies-9th-edition",
    "why": "Corpus-based contrastive and translation studies \u2014 pure linguistics."
+  },
+  "ULaval.ca/2026/IFT-7030_MLSP": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789448400000,
+     "duedate": 1792731600000,
+     "expdate": 1792733400000,
+     "id": "ULaval.ca/2026/IFT-7030_MLSP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "MLSP @ ULaval - Final Project",
+   "title": "IFT-7030 Machine Learning for Signal Processing @ ULaval",
+   "verdict": "no",
+   "website": "https://ycemsubakan.github.io/mlsp.html",
+   "why": "University course final-project portal, not a real open academic venue."
   },
   "UPENN.edu/PLC/2027/Conference": {
    "archived": false,
@@ -7126,7 +7168,7 @@
    "why": "ARR-commitment track of a mental-health/psychotherapy NLP workshop \u2014 a domain-application venue like Legal NLP/FinNLP, which the profile excludes."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/NORA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7147,7 +7189,7 @@
    "why": "Knowledge-graphs-plus-agentic-systems workshop \u2014 agents are the setting, not agent evaluation/interpretability, so applied-agent adjacent."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/NORA_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7172,7 +7214,7 @@
    "first_seen": "2026-09-06",
    "invitations": [
     {
-     "cdate": 1789136754244,
+     "cdate": 1789441320309,
      "duedate": 1789559940000,
      "expdate": 1789561740000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_Direct_Submission/-/Submission",
@@ -7196,9 +7238,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1784643718566,
-     "duedate": 1789473600000,
-     "expdate": 1789475400000,
+     "cdate": 1789457496414,
+     "duedate": 1790424000000,
+     "expdate": 1790425800000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/TrustAudio/-/Submission",
      "kind": "Submission"
     }
@@ -7217,9 +7259,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1784643675628,
-     "duedate": 1789473600000,
-     "expdate": 1789475400000,
+     "cdate": 1789449027733,
+     "duedate": 1789560000000,
+     "expdate": 1789561800000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/TrustAudio_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -7254,6 +7296,69 @@
    "website": "https://ui.adsabs.harvard.edu/WIESP/2026/",
    "why": "AI for scientific publications is applied NLP that hits no core bullet."
   },
+  "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789056000000,
+     "duedate": 1790078340000,
+     "expdate": 1790080140000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "WAT 2026",
+   "title": "The 13th Workshop on Asian Translation",
+   "verdict": "adjacent",
+   "website": "https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2026/",
+   "why": "ARR-commitment track of a machine-translation workshop \u2014 multilingual NLP is adjacent, hitting no core bullet."
+  },
+  "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_Research_Paper": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789056000000,
+     "duedate": 1789732740000,
+     "expdate": 1789734540000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_Research_Paper/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "WAT 2026",
+   "title": "The 13th Workshop on Asian Translation",
+   "verdict": "adjacent",
+   "website": "https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2026/",
+   "why": "Direct research-paper track of the same machine-translation workshop \u2014 multilingual NLP is adjacent, not core."
+  },
+  "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_System_Description_Papers": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789131600000,
+     "duedate": 1790607540000,
+     "expdate": 1790609340000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_System_Description_Papers/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "WAT 2026",
+   "title": "The 13th Workshop on Asian Translation",
+   "verdict": "adjacent",
+   "website": "https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2026/",
+   "why": "Shared-task system-description track inherits the MT workshop's adjacent verdict."
+  },
   "aclweb.org/INLG/2026/Conference_Direct_Submissions": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -7276,7 +7381,7 @@
    "why": "Natural language generation conference; the profile explicitly lists INLG as adjacent."
   },
   "aclweb.org/INLG/2026/GenChal": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
@@ -7359,6 +7464,27 @@
    "website": "https://2027.naacl.org",
    "why": "NAACL main conference track, explicitly listed as core."
   },
+  "aclweb.org/NAACL/2027/Industry_Track": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789444800000,
+     "duedate": 1793541600000,
+     "expdate": 1793543400000,
+     "id": "aclweb.org/NAACL/2027/Industry_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "NAACL 2027 Industry Track",
+   "title": "NAACL 2027 Industry Track",
+   "verdict": "adjacent",
+   "website": "https://2027.naacl.org/calls/industry_track/",
+   "why": "Industry track of NAACL, which the profile explicitly excludes from core main tracks."
+  },
   "aclweb.org/NAACL/2027/SRW": {
    "archived": false,
    "first_seen": "2026-09-14",
@@ -7386,8 +7512,8 @@
    "invitations": [
     {
      "cdate": 1786633200000,
-     "duedate": 1789484340000,
-     "expdate": 1789486140000,
+     "duedate": 1789829940000,
+     "expdate": 1789831740000,
      "id": "afcv.org/ACCV/2026/Workshop/AECV/-/Submission",
      "kind": "Submission"
     }
@@ -7695,6 +7821,48 @@
    "website": "https://lifelongagent.github.io/aias26.html",
    "why": "Lifelong/continual-learning-for-agents workshop at an unknown host \u2014 applied agent capability, with 'aligning' only a name word."
   },
+  "aisnet.org/ICIS/2026/PDW/Autonomous_Scholarship": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789430400000,
+     "duedate": 1793015940000,
+     "expdate": 1793017740000,
+     "id": "aisnet.org/ICIS/2026/PDW/Autonomous_Scholarship/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ICIS 2026 PDW Autonomous Scholarship",
+   "title": "ICIS 2026 Professional Development Workshop (PDW) on Autonomous Scholarship",
+   "verdict": "adjacent",
+   "website": "https://sites.nd.edu/autonomous-workshop/",
+   "why": "Information-systems professional-development workshop on AI-assisted scholarship \u2014 agents as applied setting, not agent evaluation or safety."
+  },
+  "aistats.org/AISTATS/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-09-15",
+   "invitations": [
+    {
+     "cdate": 1789471800000,
+     "duedate": 1790769540000,
+     "expdate": 1790771340000,
+     "id": "aistats.org/AISTATS/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AISTATS 2027",
+   "title": "The 30th International Conference on Artificial Intelligence and Statistics",
+   "verdict": "adjacent",
+   "website": "https://virtual.aistats.org/Conferences/2027",
+   "why": "Reputable general ML/statistics conference, but not in the profile's flagship main-track list and not a core topic."
+  },
   "albertarobotics.ca/RISEx/2026/Conference": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -7843,13 +8011,13 @@
    "why": "'Trustworthy X' where X is a vision/public-safety application \u2014 adjacent by rule."
   },
   "bza.edu.cn/Beijing_Zhongguancun_Academy/ICAIS/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-15",
    "invitations": [
     {
      "cdate": 1782907200000,
-     "duedate": 1788955140000,
-     "expdate": 1788956940000,
+     "duedate": 1790078340000,
+     "expdate": 1790080140000,
      "id": "bza.edu.cn/Beijing_Zhongguancun_Academy/ICAIS/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -8815,7 +8983,7 @@
    "why": "Strategic management/business conference with no ML angle."
   },
   "tau.ac.il/TAU/2026/Horvathfest": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9781,7 +9949,7 @@
    "why": "Startup/business summit, not a research venue in ML or NLP."
   },
   "wsl.iiitb.ac.in/WebSciX/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
