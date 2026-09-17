@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-14",
- "last_run": "2026-09-16T17:34:50.207472+00:00",
+ "last_run": "2026-09-17T17:34:31.647107+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -530,13 +530,13 @@
    "why": "Regional general AI symposium with no core-topic focus \u2014 regional conferences are listed, never pinged."
   },
   "AIDEA/2027/Symposium": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-17",
    "invitations": [
     {
-     "cdate": 1787867587559,
-     "duedate": 1789516740000,
-     "expdate": 1789518540000,
+     "cdate": 1789636797660,
+     "duedate": 1789955940000,
+     "expdate": 1789957740000,
      "id": "AIDEA/2027/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -1882,7 +1882,8 @@
    "issue": 125,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "ICLR 2027",
    "title": "The Fifteenth International Conference on Learning Representations",
@@ -3340,13 +3341,13 @@
    "why": "Breast-MRI medical imaging challenge, medicine-focused and outside his fields."
   },
   "MICCAI.org/2026/Challenge/FLARE": {
-   "archived": true,
-   "first_seen": "2026-08-18",
+   "archived": false,
+   "first_seen": "2026-09-17",
    "invitations": [
     {
      "cdate": 1786939200000,
-     "duedate": 1789358400000,
-     "expdate": 1789360200000,
+     "duedate": 1790222400000,
+     "expdate": 1790224200000,
      "id": "MICCAI.org/2026/Challenge/FLARE/-/Submission",
      "kind": "Submission"
     }
@@ -5221,7 +5222,7 @@
    "why": "Systems workshop on managing agent hierarchies \u2014 agents as setting, and explicitly calibrated adjacent."
   },
   "NeurIPS.cc/2026/Workshop/MusIML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-16",
    "invitations": [
     {
@@ -7000,13 +7001,13 @@
    "why": "AACL main conference \u2014 flagship-family main track is an explicit core bullet."
   },
   "aclweb.org/AACL-IJCNLP/2026/LT4CPR": {
-   "archived": true,
-   "first_seen": "2026-08-31",
+   "archived": false,
+   "first_seen": "2026-09-17",
    "invitations": [
     {
      "cdate": 1788148800000,
-     "duedate": 1789563540000,
-     "expdate": 1789565340000,
+     "duedate": 1789909140000,
+     "expdate": 1789910940000,
      "id": "aclweb.org/AACL-IJCNLP/2026/LT4CPR/-/Submission",
      "kind": "Submission"
     }
@@ -7040,6 +7041,27 @@
    "verdict": "adjacent",
    "website": "https://bupterlxp.github.io/reasoning-to-agency-2026/",
    "why": "General reasoning-to-agency foundation-model agents workshop where agents are the setting, not evaluation, oversight, or interpretability of agent behavior."
+  },
+  "aclweb.org/AACL-IJCNLP/2026/TrustAudio_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-09-17",
+   "invitations": [
+    {
+     "cdate": 1789603140000,
+     "duedate": 1792195140000,
+     "expdate": 1792196940000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/TrustAudio_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "TrustAudio",
+   "title": "TrustAudio: Workshop on Secure, Safe, and Privacy-Preserving Speech and Audio AI",
+   "verdict": "adjacent",
+   "website": "https://trustaudio.github.io/",
+   "why": "ARR-commitment track of a safe/trustworthy-X workshop where X is an application domain (speech/audio), which the profile rules adjacent, not core AI safety."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_ARR_Commitment": {
    "archived": false,
@@ -7407,8 +7429,8 @@
    "invitations": [
     {
      "cdate": 1784193084300,
-     "duedate": 1789646340000,
-     "expdate": 1789648140000,
+     "duedate": 1789819140000,
+     "expdate": 1789820940000,
      "id": "aclweb.org/INLG/2026/GenChal/-/Submission",
      "kind": "Submission"
     }
@@ -7927,7 +7949,7 @@
    "why": "Established ML learning-theory conference, but not alignment/interp/eval or a listed flagship main track."
   },
   "bmva.org/BMVC/2026/Workshop/BD-MedVis": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-13",
    "invitations": [
     {
@@ -8610,8 +8632,8 @@
    "invitations": [
     {
      "cdate": 1786924800000,
-     "duedate": 1792195140000,
-     "expdate": 1792196940000,
+     "duedate": 1792454340000,
+     "expdate": 1792456140000,
      "id": "robot-learning.org/CoRL/2026/Workshop/LEAP/-/Submission",
      "kind": "Submission"
     }
@@ -9366,8 +9388,8 @@
    "invitations": [
     {
      "cdate": 1788498000000,
-     "duedate": 1791997140000,
-     "expdate": 1791998940000,
+     "duedate": 1792040340000,
+     "expdate": 1792042140000,
      "id": "thecvf.com/WACV/2027/Workshop/CV4EO/-/Submission",
      "kind": "Submission"
     }
@@ -9618,8 +9640,8 @@
    "invitations": [
     {
      "cdate": 1789300800000,
-     "duedate": 1789646340000,
-     "expdate": 1789648140000,
+     "duedate": 1792238340000,
+     "expdate": 1792240140000,
      "id": "thecvf.com/WACV/2027/Workshop/RWS/-/Submission",
      "kind": "Submission"
     }
