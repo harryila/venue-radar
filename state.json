@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-14",
- "last_run": "2026-09-18T17:00:29.691686+00:00",
+ "last_run": "2026-09-19T16:20:59.680757+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -47,7 +47,7 @@
    "why": "Established 3D-vision conference; vision without his interp/agents/eval focus is adjacent at most."
   },
   "AAAI.org/2027/Demonstration_Program": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -572,7 +572,7 @@
    "why": "Philosophy essay competition on a personal site, not an ML/NLP research venue."
   },
   "ALTA.asn.au/2026/Archival": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1121,7 +1121,7 @@
    "why": "Document-intelligence workshop (ARR-commitment track) \u2014 applied NLP outside the core bullets."
   },
   "EMNLP/2026/Workshop/DocInsights_Shared_Task": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-21",
    "invitations": [
     {
@@ -1826,7 +1826,7 @@
    "why": "Dedicated safe-and-ethical-AI conference whose own topic is safety/alignment of AI systems, hitting the first core bullet at a reputable dedicated host."
   },
   "IC-AMMA/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1910,7 +1910,7 @@
    "why": "Generic information/computing technologies conference with AI tracks \u2014 low-signal general CS, adjacent at best."
   },
   "ICLR.cc/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-19",
    "invitations": [
     {
@@ -6788,7 +6788,7 @@
    "why": "Fake-news detection in low-resource languages \u2014 applied content-analysis NLP, adjacent on the tie-break."
   },
   "SRVS/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-01",
    "invitations": [
     {
@@ -7487,7 +7487,7 @@
    "why": "Natural language generation conference; the profile explicitly lists INLG as adjacent."
   },
   "aclweb.org/INLG/2026/GenChal": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-16",
    "invitations": [
     {
@@ -7613,7 +7613,7 @@
    "why": "Student research workshop, which the profile explicitly lists as adjacent regardless of host."
   },
   "afcv.org/ACCV/2026/Workshop/AECV": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -7865,7 +7865,7 @@
    "why": "Avatar/deepfake teleoperator identity-verification is a niche CV/biometrics topic with no LLM angle."
   },
   "aiasplus.org/AIAS/2026/Workshop/AIASci": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-20",
    "invitations": [
     {
@@ -8059,8 +8059,8 @@
    "invitations": [
     {
      "cdate": 1785522600000,
-     "duedate": 1789991940000,
-     "expdate": 1789993740000,
+     "duedate": 1790769540000,
+     "expdate": 1790771340000,
      "id": "bmva.org/BMVC/2026/Workshop/GlobalSouthCV/-/Submission",
      "kind": "Submission"
     }
@@ -8138,13 +8138,13 @@
    "why": "AI-scientists/agents-for-science conference \u2014 agents as an applied setting, not agent evaluation or oversight."
   },
   "cips-cl.org/CCL/2026/Workshop/Eval": {
-   "archived": true,
-   "first_seen": "2026-09-06",
+   "archived": false,
+   "first_seen": "2026-09-19",
    "invitations": [
     {
      "cdate": 1782835200000,
-     "duedate": 1789747140000,
-     "expdate": 1789748940000,
+     "duedate": 1790006340000,
+     "expdate": 1790008140000,
      "id": "cips-cl.org/CCL/2026/Workshop/Eval/-/Submission",
      "kind": "Submission"
     }
