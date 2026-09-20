@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-14",
- "last_run": "2026-09-19T16:20:59.680757+00:00",
+ "last_run": "2026-09-20T16:44:04.787174+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -318,6 +318,27 @@
    "verdict": "adjacent",
    "website": "https://acmweb2027.org/",
    "why": "Short-paper track of the same WWW conference; same web/IR/ML topic outside the core bullets, so same verdict as the venue."
+  },
+  "ACM.org/TheWebConf/2027/Tutorial_Proposals": {
+   "archived": false,
+   "first_seen": "2026-09-20",
+   "invitations": [
+    {
+     "cdate": 1789855200000,
+     "duedate": 1790460000000,
+     "expdate": 1790461800000,
+     "id": "ACM.org/TheWebConf/2027/Tutorial_Proposals/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WWW 2027 Tutorials",
+   "title": "The Web Conference 2027 - Tutorial Proposals",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Tutorial track at an established web/ML conference \u2014 tutorials are explicitly adjacent and WWW's topic hits no core bullet."
   },
   "ACM.org/TheWebConf/2027/Workshop_Proposals": {
    "archived": false,
@@ -2291,7 +2312,7 @@
    "why": "Learning-planning-control architectures for embodied autonomy \u2014 applied robotics."
   },
   "IEEE.org/IROS/2026/Workshop/Beyond_Exteroception": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-02",
    "invitations": [
     {
@@ -3614,7 +3635,7 @@
    "why": "Established ML-for-health symposium \u2014 applied domain outside the core bullets."
   },
   "ML4PS/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
@@ -7064,7 +7085,7 @@
    "why": "AACL main conference \u2014 flagship-family main track is an explicit core bullet."
   },
   "aclweb.org/AACL-IJCNLP/2026/LT4CPR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-17",
    "invitations": [
     {
@@ -7232,7 +7253,7 @@
    "why": "ARR-commitment track of the same multilingual workshop, so it takes the workshop's adjacent verdict."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7865,13 +7886,13 @@
    "why": "Avatar/deepfake teleoperator identity-verification is a niche CV/biometrics topic with no LLM angle."
   },
   "aiasplus.org/AIAS/2026/Workshop/AIASci": {
-   "archived": true,
-   "first_seen": "2026-08-20",
+   "archived": false,
+   "first_seen": "2026-09-20",
    "invitations": [
     {
      "cdate": 1787227200000,
-     "duedate": 1789815540000,
-     "expdate": 1789817340000,
+     "duedate": 1790373540000,
+     "expdate": 1790375340000,
      "id": "aiasplus.org/AIAS/2026/Workshop/AIASci/-/Submission",
      "kind": "Submission"
     }
@@ -8478,6 +8499,27 @@
    "verdict": "no",
    "website": "https://workshop.xiangshan.cc/",
    "why": "Chip design and hardware verification \u2014 hardware/circuits, outside ML."
+  },
+  "mmumullana.org/ICMMDU/2026/Conference": {
+   "archived": false,
+   "first_seen": "2026-09-20",
+   "invitations": [
+    {
+     "cdate": 1789842600000,
+     "duedate": 1795113000000,
+     "expdate": 1795114800000,
+     "id": "mmumullana.org/ICMMDU/2026/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "ICMMDU 2026",
+   "title": "International Conference on Machine Intelligence, Modeling, Digitalization and Ubiquity",
+   "verdict": "adjacent",
+   "website": "https://conference.mmumullana.org/icmmdu-2026/",
+   "why": "Regional broad machine-intelligence conference \u2014 regional AI/ML conferences are adjacent by rule, not core."
   },
   "purdue.edu/Purdue_University/AI4EdgeBook/2026": {
    "archived": false,
@@ -10055,7 +10097,7 @@
    "why": "Causal AI for decision making is general ML methods, not LLM-agent evaluation or calibration specifically, at a standalone university host."
   },
   "uni-konstanz.de/Universit\u00e4t_Konstanz/2026/Mulitmod_KN": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
