@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-09-14",
- "last_run": "2026-09-20T16:44:04.787174+00:00",
+ "last_digest": "2026-09-21",
+ "last_run": "2026-09-21T18:35:04.879222+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -551,7 +551,7 @@
    "why": "Regional general AI symposium with no core-topic focus \u2014 regional conferences are listed, never pinged."
   },
   "AIDEA/2027/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-17",
    "invitations": [
     {
@@ -997,8 +997,8 @@
    "invitations": [
     {
      "cdate": 1785868209100,
-     "duedate": 1789928940000,
-     "expdate": 1789930740000,
+     "duedate": 1790101740000,
+     "expdate": 1790103540000,
      "id": "DHARTI/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -1660,8 +1660,8 @@
    "invitations": [
     {
      "cdate": 1774483200000,
-     "duedate": 1790812740000,
-     "expdate": 1790814540000,
+     "duedate": 1793404740000,
+     "expdate": 1793406540000,
      "id": "ESEIA/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3172,6 +3172,26 @@
    "website": "https://annual-mita.org",
    "why": "Generic machine-intelligence conference \u2014 regional/low-signal general AI venue, listed but never core."
   },
+  "IEEE.org/SLT/2026/Journal_Presentation_Track": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1789833600000,
+     "duedate": 1792425600000,
+     "expdate": 1792427400000,
+     "id": "IEEE.org/SLT/2026/Journal_Presentation_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "IEEE SLT 2026 Journal Presentation Track",
+   "title": "SLT 2026 Journal Presentation Track",
+   "verdict": null,
+   "website": "https://attend.ieee.org/slt-2026",
+   "why": ""
+  },
   "IIR/2026/Workshop": {
    "archived": true,
    "first_seen": "2026-09-07",
@@ -3698,7 +3718,7 @@
    "why": "Regional robotics colloquium without his core topics."
   },
   "NLDL.org/2027/Abstracts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6385,6 +6405,26 @@
    "website": "https://blog.studiumdigitale.uni-frankfurt.de/phracon-2027/",
    "why": "Pure linguistics \u2014 construction grammar, lexicography, and language teaching with no ML angle."
   },
+  "QueerInAI.com/2026/Grad_App": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1789963200000,
+     "duedate": 1790827200000,
+     "expdate": 1790829000000,
+     "id": "QueerInAI.com/2026/Grad_App/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "gradapp 2026",
+   "title": "Queer in AI Grad App Scholarship 2026",
+   "verdict": null,
+   "website": "https://www.queerinai.com/",
+   "why": ""
+  },
   "SADASC.com/2027/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -6808,6 +6848,26 @@
    "website": "https://spelll.org/workshop.html#TIMELINES-FOR-WORKSHOP-PROPOSALS",
    "why": "Fake-news detection in low-resource languages \u2014 applied content-analysis NLP, adjacent on the tie-break."
   },
+  "SPELLL.org/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1789945200000,
+     "duedate": 1796900400000,
+     "expdate": 1796902200000,
+     "id": "SPELLL.org/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "SPELLL 2027",
+   "title": "SIXTH INTERNATIONAL CONFERENCE ON SPEECH AND LANGUAGE TECHNOLOGIES FOR LOW-RESOURCE LANGUAGES",
+   "verdict": null,
+   "website": "https://spelll.org/2027/",
+   "why": ""
+  },
   "SRVS/2026/Workshop": {
    "archived": true,
    "first_seen": "2026-09-01",
@@ -6855,9 +6915,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1789375535759,
-     "duedate": 1790078340000,
-     "expdate": 1790080140000,
+     "cdate": 1790005571732,
+     "duedate": 1790683140000,
+     "expdate": 1790684940000,
      "id": "TAAI.org/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -7152,9 +7212,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1783352737972,
-     "duedate": 1790769540000,
-     "expdate": 1790771340000,
+     "cdate": 1789980347137,
+     "duedate": 1790423940000,
+     "expdate": 1790425740000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -7211,7 +7271,7 @@
    "why": "Language technology for crisis preparedness and response \u2014 humanitarian applied NLP at an AACL workshop, not a core topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/Multi-LLL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7232,7 +7292,7 @@
    "why": "Multilingual LLM workshop at AACL \u2014 multilingual NLP is explicitly adjacent, not a core topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/Multi-LLL_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7253,13 +7313,13 @@
    "why": "ARR-commitment track of the same multilingual workshop, so it takes the workshop's adjacent verdict."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-09-21",
    "invitations": [
     {
      "cdate": 1785931200000,
-     "duedate": 1789905540000,
-     "expdate": 1789907340000,
+     "duedate": 1790078340000,
+     "expdate": 1790080140000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche/-/Submission",
      "kind": "Submission"
     }
@@ -7634,13 +7694,13 @@
    "why": "Student research workshop, which the profile explicitly lists as adjacent regardless of host."
   },
   "afcv.org/ACCV/2026/Workshop/AECV": {
-   "archived": true,
-   "first_seen": "2026-08-18",
+   "archived": false,
+   "first_seen": "2026-09-21",
    "invitations": [
     {
      "cdate": 1786633200000,
-     "duedate": 1789829940000,
-     "expdate": 1789831740000,
+     "duedate": 1790780340000,
+     "expdate": 1790782140000,
      "id": "afcv.org/ACCV/2026/Workshop/AECV/-/Submission",
      "kind": "Submission"
     }
@@ -8159,7 +8219,7 @@
    "why": "AI-scientists/agents-for-science conference \u2014 agents as an applied setting, not agent evaluation or oversight."
   },
   "cips-cl.org/CCL/2026/Workshop/Eval": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-19",
    "invitations": [
     {
@@ -8436,6 +8496,26 @@
    "verdict": "adjacent",
    "website": "https://fsml-ims-workshop.org/",
    "why": "Statistical machine-learning theory/methods workshop \u2014 general ML that hits no core bullet."
+  },
+  "isairas-isparo.de/i-SAIRAS_iSpaRo/2026/Workshop/OSR": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1789977600000,
+     "duedate": 1792396800000,
+     "expdate": 1792398600000,
+     "id": "isairas-isparo.de/i-SAIRAS_iSpaRo/2026/Workshop/OSR/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "OSR 2026",
+   "title": "Open Space Robotics: Software and Hardware Solutions",
+   "verdict": null,
+   "website": "https://openrobotics.space/",
+   "why": ""
   },
   "majancollege.edu.om/Majan_College/2026/Advancing_Sustainable_Futures": {
    "archived": false,
@@ -8899,6 +8979,26 @@
    "website": "https://corl2026-memory.github.io/",
    "why": "Memory-for-robot-agents workshop \u2014 applied agent/robotics setting, explicitly adjacent."
   },
+  "robot-learning.org/CoRL/2026/Workshop/Roboletics": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1789992000000,
+     "duedate": 1792317540000,
+     "expdate": 1792319340000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/Roboletics/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "Roboletics at CoRL 2026",
+   "title": "RoboLetics 3.0: Benchmarks for Agile Physical Human-Robot Interaction at CoRL 2026",
+   "verdict": null,
+   "website": "https://roboletics.github.io/corl2026/",
+   "why": ""
+  },
   "robot-learning.org/CoRL/2026/Workshop/SPAIS": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -9129,6 +9229,26 @@
    "verdict": "adjacent",
    "website": "https://sci-harbor.com/",
    "why": "A scientific-verification benchmark/shared-task review falls under datasets-and-benchmarks, not calibration/eval/interp of LLMs."
+  },
+  "sdu.edu.cn/Shandong_University/SDUAI/2026/Conference": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1790006400000,
+     "duedate": 1795795200000,
+     "expdate": 1795797000000,
+     "id": "sdu.edu.cn/Shandong_University/SDUAI/2026/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "SDUAI 2026",
+   "title": "First SDU Conference on Artificial Intelligence",
+   "verdict": null,
+   "website": "https://yayayayayayaa.github.io/sdu-ai-conference/",
+   "why": ""
   },
   "smashcon.org/SMASH/2026/Symposium": {
    "archived": true,
@@ -10013,13 +10133,13 @@
    "why": "Computer vision for waste monitoring \u2014 applied environmental-sensing vision, not a core topic."
   },
   "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning": {
-   "archived": true,
-   "first_seen": "2026-09-10",
+   "archived": false,
+   "first_seen": "2026-09-21",
    "invitations": [
     {
      "cdate": 1788300000000,
-     "duedate": 1789120800000,
-     "expdate": 1789122600000,
+     "duedate": 1790337600000,
+     "expdate": 1790339400000,
      "id": "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning/-/Submission",
      "kind": "Submission"
     }
@@ -10158,6 +10278,26 @@
    "verdict": "no",
    "website": "https://sa.unicornsummit.net/",
    "why": "Startup/business summit, not a research venue in ML or NLP."
+  },
+  "unitn.it/University_of_Trento/IECS/Qual_Ex_26-27": {
+   "archived": false,
+   "first_seen": "2026-09-21",
+   "invitations": [
+    {
+     "cdate": 1789970400000,
+     "duedate": 1791849540000,
+     "expdate": 1791851340000,
+     "id": "unitn.it/University_of_Trento/IECS/Qual_Ex_26-27/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "Qual_Exam_26-27",
+   "title": "University of Trento - IECS Qualifying Exam 2026-27",
+   "verdict": null,
+   "website": "https://iecs.unitn.it/enrolled-student/phd-career/qualifying-exam",
+   "why": ""
   },
   "wsl.iiitb.ac.in/WebSciX/2026/Conference": {
    "archived": true,
