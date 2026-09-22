@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-21",
- "last_run": "2026-09-21T18:35:04.879222+00:00",
+ "last_run": "2026-09-22T17:35:54.546384+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -934,8 +934,8 @@
    "invitations": [
     {
      "cdate": 1785535200000,
-     "duedate": 1790027940000,
-     "expdate": 1790029740000,
+     "duedate": 1790287140000,
+     "expdate": 1790288940000,
      "id": "D3A/2026/Workshop/MLT/-/Submission",
      "kind": "Submission"
     }
@@ -2606,7 +2606,7 @@
    "why": "Applied robot-learning workshop; ML methods but industrial robotics is the topic, not a core bullet."
   },
   "IEEE.org/IROS/2026/Workshop/IIG": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-15",
    "invitations": [
     {
@@ -6937,8 +6937,8 @@
    "invitations": [
     {
      "cdate": 1786312800000,
-     "duedate": 1790114340000,
-     "expdate": 1790116140000,
+     "duedate": 1790855940000,
+     "expdate": 1790857740000,
      "id": "TAASP.at/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -7207,6 +7207,26 @@
    "website": "https://trustaudio.github.io/",
    "why": "ARR-commitment track of a safe/trustworthy-X workshop where X is an application domain (speech/audio), which the profile rules adjacent, not core AI safety."
   },
+  "aclweb.org/AACL-IJCNLP/2026/Workshop/ARRSI": {
+   "archived": false,
+   "first_seen": "2026-09-22",
+   "invitations": [
+    {
+     "cdate": 1789920000000,
+     "duedate": 1790855940000,
+     "expdate": 1790857740000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/ARRSI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "ARRSI 2026",
+   "title": "First Workshop on Autonomous Research and Recursive Self-Improvement (ARRSI 2026)",
+   "verdict": null,
+   "website": "https://ar-rsi.github.io/",
+   "why": ""
+  },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_ARR_Commitment": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -7313,7 +7333,7 @@
    "why": "ARR-commitment track of the same multilingual workshop, so it takes the workshop's adjacent verdict."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/MultiPsyche": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-21",
    "invitations": [
     {
@@ -7420,6 +7440,26 @@
    "website": "https://plurvallm2026.github.io/",
    "why": "Direct-submission track of a workshop on value alignment of LLMs \u2014 alignment of AI systems themselves, and the profile's calibration examples name Pluralistic Value Alignment core."
   },
+  "aclweb.org/AACL-IJCNLP/2026/Workshop/SRW_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-09-22",
+   "invitations": [
+    {
+     "cdate": 1789531208000,
+     "duedate": 1790510400000,
+     "expdate": 1790512200000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/SRW_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AACL-IJCNLP 2026 SRW ARR Submission",
+   "title": "Fifth AACL & Fifteenth IJCNLP Student Research Workshop ARR Submission",
+   "verdict": null,
+   "website": "https://2026.aaclnet.org/calls/srw/",
+   "why": ""
+  },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/TrustAudio": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -7468,8 +7508,8 @@
    "invitations": [
     {
      "cdate": 1782745147900,
-     "duedate": 1790049540000,
-     "expdate": 1790051340000,
+     "duedate": 1790164740000,
+     "expdate": 1790166540000,
      "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/WASP/-/Submission",
      "kind": "Submission"
     }
@@ -7484,7 +7524,7 @@
    "why": "AI for scientific publications is applied NLP that hits no core bullet."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/WAT_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-15",
    "invitations": [
     {
@@ -7825,8 +7865,8 @@
    "invitations": [
     {
      "cdate": 1786109292000,
-     "duedate": 1790164740000,
-     "expdate": 1790166540000,
+     "duedate": 1790942340000,
+     "expdate": 1790944140000,
      "id": "afcv.org/ACCV/2026/Workshop/MADiMa/-/Submission",
      "kind": "Submission"
     }
@@ -8198,7 +8238,7 @@
    "why": "'Trustworthy X' where X is a vision/public-safety application \u2014 adjacent by rule."
   },
   "bza.edu.cn/Beijing_Zhongguancun_Academy/ICAIS/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-15",
    "invitations": [
     {
@@ -8219,13 +8259,13 @@
    "why": "AI-scientists/agents-for-science conference \u2014 agents as an applied setting, not agent evaluation or oversight."
   },
   "cips-cl.org/CCL/2026/Workshop/Eval": {
-   "archived": true,
-   "first_seen": "2026-09-19",
+   "archived": false,
+   "first_seen": "2026-09-22",
    "invitations": [
     {
      "cdate": 1782835200000,
-     "duedate": 1790006340000,
-     "expdate": 1790008140000,
+     "duedate": 1790351940000,
+     "expdate": 1790353740000,
      "id": "cips-cl.org/CCL/2026/Workshop/Eval/-/Submission",
      "kind": "Submission"
     }
@@ -8515,6 +8555,26 @@
    "title": "Open Space Robotics: Software and Hardware Solutions",
    "verdict": null,
    "website": "https://openrobotics.space/",
+   "why": ""
+  },
+  "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL": {
+   "archived": false,
+   "first_seen": "2026-09-22",
+   "invitations": [
+    {
+     "cdate": 1789657200000,
+     "duedate": 1794963600000,
+     "expdate": 1794965400000,
+     "id": "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "JBNU ADL 2026 Fall",
+   "title": "Jeonbuk National University Advanced Deep Learning 2026 Fall",
+   "verdict": null,
+   "website": "https://nurilab.jbnu.ac.kr/courses/advanced-deep-learning/",
    "why": ""
   },
   "majancollege.edu.om/Majan_College/2026/Advancing_Sustainable_Futures": {
@@ -9166,6 +9226,26 @@
    "verdict": "adjacent",
    "website": "https://beneath-the-policy.github.io/",
    "why": "Robot-learning systems/infrastructure beneath policy training \u2014 robotics/systems with an ML angle is adjacent, not core."
+  },
+  "robot-learning.org/CoRL/2026/Workshop/do-robots-need-world-models": {
+   "archived": false,
+   "first_seen": "2026-09-22",
+   "invitations": [
+    {
+     "cdate": 1789974000000,
+     "duedate": 1791788400000,
+     "expdate": 1791790200000,
+     "id": "robot-learning.org/CoRL/2026/Workshop/do-robots-need-world-models/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "Do Robots Need World Models?",
+   "title": "Do Robots Need World Models?",
+   "verdict": null,
+   "website": "https://do-robots-need-world-models.github.io/",
+   "why": ""
   },
   "robot-learning.org/CoRL/2026/Workshop/pretrain-to-adapt": {
    "archived": false,
