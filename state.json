@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-21",
- "last_run": "2026-09-23T17:47:33.330040+00:00",
+ "last_run": "2026-09-24T17:49:27.128932+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -276,6 +276,27 @@
    "verdict": "adjacent",
    "website": "https://mentalmodelsofai.com/",
    "why": "HCI-angle workshop on human mental models of AI, not technical interp/eval of AI systems."
+  },
+  "ACM.org/STOC/2027/Symposium": {
+   "archived": false,
+   "first_seen": "2026-09-24",
+   "invitations": [
+    {
+     "cdate": 1790258400000,
+     "duedate": 1793707200000,
+     "expdate": 1793709000000,
+     "id": "ACM.org/STOC/2027/Symposium/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "STOC 2027",
+   "title": "59th Annual ACM Symposium on Theory of Computing",
+   "verdict": "no",
+   "website": "https://acm-stoc.org/stoc2027/",
+   "why": "Pure theory of computing unrelated to ML \u2014 explicitly a no."
   },
   "ACM.org/TheWebConf/2027/Conference_Long_Papers": {
    "archived": false,
@@ -591,6 +612,27 @@
    "verdict": "no",
    "website": "https://www.zacharygoodsell.com/ai-philosophy-competition",
    "why": "Philosophy essay competition on a personal site, not an ML/NLP research venue."
+  },
+  "AJCAI/2026/Workshop/AI4Science": {
+   "archived": false,
+   "first_seen": "2026-09-24",
+   "invitations": [
+    {
+     "cdate": 1789999140000,
+     "duedate": 1793455140000,
+     "expdate": 1793456940000,
+     "id": "AJCAI/2026/Workshop/AI4Science/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AJCAI 2026 AI4Science Workshop",
+   "title": "AJCAI 2026 Workshop on AI for Science: Advanced AI and Data Analytics for Scientific Research",
+   "verdict": "adjacent",
+   "website": "https://rb.gy/lek81o",
+   "why": "AI-for-science workshop at a regional (Australasian) AI conference \u2014 applied ML, no core bullet."
   },
   "ALTA.asn.au/2026/Archival": {
    "archived": true,
@@ -3185,12 +3227,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "IEEE SLT 2026 Journal Presentation Track",
    "title": "SLT 2026 Journal Presentation Track",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://attend.ieee.org/slt-2026",
-   "why": ""
+   "why": "IEEE speech/language-technology venue (journal presentation track) \u2014 speech is explicitly adjacent, not a core bullet."
   },
   "IIR/2026/Workshop": {
    "archived": true,
@@ -3424,7 +3467,7 @@
    "why": "Breast-MRI medical imaging challenge, medicine-focused and outside his fields."
   },
   "MICCAI.org/2026/Challenge/FLARE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-17",
    "invitations": [
     {
@@ -3718,7 +3761,7 @@
    "why": "Regional robotics colloquium without his core topics."
   },
   "NLDL.org/2027/Abstracts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-23",
    "invitations": [
     {
@@ -4976,6 +5019,27 @@
    "verdict": "adjacent",
    "website": "https://beyond-private-training.ai.studio/",
    "why": "AI privacy is a trustworthy-ML pillar the profile does not include among its core bullets."
+  },
+  "NeurIPS.cc/2026/Workshop/InfPriv_Fast_Track": {
+   "archived": false,
+   "first_seen": "2026-09-24",
+   "invitations": [
+    {
+     "cdate": 1790251140000,
+     "duedate": 1790423940000,
+     "expdate": 1790425740000,
+     "id": "NeurIPS.cc/2026/Workshop/InfPriv_Fast_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "InfPriv 2026",
+   "title": "(Fast Track) Beyond Private Training: The New Landscape of AI Privacy",
+   "verdict": "adjacent",
+   "website": "https://beyond-private-training.ai.studio/",
+   "why": "Fast track of a NeurIPS AI-privacy workshop \u2014 privacy is a trust topic outside the core bullets (not alignment/interp/eval of AI behavior)."
   },
   "NeurIPS.cc/2026/Workshop/Interp4Discovery": {
    "archived": true,
@@ -6418,12 +6482,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "gradapp 2026",
    "title": "Queer in AI Grad App Scholarship 2026",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://www.queerinai.com/",
-   "why": ""
+   "why": "Affinity-group scholarship application, not a research venue \u2014 same bucket as WiML/Widening NLP."
   },
   "SADASC.com/2027/Conference": {
    "archived": false,
@@ -6861,12 +6926,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SPELLL 2027",
    "title": "SIXTH INTERNATIONAL CONFERENCE ON SPEECH AND LANGUAGE TECHNOLOGIES FOR LOW-RESOURCE LANGUAGES",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://spelll.org/2027/",
-   "why": ""
+   "why": "Low-resource speech/language conference \u2014 multilingual/speech NLP is adjacent, no core bullet hit."
   },
   "SRVS/2026/Workshop": {
    "archived": true,
@@ -7220,12 +7286,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ARRSI 2026",
    "title": "First Workshop on Autonomous Research and Recursive Self-Improvement (ARRSI 2026)",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://ar-rsi.github.io/",
-   "why": ""
+   "why": "Autonomous-research/self-improving-agents workshop reads as applied agents-for-science (agents as setting, not evaluation/oversight of them); doubt resolves to adjacent."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/GeBNLP_ARR_Commitment": {
    "archived": false,
@@ -7453,12 +7520,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AACL-IJCNLP 2026 SRW ARR Submission",
    "title": "Fifth AACL & Fifteenth IJCNLP Student Research Workshop ARR Submission",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://2026.aaclnet.org/calls/srw/",
-   "why": ""
+   "why": "ARR-commitment track of the AACL-IJCNLP Student Research Workshop \u2014 SRWs are explicitly adjacent regardless of track."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/TrustAudio": {
    "archived": false,
@@ -7949,8 +8017,8 @@
    "invitations": [
     {
      "cdate": 1785942000000,
-     "duedate": 1853506800000,
-     "expdate": 1853508600000,
+     "duedate": 1854025140000,
+     "expdate": 1854026940000,
      "id": "afcv.org/ACCV/2026/Workshop/TrustFMI/-/Submission",
      "kind": "Submission"
     }
@@ -7970,8 +8038,8 @@
    "invitations": [
     {
      "cdate": 1786028400000,
-     "duedate": 1790521200000,
-     "expdate": 1790523000000,
+     "duedate": 1791298740000,
+     "expdate": 1791300540000,
      "id": "afcv.org/ACCV/2026/Workshop/WhoIsBehindTheAvatar/-/Submission",
      "kind": "Submission"
     }
@@ -8300,6 +8368,27 @@
    "website": "http://sc.cipsc.org.cn/mt/conference/2026/",
    "why": "National machine-translation conference \u2014 a regional NLP venue, which the profile lists as adjacent."
   },
+  "cipsc.org.cn/CCMT/2026/Shared_Task_Track": {
+   "archived": false,
+   "first_seen": "2026-09-24",
+   "invitations": [
+    {
+     "cdate": 1790179200000,
+     "duedate": 1790611140000,
+     "expdate": 1790612940000,
+     "id": "cipsc.org.cn/CCMT/2026/Shared_Task_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CCMT 2026: Shared Task",
+   "title": "The 22nd China Conference on Machine Translation and Multilingual Technology: Shared Task Track",
+   "verdict": "adjacent",
+   "website": "http://sc.cipsc.org.cn/mt/conference/2026/docs/tech-eval",
+   "why": "Machine-translation shared task at a national conference \u2014 shared tasks are adjacent unless about calibration/eval/interp of LLMs."
+  },
   "deepmath-conference.com/DeepMath/2026": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -8325,7 +8414,7 @@
    "why": "DeepMath is named verbatim as core in the profile's calibration examples (the MATH-AI/DeepMath math-reasoning family)."
   },
   "eacl.org/EACL/2027/Demo": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -8550,12 +8639,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "OSR 2026",
    "title": "Open Space Robotics: Software and Hardware Solutions",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://openrobotics.space/",
-   "why": ""
+   "why": "Space-robotics software/hardware solutions with no ML-methods or foundation-model angle."
   },
   "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL": {
    "archived": false,
@@ -8570,12 +8660,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "JBNU ADL 2026 Fall",
    "title": "Jeonbuk National University Advanced Deep Learning 2026 Fall",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://nurilab.jbnu.ac.kr/courses/advanced-deep-learning/",
-   "why": ""
+   "why": "University course submission portal, not a research venue."
   },
   "majancollege.edu.om/Majan_College/2026/Advancing_Sustainable_Futures": {
    "archived": false,
@@ -8793,8 +8884,8 @@
    "invitations": [
     {
      "cdate": 1786946400000,
-     "duedate": 1790748000000,
-     "expdate": 1790749800000,
+     "duedate": 1791547140000,
+     "expdate": 1791548940000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Contact-Rich_Loco-Manipulation/-/Submission",
      "kind": "Submission"
     }
@@ -9052,12 +9143,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Roboletics at CoRL 2026",
    "title": "RoboLetics 3.0: Benchmarks for Agile Physical Human-Robot Interaction at CoRL 2026",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://roboletics.github.io/corl2026/",
-   "why": ""
+   "why": "Robot-learning benchmarks for physical human-robot interaction \u2014 robotics/benchmarks are adjacent, not a core bullet."
   },
   "robot-learning.org/CoRL/2026/Workshop/SPAIS": {
    "archived": false,
@@ -9127,9 +9219,9 @@
    "first_seen": "2026-08-28",
    "invitations": [
     {
-     "cdate": 1787716800000,
-     "duedate": 1790855940000,
-     "expdate": 1790857740000,
+     "cdate": 1787724000000,
+     "duedate": 1791547140000,
+     "expdate": 1791548940000,
      "id": "robot-learning.org/CoRL/2026/Workshop/SimBench2Real/-/Submission",
      "kind": "Submission"
     }
@@ -9186,7 +9278,7 @@
    "why": "CoRL workshop on robot manipulation policies from handheld data collection \u2014 robot learning with a policy/foundation-model flavor, which the profile lists as adjacent, not a core alignment/interp/agent-eval topic."
   },
   "robot-learning.org/CoRL/2026/Workshop/UncertainWM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9240,12 +9332,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Do Robots Need World Models?",
    "title": "Do Robots Need World Models?",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://do-robots-need-world-models.github.io/",
-   "why": ""
+   "why": "World models for robotics \u2014 explicitly in the adjacent bucket (world models, robotics with FM angle)."
   },
   "robot-learning.org/CoRL/2026/Workshop/pretrain-to-adapt": {
    "archived": false,
@@ -9323,12 +9416,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "SDUAI 2026",
    "title": "First SDU Conference on Artificial Intelligence",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://yayayayayayaa.github.io/sdu-ai-conference/",
-   "why": ""
+   "why": "Brand-new general regional AI conference \u2014 regional/national AI conferences are adjacent."
   },
   "smashcon.org/SMASH/2026/Symposium": {
    "archived": true,
@@ -9749,6 +9843,27 @@
    "verdict": "adjacent",
    "website": "https://cvpath-vision4neuro.github.io/wacv2027",
    "why": "Applied computer vision for biomedical discovery at WACV \u2014 vision application domain with an ML-methods angle, matching no core bullet."
+  },
+  "thecvf.com/WACV/2027/Workshop/CVPath-Vision4Neuro-Short-Papers-And-Abstracts": {
+   "archived": false,
+   "first_seen": "2026-09-24",
+   "invitations": [
+    {
+     "cdate": 1789992000000,
+     "duedate": 1794009540000,
+     "expdate": 1794011340000,
+     "id": "thecvf.com/WACV/2027/Workshop/CVPath-Vision4Neuro-Short-Papers-And-Abstracts/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CVPath-Vision4Neuro-Short-Papers-And-Abstracts",
+   "title": "Vision for Biomedical Discovery (CVPath+Vision4Neuro) - Short Papers and Extended Abstracts",
+   "verdict": "no",
+   "website": "https://cvpath-vision4neuro.github.io/wacv2027",
+   "why": "Vision for biomedical/medical-imaging discovery \u2014 medical-imaging application venue, matching the trustworthy-medical-imaging no example."
   },
   "thecvf.com/WACV/2027/Workshop/Data4VFM": {
    "archived": false,
@@ -10372,12 +10487,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Qual_Exam_26-27",
    "title": "University of Trento - IECS Qualifying Exam 2026-27",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://iecs.unitn.it/enrolled-student/phd-career/qualifying-exam",
-   "why": ""
+   "why": "PhD qualifying-exam portal, not a research venue."
   },
   "wsl.iiitb.ac.in/WebSciX/2026/Conference": {
    "archived": true,
