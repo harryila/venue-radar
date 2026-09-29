@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-28",
- "last_run": "2026-09-28T20:04:25.433826+00:00",
+ "last_run": "2026-09-29T18:32:40.253481+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -404,7 +404,7 @@
    "why": "Tutorial track at an established web/ML conference \u2014 tutorials are explicitly adjacent and WWW's topic hits no core bullet."
   },
   "ACM.org/TheWebConf/2027/Workshop_Proposals": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
@@ -1739,13 +1739,13 @@
    "why": "Deliberative democracy and social choice from a philosophy/political-science project, with no ML or AI-systems focus."
   },
   "ESEIA/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-08-31",
+   "archived": false,
+   "first_seen": "2026-09-29",
    "invitations": [
     {
      "cdate": 1774483200000,
-     "duedate": 1793404740000,
-     "expdate": 1793406540000,
+     "duedate": 1793491140000,
+     "expdate": 1793492940000,
      "id": "ESEIA/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -1915,17 +1915,15 @@
    "invitations": [
     {
      "cdate": 1789722000000,
-     "duedate": 1791028740000,
-     "expdate": 1791030540000,
+     "duedate": 1791284340000,
+     "expdate": 1791286140000,
      "id": "IASEAI.org/2027/Conference/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 132,
    "prestige": 2,
-   "reminded": [
-    "T-7"
-   ],
+   "reminded": [],
    "subtitle": "IASEAI27",
    "title": "Third Conference of the International Association for Safe & Ethical AI",
    "verdict": "core",
@@ -2251,7 +2249,7 @@
    "why": "General information science and technology conference with ML content but no core topic \u2014 general-conference adjacent."
   },
   "IEEE.org/ICRA/2027/Arts_and_Robotics": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-15",
    "invitations": [
     {
@@ -5014,7 +5012,7 @@
    "why": "Human-AI coevolution centers interaction/societal dynamics rather than alignment or evaluation of AI systems, so doubt resolves to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/IAB": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-28",
    "invitations": [
     {
@@ -6498,8 +6496,8 @@
    "invitations": [
     {
      "cdate": 1785510000000,
-     "duedate": 1790694000000,
-     "expdate": 1790695800000,
+     "duedate": 1790866740000,
+     "expdate": 1790868540000,
      "id": "OIST.jp/2027/MLSS_Okinawa/-/Submission",
      "kind": "Submission"
     }
@@ -7105,7 +7103,7 @@
    "why": "Regional robotics symposium \u2014 robotics setting without his core interp/eval/agent-behavior questions."
   },
   "TAAI.org/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -7784,6 +7782,26 @@
    "website": "https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2026/",
    "why": "Shared-task system-description track inherits the MT workshop's adjacent verdict."
   },
+  "aclweb.org/ACL/ARR/2026/October": {
+   "archived": false,
+   "first_seen": "2026-09-29",
+   "invitations": [
+    {
+     "cdate": 1790683140000,
+     "duedate": 1791892740000,
+     "expdate": 1791894540000,
+     "id": "aclweb.org/ACL/ARR/2026/October/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "ARR - October 2026",
+   "title": "ACL Rolling Review - October 2026",
+   "verdict": null,
+   "website": "http://aclrollingreview.org/",
+   "why": ""
+  },
   "aclweb.org/INLG/2026/Conference_Direct_Submissions": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -8058,7 +8076,7 @@
    "why": "Vision/embodied-intelligence workshop at ACCV \u2014 robotics/vision with agents as the setting, not agent evaluation or interpretability."
   },
   "afcv.org/ACCV/2026/Workshop/LFSD-CV": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-26",
    "invitations": [
     {
@@ -8420,8 +8438,8 @@
    "invitations": [
     {
      "cdate": 1785522600000,
-     "duedate": 1790769540000,
-     "expdate": 1790771340000,
+     "duedate": 1790855940000,
+     "expdate": 1790857740000,
      "id": "bmva.org/BMVC/2026/Workshop/GlobalSouthCV/-/Submission",
      "kind": "Submission"
     }
@@ -9077,8 +9095,8 @@
    "invitations": [
     {
      "cdate": 1786723140000,
-     "duedate": 1790686740000,
-     "expdate": 1790688540000,
+     "duedate": 1790859540000,
+     "expdate": 1790861340000,
      "id": "robot-learning.org/CoRL/2026/Workshop/CSIR/-/Submission",
      "kind": "Submission"
     }
@@ -9329,8 +9347,8 @@
    "invitations": [
     {
      "cdate": 1788264000000,
-     "duedate": 1790856000000,
-     "expdate": 1790857800000,
+     "duedate": 1791288000000,
+     "expdate": 1791289800000,
      "id": "robot-learning.org/CoRL/2026/Workshop/R2RL/-/Submission",
      "kind": "Submission"
     }
