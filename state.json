@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-28",
- "last_run": "2026-10-01T18:46:55.460683+00:00",
+ "last_run": "2026-10-02T18:19:38.940541+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -108,6 +108,26 @@
    "verdict": "adjacent",
    "website": "https://amaai-lab.github.io/EAIM2027/",
    "why": "AI-for-music application workshop at AAAI \u2014 an applied domain hitting no core bullet, though hosted at a flagship family."
+  },
+  "AAAI.org/2027/Workshop/FinFM": {
+   "archived": false,
+   "first_seen": "2026-10-02",
+   "invitations": [
+    {
+     "cdate": 1790942400000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
+     "id": "AAAI.org/2027/Workshop/FinFM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AAAI 2027 Workshop FinFM",
+   "title": "AAAI-27 Workshop on Foundation Models and Generative AI for Finance (FinFM)",
+   "verdict": null,
+   "website": "https://finfm.finhorizons.org/",
+   "why": ""
   },
   "AAAI.org/2027/Workshop/SAFE": {
    "archived": false,
@@ -2270,8 +2290,8 @@
    "invitations": [
     {
      "cdate": 1784142000000,
-     "duedate": 1791183540000,
-     "expdate": 1791185340000,
+     "duedate": 1791788340000,
+     "expdate": 1791790140000,
      "id": "IEEE.org/BigData/2026/Workshop/TRUSTMORE/-/Submission",
      "kind": "Submission"
     }
@@ -2290,9 +2310,9 @@
    "first_seen": "2026-10-01",
    "invitations": [
     {
-     "cdate": 1790841600000,
-     "duedate": 1794311940000,
-     "expdate": 1794313740000,
+     "cdate": 1790845200000,
+     "duedate": 1794052740000,
+     "expdate": 1794054540000,
      "id": "IEEE.org/CDC/2026/Workshop/SAAS/-/Submission",
      "kind": "Submission"
     }
@@ -3418,6 +3438,26 @@
    "website": "https://annual-mita.org",
    "why": "Generic machine-intelligence conference \u2014 regional/low-signal general AI venue, listed but never core."
   },
+  "IEEE.org/RAS/Humanoids/2026/Workshop/Trustworthy_Humanoid_Systems": {
+   "archived": false,
+   "first_seen": "2026-10-02",
+   "invitations": [
+    {
+     "cdate": 1790938800000,
+     "duedate": 1793102340000,
+     "expdate": 1793104140000,
+     "id": "IEEE.org/RAS/Humanoids/2026/Workshop/Trustworthy_Humanoid_Systems/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "Humanoids 2026 Workshop on Trustworthy Humanoid Systems",
+   "title": "From Capability to Assurance: Trustworthy Humanoid Systems in Human Environments (Workshop at IEEE-RAS Humanoids 2026)",
+   "verdict": null,
+   "website": "https://humanoid-safety-assurance.paiagent.ai/humanoids2026/",
+   "why": ""
+  },
   "IEEE.org/SLT/2026/Journal_Presentation_Track": {
    "archived": false,
    "first_seen": "2026-09-21",
@@ -3585,7 +3625,7 @@
    "why": "General informatics theory junior conference, not an ML/NLP venue."
   },
   "JSYS/2026/October_Artifact": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
@@ -3919,6 +3959,26 @@
    "website": "https://metis-miccai26.github.io/",
    "why": "Evaluation methodology for medical-imaging AI \u2014 eval of an application domain, adjacent not core."
   },
+  "MIDL.io/2027/Clinical_Translation_and_Validation": {
+   "archived": false,
+   "first_seen": "2026-10-02",
+   "invitations": [
+    {
+     "cdate": 1790546400000,
+     "duedate": 1796079540000,
+     "expdate": 1796081340000,
+     "id": "MIDL.io/2027/Clinical_Translation_and_Validation/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "MIDL 2027",
+   "title": "MIDL 2027 Clinical Translation & Validation",
+   "verdict": null,
+   "website": "https://2027.midl.io",
+   "why": ""
+  },
   "MIDL.io/2027/Conference": {
    "archived": false,
    "first_seen": "2026-09-28",
@@ -4067,7 +4127,7 @@
    "why": "Abstracts track of a regional Nordic deep-learning conference."
   },
   "NeurIPS.cc/2026/Affinity_Support_Pilot_Program": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -6733,13 +6793,13 @@
    "why": "Regional Norwegian language-technology conference \u2014 regional NLP is adjacent by rule."
   },
   "OIST.jp/2027/MLSS_Okinawa": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-10-02",
    "invitations": [
     {
      "cdate": 1785510000000,
-     "duedate": 1790866740000,
-     "expdate": 1790868540000,
+     "duedate": 1791730740000,
+     "expdate": 1791732540000,
      "id": "OIST.jp/2027/MLSS_Okinawa/-/Submission",
      "kind": "Submission"
     }
@@ -8337,7 +8397,7 @@
    "why": "Video event-monitoring CV challenge with no LLM or foundation-model angle."
   },
   "afcv.org/ACCV/2026/Workshop/HUFPEI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-26",
    "invitations": [
     {
@@ -8384,8 +8444,8 @@
    "invitations": [
     {
      "cdate": 1786109292000,
-     "duedate": 1790942340000,
-     "expdate": 1790944140000,
+     "duedate": 1791547140000,
+     "expdate": 1791548940000,
      "id": "afcv.org/ACCV/2026/Workshop/MADiMa/-/Submission",
      "kind": "Submission"
     }
@@ -8400,7 +8460,7 @@
    "why": "Dietary/health-assessment vision application \u2014 a medicine-adjacent CV domain with no ML angle relevant to his work."
   },
   "afcv.org/ACCV/2026/Workshop/MLCSA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
@@ -8421,7 +8481,7 @@
    "why": "General ML-for-visual-analysis workshop \u2014 vision ML outside every core bullet."
   },
   "afcv.org/ACCV/2026/Workshop/MM4SciReal": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -8447,8 +8507,8 @@
    "invitations": [
     {
      "cdate": 1786291140000,
-     "duedate": 1790985540000,
-     "expdate": 1790987340000,
+     "duedate": 1791244740000,
+     "expdate": 1791246540000,
      "id": "afcv.org/ACCV/2026/Workshop/Subspaces/-/Submission",
      "kind": "Submission"
     }
@@ -8463,7 +8523,7 @@
    "why": "Subspace/representation methods for foundation models \u2014 general ML-with-FM-angle, not interpretability-of-AI-systems as its own topic."
   },
   "afcv.org/ACCV/2026/Workshop/TrustFMI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9058,7 +9118,7 @@
    "first_seen": "2026-09-27",
    "invitations": [
     {
-     "cdate": 1790521200000,
+     "cdate": 1790953200000,
      "duedate": 1792594740000,
      "expdate": 1792596540000,
      "id": "hanyang.ac.kr/HYU/2026/CSE4057/-/Submission",
@@ -9096,7 +9156,7 @@
    "why": "Research-assessment/culture competition about recognizing hidden research contributions \u2014 not ML or NLP at all."
   },
   "ifaamas.org/AAMAS/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9330,7 +9390,7 @@
    "why": "General foundation-models venue at a regional university (course-style page), so general LLM/ML topic but no core bullet."
   },
   "robot-learning.org/CoRL/2026/Workshop/Agentic_Robotics": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9398,8 +9458,8 @@
    "invitations": [
     {
      "cdate": 1788220800000,
-     "duedate": 1791028740000,
-     "expdate": 1791030540000,
+     "duedate": 1791287940000,
+     "expdate": 1791289740000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Compositional/-/Submission",
      "kind": "Submission"
     }
@@ -9687,7 +9747,7 @@
    "why": "Robot-learning benchmarks for physical human-robot interaction \u2014 robotics/benchmarks are adjacent, not a core bullet."
   },
   "robot-learning.org/CoRL/2026/Workshop/SPAIS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9881,8 +9941,8 @@
    "invitations": [
     {
      "cdate": 1787986800000,
-     "duedate": 1791144000000,
-     "expdate": 1791145800000,
+     "duedate": 1791201540000,
+     "expdate": 1791203340000,
      "id": "robot-learning.org/CoRL/2026/Workshop/pretrain-to-adapt/-/Submission",
      "kind": "Submission"
     }
@@ -9923,8 +9983,8 @@
    "invitations": [
     {
      "cdate": 1788184800000,
-     "duedate": 1791003540000,
-     "expdate": 1791005340000,
+     "duedate": 1796101140000,
+     "expdate": 1796102940000,
      "id": "sci-harbor.com/SciVeri-Bench/2026/Internal_Review/-/Submission",
      "kind": "Submission"
     }
@@ -10804,9 +10864,9 @@
    "first_seen": "2026-08-31",
    "invitations": [
     {
-     "cdate": 1788199333719,
-     "duedate": 1791615540000,
-     "expdate": 1791617340000,
+     "cdate": 1790889539235,
+     "duedate": 1792220340000,
+     "expdate": 1792222140000,
      "id": "thecvf.com/WACV/2027/Workshop/WAM-AD/-/Submission",
      "kind": "Submission"
     }
