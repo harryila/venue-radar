@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-28",
- "last_run": "2026-10-02T18:19:38.940541+00:00",
+ "last_run": "2026-10-03T17:08:48.061984+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -122,12 +122,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AAAI 2027 Workshop FinFM",
    "title": "AAAI-27 Workshop on Foundation Models and Generative AI for Finance (FinFM)",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://finfm.finhorizons.org/",
-   "why": ""
+   "why": "Foundation models for finance is a finance-application venue, same family as FinNLP which the profile explicitly marks no."
   },
   "AAAI.org/2027/Workshop/SAFE": {
    "archived": false,
@@ -142,12 +143,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "SAFE 2027",
    "title": "Third Workshop on Synthetic & Adversarial ForEnsics",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://www.safeworkshop.org/aaai-2027/",
-   "why": ""
+   "why": "Synthetic-media/deepfake forensics is an ML security application, not alignment, interpretability, or evaluation of AI systems themselves."
   },
   "ACM.org/CIKM/2026/Workshop/EARL": {
    "archived": true,
@@ -435,12 +437,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "WWW 2027 Demos",
    "title": "The Web Conference 2027 - Demonstrations",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://acmweb2027.org/",
-   "why": ""
+   "why": "Demo track \u2014 demos are explicitly adjacent regardless of host, and web topics hit no core bullet."
   },
   "ACM.org/TheWebConf/2027/PhD_Symposium": {
    "archived": false,
@@ -455,12 +458,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "WWW 2027 - PhD Symposium",
    "title": "The Web Conference 2027 - PhD Symposium",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://acmweb2027.org/",
-   "why": ""
+   "why": "PhD symposium is an SRW/mentorship-style track, explicitly adjacent regardless of host."
   },
   "ACM.org/TheWebConf/2027/Tutorial_Proposals": {
    "archived": true,
@@ -748,12 +752,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "AIRES'2027",
    "title": "The First International Symposium on AI Risks in Education and Safeguards",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://2027.aires-symposium.org/",
-   "why": ""
+   "why": "AI risks in education is 'safe X' with education as the application domain, which the profile rules adjacent, not core."
   },
   "AJCAI/2026/Workshop/AI4Science": {
    "archived": false,
@@ -887,8 +892,8 @@
    "invitations": [
     {
      "cdate": 1787011140000,
-     "duedate": 1790985540000,
-     "expdate": 1790987340000,
+     "duedate": 1792367940000,
+     "expdate": 1792369740000,
      "id": "AfriLang_AI/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -1104,12 +1109,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "CVIS 2026",
    "title": "12th Annual Conference on Vision and Intelligent Systems",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://cvis-conference.com/",
-   "why": ""
+   "why": "Regional vision and intelligent-systems conference \u2014 general applied ML, no core bullet."
   },
   "CoNGA/2026/Conference": {
    "archived": true,
@@ -1166,12 +1172,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DASE-AI",
    "title": "Decision Aid and SWE in the Age of AI: From Decision Intelligence to Intelligent Software Systems",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "N/A",
-   "why": ""
+   "why": "AI for decision support and software engineering is applied ML outside the core bullets."
   },
   "DGfS.de/2026/Conference_Poster_Session": {
    "archived": true,
@@ -1195,7 +1202,7 @@
    "why": "Computational-linguistics poster session at a German linguistics meeting \u2014 general CL, regional."
   },
   "DGfS.de/2027/Conference_Poster_Session": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -1249,12 +1256,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DH Benelux",
    "title": "13th edition of DH Benelux",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://2026.dhbenelux.org/",
-   "why": ""
+   "why": "Digital humanities is explicitly on the no list."
   },
   "ECA/2027/Conference": {
    "archived": false,
@@ -2318,12 +2326,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "SAAS 2026",
    "title": "Workshop on Safety Analysis for Autonomous System: Practical Perspectives and Recent Advances",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://haowwang.github.io/cdc26_safety_workshop/",
-   "why": ""
+   "why": "Safety of autonomous systems is 'safe X' with an application domain (autonomous driving/control), adjacent not core."
   },
   "IEEE.org/CRESS/2026/Conference": {
    "archived": false,
@@ -3451,12 +3460,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "Humanoids 2026 Workshop on Trustworthy Humanoid Systems",
    "title": "From Capability to Assurance: Trustworthy Humanoid Systems in Human Environments (Workshop at IEEE-RAS Humanoids 2026)",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://humanoid-safety-assurance.paiagent.ai/humanoids2026/",
-   "why": ""
+   "why": "Trustworthy-X robotics application workshop, matching the Trustworthy Multimodal Agents adjacent example."
   },
   "IEEE.org/SLT/2026/Journal_Presentation_Track": {
    "archived": false,
@@ -3492,12 +3502,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "IGG52",
    "title": "52\u00b0 Incontro di Grammatica Generativa",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://sites.google.com/view/igg52",
-   "why": ""
+   "why": "Generative grammar is pure linguistics, explicitly on the no list."
   },
   "IIR/2026/Workshop": {
    "archived": true,
@@ -3554,12 +3565,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ISNN2027",
    "title": "The 21st International Symposium on Neural Networks",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://conference.cs.cityu.edu.hk/isnn/",
-   "why": ""
+   "why": "General neural-networks symposium \u2014 a regional/low-signal general ML conference, no core bullet."
   },
   "IWCLUL/2026/Workshop": {
    "archived": false,
@@ -3688,7 +3700,7 @@
    "why": "Pure combinatorics colloquium with no ML angle."
   },
   "LIFT2/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3741,13 +3753,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 136,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "MERe AI 2026",
    "title": "Machine Ethics and Reasoning in AI Workshop 2026",
-   "verdict": null,
+   "verdict": "core",
    "website": "http://mere-ai-workshop.com/",
-   "why": ""
+   "why": "Machine ethics and reasoning of AI systems is alignment/safety of AI systems themselves (core bullet 1), and small dedicated alignment-family venues count."
   },
   "MICCAI.org/2026/Challenge/BIG-MRI": {
    "archived": true,
@@ -3972,12 +3985,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "MIDL 2027",
    "title": "MIDL 2027 Clinical Translation & Validation",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://2027.midl.io",
-   "why": ""
+   "why": "Clinical validation of medical-imaging models \u2014 calibration marks medical-imaging trust venues no."
   },
   "MIDL.io/2027/Conference": {
    "archived": false,
@@ -6314,12 +6328,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "SB26",
    "title": "The Smart Buildings Challenge [Neurips 2026 Competition]",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://smart-buildings-2026.github.io/competition/index.html",
-   "why": ""
+   "why": "NeurIPS competition/shared task on smart buildings, and the task is not calibration/eval/interp of LLMs."
   },
   "NeurIPS.cc/2026/Workshop/SLM-Agents": {
    "archived": true,
@@ -6931,12 +6946,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "Grad Mentor 2026",
    "title": "oSTEM/Queer in AI Graduate Application Mentorship Program 2026",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://www.queerinai.com/grad-app-aid",
-   "why": ""
+   "why": "Mentorship program, which the profile explicitly lists as adjacent \u2014 not a research submission venue."
   },
   "SADASC.com/2027/Conference": {
    "archived": false,
@@ -7556,17 +7572,15 @@
    "invitations": [
     {
      "cdate": 1788472800000,
-     "duedate": 1791201600000,
-     "expdate": 1791203400000,
+     "duedate": 1791633600000,
+     "expdate": 1791635400000,
      "id": "UniReps.org/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 127,
    "prestige": 1,
-   "reminded": [
-    "T-7"
-   ],
+   "reminded": [],
    "subtitle": "UniReps 2026",
    "title": "UniReps: 4th Edition of the Workshop on Unifying Representations in Neural Models",
    "verdict": "core",
@@ -8033,12 +8047,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "TrustAudio",
    "title": "TrustAudio: Workshop on Secure, Safe, and Privacy-Preserving Speech and Audio AI",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://trustaudio.github.io/",
-   "why": ""
+   "why": "Non-archival track of a safe/secure audio AI workshop \u2014 audio is an explicitly named application domain, so adjacent not core."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/WASP": {
    "archived": true,
@@ -8136,13 +8151,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 135,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ARR - October 2026",
    "title": "ACL Rolling Review - October 2026",
-   "verdict": null,
+   "verdict": "core",
    "website": "http://aclrollingreview.org/",
-   "why": ""
+   "why": "ARR is the direct submission path to ACL-family main tracks (core bullet 3), where his interp paper is already under review."
   },
   "aclweb.org/INLG/2026/Conference_Direct_Submissions": {
    "archived": true,
@@ -8780,8 +8796,8 @@
    "invitations": [
     {
      "cdate": 1785522600000,
-     "duedate": 1791201540000,
-     "expdate": 1791203340000,
+     "duedate": 1791287940000,
+     "expdate": 1791289740000,
      "id": "bmva.org/BMVC/2026/Workshop/GlobalSouthCV/-/Submission",
      "kind": "Submission"
     }
@@ -9621,7 +9637,7 @@
    "why": "Robot-learning deployment workshop at CoRL \u2014 robotics with a learning/foundation-model angle, agents as setting not his question."
   },
   "robot-learning.org/CoRL/2026/Workshop/LfC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-10",
    "invitations": [
     {
@@ -9794,8 +9810,8 @@
    "invitations": [
     {
      "cdate": 1785614400000,
-     "duedate": 1791460740000,
-     "expdate": 1791462540000,
+     "duedate": 1792130340000,
+     "expdate": 1792132140000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Sim2Real2Field/-/Submission",
      "kind": "Submission"
     }
