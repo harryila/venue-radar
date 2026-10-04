@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-09-28",
- "last_run": "2026-10-03T17:08:48.061984+00:00",
+ "last_run": "2026-10-04T17:24:39.748108+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -129,6 +129,48 @@
    "verdict": "no",
    "website": "https://finfm.finhorizons.org/",
    "why": "Foundation models for finance is a finance-application venue, same family as FinNLP which the profile explicitly marks no."
+  },
+  "AAAI.org/2027/Workshop/MATH4AI": {
+   "archived": false,
+   "first_seen": "2026-10-04",
+   "invitations": [
+    {
+     "cdate": 1791129600000,
+     "duedate": 1795262400000,
+     "expdate": 1795264200000,
+     "id": "AAAI.org/2027/Workshop/MATH4AI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "MATH4AI at AAAI 2027",
+   "title": "MATH4AI Workshop: Foretelling the Future of AI through Mathematical Foundations - From Learning Architectures to Trustworthy Agents",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/math4aiworkshop2027",
+   "why": "Math-for-AI foundations/theory workshop, not math reasoning of LLMs or alignment despite 'trustworthy agents' in the name."
+  },
+  "AAAI.org/2027/Workshop/NeSy-FM": {
+   "archived": false,
+   "first_seen": "2026-10-04",
+   "invitations": [
+    {
+     "cdate": 1791129600000,
+     "duedate": 1795276740000,
+     "expdate": 1795278540000,
+     "id": "AAAI.org/2027/Workshop/NeSy-FM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "NeSy-FM at AAAI 2027",
+   "title": "NeSy-FM Workshop @ AAAI 2027: Neuro-Symbolic AI in Large Foundation Models",
+   "verdict": "adjacent",
+   "website": "https://llm-symbol.github.io/NeSy-FM-AAAI2027/",
+   "why": "Neuro-symbolic foundation-model workshop is a general LLM/ML topic at AAAI, hitting no interp/alignment/eval core bullet."
   },
   "AAAI.org/2027/Workshop/SAFE": {
    "archived": false,
@@ -488,13 +530,13 @@
    "why": "Tutorial track at an established web/ML conference \u2014 tutorials are explicitly adjacent and WWW's topic hits no core bullet."
   },
   "ACM.org/TheWebConf/2027/Workshop_Proposals": {
-   "archived": true,
-   "first_seen": "2026-09-14",
+   "archived": false,
+   "first_seen": "2026-10-04",
    "invitations": [
     {
      "cdate": 1789250400000,
-     "duedate": 1790683200000,
-     "expdate": 1790685000000,
+     "duedate": 1791216000000,
+     "expdate": 1791217800000,
      "id": "ACM.org/TheWebConf/2027/Workshop_Proposals/-/Submission",
      "kind": "Submission"
     }
@@ -2092,7 +2134,8 @@
    "issue": 132,
    "prestige": 2,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "IASEAI27",
    "title": "Third Conference of the International Association for Safe & Ethical AI",
@@ -4433,6 +4476,27 @@
    "verdict": "adjacent",
    "website": "https://aim-neurips26.github.io/",
    "why": "Agents applied to biomedical imaging and clinical data \u2014 applied agent workshop."
+  },
+  "NeurIPS.cc/2026/Workshop/AIMOInterp_Challenge": {
+   "archived": false,
+   "first_seen": "2026-10-04",
+   "invitations": [
+    {
+     "cdate": 1791064800000,
+     "duedate": 1793437200000,
+     "expdate": 1793439000000,
+     "id": "NeurIPS.cc/2026/Workshop/AIMOInterp_Challenge/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 138,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AIMOInterp 2026",
+   "title": "AIMO Interpretability Challenge",
+   "verdict": "core",
+   "website": "https://aimo-interp.github.io/",
+   "why": "NeurIPS competition track whose task is interpretability of math-reasoning LLMs, squarely the interpretability-of-AI core bullet."
   },
   "NeurIPS.cc/2026/Workshop/AISciK": {
    "archived": true,
@@ -7580,7 +7644,9 @@
    ],
    "issue": 127,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "UniReps 2026",
    "title": "UniReps: 4th Edition of the Workshop on Unifying Representations in Neural Models",
    "verdict": "core",
@@ -7946,6 +8012,27 @@
    "verdict": "adjacent",
    "website": "https://nora-workshop.github.io/AACL2026/",
    "why": "ARR-commitment track of the KG-and-agents workshop; same adjacent verdict as its topic."
+  },
+  "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-10-04",
+   "invitations": [
+    {
+     "cdate": 1790812800000,
+     "duedate": 1791889200000,
+     "expdate": 1791891000000,
+     "id": "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 137,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "PlurVA-LLM ARR Commitment",
+   "title": "ARR Commitment for the First Workshop on Pluralistic Value Alignment of LLMs",
+   "verdict": "core",
+   "website": "https://plurvallm2026.github.io/",
+   "why": "ARR-commitment track of the Pluralistic Value Alignment of LLMs workshop \u2014 LLM alignment is a core bullet and a named core example."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_Direct_Submission": {
    "archived": true,
@@ -9637,13 +9724,13 @@
    "why": "Robot-learning deployment workshop at CoRL \u2014 robotics with a learning/foundation-model angle, agents as setting not his question."
   },
   "robot-learning.org/CoRL/2026/Workshop/LfC": {
-   "archived": true,
-   "first_seen": "2026-09-10",
+   "archived": false,
+   "first_seen": "2026-10-04",
    "invitations": [
     {
      "cdate": 1788930000000,
-     "duedate": 1791003540000,
-     "expdate": 1791005340000,
+     "duedate": 1791176340000,
+     "expdate": 1791178140000,
      "id": "robot-learning.org/CoRL/2026/Workshop/LfC/-/Submission",
      "kind": "Submission"
     }
@@ -11105,6 +11192,27 @@
    "verdict": "no",
    "website": "https://iecs.unitn.it/enrolled-student/phd-career/qualifying-exam",
    "why": "PhD qualifying-exam portal, not a research venue."
+  },
+  "vera.org.il/AIRCC/2026/Grant_Review": {
+   "archived": false,
+   "first_seen": "2026-10-04",
+   "invitations": [
+    {
+     "cdate": 1791061200000,
+     "duedate": 1793739600000,
+     "expdate": 1793741400000,
+     "id": "vera.org.il/AIRCC/2026/Grant_Review/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AIRCC-2026-5",
+   "title": "AI Research Computer Center 2026-5",
+   "verdict": "no",
+   "website": "https://aircc.vera.org.il/",
+   "why": "Compute-grant application review at a low-signal host, not a research publication venue in his fields."
   },
   "wsl.iiitb.ac.in/WebSciX/2026/Conference": {
    "archived": true,
