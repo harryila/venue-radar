@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-06",
- "last_run": "2026-10-06T18:51:45.894685+00:00",
+ "last_run": "2026-10-07T19:17:00.598411+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -871,8 +871,8 @@
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1794783540000,
-     "expdate": 1794785340000,
+     "duedate": 1794830340000,
+     "expdate": 1794832140000,
      "id": "AIRES/2027/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -3685,8 +3685,8 @@
    "invitations": [
     {
      "cdate": 1791265403200,
-     "duedate": 1797677940000,
-     "expdate": 1797679740000,
+     "duedate": 1797681540000,
+     "expdate": 1797683340000,
      "id": "IEEE.org/SaTML/2027/Workshop/WICE/-/Submission",
      "kind": "Submission"
     }
@@ -7854,7 +7854,9 @@
    ],
    "issue": 127,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "UniReps 2026",
    "title": "UniReps: 4th Edition of the Workshop on Unifying Representations in Neural Models",
    "verdict": "core",
@@ -8859,7 +8861,7 @@
    "why": "'Trustworthy foundation models in medical imaging' is an explicit no in the profile (trustworthy-X medical application), and its deadline is a years-away placeholder."
   },
   "afcv.org/ACCV/2026/Workshop/WhoIsBehindTheAvatar": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9074,8 +9076,8 @@
    "invitations": [
     {
      "cdate": 1787616000000,
-     "duedate": 1791590400000,
-     "expdate": 1791592200000,
+     "duedate": 1792886400000,
+     "expdate": 1792888200000,
      "id": "bmva.org/BMVC/2026/Workshop/BEST/-/Submission",
      "kind": "Submission"
     }
@@ -9565,8 +9567,8 @@
    "invitations": [
     {
      "cdate": 1789977600000,
-     "duedate": 1792396800000,
-     "expdate": 1792398600000,
+     "duedate": 1792742340000,
+     "expdate": 1792744140000,
      "id": "isairas-isparo.de/i-SAIRAS_iSpaRo/2026/Workshop/OSR/-/Submission",
      "kind": "Submission"
     }
@@ -9770,7 +9772,7 @@
    "why": "Robot-learning workshop on dexterous manipulation toward generalist robots \u2014 robotics with a foundation-model angle, an applied-agent setting rather than a core topic."
   },
   "robot-learning.org/CoRL/2026/Workshop/CSIR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -9791,13 +9793,13 @@
    "why": "Continually self-improving robots \u2014 continual-learning-for-agents/robotics application, explicitly an adjacent category."
   },
   "robot-learning.org/CoRL/2026/Workshop/Compositional": {
-   "archived": true,
-   "first_seen": "2026-09-01",
+   "archived": false,
+   "first_seen": "2026-10-07",
    "invitations": [
     {
      "cdate": 1788220800000,
-     "duedate": 1791287940000,
-     "expdate": 1791289740000,
+     "duedate": 1791417540000,
+     "expdate": 1791419340000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Compositional/-/Submission",
      "kind": "Submission"
     }
@@ -9922,8 +9924,8 @@
    "invitations": [
     {
      "cdate": 1786924800000,
-     "duedate": 1791417540000,
-     "expdate": 1791419340000,
+     "duedate": 1791460740000,
+     "expdate": 1791462540000,
      "id": "robot-learning.org/CoRL/2026/Workshop/LEAP/-/Submission",
      "kind": "Submission"
     }
@@ -9959,7 +9961,7 @@
    "why": "Robot-learning deployment workshop at CoRL \u2014 robotics with a learning/foundation-model angle, agents as setting not his question."
   },
   "robot-learning.org/CoRL/2026/Workshop/LfC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-04",
    "invitations": [
     {
@@ -10132,8 +10134,8 @@
    "invitations": [
     {
      "cdate": 1785736800000,
-     "duedate": 1791356400000,
-     "expdate": 1791358200000,
+     "duedate": 1791979200000,
+     "expdate": 1791981000000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Scaling_H2R/-/Submission",
      "kind": "Submission"
     }
@@ -10174,8 +10176,8 @@
    "invitations": [
     {
      "cdate": 1787724000000,
-     "duedate": 1791547140000,
-     "expdate": 1791548940000,
+     "duedate": 1791979140000,
+     "expdate": 1791980940000,
      "id": "robot-learning.org/CoRL/2026/Workshop/SimBench2Real/-/Submission",
      "kind": "Submission"
     }
@@ -10195,8 +10197,8 @@
    "invitations": [
     {
      "cdate": 1787572740000,
-     "duedate": 1791547140000,
-     "expdate": 1791548940000,
+     "duedate": 1791979140000,
+     "expdate": 1791980940000,
      "id": "robot-learning.org/CoRL/2026/Workshop/TAG/-/Submission",
      "kind": "Submission"
     }
@@ -10421,13 +10423,13 @@
    "why": "Strategic management/business conference with no ML angle."
   },
   "tau.ac.il/TAU/2026/Horvathfest": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-10-07",
    "invitations": [
     {
      "cdate": 1784073600000,
-     "duedate": 1789430400000,
-     "expdate": 1789432200000,
+     "duedate": 1794700800000,
+     "expdate": 1794702600000,
      "id": "tau.ac.il/TAU/2026/Horvathfest/-/Submission",
      "kind": "Submission"
     }
