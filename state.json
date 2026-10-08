@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-06",
- "last_run": "2026-10-07T19:17:00.598411+00:00",
+ "last_run": "2026-10-08T19:13:20.245011+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -257,7 +257,7 @@
    "why": "Social-choice mechanisms for AI alignment, pluralistic alignment, and collective oversight \u2014 alignment/safety of AI systems themselves."
   },
   "AAAI.org/2027/Workshop/TEA-OS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -276,6 +276,27 @@
    "verdict": "adjacent",
    "website": "https://trustworthy-agent-evolution.github.io/",
    "why": "Self-described systems/OS-infrastructure workshop beneath evolving agents (isolation, versioning, rollback) \u2014 systems-flavored agent venue; trust word alone isn't core."
+  },
+  "AAAI.org/2027/Workshop/Trust4RSI-Agent": {
+   "archived": false,
+   "first_seen": "2026-10-08",
+   "invitations": [
+    {
+     "cdate": 1791032400000,
+     "duedate": 1795266000000,
+     "expdate": 1795267800000,
+     "id": "AAAI.org/2027/Workshop/Trust4RSI-Agent/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "Trust4RSI-Agent @ AAAI 2027",
+   "title": "AAAI 2027 Workshop on Trustworthy Evolution of AI Agents: An Agent Operating System Perspective",
+   "verdict": "adjacent",
+   "website": "https://trust4rsi-agent.github.io/AAAI2027/",
+   "why": "Trust word aside, its CFP frames agent trustworthiness as OS/systems infrastructure (sandboxing, rollback, runtimes, resource accounting) \u2014 a systems-flavored agent-OS workshop, which the profile rules adjacent, not core agent evaluation/oversight."
   },
   "ACM.org/CIKM/2026/Workshop/EARL": {
    "archived": true,
@@ -2125,8 +2146,8 @@
    "invitations": [
     {
      "cdate": 1784498400000,
-     "duedate": 1792144800000,
-     "expdate": 1792146600000,
+     "duedate": 1825149600000,
+     "expdate": 1825151400000,
      "id": "GaC/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2383,8 +2404,8 @@
    "invitations": [
     {
      "cdate": 1788645600000,
-     "duedate": 1791633600000,
-     "expdate": 1791635400000,
+     "duedate": 1791637200000,
+     "expdate": 1791639000000,
      "id": "ICLR.cc/2027/Workshop_Proposals/-/Submission",
      "kind": "Submission"
     }
@@ -2550,9 +2571,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1789435419166,
-     "duedate": 1791633540000,
-     "expdate": 1791635340000,
+     "cdate": 1791419840259,
+     "duedate": 1792065540000,
+     "expdate": 1792067340000,
      "id": "IEEE.org/ICHI/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3909,6 +3930,27 @@
    "verdict": "no",
    "website": "kolkom26.zib.de",
    "why": "Pure combinatorics colloquium with no ML angle."
+  },
+  "L4DC.org/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-10-08",
+   "invitations": [
+    {
+     "cdate": 1791460800000,
+     "duedate": 1794657540000,
+     "expdate": 1794659340000,
+     "id": "L4DC.org/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "L4DC 2027",
+   "title": "9th Annual Learning for Dynamics and Control Conference",
+   "verdict": "adjacent",
+   "website": "https://l4dc2027.control.ee.ethz.ch/",
+   "why": "Established ML-for-dynamics-and-control conference (control theory, optimization, data-driven control) with no LLM/agent/interp angle \u2014 general ML outside the core bullets."
   },
   "LIFT2/2026/Conference": {
    "archived": true,
@@ -9097,8 +9139,8 @@
    "invitations": [
     {
      "cdate": 1785522600000,
-     "duedate": 1791460740000,
-     "expdate": 1791462540000,
+     "duedate": 1791547140000,
+     "expdate": 1791548940000,
      "id": "bmva.org/BMVC/2026/Workshop/GlobalSouthCV/-/Submission",
      "kind": "Submission"
     }
@@ -9714,8 +9756,8 @@
    "invitations": [
     {
      "cdate": 1787184000000,
-     "duedate": 1793577480000,
-     "expdate": 1793579280000,
+     "duedate": 1794841140000,
+     "expdate": 1794841140000,
      "id": "pusan.ac.kr/PNU/2026/Foundation_Models/-/Submission",
      "kind": "Submission"
     }
@@ -9793,7 +9835,7 @@
    "why": "Continually self-improving robots \u2014 continual-learning-for-agents/robotics application, explicitly an adjacent category."
   },
   "robot-learning.org/CoRL/2026/Workshop/Compositional": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-07",
    "invitations": [
     {
@@ -9919,7 +9961,7 @@
    "why": "Robot-learning and interaction workshop \u2014 robotics with an ML angle is explicitly adjacent, not an alignment/interp/eval-of-AI topic."
   },
   "robot-learning.org/CoRL/2026/Workshop/LEAP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-17",
    "invitations": [
     {
@@ -10003,7 +10045,7 @@
    "why": "CoRL workshop on collecting and curating imperfect robot-learning data \u2014 datasets/data-infrastructure for robotics, which the profile lists as adjacent, never core."
   },
   "robot-learning.org/CoRL/2026/Workshop/PhysWM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -10974,8 +11016,8 @@
    "invitations": [
     {
      "cdate": 1787914800000,
-     "duedate": 1791716400000,
-     "expdate": 1791718200000,
+     "duedate": 1792321200000,
+     "expdate": 1792323000000,
      "id": "thecvf.com/WACV/2027/Workshop/LVR/-/Submission",
      "kind": "Submission"
     }
