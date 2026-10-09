@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-06",
- "last_run": "2026-10-08T19:13:20.245011+00:00",
+ "last_run": "2026-10-09T18:43:56.245298+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -193,6 +193,27 @@
    "website": "https://making-sense-workshop.github.io/",
    "why": "Multisensory foundation-model workshop \u2014 general multimodal ML at a top venue, no core bullet."
   },
+  "AAAI.org/2027/Workshop/MultiRobust": {
+   "archived": false,
+   "first_seen": "2026-10-09",
+   "invitations": [
+    {
+     "cdate": 1791374340000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
+     "id": "AAAI.org/2027/Workshop/MultiRobust/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "MultiRobust@AAAI 2027",
+   "title": "AAAI-27 Workshop on Multi-Objective and Multi-Task Optimization for Robust AI",
+   "verdict": "adjacent",
+   "website": "robust-ai-2027.github.io/aaai27_workshop",
+   "why": "Multi-objective/multi-task optimization methodology \u2014 general ML robustness methods, not alignment/safety/interp/eval of AI systems."
+  },
   "AAAI.org/2027/Workshop/NeSy-FM": {
    "archived": false,
    "first_seen": "2026-10-04",
@@ -255,6 +276,27 @@
    "verdict": "core",
    "website": "https://sites.google.com/view/sc4ai/workshops/sc4ai27",
    "why": "Social-choice mechanisms for AI alignment, pluralistic alignment, and collective oversight \u2014 alignment/safety of AI systems themselves."
+  },
+  "AAAI.org/2027/Workshop/Social_Sim": {
+   "archived": false,
+   "first_seen": "2026-10-09",
+   "invitations": [
+    {
+     "cdate": 1791518400000,
+     "duedate": 1793941200000,
+     "expdate": 1793943000000,
+     "id": "AAAI.org/2027/Workshop/Social_Sim/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "Social Sim'27",
+   "title": "Third Workshop on Social Simulation with LLMs: From Proxies to Populations",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/social-sims-with-llms/social-sim27",
+   "why": "Social simulation with LLMs is an applied-agent setting the profile explicitly marks adjacent, not agent evaluation/oversight."
   },
   "AAAI.org/2027/Workshop/TEA-OS": {
    "archived": true,
@@ -404,7 +446,7 @@
    "why": "LLMs applied to finance is a FinNLP-style applied-domain venue, explicitly on the no list."
   },
   "ACM.org/ICAIF/2026/Workshop/FinAISecuritySafetyPrivacy": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
@@ -2161,6 +2203,27 @@
    "website": "https://gac2027.phil.hhu.de/",
    "why": "Grammar and corpus linguistics \u2014 pure linguistics, explicit no."
   },
+  "HKUST.edu/2026/SCW": {
+   "archived": false,
+   "first_seen": "2026-10-09",
+   "invitations": [
+    {
+     "cdate": 1790834400000,
+     "duedate": 1792058340000,
+     "expdate": 1792060140000,
+     "id": "HKUST.edu/2026/SCW/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "SCW",
+   "title": "Social Computing Workshop",
+   "verdict": "adjacent",
+   "website": "https://www.sophiehsqq.com/Social_Computing_Workshop_2026.html",
+   "why": "Social computing is at best ML/NLP-adjacent computational social science, touching no core bullet; unsure leans adjacent."
+  },
   "HPSCAI/2026/Conference": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -2565,6 +2628,27 @@
    "verdict": "no",
    "website": "https://bhi.embs.org/2026/",
    "why": "Biomedical/health informatics abstracts \u2014 medical application venue outside his fields."
+  },
+  "IEEE.org/Humanoids/2026/Workshop/HRS": {
+   "archived": false,
+   "first_seen": "2026-10-09",
+   "invitations": [
+    {
+     "cdate": 1791500400000,
+     "duedate": 1793962740000,
+     "expdate": 1793964540000,
+     "id": "IEEE.org/Humanoids/2026/Workshop/HRS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "HRS 2026",
+   "title": "Workshop for Humanoid Robot Safety: Bridging Research, Industry Deployment, and Standards",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/humanoid-safety-workshop?usp=sharing",
+   "why": "Safety of humanoid robots is 'safe X' for an application domain (robotics deployment/standards), adjacent per profile rule."
   },
   "IEEE.org/ICHI/2027/Conference": {
    "archived": false,
@@ -4394,7 +4478,7 @@
    "why": "Abstracts track of a regional Nordic deep-learning conference."
   },
   "NeurIPS.cc/2026/Affinity_Support_Pilot_Program": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -7741,8 +7825,8 @@
    "invitations": [
     {
      "cdate": 1786086000000,
-     "duedate": 1791788340000,
-     "expdate": 1791790140000,
+     "duedate": 1792825140000,
+     "expdate": 1792826940000,
      "id": "SWRS/2026/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -7897,7 +7981,8 @@
    "issue": 127,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "UniReps 2026",
    "title": "UniReps: 4th Edition of the Workshop on Unifying Representations in Neural Models",
@@ -8718,9 +8803,9 @@
    "first_seen": "2026-09-27",
    "invitations": [
     {
-     "cdate": 1790478794266,
-     "duedate": 1791554400000,
-     "expdate": 1791556200000,
+     "cdate": 1791557940454,
+     "duedate": 1791633540000,
+     "expdate": 1791635340000,
      "id": "afcv.org/ACCV/2026/Workshop/CV4DC_Proceedings_Track/-/Submission",
      "kind": "Submission"
     }
@@ -8798,7 +8883,7 @@
    "why": "Small-data computer-vision methods workshop without the foundation-model angle the profile requires for vision venues."
   },
   "afcv.org/ACCV/2026/Workshop/MADiMa": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9139,8 +9224,8 @@
    "invitations": [
     {
      "cdate": 1785522600000,
-     "duedate": 1791547140000,
-     "expdate": 1791548940000,
+     "duedate": 1791579540000,
+     "expdate": 1791581340000,
      "id": "bmva.org/BMVC/2026/Workshop/GlobalSouthCV/-/Submission",
      "kind": "Submission"
     }
@@ -9793,7 +9878,7 @@
    "why": "Agents-for-robotics workshop \u2014 an applied/systems agent venue the profile explicitly keeps adjacent."
   },
   "robot-learning.org/CoRL/2026/Workshop/BiDexTool": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-17",
    "invitations": [
     {
@@ -9861,8 +9946,8 @@
    "invitations": [
     {
      "cdate": 1786946400000,
-     "duedate": 1791547140000,
-     "expdate": 1791548940000,
+     "duedate": 1792151940000,
+     "expdate": 1792153740000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Contact-Rich_Loco-Manipulation/-/Submission",
      "kind": "Submission"
     }
@@ -9945,8 +10030,8 @@
    "invitations": [
     {
      "cdate": 1789560000000,
-     "duedate": 1791633540000,
-     "expdate": 1791635340000,
+     "duedate": 1791892740000,
+     "expdate": 1791894540000,
      "id": "robot-learning.org/CoRL/2026/Workshop/HumanRLI/-/Submission",
      "kind": "Submission"
     }
@@ -10759,7 +10844,7 @@
    "why": "Vision conference main track \u2014 not among the listed flagship main tracks, so adjacent."
   },
   "thecvf.com/WACV/2027/Tutorials": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -10827,8 +10912,8 @@
    "invitations": [
     {
      "cdate": 1789516800000,
-     "duedate": 1791633540000,
-     "expdate": 1791635340000,
+     "duedate": 1792238340000,
+     "expdate": 1792240140000,
      "id": "thecvf.com/WACV/2027/Workshop/CVPath-Vision4Neuro/-/Submission",
      "kind": "Submission"
     }
@@ -11394,8 +11479,8 @@
    "invitations": [
     {
      "cdate": 1786510800000,
-     "duedate": 1791547140000,
-     "expdate": 1791548940000,
+     "duedate": 1791633540000,
+     "expdate": 1791635340000,
      "id": "umich.edu/University_of_Michigan/2026/CAIDM/-/Submission",
      "kind": "Submission"
     }
