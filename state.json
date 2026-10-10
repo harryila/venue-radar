@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-06",
- "last_run": "2026-10-09T18:43:56.245298+00:00",
+ "last_run": "2026-10-10T17:44:09.641038+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -319,6 +319,27 @@
    "website": "https://trustworthy-agent-evolution.github.io/",
    "why": "Self-described systems/OS-infrastructure workshop beneath evolving agents (isolation, versioning, rollback) \u2014 systems-flavored agent venue; trust word alone isn't core."
   },
+  "AAAI.org/2027/Workshop/ToM4AI": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791345600000,
+     "duedate": 1795172400000,
+     "expdate": 1795174200000,
+     "id": "AAAI.org/2027/Workshop/ToM4AI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 142,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ToM4AI 2027",
+   "title": "Third Theory of Mind in AI",
+   "verdict": "core",
+   "website": "https://tom4ai.github.io/",
+   "why": "AAAI workshop on theory of mind in AI \u2014 evaluating belief modeling and reasoning in agents hits the agent-behavior/reasoning-under-uncertainty core bullet and matches the belief-updating work in hand."
+  },
   "AAAI.org/2027/Workshop/Trust4RSI-Agent": {
    "archived": false,
    "first_seen": "2026-10-08",
@@ -339,6 +360,27 @@
    "verdict": "adjacent",
    "website": "https://trust4rsi-agent.github.io/AAAI2027/",
    "why": "Trust word aside, its CFP frames agent trustworthiness as OS/systems infrastructure (sandboxing, rollback, runtimes, resource accounting) \u2014 a systems-flavored agent-OS workshop, which the profile rules adjacent, not core agent evaluation/oversight."
+  },
+  "AAAI.org/2027/Workshop/WMAC": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791262800000,
+     "duedate": 1795215540000,
+     "expdate": 1795217340000,
+     "id": "AAAI.org/2027/Workshop/WMAC/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 143,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "WMAC 2027",
+   "title": "AAAI-27 Workshop on Measuring Collective Intelligence in Agentic Systems",
+   "verdict": "core",
+   "website": "https://multiagents.org",
+   "why": "AAAI workshop on measuring collective intelligence in agentic systems \u2014 measurement/evaluation of agent behavior is the agent-evaluation core bullet."
   },
   "ACM.org/CIKM/2026/Workshop/EARL": {
    "archived": true,
@@ -992,7 +1034,7 @@
    "why": "Regional Australasian NLP workshop \u2014 general NLP at a regional venue."
   },
   "ALTA.asn.au/2026/Non-Archival_and_Industry": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1501,8 +1543,8 @@
    "invitations": [
     {
      "cdate": 1785870000000,
-     "duedate": 1791572400000,
-     "expdate": 1791574200000,
+     "duedate": 1792263600000,
+     "expdate": 1792265400000,
      "id": "ELCPDE/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2437,6 +2479,27 @@
    "website": "https://icict.org/",
    "why": "Generic information/computing technologies conference with AI tracks \u2014 low-signal general CS, adjacent at best."
   },
+  "ICJV/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791648000000,
+     "duedate": 1826207940000,
+     "expdate": 1826209740000,
+     "id": "ICJV/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "ICJV 2027",
+   "title": "International Conference on JeV",
+   "verdict": "no",
+   "website": "https://icjv.github.io",
+   "why": "Placeholder-looking conference with no discernible topic and a deadline over a year away."
+  },
   "ICLR.cc/2027/Conference": {
    "archived": true,
    "first_seen": "2026-08-19",
@@ -2462,7 +2525,7 @@
    "why": "ICLR main track, explicitly a core flagship main-track venue in the profile."
   },
   "ICLR.cc/2027/Workshop_Proposals": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-06",
    "invitations": [
     {
@@ -2649,6 +2712,27 @@
    "verdict": "adjacent",
    "website": "https://sites.google.com/view/humanoid-safety-workshop?usp=sharing",
    "why": "Safety of humanoid robots is 'safe X' for an application domain (robotics deployment/standards), adjacent per profile rule."
+  },
+  "IEEE.org/Humanoids/2027/HSR": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791476100000,
+     "duedate": 1794135540000,
+     "expdate": 1794137340000,
+     "id": "IEEE.org/Humanoids/2027/HSR/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "HSR @ Humanoids 2026",
+   "title": "Workshop on Humanoid Soccer Robots (HSR) 2026",
+   "verdict": "no",
+   "website": "https://lab-rococo-sapienza.github.io/hsr2026/",
+   "why": "Humanoid soccer robotics workshop with no foundation-model or LLM angle."
   },
   "IEEE.org/ICHI/2027/Conference": {
    "archived": false,
@@ -7033,6 +7117,27 @@
    "website": "https://vlm4rwd.github.io",
    "why": "VLM grounding/faithfulness for real-world deployment \u2014 a general multimodal workshop, and VLM workshops are explicitly adjacent."
   },
+  "NeurIPS.cc/2026/Workshop/VLM4RWD_Challenges": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791259200000,
+     "duedate": 1794830400000,
+     "expdate": 1794832200000,
+     "id": "NeurIPS.cc/2026/Workshop/VLM4RWD_Challenges/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "VLM4RWD 2026 Challenges",
+   "title": "NeurIPS 2026 Workshop VLM4RWD Challenges",
+   "verdict": "adjacent",
+   "website": "https://vlm4rwd.github.io/",
+   "why": "Challenges/competition track of a NeurIPS VLM application workshop \u2014 VLM topics are explicitly adjacent, not a core bullet."
+  },
   "NeurIPS.cc/2026/Workshop/Verify-Agents": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -8799,7 +8904,7 @@
    "why": "General computer-vision community venue for developing countries with no LLM/foundation-model angle, so outside his fields."
   },
   "afcv.org/ACCV/2026/Workshop/CV4DC_Proceedings_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-27",
    "invitations": [
     {
@@ -9051,7 +9156,7 @@
    "why": "AI-assisted science workflows is an applied AI/agents application domain, not alignment, interpretability, or evaluation of AI systems themselves."
   },
   "aiasplus.org/AIAS/2026/Workshop/AIASci_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9219,7 +9324,7 @@
    "why": "Computer-vision workshop at BMVC \u2014 vision/ML is adjacent and hits no core bullet."
   },
   "bmva.org/BMVC/2026/Workshop/GlobalSouthCV": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9437,17 +9542,15 @@
    "invitations": [
     {
      "cdate": 1791192600000,
-     "duedate": 1791806340000,
-     "expdate": 1791808140000,
+     "duedate": 1791889140000,
+     "expdate": 1791890940000,
      "id": "eacl.org/EACL/2027/ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 139,
    "prestige": 1,
-   "reminded": [
-    "T-7"
-   ],
+   "reminded": [],
    "subtitle": "EACL 2027",
    "title": "20th Conference of the European Chapter of the Association for Computational Linguistics",
    "verdict": "core",
@@ -9537,6 +9640,48 @@
    "verdict": "adjacent",
    "website": "https://2027.eacl.org/calls/",
    "why": "Pre-submission mentorship program \u2014 mentorship programs are explicitly adjacent in the profile."
+  },
+  "eacl.org/EACL/2027/SilkRoadNLP": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791324000000,
+     "duedate": 1797422340000,
+     "expdate": 1797424140000,
+     "id": "eacl.org/EACL/2027/SilkRoadNLP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "SilkRoadNLP 2027",
+   "title": "The 2nd Workshop on NLP for the Iranian Language Family",
+   "verdict": "adjacent",
+   "website": "https://www.silkroadnlp.org/",
+   "why": "Multilingual/regional-language NLP workshop at EACL \u2014 multilingual NLP is explicitly adjacent."
+  },
+  "eacl.org/EACL/2027/SilkRoadNLP_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-10-10",
+   "invitations": [
+    {
+     "cdate": 1791324000000,
+     "duedate": 1797422340000,
+     "expdate": 1797424140000,
+     "id": "eacl.org/EACL/2027/SilkRoadNLP_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "SilkRoadNLP 2027",
+   "title": "The 2nd Workshop on NLP for the Iranian Language Family",
+   "verdict": "adjacent",
+   "website": "https://www.silkroadnlp.org/",
+   "why": "ARR-commitment track of the same multilingual Iranian-languages workshop, so it takes the same adjacent verdict."
   },
   "etaps.org/TACAS/2027/Conference_AE": {
    "archived": false,
@@ -9878,13 +10023,13 @@
    "why": "Agents-for-robotics workshop \u2014 an applied/systems agent venue the profile explicitly keeps adjacent."
   },
   "robot-learning.org/CoRL/2026/Workshop/BiDexTool": {
-   "archived": true,
-   "first_seen": "2026-08-17",
+   "archived": false,
+   "first_seen": "2026-10-10",
    "invitations": [
     {
      "cdate": 1786953600000,
-     "duedate": 1791532800000,
-     "expdate": 1791534600000,
+     "duedate": 1791874800000,
+     "expdate": 1791876600000,
      "id": "robot-learning.org/CoRL/2026/Workshop/BiDexTool/-/Submission",
      "kind": "Submission"
     }
@@ -10382,7 +10527,7 @@
    "why": "Uncertainty here is about robotic world models, not calibration or reasoning under uncertainty of LLM agents, so it stays adjacent robotics."
   },
   "robot-learning.org/CoRL/2026/Workshop/WEBP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-24",
    "invitations": [
     {
@@ -11227,8 +11372,8 @@
    "invitations": [
     {
      "cdate": 1789056000000,
-     "duedate": 1791705540000,
-     "expdate": 1791707340000,
+     "duedate": 1792569540000,
+     "expdate": 1792571340000,
      "id": "thecvf.com/WACV/2027/Workshop/SENSE/-/Submission",
      "kind": "Submission"
     }
@@ -11474,7 +11619,7 @@
    "why": "Institutional graduate CS research workshop, a regional general-CS venue kept adjacent under the unsure rule."
   },
   "umich.edu/University_of_Michigan/2026/CAIDM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
