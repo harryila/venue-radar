@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-10-06",
- "last_run": "2026-10-11T17:58:39.205415+00:00",
+ "last_digest": "2026-10-12",
+ "last_run": "2026-10-12T21:40:36.797866+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -88,6 +88,27 @@
    "website": "https://aaai.org/conference/aaai/aaai-27/iaai-27-call/",
    "why": "Applications track co-located with AAAI, not the AAAI main track."
   },
+  "AAAI.org/2027/Workshop/AgenticSE": {
+   "archived": false,
+   "first_seen": "2026-10-12",
+   "invitations": [
+    {
+     "cdate": 1791806400000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
+     "id": "AAAI.org/2027/Workshop/AgenticSE/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AgenticSE @ AAAI 2027",
+   "title": "AAAI 2027 Workshop on Agentic Software Engineering",
+   "verdict": "adjacent",
+   "website": "https://agenticse-aaai.github.io/",
+   "why": "Applied agents-for-software-engineering workshop \u2014 agents are the setting, not agent evaluation/oversight/interpretability, which the profile marks adjacent."
+  },
   "AAAI.org/2027/Workshop/EAIM": {
    "archived": false,
    "first_seen": "2026-10-06",
@@ -150,6 +171,27 @@
    "verdict": "no",
    "website": "https://finfm.finhorizons.org/",
    "why": "Foundation models for finance is a finance-application venue, same family as FinNLP which the profile explicitly marks no."
+  },
+  "AAAI.org/2027/Workshop/GSR-VLM": {
+   "archived": false,
+   "first_seen": "2026-10-12",
+   "invitations": [
+    {
+     "cdate": 1791792000000,
+     "duedate": 1795175940000,
+     "expdate": 1795177740000,
+     "id": "AAAI.org/2027/Workshop/GSR-VLM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AAAI GSR-VLM 2027",
+   "title": "AAAI Workshop on Geometric and Spatial Reasoning in Vision-Language Models",
+   "verdict": "adjacent",
+   "website": "https://gsr-vlm.org",
+   "why": "Vision-language spatial-reasoning workshop \u2014 vision with a foundation-model angle, not an alignment/interp/agent-eval topic, and the math-reasoning core bullet covers only NeurIPS/ICML/ICLR/ACL-family workshops."
   },
   "AAAI.org/2027/Workshop/MATH4AI": {
    "archived": false,
@@ -2609,7 +2651,7 @@
    "why": "Applied sustainable AIoT for communities \u2014 applied-AI/systems topic, no core bullet."
   },
   "IEEE.org/BigData/2026/Workshop/TRUSTMORE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -5432,13 +5474,13 @@
    "why": "Epistemic-intelligence/roots-of-intelligence themes are not squarely calibration, evaluation, or interpretability of LLMs, so doubt resolves to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/ESR_Demo_Track": {
-   "archived": true,
-   "first_seen": "2026-08-27",
+   "archived": false,
+   "first_seen": "2026-10-12",
    "invitations": [
     {
      "cdate": 1787644800000,
-     "duedate": 1789127940000,
-     "expdate": 1789129740000,
+     "duedate": 1793534340000,
+     "expdate": 1793536140000,
      "id": "NeurIPS.cc/2026/Workshop/ESR_Demo_Track/-/Submission",
      "kind": "Submission"
     }
@@ -8456,7 +8498,7 @@
    "why": "ARR-commitment track of the KG-and-agents workshop; same adjacent verdict as its topic."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/PlurVA-LLM_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-04",
    "invitations": [
     {
@@ -8990,13 +9032,13 @@
    "why": "Small-data computer-vision methods workshop without the foundation-model angle the profile requires for vision venues."
   },
   "afcv.org/ACCV/2026/Workshop/MADiMa": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-10-12",
    "invitations": [
     {
      "cdate": 1786109292000,
-     "duedate": 1791547140000,
-     "expdate": 1791548940000,
+     "duedate": 1792324740000,
+     "expdate": 1792326540000,
      "id": "afcv.org/ACCV/2026/Workshop/MADiMa/-/Submission",
      "kind": "Submission"
     }
@@ -9179,7 +9221,7 @@
    "why": "ARR-commitment track of an AI-assisted-science workflow workshop \u2014 applied LLM/agent use, not evaluation, interpretability, or alignment of the systems."
   },
   "aiasplus.org/AIAS/2026/Workshop/LLA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
@@ -10138,8 +10180,8 @@
    "invitations": [
     {
      "cdate": 1789394400000,
-     "duedate": 1791806340000,
-     "expdate": 1791808140000,
+     "duedate": 1792411140000,
+     "expdate": 1792412940000,
      "id": "robot-learning.org/CoRL/2026/Workshop/EEAI/-/Submission",
      "kind": "Submission"
     }
@@ -11272,8 +11314,8 @@
    "invitations": [
     {
      "cdate": 1788134400000,
-     "duedate": 1792454400000,
-     "expdate": 1792456200000,
+     "duedate": 1792569600000,
+     "expdate": 1792571400000,
      "id": "thecvf.com/WACV/2027/Workshop/MAVU/-/Submission",
      "kind": "Submission"
     }
@@ -11398,8 +11440,8 @@
    "invitations": [
     {
      "cdate": 1787864413608,
-     "duedate": 1792151940000,
-     "expdate": 1792153740000,
+     "duedate": 1792756740000,
+     "expdate": 1792758540000,
      "id": "thecvf.com/WACV/2027/Workshop/SIGNAL/-/Submission",
      "kind": "Submission"
     }
