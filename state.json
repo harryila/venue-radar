@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-12",
- "last_run": "2026-10-12T21:40:36.797866+00:00",
+ "last_run": "2026-10-13T19:48:59.631650+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -108,6 +108,27 @@
    "verdict": "adjacent",
    "website": "https://agenticse-aaai.github.io/",
    "why": "Applied agents-for-software-engineering workshop \u2014 agents are the setting, not agent evaluation/oversight/interpretability, which the profile marks adjacent."
+  },
+  "AAAI.org/2027/Workshop/DAI": {
+   "archived": false,
+   "first_seen": "2026-10-13",
+   "invitations": [
+    {
+     "cdate": 1791858600000,
+     "duedate": 1795113000000,
+     "expdate": 1795114800000,
+     "id": "AAAI.org/2027/Workshop/DAI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "DAI 2027",
+   "title": "5th Workshop on Deployable AI, AAAI-27",
+   "verdict": "adjacent",
+   "website": "https://dai-workshop.github.io/",
+   "why": "Deployable AI is an applied/systems deployment workshop \u2014 general ML-in-production, not alignment, interpretability, or agent evaluation as its own topic."
   },
   "AAAI.org/2027/Workshop/EAIM": {
    "archived": false,
@@ -509,7 +530,7 @@
    "why": "Reputable responsible-AI conference, but its own topic is fairness/accountability in sociotechnical systems rather than alignment, interpretability, or LLM-agent evaluation, and it is not a listed flagship main track."
   },
   "ACM.org/ICAIF/2026/Workshop/AI4F": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-26",
    "invitations": [
     {
@@ -850,8 +871,8 @@
    "invitations": [
     {
      "cdate": 1786975200000,
-     "duedate": 1792414740000,
-     "expdate": 1792416540000,
+     "duedate": 1793015940000,
+     "expdate": 1793017740000,
      "id": "ACML.org/2026/Workshop/GraphML/-/Submission",
      "kind": "Submission"
     }
@@ -2527,8 +2548,8 @@
    "invitations": [
     {
      "cdate": 1791648000000,
-     "duedate": 1826207940000,
-     "expdate": 1826209740000,
+     "duedate": 1794671940000,
+     "expdate": 1794673740000,
      "id": "ICJV/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2714,8 +2735,8 @@
    "why": "Cyber resilience and security engineering \u2014 systems/security without an ML-methods core."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
-   "archived": true,
-   "first_seen": "2026-09-03",
+   "archived": false,
+   "first_seen": "2026-10-13",
    "invitations": [
     {
      "cdate": 1777593600000,
@@ -2733,6 +2754,27 @@
    "verdict": "no",
    "website": "https://bhi.embs.org/2026/",
    "why": "Biomedical/health informatics abstracts \u2014 medical application venue outside his fields."
+  },
+  "IEEE.org/Humanoids/2026/HSR": {
+   "archived": false,
+   "first_seen": "2026-10-13",
+   "invitations": [
+    {
+     "cdate": 1791476100000,
+     "duedate": 1794135540000,
+     "expdate": 1794137340000,
+     "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "HSR @ Humanoids 2026",
+   "title": "Workshop on Humanoid Soccer Robots (HSR) 2026",
+   "verdict": "no",
+   "website": "https://lab-rococo-sapienza.github.io/hsr2026/",
+   "why": "Humanoid soccer robotics hardware/competition workshop with no LLM or foundation-model angle, clearly outside his fields."
   },
   "IEEE.org/Humanoids/2026/Workshop/HRS": {
    "archived": false,
@@ -2756,7 +2798,7 @@
    "why": "Safety of humanoid robots is 'safe X' for an application domain (robotics deployment/standards), adjacent per profile rule."
   },
   "IEEE.org/Humanoids/2027/HSR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-10",
    "invitations": [
     {
@@ -8714,7 +8756,7 @@
    "why": "Shared-task system-description track inherits the MT workshop's adjacent verdict."
   },
   "aclweb.org/ACL/ARR/2026/October": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-29",
    "invitations": [
     {
@@ -8883,6 +8925,27 @@
    "verdict": "adjacent",
    "website": "https://naacl27-srw.github.io/",
    "why": "Student research workshop, which the profile explicitly lists as adjacent regardless of host."
+  },
+  "aclweb.org/NAACL/2027/Workshop/LTEDI": {
+   "archived": false,
+   "first_seen": "2026-10-13",
+   "invitations": [
+    {
+     "cdate": 1791842400000,
+     "duedate": 1801825200000,
+     "expdate": 1801827000000,
+     "id": "aclweb.org/NAACL/2027/Workshop/LTEDI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "LTEDI-2027",
+   "title": "Seventh Workshop on Language Technology for Equality, Diversity and Inclusion",
+   "verdict": "no",
+   "website": "https://sites.google.com/view/ltedi-2027/home",
+   "why": "Equality/diversity/inclusion language-tech workshop, matching the profile's explicit no-list pattern (Gender Bias in NLP, Widening NLP)."
   },
   "acmmm.org/ACMMM/2026/Workshop/RichMediaGAI": {
    "archived": false,
@@ -9305,7 +9368,7 @@
    "why": "Regional robotics/intelligent-systems expo \u2014 at best a regional AI conference, which the profile lists as adjacent."
   },
   "algorithmiclearningtheory.org/ALT/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-01",
    "invitations": [
     {
@@ -9581,7 +9644,7 @@
    "why": "DeepMath is named verbatim as core in the profile's calibration examples (the MATH-AI/DeepMath math-reasoning family)."
   },
   "eacl.org/EACL/2027/ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -10070,7 +10133,7 @@
    "why": "Agents-for-robotics workshop \u2014 an applied/systems agent venue the profile explicitly keeps adjacent."
   },
   "robot-learning.org/CoRL/2026/Workshop/BiDexTool": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-10",
    "invitations": [
     {
@@ -10217,7 +10280,7 @@
    "why": "World models for autonomous driving is an applied robotics/vision topic, not a core safety/interp/agent-eval bullet."
   },
   "robot-learning.org/CoRL/2026/Workshop/HumanRLI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-16",
    "invitations": [
     {
@@ -10495,8 +10558,8 @@
    "invitations": [
     {
      "cdate": 1787724000000,
-     "duedate": 1791979140000,
-     "expdate": 1791980940000,
+     "duedate": 1792151940000,
+     "expdate": 1792153740000,
      "id": "robot-learning.org/CoRL/2026/Workshop/SimBench2Real/-/Submission",
      "kind": "Submission"
     }
@@ -10511,7 +10574,7 @@
    "why": "Robot-learning sim-to-real benchmarks is robotics/benchmarks territory, which the profile lists as adjacent, never core."
   },
   "robot-learning.org/CoRL/2026/Workshop/TAG": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-24",
    "invitations": [
     {
@@ -10595,7 +10658,7 @@
    "why": "Robot-learning systems/infrastructure beneath policy training \u2014 robotics/systems with an ML angle is adjacent, not core."
   },
   "robot-learning.org/CoRL/2026/Workshop/do-robots-need-world-models": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-22",
    "invitations": [
     {
@@ -11083,8 +11146,8 @@
    "invitations": [
     {
      "cdate": 1788498000000,
-     "duedate": 1792040340000,
-     "expdate": 1792042140000,
+     "duedate": 1792238340000,
+     "expdate": 1792240140000,
      "id": "thecvf.com/WACV/2027/Workshop/CV4EO/-/Submission",
      "kind": "Submission"
     }
@@ -11356,8 +11419,8 @@
    "invitations": [
     {
      "cdate": 1788073200000,
-     "duedate": 1792101540000,
-     "expdate": 1792103340000,
+     "duedate": 1792619940000,
+     "expdate": 1792621740000,
      "id": "thecvf.com/WACV/2027/Workshop/PRAW/-/Submission",
      "kind": "Submission"
     }
@@ -11502,9 +11565,9 @@
    "first_seen": "2026-09-01",
    "invitations": [
     {
-     "cdate": 1788238860000,
-     "duedate": 1792213140000,
-     "expdate": 1792214940000,
+     "cdate": 1788253260000,
+     "duedate": 1792497600000,
+     "expdate": 1792499400000,
      "id": "thecvf.com/WACV/2027/Workshop/UrbanState/-/Submission",
      "kind": "Submission"
     }
@@ -11566,8 +11629,8 @@
    "invitations": [
     {
      "cdate": 1788246000000,
-     "duedate": 1792134000000,
-     "expdate": 1792135800000,
+     "duedate": 1792310400000,
+     "expdate": 1792312200000,
      "id": "thecvf.com/WACV/2027/Workshop/WVAQ/-/Submission",
      "kind": "Submission"
     }
@@ -11750,7 +11813,7 @@
    "why": "Startup/business summit, not a research venue in ML or NLP."
   },
   "unitn.it/University_of_Trento/IECS/Qual_Ex_26-27": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-21",
    "invitations": [
     {
