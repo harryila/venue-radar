@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-12",
- "last_run": "2026-10-13T19:48:59.631650+00:00",
+ "last_run": "2026-10-14T17:54:51.398847+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -283,8 +283,8 @@
    "invitations": [
     {
      "cdate": 1791129600000,
-     "duedate": 1795276740000,
-     "expdate": 1795278540000,
+     "duedate": 1796126340000,
+     "expdate": 1796128140000,
      "id": "AAAI.org/2027/Workshop/NeSy-FM/-/Submission",
      "kind": "Submission"
     }
@@ -761,13 +761,13 @@
    "why": "PhD symposium is an SRW/mentorship-style track, explicitly adjacent regardless of host."
   },
   "ACM.org/TheWebConf/2027/Tutorial_Proposals": {
-   "archived": true,
-   "first_seen": "2026-09-20",
+   "archived": false,
+   "first_seen": "2026-10-14",
    "invitations": [
     {
      "cdate": 1789855200000,
-     "duedate": 1790460000000,
-     "expdate": 1790461800000,
+     "duedate": 1792400400000,
+     "expdate": 1792402200000,
      "id": "ACM.org/TheWebConf/2027/Tutorial_Proposals/-/Submission",
      "kind": "Submission"
     }
@@ -1370,7 +1370,7 @@
    "why": "Regional biometric-recognition (vision) conference with no core-topic overlap."
   },
   "CLUG-EVAS/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-04",
    "invitations": [
     {
@@ -2672,13 +2672,13 @@
    "why": "Applied sustainable AIoT for communities \u2014 applied-AI/systems topic, no core bullet."
   },
   "IEEE.org/BigData/2026/Workshop/TRUSTMORE": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-10-14",
    "invitations": [
     {
-     "cdate": 1784142000000,
-     "duedate": 1791788340000,
-     "expdate": 1791790140000,
+     "cdate": 1784160000000,
+     "duedate": 1792065540000,
+     "expdate": 1792067340000,
      "id": "IEEE.org/BigData/2026/Workshop/TRUSTMORE/-/Submission",
      "kind": "Submission"
     }
@@ -2760,9 +2760,9 @@
    "first_seen": "2026-10-13",
    "invitations": [
     {
-     "cdate": 1791476100000,
-     "duedate": 1794135540000,
-     "expdate": 1794137340000,
+     "cdate": 1791547140000,
+     "duedate": 1794225540000,
+     "expdate": 1794227340000,
      "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
      "kind": "Submission"
     }
@@ -9828,7 +9828,9 @@
    ],
    "issue": 126,
    "prestige": 3,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AgentEvalSci 2026",
    "title": "Agent Evaluation Science Symposium 2026",
    "verdict": "core",
@@ -10511,7 +10513,7 @@
    "why": "Safety of physical/embodied robots is 'safe X' in an application domain (robotics), which the profile keeps adjacent rather than core."
   },
   "robot-learning.org/CoRL/2026/Workshop/Scaling_H2R": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -11230,8 +11232,8 @@
    "invitations": [
     {
      "cdate": 1787702400000,
-     "duedate": 1792022340000,
-     "expdate": 1792024140000,
+     "duedate": 1792670340000,
+     "expdate": 1792672140000,
      "id": "thecvf.com/WACV/2027/Workshop/EOF/-/Submission",
      "kind": "Submission"
     }
@@ -11650,8 +11652,8 @@
    "invitations": [
     {
      "cdate": 1787868000000,
-     "duedate": 1792058340000,
-     "expdate": 1792060140000,
+     "duedate": 1792144740000,
+     "expdate": 1792146540000,
      "id": "thecvf.com/WACV/2027/Workshop/WasteVision/-/Submission",
      "kind": "Submission"
     }
@@ -11748,6 +11750,27 @@
    "verdict": "adjacent",
    "website": "https://ai.engin.umich.edu/events/causal-ai-for-decision-making-workshop/",
    "why": "Causal AI for decision making is general ML methods, not LLM-agent evaluation or calibration specifically, at a standalone university host."
+  },
+  "umich.edu/University_of_Michigan/Fall_2026/CSE595_NLP": {
+   "archived": false,
+   "first_seen": "2026-10-14",
+   "invitations": [
+    {
+     "cdate": 1791950400000,
+     "duedate": 1793678340000,
+     "expdate": 1793680140000,
+     "id": "umich.edu/University_of_Michigan/Fall_2026/CSE595_NLP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "UMich CSE595 NLP FA2026",
+   "title": "University of Michigan CSE 595 Natural Language Processing Fall 2026",
+   "verdict": "no",
+   "website": "https://web.eecs.umich.edu/~chaijy/",
+   "why": "University course (UMich CSE 595 class on OpenReview), not a publication venue at all."
   },
   "uni-konstanz.de/Universit\u00e4t_Konstanz/2026/Mulitmod_KN": {
    "archived": true,
