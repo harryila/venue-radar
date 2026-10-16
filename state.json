@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-12",
- "last_run": "2026-10-15T17:42:07.170446+00:00",
+ "last_run": "2026-10-16T17:17:07.670645+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -88,6 +88,27 @@
    "website": "https://aaai.org/conference/aaai/aaai-27/iaai-27-call/",
    "why": "Applications track co-located with AAAI, not the AAAI main track."
   },
+  "AAAI.org/2027/Workshop/A2NetOps": {
+   "archived": false,
+   "first_seen": "2026-10-16",
+   "invitations": [
+    {
+     "cdate": 1792152000000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
+     "id": "AAAI.org/2027/Workshop/A2NetOps/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "A2NetOps 2027",
+   "title": "AAAI-27 Workshop on Agents for Autonomous Network Operations: Causal Reasoning, Uncertainty, and Safe Action",
+   "verdict": "adjacent",
+   "website": "https://a2netops.github.io/",
+   "why": "Applied agents-for-network-operations workshop \u2014 agents are the setting, not alignment/eval/interp of agents, despite uncertainty/safety keywords."
+  },
   "AAAI.org/2027/Workshop/ASTAD": {
    "archived": false,
    "first_seen": "2026-10-15",
@@ -129,6 +150,27 @@
    "verdict": "adjacent",
    "website": "https://agenticse-aaai.github.io/",
    "why": "Applied agents-for-software-engineering workshop \u2014 agents are the setting, not agent evaluation/oversight/interpretability, which the profile marks adjacent."
+  },
+  "AAAI.org/2027/Workshop/Agentic_Labs": {
+   "archived": false,
+   "first_seen": "2026-10-16",
+   "invitations": [
+    {
+     "cdate": 1792126800000,
+     "duedate": 1795150800000,
+     "expdate": 1795152600000,
+     "id": "AAAI.org/2027/Workshop/Agentic_Labs/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "Agentic Labs at AAAI 2027",
+   "title": "Agentic Laboratories: Coordinating AI Scientists for Autonomous Physical Experimentation",
+   "verdict": "adjacent",
+   "website": "https://siavashhkh.github.io/agentic-labs-aaai27/",
+   "why": "Applied agents-for-science workshop (autonomous physical experimentation), per the applied/systems agent-workshop rule."
   },
   "AAAI.org/2027/Workshop/DAI": {
    "archived": false,
@@ -234,6 +276,27 @@
    "verdict": "adjacent",
    "website": "https://gsr-vlm.org",
    "why": "Vision-language spatial-reasoning workshop \u2014 vision with a foundation-model angle, not an alignment/interp/agent-eval topic, and the math-reasoning core bullet covers only NeurIPS/ICML/ICLR/ACL-family workshops."
+  },
+  "AAAI.org/2027/Workshop/LoyalAgents": {
+   "archived": false,
+   "first_seen": "2026-10-16",
+   "invitations": [
+    {
+     "cdate": 1792152000000,
+     "duedate": 1795258740000,
+     "expdate": 1795260540000,
+     "id": "AAAI.org/2027/Workshop/LoyalAgents/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 144,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "LoyalAgents 2027",
+   "title": "Who Does Your AI Agent Work For? A Workshop on Loyal Agents",
+   "verdict": "core",
+   "website": "https://github.com/noetx/loyalagents-2027",
+   "why": "AAAI workshop squarely on alignment/oversight of agent behavior (whose interests agents serve), hitting the agent-oversight core bullet."
   },
   "AAAI.org/2027/Workshop/MATH4AI": {
    "archived": false,
@@ -360,6 +423,27 @@
    "verdict": "core",
    "website": "https://sites.google.com/view/sc4ai/workshops/sc4ai27",
    "why": "Social-choice mechanisms for AI alignment, pluralistic alignment, and collective oversight \u2014 alignment/safety of AI systems themselves."
+  },
+  "AAAI.org/2027/Workshop/SPF-LLM": {
+   "archived": false,
+   "first_seen": "2026-10-16",
+   "invitations": [
+    {
+     "cdate": 1792126800000,
+     "duedate": 1795147200000,
+     "expdate": 1795149000000,
+     "id": "AAAI.org/2027/Workshop/SPF-LLM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "SPF-LLM",
+   "title": "Security and Privacy Foundations for LLMs",
+   "verdict": "adjacent",
+   "website": "https://spf-llm-2026.github.io/spf-llm-workshop.github.io/",
+   "why": "Security/privacy of LLMs overlaps red-teaming but centers on a security-privacy agenda rather than alignment/eval/interp \u2014 doubt resolves to adjacent."
   },
   "AAAI.org/2027/Workshop/Social_Sim": {
    "archived": false,
@@ -871,8 +955,8 @@
    "invitations": [
     {
      "cdate": 1786975260000,
-     "duedate": 1792414740000,
-     "expdate": 1792416540000,
+     "duedate": 1792411140000,
+     "expdate": 1792412940000,
      "id": "ACML.org/2026/Workshop/FMLTS/-/Submission",
      "kind": "Submission"
     }
@@ -971,7 +1055,7 @@
    "why": "Regional interdisciplinary AI conference \u2014 adjacent by the regional-conference rule."
   },
   "AI4BCI/2026/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-02",
    "invitations": [
     {
@@ -990,6 +1074,27 @@
    "verdict": "adjacent",
    "website": "https://www.ai4bci.com/",
    "why": "ML applied to brain-computer interfaces \u2014 an application domain, not a core topic."
+  },
+  "AI4X.cc/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-10-16",
+   "invitations": [
+    {
+     "cdate": 1792123200000,
+     "duedate": 1798804740000,
+     "expdate": 1798806540000,
+     "id": "AI4X.cc/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AI4X 2027",
+   "title": "AI4X 2027 International Conference",
+   "verdict": "adjacent",
+   "website": "https://ai4x.cc/",
+   "why": "Broad new AI-for-science/applications conference, not a core-bullet topic or flagship main track."
   },
   "AIAL/Symposium/2026": {
    "archived": true,
@@ -2372,13 +2477,13 @@
    "why": "General student AI conference \u2014 SRW/regional category, adjacent by rule."
   },
   "HiPEAC.net/2027/Workshop/DASIP": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-10-16",
    "invitations": [
     {
-     "cdate": 1783328400000,
-     "duedate": 1787831940000,
-     "expdate": 1787833740000,
+     "cdate": 1792162600000,
+     "duedate": 1792576800000,
+     "expdate": 1792578600000,
      "id": "HiPEAC.net/2027/Workshop/DASIP/-/Submission",
      "kind": "Submission"
     }
@@ -4546,8 +4651,8 @@
    "invitations": [
     {
      "cdate": 1790546400000,
-     "duedate": 1796079540000,
-     "expdate": 1796081340000,
+     "duedate": 1796126340000,
+     "expdate": 1796128140000,
      "id": "MIDL.io/2027/Clinical_Translation_and_Validation/-/Submission",
      "kind": "Submission"
     }
@@ -4567,8 +4672,8 @@
    "invitations": [
     {
      "cdate": 1790550000000,
-     "duedate": 1796122740000,
-     "expdate": 1796124540000,
+     "duedate": 1796126340000,
+     "expdate": 1796128140000,
      "id": "MIDL.io/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -8077,8 +8182,8 @@
    "invitations": [
     {
      "cdate": 1786086000000,
-     "duedate": 1792825140000,
-     "expdate": 1792826940000,
+     "duedate": 1793084340000,
+     "expdate": 1793086140000,
      "id": "SWRS/2026/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -8330,13 +8435,13 @@
    "why": "AACL main conference \u2014 flagship-family main track is an explicit core bullet."
   },
   "aclweb.org/AACL-IJCNLP/2026/LT4CPR": {
-   "archived": true,
-   "first_seen": "2026-09-17",
+   "archived": false,
+   "first_seen": "2026-10-16",
    "invitations": [
     {
      "cdate": 1788148800000,
-     "duedate": 1789909140000,
-     "expdate": 1789910940000,
+     "duedate": 1792501140000,
+     "expdate": 1792502940000,
      "id": "aclweb.org/AACL-IJCNLP/2026/LT4CPR/-/Submission",
      "kind": "Submission"
     }
@@ -9326,13 +9431,13 @@
    "why": "AI-assisted science workflows is an applied AI/agents application domain, not alignment, interpretability, or evaluation of AI systems themselves."
   },
   "aiasplus.org/AIAS/2026/Workshop/AIASci_ARR_Commitment": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-10-16",
    "invitations": [
     {
-     "cdate": 1784818302279,
-     "duedate": 1791590340000,
-     "expdate": 1791592140000,
+     "cdate": 1792103475128,
+     "duedate": 1792540740000,
+     "expdate": 1792542540000,
      "id": "aiasplus.org/AIAS/2026/Workshop/AIASci_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -10034,9 +10139,9 @@
    "first_seen": "2026-09-21",
    "invitations": [
     {
-     "cdate": 1789977600000,
-     "duedate": 1792742340000,
-     "expdate": 1792744140000,
+     "cdate": 1789984800000,
+     "duedate": 1792652340000,
+     "expdate": 1792654140000,
      "id": "isairas-isparo.de/i-SAIRAS_iSpaRo/2026/Workshop/OSR/-/Submission",
      "kind": "Submission"
     }
@@ -10282,7 +10387,7 @@
    "why": "Robot-learning generalization workshop \u2014 robotics is the setting, not agent evaluation/interpretability."
   },
   "robot-learning.org/CoRL/2026/Workshop/Contact-Rich_Loco-Manipulation": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-17",
    "invitations": [
     {
@@ -10623,8 +10728,8 @@
    "invitations": [
     {
      "cdate": 1785614400000,
-     "duedate": 1792130340000,
-     "expdate": 1792132140000,
+     "duedate": 1792216740000,
+     "expdate": 1792218540000,
      "id": "robot-learning.org/CoRL/2026/Workshop/Sim2Real2Field/-/Submission",
      "kind": "Submission"
     }
@@ -10639,7 +10744,7 @@
    "why": "Sim-to-real robot deployment is applied robotics, outside the core LLM safety/interp/eval bullets."
   },
   "robot-learning.org/CoRL/2026/Workshop/SimBench2Real": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-28",
    "invitations": [
     {
@@ -10660,13 +10765,13 @@
    "why": "Robot-learning sim-to-real benchmarks is robotics/benchmarks territory, which the profile lists as adjacent, never core."
   },
   "robot-learning.org/CoRL/2026/Workshop/TAG": {
-   "archived": true,
-   "first_seen": "2026-08-24",
+   "archived": false,
+   "first_seen": "2026-10-16",
    "invitations": [
     {
      "cdate": 1787572740000,
-     "duedate": 1791979140000,
-     "expdate": 1791980940000,
+     "duedate": 1792324740000,
+     "expdate": 1792326540000,
      "id": "robot-learning.org/CoRL/2026/Workshop/TAG/-/Submission",
      "kind": "Submission"
     }
@@ -11526,8 +11631,8 @@
    "invitations": [
     {
      "cdate": 1789300800000,
-     "duedate": 1792238340000,
-     "expdate": 1792240140000,
+     "duedate": 1792843140000,
+     "expdate": 1792844940000,
      "id": "thecvf.com/WACV/2027/Workshop/RWS/-/Submission",
      "kind": "Submission"
     }
@@ -11631,8 +11736,8 @@
    "invitations": [
     {
      "cdate": 1789214400000,
-     "duedate": 1792238340000,
-     "expdate": 1792240140000,
+     "duedate": 1792843140000,
+     "expdate": 1792844940000,
      "id": "thecvf.com/WACV/2027/Workshop/UniMUG/-/Submission",
      "kind": "Submission"
     }
@@ -11731,7 +11836,7 @@
    "why": "Media quality assessment for CV/VLM/diffusion \u2014 vision application, not LLM evaluation per the core bullets."
   },
   "thecvf.com/WACV/2027/Workshop/WasteVision": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
