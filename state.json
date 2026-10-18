@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-12",
- "last_run": "2026-10-17T16:17:02.873842+00:00",
+ "last_run": "2026-10-18T16:26:00.156247+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -514,8 +514,8 @@
    "invitations": [
     {
      "cdate": 1792130400000,
-     "duedate": 1795240800000,
-     "expdate": 1795242600000,
+     "duedate": 1795280340000,
+     "expdate": 1795282140000,
      "id": "AAAI.org/2027/Workshop/SPF-LLM/-/Submission",
      "kind": "Submission"
     }
@@ -1076,7 +1076,7 @@
    "why": "General graph-ML workshop outside his core topics."
   },
   "ACML.org/2026/Workshop/OE-Agent": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -1097,7 +1097,7 @@
    "why": "Applied/efficiency agent workshop \u2014 agents as setting, explicitly adjacent per profile."
   },
   "ACML.org/2026/Workshop/SustainableML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -4126,8 +4126,8 @@
    "invitations": [
     {
      "cdate": 1791604800000,
-     "duedate": 1793937600000,
-     "expdate": 1793939400000,
+     "duedate": 1794052740000,
+     "expdate": 1794054540000,
      "id": "IEEE.org/RAS/Humanoids/2026/Workshop/HAE/-/Submission",
      "kind": "Submission"
     }
@@ -9373,8 +9373,8 @@
    "invitations": [
     {
      "cdate": 1786109292000,
-     "duedate": 1792324740000,
-     "expdate": 1792326540000,
+     "duedate": 1792411140000,
+     "expdate": 1792412940000,
      "id": "afcv.org/ACCV/2026/Workshop/MADiMa/-/Submission",
      "kind": "Submission"
     }
@@ -10539,8 +10539,8 @@
    "invitations": [
     {
      "cdate": 1789394400000,
-     "duedate": 1792411140000,
-     "expdate": 1792412940000,
+     "duedate": 1792497540000,
+     "expdate": 1792499340000,
      "id": "robot-learning.org/CoRL/2026/Workshop/EEAI/-/Submission",
      "kind": "Submission"
     }
@@ -10744,7 +10744,7 @@
    "why": "Memory-for-robot-agents workshop \u2014 applied agent/robotics setting, explicitly adjacent."
   },
   "robot-learning.org/CoRL/2026/Workshop/Roboletics": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-21",
    "invitations": [
     {
@@ -10870,7 +10870,7 @@
    "why": "Robot-learning sim-to-real benchmarks is robotics/benchmarks territory, which the profile lists as adjacent, never core."
   },
   "robot-learning.org/CoRL/2026/Workshop/TAG": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-16",
    "invitations": [
     {
@@ -11647,7 +11647,7 @@
    "why": "Human-centric vision understanding with a foundation-model angle, not eval/interp of LLMs."
   },
   "thecvf.com/WACV/2027/Workshop/LVR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-29",
    "invitations": [
     {
@@ -11920,7 +11920,7 @@
    "why": "World/action models for autonomous driving \u2014 world-model and driving application territory, explicitly adjacent."
   },
   "thecvf.com/WACV/2027/Workshop/WVAQ": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-01",
    "invitations": [
     {
