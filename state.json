@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-19",
- "last_run": "2026-10-20T17:52:49.476022+00:00",
+ "last_run": "2026-10-21T17:57:46.238071+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -360,6 +360,27 @@
    "verdict": "adjacent",
    "website": "https://agentic-mobility-workshop.github.io/",
    "why": "Applied agents-for-mobility-services workshop \u2014 agents are the setting, not evaluation/oversight of agent behavior."
+  },
+  "AAAI.org/2027/Workshop/LAUT": {
+   "archived": false,
+   "first_seen": "2026-10-21",
+   "invitations": [
+    {
+     "cdate": 1792472400000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
+     "id": "AAAI.org/2027/Workshop/LAUT/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 148,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AAAI 2027 Workshop on LLM Agents Under Threat",
+   "title": "AAAI-27 Workshop on LLM Agents Under Threat in Cyberspace",
+   "verdict": "core",
+   "website": "https://llm-agents-under-threat.github.io/",
+   "why": "AAAI workshop on adversarial threats to and security of LLM agents themselves \u2014 hits the safety/red-teaming-of-AI-systems and agent-reliability core bullets."
   },
   "AAAI.org/2027/Workshop/LoyalAgents": {
    "archived": false,
@@ -1879,8 +1900,8 @@
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1792792740000,
-     "expdate": 1792794540000,
+     "duedate": 1792836000000,
+     "expdate": 1792837800000,
      "id": "DH_Benelux/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3134,7 +3155,7 @@
    "why": "Cyber resilience and security engineering \u2014 systems/security without an ML-methods core."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-13",
    "invitations": [
     {
@@ -3239,13 +3260,13 @@
    "why": "Healthcare informatics \u2014 medical application venue, per the medical no examples."
   },
   "IEEE.org/ICICIP/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-10-01",
+   "archived": false,
+   "first_seen": "2026-10-21",
    "invitations": [
     {
      "cdate": 1782831600000,
-     "duedate": 1792508400000,
-     "expdate": 1792510200000,
+     "duedate": 1792738800000,
+     "expdate": 1792740600000,
      "id": "IEEE.org/ICICIP/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4414,6 +4435,27 @@
    "website": "https://attend.ieee.org/slt-2026",
    "why": "IEEE speech/language-technology venue (journal presentation track) \u2014 speech is explicitly adjacent, not a core bullet."
   },
+  "IEEE.org/SaTML/2027/Workshop/AdvML-Frontiers": {
+   "archived": false,
+   "first_seen": "2026-10-21",
+   "invitations": [
+    {
+     "cdate": 1792584000000,
+     "duedate": 1796385540000,
+     "expdate": 1796387340000,
+     "id": "IEEE.org/SaTML/2027/Workshop/AdvML-Frontiers/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 149,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AdvML-Frontiers-SaTML 2027",
+   "title": "AdvML-Frontiers @ SaTML: Human-Centered Trustworthy Machine Learning",
+   "verdict": "core",
+   "website": "https://advml-frontier.github.io/satml2027/",
+   "why": "Established adversarial-ML/trustworthy-ML workshop at SaTML about robustness and red-teaming of ML systems themselves, not a 'trustworthy X' application venue."
+  },
   "IEEE.org/SaTML/2027/Workshop/WICE": {
    "archived": false,
    "first_seen": "2026-10-06",
@@ -4497,6 +4539,27 @@
    "verdict": "no",
    "website": "https://ijtcs-faw2026.github.io/IJTCS-FAW2026/",
    "why": "Theoretical computer science unrelated to ML."
+  },
+  "ISCOL/2026/Seminar": {
+   "archived": false,
+   "first_seen": "2026-10-21",
+   "invitations": [
+    {
+     "cdate": 1792591476100,
+     "duedate": 1794693540000,
+     "expdate": 1794695340000,
+     "id": "ISCOL/2026/Seminar/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "ISCOL 2026",
+   "title": "The Israel Seminar on Computational Linguistics 2026",
+   "verdict": "adjacent",
+   "website": "https://iscol-meeting.github.io/iscol2026/",
+   "why": "Regional computational-linguistics/NLP meeting \u2014 general NLP at a national venue, not a core alignment/interp/agent-eval topic."
   },
   "ISNN/2027/Symposium": {
    "archived": false,
@@ -5444,18 +5507,18 @@
    "why": "Agents applied to biomedical imaging and clinical data \u2014 applied agent workshop."
   },
   "NeurIPS.cc/2026/Workshop/AIMOInterp_Challenge": {
-   "archived": true,
-   "first_seen": "2026-10-04",
+   "archived": false,
+   "first_seen": "2026-10-21",
    "invitations": [
     {
-     "cdate": 1791064800000,
-     "duedate": 1793437200000,
-     "expdate": 1793439000000,
+     "cdate": 1792599147600,
+     "duedate": 1793969940000,
+     "expdate": 1793971740000,
      "id": "NeurIPS.cc/2026/Workshop/AIMOInterp_Challenge/-/Submission",
      "kind": "Submission"
     }
    ],
-   "issue": 138,
+   "issue": 147,
    "prestige": 1,
    "reminded": [],
    "subtitle": "AIMOInterp 2026",
@@ -9641,13 +9704,13 @@
    "why": "Small-data computer-vision methods workshop without the foundation-model angle the profile requires for vision venues."
   },
   "afcv.org/ACCV/2026/Workshop/MADiMa": {
-   "archived": true,
-   "first_seen": "2026-10-12",
+   "archived": false,
+   "first_seen": "2026-10-21",
    "invitations": [
     {
      "cdate": 1786109292000,
-     "duedate": 1792411140000,
-     "expdate": 1792412940000,
+     "duedate": 1793102340000,
+     "expdate": 1793104140000,
      "id": "afcv.org/ACCV/2026/Workshop/MADiMa/-/Submission",
      "kind": "Submission"
     }
@@ -9809,7 +9872,7 @@
    "why": "AI-assisted science workflows is an applied AI/agents application domain, not alignment, interpretability, or evaluation of AI systems themselves."
   },
   "aiasplus.org/AIAS/2026/Workshop/AIASci_ARR_Commitment": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-16",
    "invitations": [
     {
@@ -10171,8 +10234,8 @@
    "invitations": [
     {
      "cdate": 1790546400000,
-     "duedate": 1796043600000,
-     "expdate": 1796045400000,
+     "duedate": 1796212740000,
+     "expdate": 1796214540000,
      "id": "cpaior.org/CPAIOR/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -10491,7 +10554,7 @@
    "first_seen": "2026-09-04",
    "invitations": [
     {
-     "cdate": 1792173082253,
+     "cdate": 1792595119020,
      "duedate": 1793361540000,
      "expdate": 1793363340000,
      "id": "etaps.org/TACAS/2027/Conference_AE/-/Submission",
@@ -10531,7 +10594,7 @@
    "why": "Dedicated agent-evaluation venue hits the core bullet on evaluating LLM agent behavior."
   },
   "hanyang.ac.kr/HYU/2026/CSE4057": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-27",
    "invitations": [
     {
@@ -10639,7 +10702,7 @@
    "why": "Engineering and evaluating transparency of AI systems themselves \u2014 the interpretability/oversight/evaluation core bullet, at a reputable host (IJCAI-ECAI)."
   },
   "imstat.org/IMS/2026/FSML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -10744,7 +10807,7 @@
    "why": "Industry summit on physical AI/robotics \u2014 robotics with an AI angle is adjacent, and agents/embodiment as setting is not a core question."
   },
   "microarch.org/MICRO/2026/Workshop/A3": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-20",
    "invitations": [
     {
@@ -11248,7 +11311,7 @@
    "why": "Robot-learning benchmarks for physical human-robot interaction \u2014 robotics/benchmarks are adjacent, not a core bullet."
   },
   "robot-learning.org/CoRL/2026/Workshop/SISREN": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -12067,7 +12130,7 @@
    "why": "Computer vision for smart eyewear is an applied vision domain, not evaluation/interpretability/alignment of AI systems."
   },
   "thecvf.com/WACV/2027/Workshop/FABRIC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-08",
    "invitations": [
     {
@@ -12088,7 +12151,7 @@
    "why": "Foundation models for biomedical imaging matches the 'Trustworthy FMs in Medical Imaging' no-example, an application domain outside his fields."
   },
   "thecvf.com/WACV/2027/Workshop/GAPBIO": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-15",
    "invitations": [
     {
@@ -12193,7 +12256,7 @@
    "why": "Computer-vision workshop at WACV (vision/VLM territory, foundation-model angle at best), not alignment/interp/eval of AI systems or LLM agent behavior."
   },
   "thecvf.com/WACV/2027/Workshop/MAVU": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-04",
    "invitations": [
     {
@@ -12277,7 +12340,7 @@
    "why": "Computer-vision surveillance applications workshop \u2014 an application vision domain with no LLM, agent, interpretability, or evaluation-of-AI angle, matching the profile's excluded application venues."
   },
   "thecvf.com/WACV/2027/Workshop/SEAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-03",
    "invitations": [
     {
@@ -12298,7 +12361,7 @@
    "why": "Social embodied AI workshop at a vision conference \u2014 vision/robotics agents as an application setting, not alignment, interpretability, or evaluation of AI systems."
   },
   "thecvf.com/WACV/2027/Workshop/SENSE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-10",
    "invitations": [
     {
@@ -12340,7 +12403,7 @@
    "why": "Attributing generated content to sources is media provenance/forensics, not attributing model behavior or evaluating AI systems themselves."
   },
   "thecvf.com/WACV/2027/Workshop/SynRDinBAS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-09",
    "invitations": [
     {
