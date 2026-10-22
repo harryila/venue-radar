@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-19",
- "last_run": "2026-10-21T17:57:46.238071+00:00",
+ "last_run": "2026-10-22T17:54:55.510079+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -640,8 +640,8 @@
    "invitations": [
     {
      "cdate": 1791518400000,
-     "duedate": 1793941200000,
-     "expdate": 1793943000000,
+     "duedate": 1795251600000,
+     "expdate": 1795253400000,
      "id": "AAAI.org/2027/Workshop/Social_Sim/-/Submission",
      "kind": "Submission"
     }
@@ -1937,7 +1937,7 @@
    "why": "Argumentation-theory conference \u2014 explicitly listed as 'no'."
   },
   "EEE.org/RAS/Humanoids/2026/Workshop/HRB": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-19",
    "invitations": [
     {
@@ -4371,6 +4371,27 @@
    "verdict": "adjacent",
    "website": "https://space-robots.org/events/humanoids2026/",
    "why": "Applied humanoid-robotics deployment workshop \u2014 robotics is the setting, not alignment/interp/eval of AI systems."
+  },
+  "IEEE.org/RAS/Humanoids/2026/Workshop/HRB": {
+   "archived": false,
+   "first_seen": "2026-10-22",
+   "invitations": [
+    {
+     "cdate": 1792054800000,
+     "duedate": 1794042000000,
+     "expdate": 1794043800000,
+     "id": "IEEE.org/RAS/Humanoids/2026/Workshop/HRB/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "Humanoids 2026 Workshop on Human-Robot Boundary",
+   "title": "Designing the Human-Robot Boundary: From Human Guidance to Robot Autonomy in Real-World Deployment",
+   "verdict": "adjacent",
+   "website": "https://human-robot-boundary.github.io/humanoids2026/",
+   "why": "Robotics/HRI workshop on human guidance and robot autonomy in deployment \u2014 agents/robots are the setting, not evaluation or safety of AI systems themselves, so at most adjacent robotics-with-learning territory."
   },
   "IEEE.org/RAS/Humanoids/2026/Workshop/Trustworthy_Humanoid_Systems": {
    "archived": false,
@@ -10554,7 +10575,7 @@
    "first_seen": "2026-09-04",
    "invitations": [
     {
-     "cdate": 1792595119020,
+     "cdate": 1792666019151,
      "duedate": 1793361540000,
      "expdate": 1793363340000,
      "id": "etaps.org/TACAS/2027/Conference_AE/-/Submission",
@@ -10594,13 +10615,13 @@
    "why": "Dedicated agent-evaluation venue hits the core bullet on evaluating LLM agent behavior."
   },
   "hanyang.ac.kr/HYU/2026/CSE4057": {
-   "archived": true,
-   "first_seen": "2026-09-27",
+   "archived": false,
+   "first_seen": "2026-10-22",
    "invitations": [
     {
      "cdate": 1790953200000,
-     "duedate": 1792594740000,
-     "expdate": 1792596540000,
+     "duedate": 1792853940000,
+     "expdate": 1792855740000,
      "id": "hanyang.ac.kr/HYU/2026/CSE4057/-/Submission",
      "kind": "Submission"
     }
@@ -10723,7 +10744,7 @@
    "why": "Statistical machine-learning theory/methods workshop \u2014 general ML that hits no core bullet."
   },
   "isairas-isparo.de/i-SAIRAS_iSpaRo/2026/Workshop/OSR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-21",
    "invitations": [
     {
@@ -12114,8 +12135,8 @@
    "invitations": [
     {
      "cdate": 1787702400000,
-     "duedate": 1792670340000,
-     "expdate": 1792672140000,
+     "duedate": 1792843140000,
+     "expdate": 1792844940000,
      "id": "thecvf.com/WACV/2027/Workshop/EOF/-/Submission",
      "kind": "Submission"
     }
@@ -12298,7 +12319,7 @@
    "why": "Maritime computer vision \u2014 applied vision/geospatial-flavored domain, matching background-only adjacency."
   },
   "thecvf.com/WACV/2027/Workshop/PRAW": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-31",
    "invitations": [
     {
@@ -12361,13 +12382,13 @@
    "why": "Social embodied AI workshop at a vision conference \u2014 vision/robotics agents as an application setting, not alignment, interpretability, or evaluation of AI systems."
   },
   "thecvf.com/WACV/2027/Workshop/SENSE": {
-   "archived": true,
-   "first_seen": "2026-09-10",
+   "archived": false,
+   "first_seen": "2026-10-22",
    "invitations": [
     {
      "cdate": 1789056000000,
-     "duedate": 1792569540000,
-     "expdate": 1792571340000,
+     "duedate": 1792994340000,
+     "expdate": 1792996140000,
      "id": "thecvf.com/WACV/2027/Workshop/SENSE/-/Submission",
      "kind": "Submission"
     }
