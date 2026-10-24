@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-19",
- "last_run": "2026-10-23T17:49:06.583399+00:00",
+ "last_run": "2026-10-24T16:31:00.632622+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -1769,7 +1769,7 @@
    "why": "Parsimony/sparsity in learning is general ML and not a listed flagship-family main track, so it misses the core bullets."
   },
   "CVIS/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-30",
    "invitations": [
     {
@@ -1916,7 +1916,7 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -4890,7 +4890,9 @@
    ],
    "issue": 136,
    "prestige": 3,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "MERe AI 2026",
    "title": "Machine Ethics and Reasoning in AI Workshop 2026",
    "verdict": "core",
@@ -7149,7 +7151,9 @@
    ],
    "issue": 131,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "PAIEC 2026",
    "title": "Predictive AI Evaluation Competition at NeurIPS 2026",
    "verdict": "core",
@@ -10129,8 +10133,8 @@
    "invitations": [
     {
      "cdate": 1787616000000,
-     "duedate": 1792886400000,
-     "expdate": 1792888200000,
+     "duedate": 1792972800000,
+     "expdate": 1792974600000,
      "id": "bmva.org/BMVC/2026/Workshop/BEST/-/Submission",
      "kind": "Submission"
     }
@@ -10690,7 +10694,8 @@
    "issue": 126,
    "prestige": 3,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "AgentEvalSci 2026",
    "title": "Agent Evaluation Science Symposium 2026",
@@ -10699,7 +10704,7 @@
    "why": "Dedicated agent-evaluation venue hits the core bullet on evaluating LLM agent behavior."
   },
   "hanyang.ac.kr/HYU/2026/CSE4057": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-22",
    "invitations": [
     {
@@ -10933,13 +10938,13 @@
    "why": "Industry summit on physical AI/robotics \u2014 robotics with an AI angle is adjacent, and agents/embodiment as setting is not a core question."
   },
   "microarch.org/MICRO/2026/Workshop/A3": {
-   "archived": true,
-   "first_seen": "2026-10-20",
+   "archived": false,
+   "first_seen": "2026-10-24",
    "invitations": [
     {
-     "cdate": 1791788400000,
-     "duedate": 1792843140000,
-     "expdate": 1792844940000,
+     "cdate": 1792825200000,
+     "duedate": 1793275260000,
+     "expdate": 1793277060000,
      "id": "microarch.org/MICRO/2026/Workshop/A3/-/Submission",
      "kind": "Submission"
     }
@@ -11064,8 +11069,8 @@
    "invitations": [
     {
      "cdate": 1792641600000,
-     "duedate": 1794481260000,
-     "expdate": 1794483060000,
+     "duedate": 1794484740000,
+     "expdate": 1794486540000,
      "id": "responsiblecomputing.org/FORC/2027/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -11437,7 +11442,7 @@
    "why": "Memory-for-robot-agents workshop \u2014 applied agent/robotics setting, explicitly adjacent."
   },
   "robot-learning.org/CoRL/2026/Workshop/Roboletics": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-19",
    "invitations": [
     {
@@ -12277,7 +12282,7 @@
    "why": "Data-centric learning for visual/multimodal foundation models fits his datasets/data-infrastructure and vision-FM adjacent bucket."
   },
   "thecvf.com/WACV/2027/Workshop/EOF": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-28",
    "invitations": [
     {
@@ -12487,7 +12492,7 @@
    "why": "Vision/AI applied to physical retail \u2014 application-domain workshop, no core bullet."
   },
   "thecvf.com/WACV/2027/Workshop/RWS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-13",
    "invitations": [
     {
