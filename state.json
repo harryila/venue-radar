@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-19",
- "last_run": "2026-10-24T16:31:00.632622+00:00",
+ "last_run": "2026-10-25T17:00:49.133005+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -2021,7 +2021,7 @@
    "why": "Digital-economy and poverty-alleviation conference with no ML/NLP research topic."
   },
   "ELLIS/2026/Workshop/Causality_and_Uncertainty": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -3176,8 +3176,8 @@
    "why": "Cyber resilience and security engineering \u2014 systems/security without an ML-methods core."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
-   "archived": true,
-   "first_seen": "2026-10-13",
+   "archived": false,
+   "first_seen": "2026-10-25",
    "invitations": [
     {
      "cdate": 1777593600000,
@@ -4876,6 +4876,27 @@
    "website": "https://p1-learning-control.github.io/LOCO2026/",
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
+  "MBZUAI.ac.ae/Fall_2026/CBIO7401": {
+   "archived": false,
+   "first_seen": "2026-10-25",
+   "invitations": [
+    {
+     "cdate": 1792915200000,
+     "duedate": 1793275140000,
+     "expdate": 1793276940000,
+     "id": "MBZUAI.ac.ae/Fall_2026/CBIO7401/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CBIO7401-2026",
+   "title": "CBIO7401 Course Project",
+   "verdict": "no",
+   "website": "https://mbzuai.ac.ae",
+   "why": "Internal course-project venue in computational biology, not a research venue and outside his ML-methods fields."
+  },
   "MERe_AI/2026/Workshop": {
    "archived": false,
    "first_seen": "2026-10-01",
@@ -5255,6 +5276,27 @@
    "verdict": "no",
    "website": "https://www.iranianlinguistics.com",
    "why": "Pure linguistics (Iranian linguistics), explicitly excluded."
+  },
+  "NASSLLI/2027/Summer_School": {
+   "archived": false,
+   "first_seen": "2026-10-25",
+   "invitations": [
+    {
+     "cdate": 1792904400000,
+     "duedate": 1797656340000,
+     "expdate": 1797658140000,
+     "id": "NASSLLI/2027/Summer_School/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "NASSLLI 2027",
+   "title": "North American Summer School in Logic, Language, and Information 2027",
+   "verdict": "no",
+   "website": "https://salogan.github.io/nasslli2027/",
+   "why": "Logic/language/information summer school \u2014 pure linguistics and theory unrelated to ML, and not a publication venue."
   },
   "NERC/2026/Conference": {
    "archived": true,
@@ -8939,6 +8981,48 @@
    "website": "https://na.eventscloud.com/website/93824/",
    "why": "Micro/nano manufacturing congress \u2014 hardware/manufacturing, entirely outside ML."
   },
+  "WSDM/2027/Workshop/Context4Agents": {
+   "archived": false,
+   "first_seen": "2026-10-25",
+   "invitations": [
+    {
+     "cdate": 1792890000000,
+     "duedate": 1796122800000,
+     "expdate": 1796124600000,
+     "id": "WSDM/2027/Workshop/Context4Agents/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "Context4Agents 2027",
+   "title": "WSDM 2027 Workshop on Contextual Intelligence for AI Agents: Retrieval, Memory, and Reasoning",
+   "verdict": "adjacent",
+   "website": "https://context4agents.github.io/",
+   "why": "Retrieval/memory/reasoning infrastructure for agents is an applied agent workshop \u2014 agents are the setting, not evaluation/interpretability of them."
+  },
+  "WSDM/2027/Workshop/LLM4ECommerce": {
+   "archived": false,
+   "first_seen": "2026-10-25",
+   "invitations": [
+    {
+     "cdate": 1792929600000,
+     "duedate": 1796126340000,
+     "expdate": 1796128140000,
+     "id": "WSDM/2027/Workshop/LLM4ECommerce/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WSDM 2027 LLM4ECommerce Workshop",
+   "title": "The 3rd Workshop on Large Language Models for E-Commerce at WSDM 2027",
+   "verdict": "no",
+   "website": "https://llm4ecommerce.github.io/",
+   "why": "Domain-application LLM workshop for e-commerce, same shape as FinNLP/Legal NLP which the profile marks no."
+  },
   "Word-Formation/2026/Workshop/Distributed_Morphology": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -10063,6 +10147,27 @@
    "verdict": "adjacent",
    "website": "https://virtual.aistats.org/Conferences/2027",
    "why": "Reputable general ML/statistics conference, but not in the profile's flagship main-track list and not a core topic."
+  },
+  "aistats.org/AISTATS/2027/Workshop_Track": {
+   "archived": false,
+   "first_seen": "2026-10-25",
+   "invitations": [
+    {
+     "cdate": 1792879260000,
+     "duedate": 1793397540000,
+     "expdate": 1793399340000,
+     "id": "aistats.org/AISTATS/2027/Workshop_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AISTATS 2027 Workshop Track",
+   "title": "AISTATS 2027 Workshop Track",
+   "verdict": "adjacent",
+   "website": "https://virtual.aistats.org/Conferences/2027",
+   "why": "AISTATS workshop track is a general ML workshop venue outside the flagship-family main tracks and not on a core topic."
   },
   "albertarobotics.ca/RISEx/2026/Conference": {
    "archived": true,
@@ -12597,7 +12702,7 @@
    "why": "Synthetic-data biometrics/vision workshop \u2014 ML application territory, not safety/interp/agent-evaluation of AI systems."
   },
   "thecvf.com/WACV/2027/Workshop/UniMUG": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-12",
    "invitations": [
     {
