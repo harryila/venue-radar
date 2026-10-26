@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-10-19",
- "last_run": "2026-10-25T17:00:49.133005+00:00",
+ "last_digest": "2026-10-26",
+ "last_run": "2026-10-26T19:07:27.701917+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -1181,7 +1181,7 @@
    "why": "General time-series ML workshop, hits no core bullet."
   },
   "ACML.org/2026/Workshop/GraphML": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-18",
    "invitations": [
     {
@@ -1768,14 +1768,35 @@
    "website": "https://cpal.cc/",
    "why": "Parsimony/sparsity in learning is general ML and not a listed flagship-family main track, so it misses the core bullets."
   },
+  "CSF/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-10-26",
+   "invitations": [
+    {
+     "cdate": 1793011785500,
+     "duedate": 1803852000000,
+     "expdate": 1803853800000,
+     "id": "CSF/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CSF 2027",
+   "title": "Canine Science Forum 2027",
+   "verdict": "no",
+   "website": "https://csf2027.pl",
+   "why": "Canine/animal behavior science with no ML-methods angle \u2014 outside ML/NLP entirely."
+  },
   "CVIS/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-09-30",
+   "archived": false,
+   "first_seen": "2026-10-26",
    "invitations": [
     {
      "cdate": 1790769600000,
-     "duedate": 1792817940000,
-     "expdate": 1792819740000,
+     "duedate": 1793077140000,
+     "expdate": 1793078940000,
      "id": "CVIS/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -1916,13 +1937,13 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-10-01",
+   "archived": false,
+   "first_seen": "2026-10-26",
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1792836000000,
-     "expdate": 1792837800000,
+     "duedate": 1793530800000,
+     "expdate": 1793532600000,
      "id": "DH_Benelux/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2000,7 +2021,7 @@
    "why": "Philosophy workshop on epistemic injustice \u2014 ethics/bias-style venue the profile marks 'no'."
   },
   "ELCPDE/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-18",
    "invitations": [
     {
@@ -5361,6 +5382,27 @@
    "website": "https://neurips.cc/",
    "why": "Affinity support program, not a research venue in his fields (WiML-style)."
   },
+  "NeurIPS.cc/2026/Competition/SimulacraBench": {
+   "archived": false,
+   "first_seen": "2026-10-26",
+   "invitations": [
+    {
+     "cdate": 1793019600000,
+     "duedate": 1795172340000,
+     "expdate": 1795174140000,
+     "id": "NeurIPS.cc/2026/Competition/SimulacraBench/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "Neurips 2026 SimulacraBench",
+   "title": "NeurIPS 2026 SimulacraBench Competition",
+   "verdict": "adjacent",
+   "website": "https://simulacrabench.org/",
+   "why": "NeurIPS competition track (not a main track) on benchmarking agent simulacra of human behavior \u2014 social-simulation shared task, not calibration/eval/interp of LLMs themselves."
+  },
   "NeurIPS.cc/2026/Education_Track": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -8711,8 +8753,8 @@
    "invitations": [
     {
      "cdate": 1786086000000,
-     "duedate": 1793084340000,
-     "expdate": 1793086140000,
+     "duedate": 1793343540000,
+     "expdate": 1793345340000,
      "id": "SWRS/2026/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -10107,7 +10149,7 @@
    "why": "Lifelong/continual-learning-for-agents workshop at an unknown host \u2014 applied agent capability, with 'aligning' only a name word."
   },
   "aisnet.org/ICIS/2026/PDW/Autonomous_Scholarship": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-15",
    "invitations": [
     {
@@ -10233,7 +10275,7 @@
    "why": "Medical-imaging vision workshop \u2014 medicine application matching the profile's TrustFMI-style no pattern."
   },
   "bmva.org/BMVC/2026/Workshop/BEST": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-25",
    "invitations": [
     {
@@ -10790,8 +10832,8 @@
    "invitations": [
     {
      "cdate": 1787616000000,
-     "duedate": 1792972740000,
-     "expdate": 1792974540000,
+     "duedate": 1793188740000,
+     "expdate": 1793190540000,
      "id": "evalscience.org/AgentEvalSci/2026/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -11047,7 +11089,7 @@
    "first_seen": "2026-10-24",
    "invitations": [
     {
-     "cdate": 1792825200000,
+     "cdate": 1792998000000,
      "duedate": 1793275260000,
      "expdate": 1793277060000,
      "id": "microarch.org/MICRO/2026/Workshop/A3/-/Submission",
@@ -12261,7 +12303,7 @@
    "why": "Tutorials track at a vision conference; tutorials are explicitly adjacent-only in the profile."
   },
   "thecvf.com/WACV/2027/Workshop/AINIME": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-28",
    "invitations": [
     {
@@ -12639,7 +12681,7 @@
    "why": "Social embodied AI workshop at a vision conference \u2014 vision/robotics agents as an application setting, not alignment, interpretability, or evaluation of AI systems."
   },
   "thecvf.com/WACV/2027/Workshop/SENSE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-22",
    "invitations": [
     {
