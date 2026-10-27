@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-26",
- "last_run": "2026-10-26T19:07:27.701917+00:00",
+ "last_run": "2026-10-27T18:37:26.077502+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -1795,8 +1795,8 @@
    "invitations": [
     {
      "cdate": 1790769600000,
-     "duedate": 1793077140000,
-     "expdate": 1793078940000,
+     "duedate": 1793851140000,
+     "expdate": 1793852940000,
      "id": "CVIS/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2021,13 +2021,13 @@
    "why": "Philosophy workshop on epistemic injustice \u2014 ethics/bias-style venue the profile marks 'no'."
   },
   "ELCPDE/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-09-18",
+   "archived": false,
+   "first_seen": "2026-10-27",
    "invitations": [
     {
      "cdate": 1785870000000,
-     "duedate": 1792954800000,
-     "expdate": 1792956600000,
+     "duedate": 1793732400000,
+     "expdate": 1793734200000,
      "id": "ELCPDE/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -9944,8 +9944,8 @@
    "invitations": [
     {
      "cdate": 1786109292000,
-     "duedate": 1793102340000,
-     "expdate": 1793104140000,
+     "duedate": 1793275140000,
+     "expdate": 1793276940000,
      "id": "afcv.org/ACCV/2026/Workshop/MADiMa/-/Submission",
      "kind": "Submission"
     }
@@ -11232,7 +11232,7 @@
    "why": "Responsible-computing theory (fairness/privacy/accountability), not alignment, interpretability, or evaluation of AI systems themselves."
   },
   "robot-learning.org/CoRL/2026/Late_Breaking_Results": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-20",
    "invitations": [
     {
@@ -12007,6 +12007,27 @@
    "verdict": "no",
    "website": "https://www.codabench.org/competitions/12650/",
    "why": "Foundation models for CT image diagnosis is medical imaging, matching the profile's no-list (Trustworthy FMs in Medical Imaging)."
+  },
+  "thecvf.com/CVPR/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-10-27",
+   "invitations": [
+    {
+     "cdate": 1793095140000,
+     "duedate": 1794398340000,
+     "expdate": 1794400140000,
+     "id": "thecvf.com/CVPR/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CVPR 2027",
+   "title": "Conference on Computer Vision and Pattern Recognition 2027",
+   "verdict": "adjacent",
+   "website": "https://cvpr.thecvf.com/Conferences/2027",
+   "why": "Computer-vision main track; CVPR is not in the profile's core main-track list and its topic isn't alignment/interp/agent evaluation, so vision ML stays adjacent."
   },
   "thecvf.com/CVPR/2027/Workshop_Proposals": {
    "archived": false,
