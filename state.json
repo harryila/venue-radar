@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-26",
- "last_run": "2026-10-28T18:44:29.078045+00:00",
+ "last_run": "2026-10-29T18:54:32.382469+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -4898,7 +4898,7 @@
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
   "MBZUAI.ac.ae/Fall_2026/CBIO7401": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-25",
    "invitations": [
     {
@@ -4933,7 +4933,8 @@
    "issue": 136,
    "prestige": 3,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "MERe AI 2026",
    "title": "Machine Ethics and Reasoning in AI Workshop 2026",
@@ -5430,8 +5431,8 @@
    "invitations": [
     {
      "cdate": 1790312400000,
-     "duedate": 1794135540000,
-     "expdate": 1794137340000,
+     "duedate": 1793591940000,
+     "expdate": 1793593740000,
      "id": "NeurIPS.cc/2026/Workshop/A2NetOps/-/Submission",
      "kind": "Submission"
     }
@@ -7236,7 +7237,8 @@
    "issue": 131,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "PAIEC 2026",
    "title": "Predictive AI Evaluation Competition at NeurIPS 2026",
@@ -9939,7 +9941,7 @@
    "why": "Small-data computer-vision methods workshop without the foundation-model angle the profile requires for vision venues."
   },
   "afcv.org/ACCV/2026/Workshop/MADiMa": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-21",
    "invitations": [
     {
@@ -10149,7 +10151,7 @@
    "why": "Lifelong/continual-learning-for-agents workshop at an unknown host \u2014 applied agent capability, with 'aligning' only a name word."
   },
   "aisnet.org/ICIS/2026/PDW/Autonomous_Scholarship": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-28",
    "invitations": [
     {
@@ -11085,7 +11087,7 @@
    "why": "Industry summit on physical AI/robotics \u2014 robotics with an AI angle is adjacent, and agents/embodiment as setting is not a core question."
   },
   "microarch.org/MICRO/2026/Workshop/A3": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-24",
    "invitations": [
     {
@@ -11146,6 +11148,27 @@
    "verdict": "adjacent",
    "website": "https://conference.mmumullana.org/icmmdu-2026/",
    "why": "Regional broad machine-intelligence conference \u2014 regional AI/ML conferences are adjacent by rule, not core."
+  },
+  "ntu.edu.tw/National_Taiwan_University/Fall_2026/PP-MiniConf": {
+   "archived": false,
+   "first_seen": "2026-10-29",
+   "invitations": [
+    {
+     "cdate": 1793289600000,
+     "duedate": 1795190400000,
+     "expdate": 1795192200000,
+     "id": "ntu.edu.tw/National_Taiwan_University/Fall_2026/PP-MiniConf/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "NTU-PP-MiniConf 2026",
+   "title": "First National Taiwan University Parallel Programming Course Mini-Conference 2026",
+   "verdict": "no",
+   "website": "https://cool.ntu.edu.tw/courses/66489",
+   "why": "A parallel-programming course mini-conference is systems/HPC coursework with no ML angle, matching the no-list's systems-without-ML category."
   },
   "obot-learning.org/CoRL/2026/Late_Breaking_Results": {
    "archived": true,
@@ -12639,13 +12662,13 @@
    "why": "Maritime computer vision \u2014 applied vision/geospatial-flavored domain, matching background-only adjacency."
   },
   "thecvf.com/WACV/2027/Workshop/PRAW": {
-   "archived": true,
-   "first_seen": "2026-08-31",
+   "archived": false,
+   "first_seen": "2026-10-29",
    "invitations": [
     {
      "cdate": 1788073200000,
-     "duedate": 1792619940000,
-     "expdate": 1792621740000,
+     "duedate": 1793357940000,
+     "expdate": 1793359740000,
      "id": "thecvf.com/WACV/2027/Workshop/PRAW/-/Submission",
      "kind": "Submission"
     }
