@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-26",
- "last_run": "2026-10-29T18:54:32.382469+00:00",
+ "last_run": "2026-10-30T18:31:12.605760+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -108,6 +108,27 @@
    "verdict": "adjacent",
    "website": "https://a2netops.github.io/",
    "why": "Applied agents-for-network-operations workshop \u2014 agents are the setting, not alignment/eval/interp of agents, despite uncertainty/safety keywords."
+  },
+  "AAAI.org/2027/Workshop/AI4Research": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1792728000000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
+     "id": "AAAI.org/2027/Workshop/AI4Research/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AAAI 2027 Workshop AI4Research",
+   "title": "The 2nd Workshop on AI for Scientific Research at AAAI 2027",
+   "verdict": "adjacent",
+   "website": "https://ai4research-workshop.github.io/",
+   "why": "AI-for-science application workshop \u2014 AI is the tool, not the subject of evaluation/safety/interp, so no core bullet applies."
   },
   "AAAI.org/2027/Workshop/AI4TS": {
    "archived": false,
@@ -640,8 +661,8 @@
    "invitations": [
     {
      "cdate": 1792130400000,
-     "duedate": 1795280340000,
-     "expdate": 1795282140000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/SPF-LLM/-/Submission",
      "kind": "Submission"
     }
@@ -1095,6 +1116,27 @@
    "verdict": "adjacent",
    "website": "https://www2027.thewebconf.org/",
    "why": "Tutorial track at an established web/ML conference \u2014 tutorials are explicitly adjacent and WWW's topic hits no core bullet."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/HCRS": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1793116800000,
+     "duedate": 1799150340000,
+     "expdate": 1799152140000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/HCRS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "HCRS 2027",
+   "title": "The 3rd Workshop on Human-Centered Recommender Systems",
+   "verdict": "adjacent",
+   "website": "https://hcrs2027.github.io/",
+   "why": "Recommender-systems ML workshop at an established venue, outside alignment/interp/agent-evaluation topics."
   },
   "ACM.org/TheWebConf/2027/Workshop_Proposals": {
    "archived": true,
@@ -1753,8 +1795,8 @@
    "invitations": [
     {
      "cdate": 1792249200000,
-     "duedate": 1795618800000,
-     "expdate": 1795620600000,
+     "duedate": 1796558400000,
+     "expdate": 1796560200000,
      "id": "CPAL.cc/2027/Proceedings_Track/-/Submission",
      "kind": "Submission"
     }
@@ -2088,9 +2130,9 @@
    "first_seen": "2026-10-06",
    "invitations": [
     {
-     "cdate": 1790805600000,
-     "duedate": 1793401200000,
-     "expdate": 1793403000000,
+     "cdate": 1788271140000,
+     "duedate": 1793883600000,
+     "expdate": 1793885400000,
      "id": "ELLIS/2026/Workshop/NGDL/-/Submission",
      "kind": "Submission"
     }
@@ -2704,6 +2746,27 @@
    "website": "https://7eseiaconference.lneg.pt/",
    "why": "Green energy conference with no ML angle."
   },
+  "FASL/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1793372400000,
+     "duedate": 1800097140000,
+     "expdate": 1800098940000,
+     "id": "FASL/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "FASL-36",
+   "title": "Formal Approaches to Slavic Linguistics 36",
+   "verdict": "no",
+   "website": "https://publish.illinois.edu/fasl36-uiuc/",
+   "why": "Pure Slavic formal linguistics with no ML angle."
+  },
   "FEAR/2026/Workshop": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -2734,8 +2797,8 @@
    "invitations": [
     {
      "cdate": 1784498400000,
-     "duedate": 1825149600000,
-     "expdate": 1825151400000,
+     "duedate": 1825495200000,
+     "expdate": 1825497000000,
      "id": "GaC/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3216,6 +3279,27 @@
    "verdict": "no",
    "website": "https://bhi.embs.org/2026/",
    "why": "Biomedical/health informatics abstracts \u2014 medical application venue outside his fields."
+  },
+  "IEEE.org/EMBS/BHI/2026/Workshop/Equitable_AI_for_Health": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1792866600000,
+     "duedate": 1794681000000,
+     "expdate": 1794682800000,
+     "id": "IEEE.org/EMBS/BHI/2026/Workshop/Equitable_AI_for_Health/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "Equitable AI for Health 2026 Workshop",
+   "title": "Workshop: IEEE-EMBS BHI 2026 Equitable AI for Health: From Algorithms to Real-World Impact",
+   "verdict": "no",
+   "website": "https://sites.google.com/view/eaih-bhi2026/home?pli=1&authuser=0",
+   "why": "Equitable-AI-in-health application venue, matching the Trustworthy-FMs-in-medical calibration example of no."
   },
   "IEEE.org/Humanoids/2026/HSR": {
    "archived": false,
@@ -4898,13 +4982,13 @@
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
   "MBZUAI.ac.ae/Fall_2026/CBIO7401": {
-   "archived": true,
-   "first_seen": "2026-10-25",
+   "archived": false,
+   "first_seen": "2026-10-30",
    "invitations": [
     {
      "cdate": 1792915200000,
-     "duedate": 1793275140000,
-     "expdate": 1793276940000,
+     "duedate": 1793448000000,
+     "expdate": 1793449800000,
      "id": "MBZUAI.ac.ae/Fall_2026/CBIO7401/-/Submission",
      "kind": "Submission"
     }
@@ -5263,8 +5347,8 @@
    "invitations": [
     {
      "cdate": 1792440000000,
-     "duedate": 1793390400000,
-     "expdate": 1793392200000,
+     "duedate": 1793394000000,
+     "expdate": 1793395800000,
      "id": "MLSys.org/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -5691,7 +5775,9 @@
    ],
    "issue": 147,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AIMOInterp 2026",
    "title": "AIMO Interpretability Challenge",
    "verdict": "core",
@@ -7331,7 +7417,7 @@
    "why": "Physical-world geometry and multimodal sensing, outside the core topics."
   },
   "NeurIPS.cc/2026/Workshop/PhysWorldAI_Poster": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -8206,8 +8292,8 @@
    "invitations": [
     {
      "cdate": 1781285668600,
-     "duedate": 1793325540000,
-     "expdate": 1793327340000,
+     "duedate": 1793411940000,
+     "expdate": 1793413740000,
      "id": "PhraConRep/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -8750,7 +8836,7 @@
    "why": "RISC-V hardware/systems with no ML angle, explicitly excluded."
   },
   "SWRS/2026/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -10198,8 +10284,8 @@
    "invitations": [
     {
      "cdate": 1792879260000,
-     "duedate": 1793397540000,
-     "expdate": 1793399340000,
+     "duedate": 1794002340000,
+     "expdate": 1794004140000,
      "id": "aistats.org/AISTATS/2027/Workshop_Track/-/Submission",
      "kind": "Submission"
     }
@@ -10485,6 +10571,48 @@
    "verdict": "adjacent",
    "website": "http://sc.cipsc.org.cn/mt/conference/2026/docs/tech-eval",
    "why": "Machine-translation shared task at a national conference \u2014 shared tasks are adjacent unless about calibration/eval/interp of LLMs."
+  },
+  "coling-iccl.org/COLING/2027/System_Demo": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1793275140000,
+     "duedate": 1797681540000,
+     "expdate": 1797683340000,
+     "id": "coling-iccl.org/COLING/2027/System_Demo/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "COLING 2027 System Demo",
+   "title": "The 32nd International Conference on Computational Linguistics System Demonstrations",
+   "verdict": "adjacent",
+   "website": "https://2027.coling-iccl.org/",
+   "why": "Demo track (demos are explicitly adjacent) and COLING is not a core main-track family."
+  },
+  "coling-iccl.org/COLING/2027/Workshop/LoResMT": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1792893600000,
+     "duedate": 1798243200000,
+     "expdate": 1798245000000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/LoResMT/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "LoResMT 2027",
+   "title": "The Tenth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2027)",
+   "verdict": "adjacent",
+   "website": "https://www.loresmt.org/",
+   "why": "Low-resource machine translation is multilingual NLP, not a core topic."
   },
   "cpaior.org/CPAIOR/2027/Conference": {
    "archived": false,
@@ -10786,6 +10914,48 @@
    "website": "https://loreslm.github.io/",
    "why": "ARR-commitment track of LoResLM; same multilingual/low-resource topic, same adjacent verdict."
   },
+  "eacl.org/EACL/2027/Workshop/MWE": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1792929600000,
+     "duedate": 1796212800000,
+     "expdate": 1796214600000,
+     "id": "eacl.org/EACL/2027/Workshop/MWE/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "MWE 2027",
+   "title": "23rd Workshop on Multiword Expressions",
+   "verdict": "no",
+   "website": "https://multiword.org/mwe2027/",
+   "why": "Multiword-expressions workshop is a linguistic-phenomenon venue akin to the morphosyntax calibration examples."
+  },
+  "eacl.org/EACL/2027/Workshop/MWE_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-10-30",
+   "invitations": [
+    {
+     "cdate": 1792929600000,
+     "duedate": 1796212800000,
+     "expdate": 1796214600000,
+     "id": "eacl.org/EACL/2027/Workshop/MWE_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "MWE 2027",
+   "title": "23rd Workshop on Multiword Expressions",
+   "verdict": "no",
+   "website": "https://multiword.org/mwe2027/",
+   "why": "ARR-commitment track of the MWE workshop, same linguistic-phenomenon topic as the direct track."
+  },
   "eacl.org/EACL/2027/Workshop/SilkRoadNLP": {
    "archived": true,
    "first_seen": "2026-10-15",
@@ -10808,7 +10978,7 @@
    "why": "Multilingual/low-resource NLP for one language family at EACL \u2014 general NLP workshop topic, not a core bullet."
   },
   "etaps.org/TACAS/2027/Conference_AE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-04",
    "invitations": [
     {
@@ -11155,8 +11325,8 @@
    "invitations": [
     {
      "cdate": 1793289600000,
-     "duedate": 1795190400000,
-     "expdate": 1795192200000,
+     "duedate": 1796399940000,
+     "expdate": 1796401740000,
      "id": "ntu.edu.tw/National_Taiwan_University/Fall_2026/PP-MiniConf/-/Submission",
      "kind": "Submission"
     }
@@ -12662,7 +12832,7 @@
    "why": "Maritime computer vision \u2014 applied vision/geospatial-flavored domain, matching background-only adjacency."
   },
   "thecvf.com/WACV/2027/Workshop/PRAW": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-29",
    "invitations": [
     {
