@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-26",
- "last_run": "2026-10-30T18:31:12.605760+00:00",
+ "last_run": "2026-10-31T17:36:00.811033+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -1370,7 +1370,7 @@
    "why": "Broad new AI-for-science/applications conference, not a core-bullet topic or flagship main track."
   },
   "AIAL/Symposium/2026": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-17",
    "invitations": [
     {
@@ -1459,8 +1459,8 @@
    "invitations": [
     {
      "cdate": 1789999140000,
-     "duedate": 1793455140000,
-     "expdate": 1793456940000,
+     "duedate": 1793966340000,
+     "expdate": 1793968140000,
      "id": "AJCAI/2026/Workshop/AI4Science/-/Submission",
      "kind": "Submission"
     }
@@ -1809,6 +1809,27 @@
    "verdict": "adjacent",
    "website": "https://cpal.cc/",
    "why": "Parsimony/sparsity in learning is general ML and not a listed flagship-family main track, so it misses the core bullets."
+  },
+  "CPAL.cc/2027/Recent_Spotlight_Track": {
+   "archived": false,
+   "first_seen": "2026-10-31",
+   "invitations": [
+    {
+     "cdate": 1793458800000,
+     "duedate": 1800360000000,
+     "expdate": 1800361800000,
+     "id": "CPAL.cc/2027/Recent_Spotlight_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CPAL 2027 Recent Spotlight Track",
+   "title": "Conference on Parsimony and Learning 2027 \u2014 Recent Spotlight Track",
+   "verdict": "adjacent",
+   "website": "https://cpal.cc/",
+   "why": "Parsimony/sparse-learning conference spotlight track is general ML, not alignment/interp/eval or agent-behavior per core bullets."
   },
   "CSF/2027/Conference": {
    "archived": false,
@@ -3067,6 +3088,27 @@
    "website": "https://icjv.github.io",
    "why": "Placeholder-looking conference with no discernible topic and a deadline over a year away."
   },
+  "ICLR.cc/2027/BlogPosts": {
+   "archived": false,
+   "first_seen": "2026-10-31",
+   "invitations": [
+    {
+     "cdate": 1793440800000,
+     "duedate": 1796209140000,
+     "expdate": 1796210940000,
+     "id": "ICLR.cc/2027/BlogPosts/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ICLR 2027 Blogpost Track",
+   "title": "The Sixth Blogpost Track at ICLR 2027",
+   "verdict": "adjacent",
+   "website": "https://iclr-blogposts.github.io/",
+   "why": "ICLR blogpost track is a non-main-track discussion format on general ML topics, and being at a flagship is not enough."
+  },
   "ICLR.cc/2027/Conference": {
    "archived": true,
    "first_seen": "2026-08-19",
@@ -3244,8 +3286,8 @@
    "invitations": [
     {
      "cdate": 1786320000000,
-     "duedate": 1793462340000,
-     "expdate": 1793464140000,
+     "duedate": 1793700000000,
+     "expdate": 1793701800000,
      "id": "IEEE.org/CRESS/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4982,7 +5024,7 @@
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
   "MBZUAI.ac.ae/Fall_2026/CBIO7401": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-30",
    "invitations": [
     {
@@ -5003,7 +5045,7 @@
    "why": "Internal course-project venue in computational biology, not a research venue and outside his ML-methods fields."
   },
   "MERe_AI/2026/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -5342,7 +5384,7 @@
    "why": "NeurIPS workshop on ML for physical sciences \u2014 science application domain, not a core bullet."
   },
   "MLSys.org/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-20",
    "invitations": [
     {
@@ -7314,8 +7356,8 @@
    "invitations": [
     {
      "cdate": 1789489741800,
-     "duedate": 1793447940000,
-     "expdate": 1793449740000,
+     "duedate": 1794052740000,
+     "expdate": 1794054540000,
      "id": "NeurIPS.cc/2026/Workshop/PAIEC/-/Submission",
      "kind": "Submission"
     }
@@ -8287,7 +8329,7 @@
    "why": "Institutional general-AI tech day \u2014 regional, low-signal general AI/ML event."
   },
   "PhraConRep/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -8348,6 +8390,27 @@
    "verdict": "adjacent",
    "website": "https://www.queerinai.com/grad-app-aid",
    "why": "Mentorship program, which the profile explicitly lists as adjacent \u2014 not a research submission venue."
+  },
+  "REIL/2027/Seminar": {
+   "archived": false,
+   "first_seen": "2026-10-31",
+   "invitations": [
+    {
+     "cdate": 1793397600000,
+     "duedate": 1796853600000,
+     "expdate": 1796855400000,
+     "id": "REIL/2027/Seminar/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "REIL",
+   "title": "Seminar for Robust Evaluation and Interpretability of Language Models",
+   "verdict": "adjacent",
+   "website": "https://moodle.zdv.uni-tuebingen.de/course/view.php?id=1712",
+   "why": "Topic is LM evaluation and interpretability, but it is a university Moodle course seminar, not an open reputable publication venue."
   },
   "SADASC.com/2027/Conference": {
    "archived": false,
@@ -9262,7 +9325,7 @@
    "why": "ARR-commitment track of a safe/trustworthy-X workshop where X is an application domain (speech/audio), which the profile rules adjacent, not core AI safety."
   },
   "aclweb.org/AACL-IJCNLP/2026/Workshop/ARRSI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -9922,7 +9985,7 @@
    "why": "Event-based vision workshop \u2014 vision outside his fields but still ML, so adjacent not no."
   },
   "afcv.org/ACCV/2026/Workshop/CV4DC_Non-Proceedings_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -10571,6 +10634,27 @@
    "verdict": "adjacent",
    "website": "http://sc.cipsc.org.cn/mt/conference/2026/docs/tech-eval",
    "why": "Machine-translation shared task at a national conference \u2014 shared tasks are adjacent unless about calibration/eval/interp of LLMs."
+  },
+  "coling-iccl.org/COLING/2027/Industry_Track": {
+   "archived": false,
+   "first_seen": "2026-10-31",
+   "invitations": [
+    {
+     "cdate": 1793440800000,
+     "duedate": 1796126400000,
+     "expdate": 1796128200000,
+     "id": "coling-iccl.org/COLING/2027/Industry_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "COLING 2027 Industry Track",
+   "title": "COLING 2027 Industry Track",
+   "verdict": "adjacent",
+   "website": "https://2027.coling-iccl.org/",
+   "why": "Industry tracks are explicitly adjacent by profile rule, as with the EACL Industry Track example."
   },
   "coling-iccl.org/COLING/2027/System_Demo": {
    "archived": false,
