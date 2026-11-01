@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-10-26",
- "last_run": "2026-10-31T17:36:00.811033+00:00",
+ "last_run": "2026-11-01T18:21:04.184108+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -234,6 +234,27 @@
    "verdict": "adjacent",
    "website": "https://siavashhkh.github.io/agentic-labs-aaai27/",
    "why": "Applied agents-for-science workshop (autonomous physical experimentation), per the applied/systems agent-workshop rule."
+  },
+  "AAAI.org/2027/Workshop/AgriAI": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793471400000,
+     "duedate": 1795113000000,
+     "expdate": 1795114800000,
+     "id": "AAAI.org/2027/Workshop/AgriAI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AgriAI 2027",
+   "title": "Second International Workshop on AI in Agriculture",
+   "verdict": "adjacent",
+   "website": "https://agriai-workshop.github.io/aaai2027/",
+   "why": "Applied AI-for-agriculture workshop \u2014 geospatial/remote-sensing flavored, which his background makes adjacent but never core."
   },
   "AAAI.org/2027/Workshop/DAI": {
    "archived": false,
@@ -1096,6 +1117,27 @@
    "website": "https://acmweb2027.org/",
    "why": "PhD symposium is an SRW/mentorship-style track, explicitly adjacent regardless of host."
   },
+  "ACM.org/TheWebConf/2027/Resource_Papers": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793487600000,
+     "duedate": 1797454800000,
+     "expdate": 1797456600000,
+     "id": "ACM.org/TheWebConf/2027/Resource_Papers/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WWW 2027 Resource",
+   "title": "The Web Conference 2027 - Resource Papers",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Resource/datasets track \u2014 datasets and benchmarks are explicitly adjacent, never core on their own."
+  },
   "ACM.org/TheWebConf/2027/Tutorial_Proposals": {
    "archived": false,
    "first_seen": "2026-10-14",
@@ -1117,6 +1159,132 @@
    "website": "https://www2027.thewebconf.org/",
    "why": "Tutorial track at an established web/ML conference \u2014 tutorials are explicitly adjacent and WWW's topic hits no core bullet."
   },
+  "ACM.org/TheWebConf/2027/Workshop/AiOfAi": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/AiOfAi/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AiOfAi 2027",
+   "title": "AiOfAi: 5th Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Societal adverse impacts of AI, not alignment/interpretability/evaluation of the systems themselves \u2014 a safety-adjacent word isn't enough."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/BeyondFacts": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/BeyondFacts/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "BeyondFacts 2027",
+   "title": "7th International Workshop on Computational Methods for Online Discourse Analysis",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Computational analysis of online discourse/misinformation \u2014 applied NLP whose topic hits no core bullet."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/CodeMates": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/CodeMates/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CodeMates 2027",
+   "title": "Next-Gen Code Development with Collaborative AI Agents",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Agents for code development \u2014 applied agent workshop where agents are the setting, not the question."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/FL_FM": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/FL_FM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "FL@FM-WWW 2027",
+   "title": "International Workshop on Federated Foundation Models for the Web 2027",
+   "verdict": "adjacent",
+   "website": "https://federated-learning.org/fl@fm-www-2027/",
+   "why": "Federated learning for foundation models \u2014 systems/efficiency ML, outside the core bullets."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/GMLLM": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/GMLLM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "GMLLM 2027",
+   "title": "GMLLM: 4th Workshop on Frontiers in Graph Machine Learning for the Large Model Era",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Graph ML in the large-model era \u2014 general ML workshop whose topic is not a core bullet."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/GreenWeb": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/GreenWeb/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "GreenWeb 2027",
+   "title": "GreenWeb 2027: First International Workshop on Sustainable and Energy-Efficient Web and AI",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Sustainable/energy-efficient web and AI \u2014 efficiency topic, explicitly adjacent territory."
+  },
   "ACM.org/TheWebConf/2027/Workshop/HCRS": {
    "archived": false,
    "first_seen": "2026-10-30",
@@ -1137,6 +1305,174 @@
    "verdict": "adjacent",
    "website": "https://hcrs2027.github.io/",
    "why": "Recommender-systems ML workshop at an established venue, outside alignment/interp/agent-evaluation topics."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/IDEA": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/IDEA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "IDEA 2027",
+   "title": "The First International Workshop on Item IDentifiers Design, Evaluation, and Adaptation",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Recommender-system item-identifier design and evaluation \u2014 recsys ML, no core bullet hit."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/LARS": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/LARS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "LARS 2027",
+   "title": "The Second Workshop on LLM and Agents for Recommendation Systems",
+   "verdict": "adjacent",
+   "website": "https://llmandagents4recsys.github.io/2027/",
+   "why": "LLMs and agents for recommendation \u2014 applied agent workshop, agents as setting not subject."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/NSLP-SDP": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/NSLP-SDP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "NSLP-SDP 2027",
+   "title": "Workshop on AI for the Scholarly Web",
+   "verdict": "adjacent",
+   "website": "https://nfdi4ds.github.io/nslp-sdp-2027/",
+   "why": "Scholarly document processing / AI for the scholarly web \u2014 applied NLP outside core topics."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/SynWeb": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/SynWeb/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SynWeb 2027",
+   "title": "SynWeb: 1st Workshop on Trustworthy Synthetic Data for the Web: Generation, Verification, and Governance",
+   "verdict": "adjacent",
+   "website": "https://synweb-workshop.github.io/",
+   "why": "Trustworthy synthetic data for the web \u2014 'trustworthy X' with an application-domain X, adjacent not core."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/TIME": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/TIME/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "TIME 2027",
+   "title": "TIME 2027: 3rd International Workshop on Transformative Insights in Multi-faceted Evaluation",
+   "verdict": "adjacent",
+   "website": "https://time.griffith.edu.au/workshop/time2027/",
+   "why": "Multi-faceted evaluation of web/IR systems rather than evaluation of LLMs/agents themselves \u2014 doubt resolves to adjacent."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/TempWeb": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/TempWeb/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "TempWeb 2027",
+   "title": "The 17th TemporalWeb Analytics Workshop",
+   "verdict": "adjacent",
+   "website": "https://temporalweb.net/",
+   "why": "Temporal web analytics/data mining \u2014 ML-flavored web analysis with no core-bullet topic."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/WASST": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/WASST/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 150,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WASST 2027",
+   "title": "WASST 2027: The 1st Workshop on Security, Safety, and Trust for the Agents on the Web",
+   "verdict": "core",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "Security, safety, and trust OF web agents \u2014 agent safety/oversight is the workshop's own question (safety-of-AI and agent-reliability bullets), with the web only as setting."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/WebAndTheCity": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/WebAndTheCity/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "WebAndTheCity 2027",
+   "title": "13th WebAndTheCity: the Web for AI-Driven Citiverse",
+   "verdict": "adjacent",
+   "website": "https://www2027.thewebconf.org/",
+   "why": "AI-driven smart cities \u2014 applied urban/geospatial AI, adjacent per background rule."
   },
   "ACM.org/TheWebConf/2027/Workshop_Proposals": {
    "archived": true,
@@ -1412,7 +1748,7 @@
    "why": "AI-in-education pedagogy symposium, outside ML/NLP research fields."
   },
   "AIPC/2026/Competition": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-01",
    "invitations": [
     {
@@ -2000,7 +2336,7 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-26",
    "invitations": [
     {
@@ -2747,7 +3083,7 @@
    "why": "Deliberative democracy and social choice from a philosophy/political-science project, with no ML or AI-systems focus."
   },
   "ESEIA/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-29",
    "invitations": [
     {
@@ -6382,7 +6718,7 @@
    "why": "Epistemic-intelligence/roots-of-intelligence themes are not squarely calibration, evaluation, or interpretability of LLMs, so doubt resolves to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/ESR_Demo_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-12",
    "invitations": [
     {
@@ -9879,8 +10215,29 @@
    "website": "https://2027.naacl.org",
    "why": "NAACL main conference track, explicitly listed as core."
   },
-  "aclweb.org/NAACL/2027/Industry_Track": {
+  "aclweb.org/NAACL/2027/Demo_Track": {
    "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793520000000,
+     "duedate": 1796554740000,
+     "expdate": 1796556540000,
+     "id": "aclweb.org/NAACL/2027/Demo_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "NAACL2027 Demos",
+   "title": "NAACL 2027 System Demonstrations Track",
+   "verdict": "adjacent",
+   "website": "https://2027.naacl.org/calls/system_demonstration/",
+   "why": "NAACL demonstrations track \u2014 demos are explicitly adjacent; only flagship main tracks are core."
+  },
+  "aclweb.org/NAACL/2027/Industry_Track": {
+   "archived": true,
    "first_seen": "2026-09-15",
    "invitations": [
     {
@@ -11256,6 +11613,27 @@
    "website": "https://fsml-ims-workshop.org/",
    "why": "Statistical machine-learning theory/methods workshop \u2014 general ML that hits no core bullet."
   },
+  "ipmi-conf.org/IPMI/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-01",
+   "invitations": [
+    {
+     "cdate": 1793527200000,
+     "duedate": 1796637540000,
+     "expdate": 1796639340000,
+     "id": "ipmi-conf.org/IPMI/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "IPMI 2027",
+   "title": "International C\u200conference on  Information Processing in Medical Imaging",
+   "verdict": "no",
+   "website": "https://2027.ipmi-conf.org/",
+   "why": "Medical imaging conference \u2014 medicine-domain venue matching the profile's medical-imaging 'no' examples."
+  },
   "isairas-isparo.de/i-SAIRAS_iSpaRo/2026/Workshop/OSR": {
    "archived": true,
    "first_seen": "2026-09-21",
@@ -11341,13 +11719,13 @@
    "why": "Industry summit on physical AI/robotics \u2014 robotics with an AI angle is adjacent, and agents/embodiment as setting is not a core question."
   },
   "microarch.org/MICRO/2026/Workshop/A3": {
-   "archived": true,
-   "first_seen": "2026-10-24",
+   "archived": false,
+   "first_seen": "2026-11-01",
    "invitations": [
     {
      "cdate": 1792998000000,
-     "duedate": 1793275260000,
-     "expdate": 1793277060000,
+     "duedate": 1795953660000,
+     "expdate": 1795955460000,
      "id": "microarch.org/MICRO/2026/Workshop/A3/-/Submission",
      "kind": "Submission"
     }
