@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-10-26",
- "last_run": "2026-11-01T18:21:04.184108+00:00",
+ "last_digest": "2026-11-02",
+ "last_run": "2026-11-02T22:15:21.107961+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -640,8 +640,8 @@
    "invitations": [
     {
      "cdate": 1790672400000,
-     "duedate": 1793681940000,
-     "expdate": 1793683740000,
+     "duedate": 1793854740000,
+     "expdate": 1793856540000,
      "id": "AAAI.org/2027/Workshop/SAFE/-/Submission",
      "kind": "Submission"
     }
@@ -1270,8 +1270,8 @@
    "invitations": [
     {
      "cdate": 1793491200000,
-     "duedate": 1799020800000,
-     "expdate": 1799022600000,
+     "duedate": 1799150340000,
+     "expdate": 1799152140000,
      "id": "ACM.org/TheWebConf/2027/Workshop/GreenWeb/-/Submission",
      "kind": "Submission"
     }
@@ -2336,13 +2336,13 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-10-26",
+   "archived": false,
+   "first_seen": "2026-11-02",
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1793530800000,
-     "expdate": 1793532600000,
+     "duedate": 1794308400000,
+     "expdate": 1794310200000,
      "id": "DH_Benelux/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -2399,7 +2399,7 @@
    "why": "Robotics deployment/human-robot autonomy workshop \u2014 agents/robots as setting, not evaluation or safety of AI systems themselves."
   },
   "EIAI/2027/Workshop": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -3148,6 +3148,27 @@
    "website": "https://fearworkshop.github.io/",
    "why": "Small dedicated venue on formal ethics and verification of agent behavior \u2014 safety/oversight of AI systems themselves bullet."
   },
+  "FIMH/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-02",
+   "invitations": [
+    {
+     "cdate": 1793573940000,
+     "duedate": 1800057540000,
+     "expdate": 1800059340000,
+     "id": "FIMH/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "FIMH 2027",
+   "title": "FIMH 2027: 14th Functional Imaging and Modeling of the Heart International Conference",
+   "verdict": "no",
+   "website": "https://fimh2027.sciencesconf.org/",
+   "why": "Cardiac imaging and heart modeling is a medical-imaging domain venue, not ML/NLP or AI safety."
+  },
   "GaC/2027/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -3212,13 +3233,13 @@
    "why": "General student AI conference \u2014 SRW/regional category, adjacent by rule."
   },
   "HiPEAC.net/2027/Workshop/DASIP": {
-   "archived": true,
-   "first_seen": "2026-10-16",
+   "archived": false,
+   "first_seen": "2026-11-02",
    "invitations": [
     {
      "cdate": 1792162600000,
-     "duedate": 1793138400000,
-     "expdate": 1793140200000,
+     "duedate": 1793876340000,
+     "expdate": 1793878140000,
      "id": "HiPEAC.net/2027/Workshop/DASIP/-/Submission",
      "kind": "Submission"
     }
@@ -3231,6 +3252,27 @@
    "verdict": "no",
    "website": "https://dasip-2027.github.io/",
    "why": "Hardware design/architectures for signal processing \u2014 hardware is an explicit no."
+  },
+  "HotSoS.org/2027/Symposium": {
+   "archived": false,
+   "first_seen": "2026-11-02",
+   "invitations": [
+    {
+     "cdate": 1793624400000,
+     "duedate": 1800251940000,
+     "expdate": 1800253740000,
+     "id": "HotSoS.org/2027/Symposium/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "HotSoS'27",
+   "title": "Hot Topics in the Science of Security 2027",
+   "verdict": "no",
+   "website": "https://sos-vo.org/group/hotsos",
+   "why": "Science of cybersecurity symposium \u2014 systems/security without an ML-methods focus, not safety or evaluation of AI systems themselves."
   },
   "IAAI.org.il/2027/Safety_Research_Prize": {
    "archived": false,
@@ -3532,6 +3574,69 @@
    "website": "https://icvgip.in/2026/",
    "why": "National computer vision/graphics conference \u2014 regional vision venue, adjacent."
   },
+  "ICVGIP.in/2026/Workshop/FDDM": {
+   "archived": false,
+   "first_seen": "2026-11-02",
+   "invitations": [
+    {
+     "cdate": 1793385000000,
+     "duedate": 1794681000000,
+     "expdate": 1794682800000,
+     "id": "ICVGIP.in/2026/Workshop/FDDM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "FDDM 2026",
+   "title": "1st Workshop on Forensic Detection of Deepfake Media (ICVGIP 2026 Workshops)",
+   "verdict": "adjacent",
+   "website": "https://cs.rkmvu.ac.in/~soumitra/fddm/index.html",
+   "why": "Deepfake media forensics is vision/media-forensics application work, not interp/eval of AI systems, at a regional-conference workshop."
+  },
+  "ICVGIP.in/2026/Workshop/MULVA": {
+   "archived": false,
+   "first_seen": "2026-11-02",
+   "invitations": [
+    {
+     "cdate": 1793385000000,
+     "duedate": 1795285800000,
+     "expdate": 1795287600000,
+     "id": "ICVGIP.in/2026/Workshop/MULVA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "MULVA 2026",
+   "title": "1st Workshop on Machine Unlearning for Language, Vision and AI (ICVGIP 2026 Workshops)",
+   "verdict": "adjacent",
+   "website": "https://mulva-2026.github.io/mulva-2026/index.html",
+   "why": "Machine unlearning is trustworthy-ML/privacy themed but not squarely alignment, interpretability, or agent evaluation, so it stays adjacent."
+  },
+  "ICVGIP.in/2026/Workshop/ViLaMA": {
+   "archived": false,
+   "first_seen": "2026-11-02",
+   "invitations": [
+    {
+     "cdate": 1793557800000,
+     "duedate": 1794767340000,
+     "expdate": 1794769140000,
+     "id": "ICVGIP.in/2026/Workshop/ViLaMA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "ViLaMA 2026",
+   "title": "First Workshop on Vision Language Models and Applications",
+   "verdict": "adjacent",
+   "website": "https://vilama-workshop.github.io/",
+   "why": "General VLM-and-applications workshop \u2014 profile lists VLM topics as adjacent, not a core bullet."
+  },
   "IEEE.org/AIoT/2026/Workshop/SustainableAIoT-Afrasia": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -3638,7 +3743,7 @@
    "why": "Cyber resilience and security engineering \u2014 systems/security without an ML-methods core."
   },
   "IEEE.org/EMBS/BHI/2026/Abstracts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-25",
    "invitations": [
     {
@@ -3764,13 +3869,13 @@
    "why": "Healthcare informatics \u2014 medical application venue, per the medical no examples."
   },
   "IEEE.org/ICICIP/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-10-21",
+   "archived": false,
+   "first_seen": "2026-11-02",
    "invitations": [
     {
      "cdate": 1782831600000,
-     "duedate": 1792738800000,
-     "expdate": 1792740600000,
+     "duedate": 1801832400000,
+     "expdate": 1801834200000,
      "id": "IEEE.org/ICICIP/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4882,8 +4987,8 @@
    "invitations": [
     {
      "cdate": 1785859200000,
-     "duedate": 1794672000000,
-     "expdate": 1794673800000,
+     "duedate": 1796054340000,
+     "expdate": 1796056140000,
      "id": "IEEE.org/MiTA/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -5888,7 +5993,7 @@
    "why": "Education track, not a main research track \u2014 tutorial/education tracks are adjacent."
   },
   "NeurIPS.cc/2026/Workshop/A2NetOps": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-28",
    "invitations": [
     {
@@ -10237,13 +10342,13 @@
    "why": "NAACL demonstrations track \u2014 demos are explicitly adjacent; only flagship main tracks are core."
   },
   "aclweb.org/NAACL/2027/Industry_Track": {
-   "archived": true,
-   "first_seen": "2026-09-15",
+   "archived": false,
+   "first_seen": "2026-11-02",
    "invitations": [
     {
      "cdate": 1789444800000,
-     "duedate": 1793541600000,
-     "expdate": 1793543400000,
+     "duedate": 1794754800000,
+     "expdate": 1794756600000,
      "id": "aclweb.org/NAACL/2027/Industry_Track/-/Submission",
      "kind": "Submission"
     }
@@ -11382,8 +11487,8 @@
    "invitations": [
     {
      "cdate": 1792929600000,
-     "duedate": 1796212800000,
-     "expdate": 1796214600000,
+     "duedate": 1798027200000,
+     "expdate": 1798029000000,
      "id": "eacl.org/EACL/2027/Workshop/MWE_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
@@ -11614,7 +11719,7 @@
    "why": "Statistical machine-learning theory/methods workshop \u2014 general ML that hits no core bullet."
   },
   "ipmi-conf.org/IPMI/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-01",
    "invitations": [
     {
