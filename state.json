@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-02",
- "last_run": "2026-11-03T20:01:39.709835+00:00",
+ "last_run": "2026-11-04T20:21:48.642736+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -808,8 +808,8 @@
    "invitations": [
     {
      "cdate": 1791262800000,
-     "duedate": 1795215540000,
-     "expdate": 1795217340000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/WMAC/-/Submission",
      "kind": "Submission"
     }
@@ -1431,6 +1431,27 @@
    "verdict": "adjacent",
    "website": "https://time.griffith.edu.au/workshop/time2027/",
    "why": "Multi-faceted evaluation of web/IR systems rather than evaluation of LLMs/agents themselves \u2014 doubt resolves to adjacent."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/TUBLMs": {
+   "archived": false,
+   "first_seen": "2026-11-04",
+   "invitations": [
+    {
+     "cdate": 1793491200000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/TUBLMs/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "TUBLMs 2027",
+   "title": "Trust Under Budget: Reliable, Efficient, and Safe (Vision) Large Language Models for Deployment",
+   "verdict": "adjacent",
+   "website": "https://www-trust-under-budget.github.io/www2027-workshop/",
+   "why": "Safety/reliability wording but the workshop's own topic is efficient LLM deployment under budget \u2014 systems-flavored 'trustworthy X', not core safety/eval work."
   },
   "ACM.org/TheWebConf/2027/Workshop/TempWeb": {
    "archived": false,
@@ -2215,8 +2236,8 @@
    "invitations": [
     {
      "cdate": 1790769600000,
-     "duedate": 1793851140000,
-     "expdate": 1793852940000,
+     "duedate": 1794027300000,
+     "expdate": 1794029100000,
      "id": "CVIS/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3748,8 +3769,8 @@
    "invitations": [
     {
      "cdate": 1790845200000,
-     "duedate": 1794052740000,
-     "expdate": 1794054540000,
+     "duedate": 1794830340000,
+     "expdate": 1794832140000,
      "id": "IEEE.org/CDC/2026/Workshop/SAAS/-/Submission",
      "kind": "Submission"
     }
@@ -5281,8 +5302,8 @@
    "invitations": [
     {
      "cdate": 1792591476100,
-     "duedate": 1794693540000,
-     "expdate": 1794695340000,
+     "duedate": 1795298340000,
+     "expdate": 1795903140000,
      "id": "ISCOL/2026/Seminar/-/Submission",
      "kind": "Submission"
     }
@@ -5528,13 +5549,13 @@
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
   "MBZUAI.ac.ae/Fall_2026/CBIO7401": {
-   "archived": true,
-   "first_seen": "2026-10-30",
+   "archived": false,
+   "first_seen": "2026-11-04",
    "invitations": [
     {
      "cdate": 1792915200000,
-     "duedate": 1793448000000,
-     "expdate": 1793449800000,
+     "duedate": 1794484800000,
+     "expdate": 1794486600000,
      "id": "MBZUAI.ac.ae/Fall_2026/CBIO7401/-/Submission",
      "kind": "Submission"
     }
@@ -6322,7 +6343,8 @@
    "issue": 147,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "AIMOInterp 2026",
    "title": "AIMO Interpretability Challenge",
@@ -8854,7 +8876,7 @@
    "why": "Pure linguistics \u2014 construction grammar, lexicography, and language teaching with no ML angle."
   },
   "QueerInAI.com/2026/Grad_App": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -8875,7 +8897,7 @@
    "why": "Affinity-group scholarship application, not a research venue \u2014 same bucket as WiML/Widening NLP."
   },
   "QueerInAI.com/2026/Grad_Mentor": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -9380,6 +9402,27 @@
    "verdict": "adjacent",
    "website": "https://spelll.org/2027/",
    "why": "Low-resource speech/language conference \u2014 multilingual/speech NLP is adjacent, no core bullet hit."
+  },
+  "SPELLL.org/2027/Workshop_Proposals": {
+   "archived": false,
+   "first_seen": "2026-11-04",
+   "invitations": [
+    {
+     "cdate": 1793817000000,
+     "duedate": 1794767400000,
+     "expdate": 1794769200000,
+     "id": "SPELLL.org/2027/Workshop_Proposals/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "SPELLL 2027",
+   "title": "SIXTH INTERNATIONAL CONFERENCE ON SPEECH AND LANGUAGE TECHNOLOGIES FOR LOW-RESOURCE LANGUAGES - Workshops",
+   "verdict": "adjacent",
+   "website": "https://spelll.org/2027/",
+   "why": "Low-resource speech/language tech (workshop-proposal call) is multilingual/speech NLP, explicitly adjacent at a regional host."
   },
   "SRVS/2026/Workshop": {
    "archived": true,
@@ -10466,6 +10509,48 @@
    "verdict": "no",
    "website": "https://sites.google.com/view/ltedi-2027/home",
    "why": "Equality/diversity/inclusion language-tech workshop, matching the profile's explicit no-list pattern (Gender Bias in NLP, Widening NLP)."
+  },
+  "aclweb.org/NAACL/2027/Workshop/RBD": {
+   "archived": false,
+   "first_seen": "2026-11-04",
+   "invitations": [
+    {
+     "cdate": 1793606400000,
+     "duedate": 1801915140000,
+     "expdate": 1801916940000,
+     "id": "aclweb.org/NAACL/2027/Workshop/RBD/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "RBD 2027",
+   "title": "First Workshop on Retrieval Beyond Documents: Capability Retrieval for Language Agents",
+   "verdict": "adjacent",
+   "website": "https://rbd-workshop.github.io/",
+   "why": "Capability retrieval infrastructure for language agents is an applied agents-as-setting topic, not agent evaluation, oversight, or interpretability."
+  },
+  "aclweb.org/NAACL/2027/Workshop/RBD_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-04",
+   "invitations": [
+    {
+     "cdate": 1793606400000,
+     "duedate": 1804939140000,
+     "expdate": 1804940940000,
+     "id": "aclweb.org/NAACL/2027/Workshop/RBD_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "RBD 2027",
+   "title": "First Workshop on Retrieval Beyond Documents: Capability Retrieval for Language Agents",
+   "verdict": "adjacent",
+   "website": "https://rbd-workshop.github.io/",
+   "why": "ARR-commitment track of the same applied agent-retrieval workshop, so it gets the same adjacent verdict."
   },
   "acmmm.org/ACMMM/2026/Workshop/RichMediaGAI": {
    "archived": true,
@@ -13755,6 +13840,27 @@
    "website": "https://mivia.unisa.it/wastevision2027/",
    "why": "Computer vision for waste monitoring \u2014 applied environmental-sensing vision, not a core topic."
   },
+  "tsinghua.edu.cn/THU/2026/Fall/CoDL": {
+   "archived": false,
+   "first_seen": "2026-11-04",
+   "invitations": [
+    {
+     "cdate": 1793462400000,
+     "duedate": 1797782340000,
+     "expdate": 1797784140000,
+     "id": "tsinghua.edu.cn/THU/2026/Fall/CoDL/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "THU 2025 Fall CoDL",
+   "title": "Tsinghua University Course: Conference on Deep Learning",
+   "verdict": "no",
+   "website": "https://ise.thss.tsinghua.edu.cn/~mlong/",
+   "why": "University course project venue, not a research publication venue."
+  },
   "tu-darmstadt.de/Technical_University_of_Darmstadt/2026/IP-RobotLearning": {
    "archived": true,
    "first_seen": "2026-09-21",
@@ -13966,7 +14072,7 @@
    "why": "University course submission portal, not a research publication venue."
   },
   "vera.org.il/AIRCC/2026/Grant_Review": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-04",
    "invitations": [
     {
