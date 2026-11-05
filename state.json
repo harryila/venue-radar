@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-02",
- "last_run": "2026-11-04T20:21:48.642736+00:00",
+ "last_run": "2026-11-05T20:33:07.701731+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -656,7 +656,7 @@
    "why": "Physics-informed AI for energy is an applied-ML domain workshop, outside alignment/interp/agent-evaluation topics."
   },
   "AAAI.org/2027/Workshop/SAFE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-30",
    "invitations": [
     {
@@ -2546,7 +2546,7 @@
    "why": "Applied multi-agent-for-scientific-discovery workshop \u2014 agents are the setting, not the question, at a low-signal unconference host."
   },
   "ELLIS/2026/Workshop/NGDL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -3188,23 +3188,20 @@
    "why": "Pure Slavic formal linguistics with no ML angle."
   },
   "FEAR/2026/Workshop": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-11-05",
    "invitations": [
     {
      "cdate": 1780876800000,
-     "duedate": 1787270340000,
-     "expdate": 1787272140000,
+     "duedate": 1796169540000,
+     "expdate": 1796171340000,
      "id": "FEAR/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
    ],
-   "issue": 101,
+   "issue": 151,
    "prestige": 3,
-   "reminded": [
-    "T-7",
-    "T-2"
-   ],
+   "reminded": [],
    "subtitle": "FEAR",
    "title": "Third International Workshop on Formal Ethical Agents and Robots",
    "verdict": "core",
@@ -3301,8 +3298,8 @@
    "invitations": [
     {
      "cdate": 1792162600000,
-     "duedate": 1793876340000,
-     "expdate": 1793878140000,
+     "duedate": 1793919540000,
+     "expdate": 1793921340000,
      "id": "HiPEAC.net/2027/Workshop/DASIP/-/Submission",
      "kind": "Submission"
     }
@@ -4016,7 +4013,7 @@
    "why": "Panel-proposal meta-track at a multimedia conference, outside every core bullet."
   },
   "IEEE.org/ICME/2027/Proposal_Submissions": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-23",
    "invitations": [
     {
@@ -4035,6 +4032,27 @@
    "verdict": "adjacent",
    "website": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme#organizers",
    "why": "Organizer proposal call for an IEEE multimedia conference \u2014 ML-adjacent venue, not a safety/interp/agent-eval topic."
+  },
+  "IEEE.org/ICME/2027/Tutorial_Proposals": {
+   "archived": false,
+   "first_seen": "2026-11-05",
+   "invitations": [
+    {
+     "cdate": 1792512000000,
+     "duedate": 1798642800000,
+     "expdate": 1798644600000,
+     "id": "IEEE.org/ICME/2027/Tutorial_Proposals/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ICMEPS2027",
+   "title": "IEEE ICME 2027 Proposal Submissions",
+   "verdict": "adjacent",
+   "website": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme#organizers",
+   "why": "Tutorial-proposal track of an IEEE multimedia conference \u2014 tutorials and multimedia/vision ML are explicitly adjacent, hitting no core bullet."
   },
   "IEEE.org/ICME/2027/Workshop_Proposals": {
    "archived": false,
@@ -5343,7 +5361,7 @@
    "first_seen": "2026-10-15",
    "invitations": [
     {
-     "cdate": 1792015200000,
+     "cdate": 1793746800000,
      "duedate": 1801476000000,
      "expdate": 1801477800000,
      "id": "ISP/2027/Symposium/-/Submission",
@@ -8855,13 +8873,13 @@
    "why": "Institutional general-AI tech day \u2014 regional, low-signal general AI/ML event."
   },
   "PhraConRep/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-10-06",
+   "archived": false,
+   "first_seen": "2026-11-05",
    "invitations": [
     {
      "cdate": 1781285668600,
-     "duedate": 1793411940000,
-     "expdate": 1793413740000,
+     "duedate": 1794783540000,
+     "expdate": 1794785340000,
      "id": "PhraConRep/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -8874,6 +8892,27 @@
    "verdict": "no",
    "website": "https://blog.studiumdigitale.uni-frankfurt.de/phracon-2027/",
    "why": "Pure linguistics \u2014 construction grammar, lexicography, and language teaching with no ML angle."
+  },
+  "Psychometric_Society.org/IMPS/2026/Proceedings": {
+   "archived": false,
+   "first_seen": "2026-11-05",
+   "invitations": [
+    {
+     "cdate": 1793898000000,
+     "duedate": 1799452740000,
+     "expdate": 1799454540000,
+     "id": "Psychometric_Society.org/IMPS/2026/Proceedings/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "IMPS 2026",
+   "title": "Proceedings of the 91st Annual Meeting of the Psychometric Society, Seoul, South Korea, 2026",
+   "verdict": "no",
+   "website": "https://www.psychometricsociety.org/imps-2026",
+   "why": "Psychometrics society proceedings on psychological/educational measurement, not ML/NLP or AI evaluation of AI systems."
   },
   "QueerInAI.com/2026/Grad_App": {
    "archived": true,
@@ -9640,8 +9679,8 @@
    "invitations": [
     {
      "cdate": 1788786000000,
-     "duedate": 1794056340000,
-     "expdate": 1794058140000,
+     "duedate": 1794661140000,
+     "expdate": 1794662940000,
      "id": "UPENN.edu/PLC/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -12980,7 +13019,7 @@
    "why": "Computer-vision main track; CVPR is not in the profile's core main-track list and its topic isn't alignment/interp/agent evaluation, so vision ML stays adjacent."
   },
   "thecvf.com/CVPR/2027/Workshop_Proposals": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-23",
    "invitations": [
     {
@@ -13363,8 +13402,8 @@
    "invitations": [
     {
      "cdate": 1789992000000,
-     "duedate": 1794009540000,
-     "expdate": 1794011340000,
+     "duedate": 1794657540000,
+     "expdate": 1794659340000,
      "id": "thecvf.com/WACV/2027/Workshop/CVPath-Vision4Neuro-Short-Papers-And-Abstracts/-/Submission",
      "kind": "Submission"
     }
