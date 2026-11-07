@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-02",
- "last_run": "2026-11-06T19:55:13.053994+00:00",
+ "last_run": "2026-11-07T17:58:48.284293+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -66,6 +66,69 @@
    "verdict": "no",
    "website": "https://sites.google.com/view/aimedhealth-aaai/home",
    "why": "AI-for-medicine/healthcare application venue, same category as the 'Trustworthy FMs in Medical Imaging' no-example rather than any core bullet."
+  },
+  "AAAI.org/2027/Bridge/BRAID": {
+   "archived": false,
+   "first_seen": "2026-11-07",
+   "invitations": [
+    {
+     "cdate": 1794027600000,
+     "duedate": 1796187540000,
+     "expdate": 1796189340000,
+     "id": "AAAI.org/2027/Bridge/BRAID/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "BRAID 2027",
+   "title": "AAAI-27 Bridge Program|  Bridging AI and Democracy: Towards Trustworthy Information Ecosystems",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/41st-aaai-braid/home",
+   "why": "Trustworthy-X applied venue \u2014 AI for democracy/information ecosystems, not alignment/eval of AI systems themselves."
+  },
+  "AAAI.org/2027/Bridge/Cog2Soc": {
+   "archived": false,
+   "first_seen": "2026-11-07",
+   "invitations": [
+    {
+     "cdate": 1794067200000,
+     "duedate": 1795694340000,
+     "expdate": 1795696140000,
+     "id": "AAAI.org/2027/Bridge/Cog2Soc/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AAAI 2027 Cog2Soc Bridge",
+   "title": "Modeling and Simulating Human Behavior in the Age of AI: From Cognition to Society",
+   "verdict": "adjacent",
+   "website": "https://cog2soc.github.io/",
+   "why": "Human-behavior modeling/social simulation bridge \u2014 agents as setting, not agent evaluation or interpretability."
+  },
+  "AAAI.org/2027/Bridge/Data2AgentEx": {
+   "archived": false,
+   "first_seen": "2026-11-07",
+   "invitations": [
+    {
+     "cdate": 1793768400000,
+     "duedate": 1796187600000,
+     "expdate": 1796189400000,
+     "id": "AAAI.org/2027/Bridge/Data2AgentEx/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "Data2AgentEx @ AAAI 2027",
+   "title": "AAAI 2027 Bridge Program From Domain Data to Agentic Experience: Bridging Data-Centric AI and Agent Learning",
+   "verdict": "adjacent",
+   "website": "https://data2agentex.github.io/AAAI2027/",
+   "why": "Data-centric AI for agent learning is an applied/data-infrastructure agent venue, not agent behavior evaluation."
   },
   "AAAI.org/2027/Demonstration_Program": {
    "archived": true,
@@ -325,8 +388,8 @@
    "invitations": [
     {
      "cdate": 1791187200000,
-     "duedate": 1794052800000,
-     "expdate": 1794054600000,
+     "duedate": 1794657600000,
+     "expdate": 1794659400000,
      "id": "AAAI.org/2027/Workshop/EAIM/-/Submission",
      "kind": "Submission"
     }
@@ -2231,7 +2294,7 @@
    "why": "Canine/animal behavior science with no ML-methods angle \u2014 outside ML/NLP entirely."
   },
   "CVIS/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-26",
    "invitations": [
     {
@@ -5126,7 +5189,7 @@
    "why": "Applied humanoid-robotics deployment workshop \u2014 robotics is the setting, not alignment/interp/eval of AI systems."
   },
   "IEEE.org/RAS/Humanoids/2026/Workshop/HRB": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-22",
    "invitations": [
     {
@@ -7895,7 +7958,7 @@
    "why": "Optimization for ML is a general ML workshop outside the core bullets."
   },
   "NeurIPS.cc/2026/Workshop/PAIEC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-16",
    "invitations": [
     {
@@ -9378,6 +9441,27 @@
    "verdict": "adjacent",
    "website": "https://www.ltu.se/en/research/research-subjects/machine-learning/the-swedish-language-technology-conference",
    "why": "Regional Swedish language-technology conference \u2014 regional NLP is adjacent by rule."
+  },
+  "SPELLL.org/2026/Tutorial": {
+   "archived": false,
+   "first_seen": "2026-11-07",
+   "invitations": [
+    {
+     "cdate": 1793664000000,
+     "duedate": 1797681540000,
+     "expdate": 1797683340000,
+     "id": "SPELLL.org/2026/Tutorial/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "SPELLL 2027-TUTORIAL",
+   "title": "SIXTH INTERNATIONAL CONFERENCE ON SPEECH AND LANGUAGE TECHNOLOGIES FOR LOW-RESOURCE LANGUAGES-TUTORIAL",
+   "verdict": "adjacent",
+   "website": "https://spelll.org/2027/",
+   "why": "Tutorial track of a regional low-resource speech/language conference \u2014 general NLP, outside core bullets."
   },
   "SPELLL.org/2026/Workshop/LC4": {
    "archived": true,
@@ -10991,7 +11075,7 @@
    "why": "Reputable general ML/statistics conference, but not in the profile's flagship main-track list and not a core topic."
   },
   "aistats.org/AISTATS/2027/Workshop_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-25",
    "invitations": [
     {
@@ -11500,8 +11584,29 @@
    "website": "https://2027.eacl.org/calls/",
    "why": "Student research workshop \u2014 SRWs are explicitly excluded from the main-track core bullet and listed adjacent."
   },
-  "eacl.org/EACL/2027/SRW_Pre-submission_Mentorship": {
+  "eacl.org/EACL/2027/SRW_ARR_Commitment": {
    "archived": false,
+   "first_seen": "2026-11-07",
+   "invitations": [
+    {
+     "cdate": 1794009600000,
+     "duedate": 1799452800000,
+     "expdate": 1799454600000,
+     "id": "eacl.org/EACL/2027/SRW_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "EACL 2027 SRW ARR Commitment",
+   "title": "EACL 2027 Student Research Workshop ARR Commitment",
+   "verdict": "adjacent",
+   "website": "https://2027.eacl.org/calls/",
+   "why": "EACL SRW (ARR-commitment track) \u2014 student research workshop, explicitly adjacent, not a main track."
+  },
+  "eacl.org/EACL/2027/SRW_Pre-submission_Mentorship": {
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -11927,13 +12032,13 @@
    "why": "Statistical machine-learning theory/methods workshop \u2014 general ML that hits no core bullet."
   },
   "ipmi-conf.org/IPMI/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-11-01",
+   "archived": false,
+   "first_seen": "2026-11-07",
    "invitations": [
     {
-     "cdate": 1793527200000,
-     "duedate": 1796637540000,
-     "expdate": 1796639340000,
+     "cdate": 1794052860000,
+     "duedate": 1796731140000,
+     "expdate": 1796732940000,
      "id": "ipmi-conf.org/IPMI/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -12037,8 +12142,8 @@
    "invitations": [
     {
      "cdate": 1793491200000,
-     "duedate": 1800057540000,
-     "expdate": 1800059340000,
+     "duedate": 1797811140000,
+     "expdate": 1797812940000,
      "id": "mathai.club/MathAI/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -13962,6 +14067,27 @@
    "verdict": "adjacent",
    "website": "https://facom.ufms.br/secomp",
    "why": "Institutional graduate CS research workshop, a regional general-CS venue kept adjacent under the unsure rule."
+  },
+  "umass.edu/University_of_Massachusetts/2027/FASAL": {
+   "archived": false,
+   "first_seen": "2026-11-07",
+   "invitations": [
+    {
+     "cdate": 1794024000000,
+     "duedate": 1797652800000,
+     "expdate": 1797654600000,
+     "id": "umass.edu/University_of_Massachusetts/2027/FASAL/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "FASAL 17",
+   "title": "Formal Approaches to South Asian Languages 17",
+   "verdict": "no",
+   "website": "https://sites.google.com/view/fasal17",
+   "why": "Formal linguistics of South Asian languages \u2014 pure linguistics with no ML angle."
   },
   "umich.edu/University_of_Michigan/2026/CAIDM": {
    "archived": true,
