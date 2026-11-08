@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-02",
- "last_run": "2026-11-07T17:58:48.284293+00:00",
+ "last_run": "2026-11-08T18:17:17.164055+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -129,6 +129,27 @@
    "verdict": "adjacent",
    "website": "https://data2agentex.github.io/AAAI2027/",
    "why": "Data-centric AI for agent learning is an applied/data-infrastructure agent venue, not agent behavior evaluation."
+  },
+  "AAAI.org/2027/Bridge/StreamingCL": {
+   "archived": false,
+   "first_seen": "2026-11-08",
+   "invitations": [
+    {
+     "cdate": 1794099540000,
+     "duedate": 1796086740000,
+     "expdate": 1796088540000,
+     "id": "AAAI.org/2027/Bridge/StreamingCL/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "StreamingCL2027",
+   "title": "2nd Streaming Continual Learning AAAI Bridge 2027",
+   "verdict": "adjacent",
+   "website": "streamingcl2027.capymoa.org",
+   "why": "Continual-learning bridge co-located with AAAI; general ML topic, not alignment/interp/agent-eval, like the continual-learning-for-agents example."
   },
   "AAAI.org/2027/Demonstration_Program": {
    "archived": true,
@@ -3418,6 +3439,27 @@
    "website": "N/A",
    "why": "Dedicated AI-safety research venue, hitting the alignment/safety-of-AI-systems core bullet, though at a regional national-association host."
   },
+  "IACL/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-08",
+   "invitations": [
+    {
+     "cdate": 1794153600000,
+     "duedate": 1801411140000,
+     "expdate": 1801412940000,
+     "id": "IACL/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "IACL 33",
+   "title": "The 33rd Annual Meeting of the International Association of Chinese Linguistics",
+   "verdict": "no",
+   "website": "https://www.ntu.edu.sg/soh/news-events/conferences/the-33rd-annual-meeting-of-the-international-association-of-chinese-linguistics",
+   "why": "Pure Chinese linguistics conference with no ML-methods angle."
+  },
   "IAFLL.org/2027/Conference": {
    "archived": false,
    "first_seen": "2026-08-16",
@@ -3934,8 +3976,8 @@
    "invitations": [
     {
      "cdate": 1791547140000,
-     "duedate": 1794225540000,
-     "expdate": 1794227340000,
+     "duedate": 1794617940000,
+     "expdate": 1794619740000,
      "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
      "kind": "Submission"
     }
@@ -5189,13 +5231,13 @@
    "why": "Applied humanoid-robotics deployment workshop \u2014 robotics is the setting, not alignment/interp/eval of AI systems."
   },
   "IEEE.org/RAS/Humanoids/2026/Workshop/HRB": {
-   "archived": true,
-   "first_seen": "2026-10-22",
+   "archived": false,
+   "first_seen": "2026-11-08",
    "invitations": [
     {
      "cdate": 1792054800000,
-     "duedate": 1794042000000,
-     "expdate": 1794043800000,
+     "duedate": 1794384000000,
+     "expdate": 1794385800000,
      "id": "IEEE.org/RAS/Humanoids/2026/Workshop/HRB/-/Submission",
      "kind": "Submission"
     }
@@ -11248,8 +11290,8 @@
    "invitations": [
     {
      "cdate": 1792468800000,
-     "duedate": 1794542340000,
-     "expdate": 1794544140000,
+     "duedate": 1794977940000,
+     "expdate": 1794979740000,
      "id": "bu.edu/Boston_University/Fall_2026/CS599_M1_Advanced_NLP/-/Submission",
      "kind": "Submission"
     }
@@ -11985,6 +12027,27 @@
    "verdict": "adjacent",
    "website": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
    "why": "Demo track at an agents conference \u2014 demos and applied-agent settings are explicitly adjacent, matching the AAMAS calibration example."
+  },
+  "ifaamas.org/AAMAS/2027/Doctoral_Consortium": {
+   "archived": false,
+   "first_seen": "2026-11-08",
+   "invitations": [
+    {
+     "cdate": 1794121200000,
+     "duedate": 1798787100000,
+     "expdate": 1798788900000,
+     "id": "ifaamas.org/AAMAS/2027/Doctoral_Consortium/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AAMAS DC 2027",
+   "title": "Autonomous Agents and Multi Agent Systems - Doctoral Consortium",
+   "verdict": "adjacent",
+   "website": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+   "why": "Doctoral consortium (mentorship track) at AAMAS, which the profile lists as adjacent \u2014 agents as setting, not agent evaluation/oversight."
   },
   "ijcai.org/IJCAI-ECAI/2026/Workshop/CLEAR": {
    "archived": true,
@@ -12961,8 +13024,8 @@
    "invitations": [
     {
      "cdate": 1788184800000,
-     "duedate": 1796101140000,
-     "expdate": 1796102940000,
+     "duedate": 1827637140000,
+     "expdate": 1827638940000,
      "id": "sci-harbor.com/SciVeri-Bench/2026/Internal_Review/-/Submission",
      "kind": "Submission"
     }
@@ -14158,8 +14221,8 @@
    "invitations": [
     {
      "cdate": 1788483600000,
-     "duedate": 1794139200000,
-     "expdate": 1794141000000,
+     "duedate": 1794178500000,
+     "expdate": 1794180300000,
      "id": "uni-konstanz.de/Universit\u00e4t_Konstanz/2027/FoDS/-/Submission",
      "kind": "Submission"
     }
