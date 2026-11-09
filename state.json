@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-11-02",
- "last_run": "2026-11-08T18:17:17.164055+00:00",
+ "last_digest": "2026-11-09",
+ "last_run": "2026-11-09T22:56:19.130123+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -213,6 +213,27 @@
    "verdict": "adjacent",
    "website": "https://a2netops.github.io/",
    "why": "Applied agents-for-network-operations workshop \u2014 agents are the setting, not alignment/eval/interp of agents, despite uncertainty/safety keywords."
+  },
+  "AAAI.org/2027/Workshop/AI4Factory": {
+   "archived": false,
+   "first_seen": "2026-11-09",
+   "invitations": [
+    {
+     "cdate": 1794162600000,
+     "duedate": 1795258800000,
+     "expdate": 1795260600000,
+     "id": "AAAI.org/2027/Workshop/AI4Factory/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AI4Factory",
+   "title": "AAAI 27 Workshop on Trustworthy Generative and Agentic AI for Manufacturing Transformation",
+   "verdict": "adjacent",
+   "website": "https://iamtirthankar.github.io/AI4Factory-2027/",
+   "why": "Trustworthy/agentic AI for manufacturing is a 'trustworthy X' applied-agent workshop \u2014 agents and trust in an application domain, not evaluation/safety of AI systems themselves."
   },
   "AAAI.org/2027/Workshop/AI4Research": {
    "archived": false,
@@ -740,13 +761,13 @@
    "why": "Physics-informed AI for energy is an applied-ML domain workshop, outside alignment/interp/agent-evaluation topics."
   },
   "AAAI.org/2027/Workshop/SAFE": {
-   "archived": true,
-   "first_seen": "2026-09-30",
+   "archived": false,
+   "first_seen": "2026-11-09",
    "invitations": [
     {
      "cdate": 1790672400000,
-     "duedate": 1793854740000,
-     "expdate": 1793856540000,
+     "duedate": 1794286740000,
+     "expdate": 1794288540000,
      "id": "AAAI.org/2027/Workshop/SAFE/-/Submission",
      "kind": "Submission"
     }
@@ -1101,9 +1122,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786110387024,
-     "duedate": 1794182400000,
-     "expdate": 1794184200000,
+     "cdate": 1794194915867,
+     "duedate": 1794614400000,
+     "expdate": 1794616200000,
      "id": "ACM.org/IUI/2027/Workshop/MeMoAI/-/Submission",
      "kind": "Submission"
     }
@@ -8678,7 +8699,7 @@
    "why": "AI for formally verified code generation is an applied coding/formal-methods topic, not eval/interp of agent behavior; doubt resolves to adjacent."
   },
   "NeurIPS.cc/2026/Workshop/VERICODEGEN_Competition": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -9820,6 +9841,27 @@
    "website": "https://www.ling.upenn.edu/Events/PLC/plc51/index.html",
    "why": "Pure linguistics conference with no ML angle, explicitly on the no list."
   },
+  "USF-AIX/2027/Symposium": {
+   "archived": false,
+   "first_seen": "2026-11-09",
+   "invitations": [
+    {
+     "cdate": 1793592000000,
+     "duedate": 1800306000000,
+     "expdate": 1800307800000,
+     "id": "USF-AIX/2027/Symposium/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "USF AIX 2027",
+   "title": "USF 4th AI+X Institute For Artificial Intelligence + X Symposium",
+   "verdict": "adjacent",
+   "website": "USF.TO/AIXsymposium",
+   "why": "General university AI+X applications symposium \u2014 broad ML/AI venue hitting no core bullet, akin to a regional AI conference."
+  },
   "UniReps.org/2026/Workshop": {
    "archived": true,
    "first_seen": "2026-09-01",
@@ -10618,8 +10660,8 @@
    "invitations": [
     {
      "cdate": 1789444800000,
-     "duedate": 1794754800000,
-     "expdate": 1794756600000,
+     "duedate": 1794668400000,
+     "expdate": 1794670200000,
      "id": "aclweb.org/NAACL/2027/Industry_Track/-/Submission",
      "kind": "Submission"
     }
@@ -14216,7 +14258,7 @@
    "why": "Multimodal speech-corpora work on silence and noise is linguistics/phonetics, excluded as pure linguistics."
   },
   "uni-konstanz.de/Universit\u00e4t_Konstanz/2027/FoDS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-05",
    "invitations": [
     {
