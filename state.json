@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-09",
- "last_run": "2026-11-09T22:56:19.130123+00:00",
+ "last_run": "2026-11-10T20:23:27.236931+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -88,6 +88,48 @@
    "website": "https://sites.google.com/view/41st-aaai-braid/home",
    "why": "Trustworthy-X applied venue \u2014 AI for democracy/information ecosystems, not alignment/eval of AI systems themselves."
   },
+  "AAAI.org/2027/Bridge/Bench2Evidence": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1794286800000,
+     "duedate": 1796212740000,
+     "expdate": 1796214540000,
+     "id": "AAAI.org/2027/Bridge/Bench2Evidence/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 152,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AAAI 2027 Bridge Bench2Evidence",
+   "title": "AAAI 2027 Bridge: From Agent Benchmarks to Deployment Evidence: Bridging Evaluation Science and Deployment Practice",
+   "verdict": "core",
+   "website": "https://bench-to-evidence.github.io/",
+   "why": "Agent benchmarks and evaluation science is squarely the agent-evaluation/reliability core bullet, at an AAAI co-located bridge."
+  },
+  "AAAI.org/2027/Bridge/CEER": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1794114000000,
+     "duedate": 1795964400000,
+     "expdate": 1795966200000,
+     "id": "AAAI.org/2027/Bridge/CEER/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "CEER Bridge 2027",
+   "title": "Bridge on Computational Epistemic and Empirical Reasoning",
+   "verdict": "adjacent",
+   "website": "https://akleao.com/site/ceer-bridge",
+   "why": "Epistemic and empirical reasoning brushes belief-updating interests but reads as KR/logic-flavored rather than evaluating LLM-agent behavior, so unsure defaults to adjacent."
+  },
   "AAAI.org/2027/Bridge/Cog2Soc": {
    "archived": false,
    "first_seen": "2026-11-07",
@@ -150,6 +192,27 @@
    "verdict": "adjacent",
    "website": "streamingcl2027.capymoa.org",
    "why": "Continual-learning bridge co-located with AAAI; general ML topic, not alignment/interp/agent-eval, like the continual-learning-for-agents example."
+  },
+  "AAAI.org/2027/Bridge/TGA": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1794301200000,
+     "duedate": 1796212740000,
+     "expdate": 1796214540000,
+     "id": "AAAI.org/2027/Bridge/TGA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 153,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "TGA 2027",
+   "title": "AAAI-27 Bridge Workshop - Toward General Autoformalization",
+   "verdict": "core",
+   "website": "None Yet.",
+   "why": "Autoformalization is formal/mathematical reasoning of LLMs hosted at a flagship family (AAAI co-located bridge), hitting the MATH-AI/DeepMath-style core bullet."
   },
   "AAAI.org/2027/Demonstration_Program": {
    "archived": true,
@@ -761,7 +824,7 @@
    "why": "Physics-informed AI for energy is an applied-ML domain workshop, outside alignment/interp/agent-evaluation topics."
   },
   "AAAI.org/2027/Workshop/SAFE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-09",
    "invitations": [
     {
@@ -1097,7 +1160,7 @@
    "why": "Regional data-science conference; data/DS venues are adjacent, never core."
   },
   "ACM.org/IUI/2027/Workshop/HIMAS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
@@ -1181,7 +1244,7 @@
    "why": "WWW main track is an established web/IR/ML venue but not in the profile's flagship main-track list and its own topic hits no core bullet."
   },
   "ACM.org/TheWebConf/2027/Conference_Short_Papers": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-29",
    "invitations": [
     {
@@ -1207,8 +1270,8 @@
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1794776400000,
-     "expdate": 1794778200000,
+     "duedate": 1794920400000,
+     "expdate": 1794922200000,
      "id": "ACM.org/TheWebConf/2027/Demos/-/Submission",
      "kind": "Submission"
     }
@@ -1564,8 +1627,8 @@
    "invitations": [
     {
      "cdate": 1793491200000,
-     "duedate": 1799020800000,
-     "expdate": 1799022600000,
+     "duedate": 1799402340000,
+     "expdate": 1799404140000,
      "id": "ACM.org/TheWebConf/2027/Workshop/TempWeb/-/Submission",
      "kind": "Submission"
     }
@@ -2046,9 +2109,9 @@
    "first_seen": "2026-08-16",
    "invitations": [
     {
-     "cdate": 1786406400000,
-     "duedate": 1794700800000,
-     "expdate": 1794702600000,
+     "cdate": 1786428000000,
+     "duedate": 1794783540000,
+     "expdate": 1794785340000,
      "id": "ARGAGE/2027/Conference_Panels/-/Submission",
      "kind": "Submission"
     }
@@ -2061,6 +2124,27 @@
    "verdict": "no",
    "website": "https://centridiricerca.unicatt.it/cluc/it/news/2027/argage-2027.html",
    "why": "Panels track of the same argumentation conference \u2014 same 'no' as the venue topic."
+  },
+  "ATALA.org/EMMenTAL/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1793919600000,
+     "duedate": 1796986800000,
+     "expdate": 1796988600000,
+     "id": "ATALA.org/EMMenTAL/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "EMMenTAL",
+   "title": "Expression Multi-mots en TAL",
+   "verdict": "no",
+   "website": "https://www.atala.org/content/journ%C3%A9e-d%C3%A9tude-emmental",
+   "why": "French workshop on multiword expressions is a linguistic-phenomenon venue akin to the morphosyntax workshops on the no-list."
   },
   "AfriLang_AI/2026/Conference": {
    "archived": true,
@@ -2314,6 +2398,27 @@
    "website": "https://cpal.cc/",
    "why": "Parsimony/sparse-learning conference spotlight track is general ML, not alignment/interp/eval or agent-behavior per core bullets."
   },
+  "CPAL.cc/2027/Rising_Stars_Track": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1793890800000,
+     "duedate": 1797422400000,
+     "expdate": 1797424200000,
+     "id": "CPAL.cc/2027/Rising_Stars_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CPAL 2027 Rising Stars Track",
+   "title": "Conference on Parsimony and Learning 2027 \u2014 Rising Stars Track",
+   "verdict": "adjacent",
+   "website": "https://cpal.cc/rising_stars_guidelines/",
+   "why": "General parsimony/sparsity ML conference outside the core bullets, and this is a rising-stars/mentorship-style track, which is adjacent by rule."
+  },
   "CSF/2027/Conference": {
    "archived": false,
    "first_seen": "2026-10-26",
@@ -2483,7 +2588,7 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-02",
    "invitations": [
     {
@@ -3482,7 +3587,7 @@
    "why": "Pure Chinese linguistics conference with no ML-methods angle."
   },
   "IAFLL.org/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -4013,13 +4118,13 @@
    "why": "Humanoid soccer robotics hardware/competition workshop with no LLM or foundation-model angle, clearly outside his fields."
   },
   "IEEE.org/Humanoids/2026/Workshop/HRS": {
-   "archived": true,
-   "first_seen": "2026-10-09",
+   "archived": false,
+   "first_seen": "2026-11-10",
    "invitations": [
     {
      "cdate": 1791500400000,
-     "duedate": 1793962740000,
-     "expdate": 1793964540000,
+     "duedate": 1794398340000,
+     "expdate": 1794400140000,
      "id": "IEEE.org/Humanoids/2026/Workshop/HRS/-/Submission",
      "kind": "Submission"
     }
@@ -10717,6 +10822,48 @@
    "website": "https://sites.google.com/view/ltedi-2027/home",
    "why": "Equality/diversity/inclusion language-tech workshop, matching the profile's explicit no-list pattern (Gender Bias in NLP, Widening NLP)."
   },
+  "aclweb.org/NAACL/2027/Workshop/LangCode": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1794243600000,
+     "duedate": 1801915140000,
+     "expdate": 1801916940000,
+     "id": "aclweb.org/NAACL/2027/Workshop/LangCode/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "LangCode 2027",
+   "title": "LangCode 2027: The First Language and Code Workshop",
+   "verdict": "adjacent",
+   "website": "https://langcode2027.github.io/",
+   "why": "Language-and-code LLM workshop at NAACL is a general LLM topic, not interpretability, alignment, or agent evaluation."
+  },
+  "aclweb.org/NAACL/2027/Workshop/LangCode_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1794243600000,
+     "duedate": 1804939140000,
+     "expdate": 1804940940000,
+     "id": "aclweb.org/NAACL/2027/Workshop/LangCode_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "LangCode 2027",
+   "title": "LangCode 2027: The First Language and Code Workshop",
+   "verdict": "adjacent",
+   "website": "https://langcode2027.github.io/",
+   "why": "ARR-commitment track of the LangCode workshop gets the same verdict as the workshop's code-LLM topic, which is outside the core bullets."
+  },
   "aclweb.org/NAACL/2027/Workshop/RBD": {
    "archived": false,
    "first_seen": "2026-11-04",
@@ -11920,6 +12067,27 @@
    "website": "https://www.silkroadnlp.org/",
    "why": "Multilingual/low-resource NLP for one language family at EACL \u2014 general NLP workshop topic, not a core bullet."
   },
+  "etaps.org/ETAPS/2027/Workshop/RRRR": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1794297600000,
+     "duedate": 1802339940000,
+     "expdate": 1802341740000,
+     "id": "etaps.org/ETAPS/2027/Workshop/RRRR/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "RRRR 2027",
+   "title": "Fifth Workshop on Reproducibility and Replication of Research Results",
+   "verdict": "no",
+   "website": "https://qcomp.org/rrrr/2027/",
+   "why": "Reproducibility of formal-methods/software research at ETAPS has no ML angle."
+  },
   "etaps.org/TACAS/2027/Conference_AE": {
    "archived": true,
    "first_seen": "2026-09-04",
@@ -12007,6 +12175,27 @@
    "website": "https://hidden-ref.org/hidden-ref-competition/",
    "why": "Research-assessment/culture competition about recognizing hidden research contributions \u2014 not ML or NLP at all."
   },
+  "icsdweb.aegean.gr/AIRodyssey/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-10",
+   "invitations": [
+    {
+     "cdate": 1793484000000,
+     "duedate": 1796162340000,
+     "expdate": 1796164140000,
+     "id": "icsdweb.aegean.gr/AIRodyssey/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "AIRodyssey 2027",
+   "title": "AI & Robotics Odyssey 2027",
+   "verdict": "adjacent",
+   "website": "https://icsdweb.aegean.gr/aegeanrbtcs/airodyssey/",
+   "why": "Regional AI and robotics conference, which the profile lists as adjacent, never core."
+  },
   "ifaamas.org/AAMAS/2027/Blue_Sky_Ideas_Track": {
    "archived": true,
    "first_seen": "2026-10-20",
@@ -12076,8 +12265,8 @@
    "invitations": [
     {
      "cdate": 1794121200000,
-     "duedate": 1798787100000,
-     "expdate": 1798788900000,
+     "duedate": 1799496300000,
+     "expdate": 1799498100000,
      "id": "ifaamas.org/AAMAS/2027/Doctoral_Consortium/-/Submission",
      "kind": "Submission"
     }
