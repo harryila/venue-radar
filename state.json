@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-09",
- "last_run": "2026-11-10T20:23:27.236931+00:00",
+ "last_run": "2026-11-11T20:05:59.150357+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -360,6 +360,27 @@
    "verdict": "adjacent",
    "website": "https://aics.site/AICS2027/",
    "why": "AI applied to cybersecurity is an application domain, not alignment/safety/interp/eval of AI systems themselves."
+  },
+  "AAAI.org/2027/Workshop/ANTHROLOGOS": {
+   "archived": false,
+   "first_seen": "2026-11-11",
+   "invitations": [
+    {
+     "cdate": 1794421800000,
+     "duedate": 1796063400000,
+     "expdate": 1796065200000,
+     "id": "AAAI.org/2027/Workshop/ANTHROLOGOS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ANTHROLOGOS 2027 at AAAI",
+   "title": "ANTHROLOGOS \u2014 To Be or Not to Be: Anthropomorphism in AI \u2014 Mechanism or Illusion?",
+   "verdict": "adjacent",
+   "website": "https://pragyaai.github.io/anthrologos",
+   "why": "AAAI workshop on anthropomorphism in AI is philosophy-of-AI/cognition themed, not squarely interpretability, alignment, or agent evaluation, so per the doubt rule it stays adjacent."
   },
   "AAAI.org/2027/Workshop/ASTAD": {
    "archived": false,
@@ -934,8 +955,8 @@
    "invitations": [
     {
      "cdate": 1791345600000,
-     "duedate": 1795172400000,
-     "expdate": 1795174200000,
+     "duedate": 1796126700000,
+     "expdate": 1796128500000,
      "id": "AAAI.org/2027/Workshop/ToM4AI/-/Submission",
      "kind": "Submission"
     }
@@ -2588,13 +2609,13 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": true,
-   "first_seen": "2026-11-02",
+   "archived": false,
+   "first_seen": "2026-11-11",
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1794308400000,
-     "expdate": 1794310200000,
+     "duedate": 1795172400000,
+     "expdate": 1795174200000,
      "id": "DH_Benelux/2026/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4118,7 +4139,7 @@
    "why": "Humanoid soccer robotics hardware/competition workshop with no LLM or foundation-model angle, clearly outside his fields."
   },
   "IEEE.org/Humanoids/2026/Workshop/HRS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-10",
    "invitations": [
     {
@@ -5357,7 +5378,7 @@
    "why": "Applied humanoid-robotics deployment workshop \u2014 robotics is the setting, not alignment/interp/eval of AI systems."
   },
   "IEEE.org/RAS/Humanoids/2026/Workshop/HRB": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-08",
    "invitations": [
     {
@@ -9758,7 +9779,7 @@
    "why": "Regional robotics symposium \u2014 robotics setting without his core interp/eval/agent-behavior questions."
   },
   "SoCalNLP/2026/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-23",
    "invitations": [
     {
@@ -10013,13 +10034,13 @@
    "why": "Pure formal linguistics (Altaic morphosyntax), explicitly on the no list."
   },
   "WCMNM/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-11-11",
    "invitations": [
     {
-     "cdate": 1779235200000,
-     "duedate": 1788566340000,
-     "expdate": 1788568140000,
+     "cdate": 1794268800000,
+     "duedate": 1796947140000,
+     "expdate": 1796948940000,
      "id": "WCMNM/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -11773,6 +11794,27 @@
    "website": "https://2027.eacl.org/",
    "why": "EACL demo track \u2014 demos are explicitly adjacent, never core."
   },
+  "eacl.org/EACL/2027/INFW": {
+   "archived": false,
+   "first_seen": "2026-11-11",
+   "invitations": [
+    {
+     "cdate": 1794344400000,
+     "duedate": 1797368400000,
+     "expdate": 1797370200000,
+     "id": "eacl.org/EACL/2027/INFW/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "IFNW2027",
+   "title": "International FrameNet Workshop 2027",
+   "verdict": "no",
+   "website": "https://www.globalframenet.org/ifnw-2027",
+   "why": "FrameNet frame-semantics workshop is pure linguistics resource work with no ML-methods angle, which the profile excludes despite the EACL host."
+  },
   "eacl.org/EACL/2027/Industry_Track": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -12196,6 +12238,27 @@
    "website": "https://icsdweb.aegean.gr/aegeanrbtcs/airodyssey/",
    "why": "Regional AI and robotics conference, which the profile lists as adjacent, never core."
   },
+  "ifaamas.org/AAMAS/2027/AAAI_Track": {
+   "archived": false,
+   "first_seen": "2026-11-11",
+   "invitations": [
+    {
+     "cdate": 1794398400000,
+     "duedate": 1796986800000,
+     "expdate": 1796988600000,
+     "id": "ifaamas.org/AAMAS/2027/AAAI_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AAAI Track 2027",
+   "title": "AAMAS 2027 - AAAI Track",
+   "verdict": "adjacent",
+   "website": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/",
+   "why": "AAMAS (fast-track submission track) is multi-agent systems where agents are the setting rather than the evaluation/interpretability question, and the profile lists AAMAS as adjacent."
+  },
   "ifaamas.org/AAMAS/2027/Blue_Sky_Ideas_Track": {
    "archived": true,
    "first_seen": "2026-10-20",
@@ -12452,7 +12515,7 @@
    "why": "Standalone mathematics-of-AI conference outside the flagship families, which the profile keeps adjacent."
   },
   "microarch.org/MICRO/2026/Workshop/A3": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-01",
    "invitations": [
     {
@@ -13397,7 +13460,7 @@
    "why": "Foundation models for CT image diagnosis is medical imaging, matching the profile's no-list (Trustworthy FMs in Medical Imaging)."
   },
   "thecvf.com/CVPR/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-27",
    "invitations": [
     {
