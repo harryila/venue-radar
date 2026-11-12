@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-09",
- "last_run": "2026-11-11T20:05:59.150357+00:00",
+ "last_run": "2026-11-12T20:43:45.192126+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -45,6 +45,27 @@
    "verdict": "adjacent",
    "website": "https://3dvconf.github.io/2027/",
    "why": "Established 3D-vision conference; vision without his interp/agents/eval focus is adjacent at most."
+  },
+  "AAAI.org/2027/Bridge/AI4InclusiveEdu": {
+   "archived": false,
+   "first_seen": "2026-11-12",
+   "invitations": [
+    {
+     "cdate": 1794481200000,
+     "duedate": 1796173140000,
+     "expdate": 1796174940000,
+     "id": "AAAI.org/2027/Bridge/AI4InclusiveEdu/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "AI4InclusiveEdu",
+   "title": "AAAI-27 Bridge: AI for Inclusive Education",
+   "verdict": "adjacent",
+   "website": "https://agentic-ai-inclusive-education.vercel.app/",
+   "why": "Agentic AI applied to education is an application domain (applied-agent territory), not alignment, interpretability, or agent evaluation."
   },
   "AAAI.org/2027/Bridge/AIMedHealth": {
    "archived": false,
@@ -171,6 +192,27 @@
    "verdict": "adjacent",
    "website": "https://data2agentex.github.io/AAAI2027/",
    "why": "Data-centric AI for agent learning is an applied/data-infrastructure agent venue, not agent behavior evaluation."
+  },
+  "AAAI.org/2027/Bridge/HPAI": {
+   "archived": false,
+   "first_seen": "2026-11-12",
+   "invitations": [
+    {
+     "cdate": 1794373200000,
+     "duedate": 1795435140000,
+     "expdate": 1795436940000,
+     "id": "AAAI.org/2027/Bridge/HPAI/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "HPAI at AAAI 2027",
+   "title": "Homogenization in AI: Social Impacts, Pluralism, and Agents",
+   "verdict": "adjacent",
+   "website": "https://homogenization-in-ai.github.io/aaai27/",
+   "why": "Homogenization and its social impacts is society-facing with only a pluralism/agents flavor, not squarely alignment or evaluation of AI systems, so the borderline resolves to adjacent."
   },
   "AAAI.org/2027/Bridge/StreamingCL": {
    "archived": false,
@@ -2440,6 +2482,27 @@
    "website": "https://cpal.cc/rising_stars_guidelines/",
    "why": "General parsimony/sparsity ML conference outside the core bullets, and this is a rising-stars/mentorship-style track, which is adjacent by rule."
   },
+  "CPAL.cc/2027/Tutorial_Track": {
+   "archived": false,
+   "first_seen": "2026-11-12",
+   "invitations": [
+    {
+     "cdate": 1794495600000,
+     "duedate": 1796990400000,
+     "expdate": 1796992200000,
+     "id": "CPAL.cc/2027/Tutorial_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "CPAL 2027 Tutorial Track",
+   "title": "Conference on Parsimony and Learning 2027 \u2014 Tutorial Track",
+   "verdict": "adjacent",
+   "website": "https://cpal.cc/call_for_tutorials/",
+   "why": "Tutorial track (an explicitly adjacent category) at a general parsimony/sparse-learning ML conference, hitting no core bullet."
+  },
   "CSF/2027/Conference": {
    "archived": false,
    "first_seen": "2026-10-26",
@@ -4201,6 +4264,27 @@
    "website": "https://zhang-informatics.github.io/ICHI2026/",
    "why": "Healthcare informatics \u2014 medical application venue, per the medical no examples."
   },
+  "IEEE.org/ICHI/2027/Conference_Regular_Track": {
+   "archived": false,
+   "first_seen": "2026-11-12",
+   "invitations": [
+    {
+     "cdate": 1794211200000,
+     "duedate": 1801382400000,
+     "expdate": 1801384200000,
+     "id": "IEEE.org/ICHI/2027/Conference_Regular_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ICHI 2027 Regular Track",
+   "title": "The 15th IEEE International Conference on Healthcare Informatics Regular Track",
+   "verdict": "no",
+   "website": "https://ichi2027.github.io/ICHI2027/",
+   "why": "Healthcare informatics is a medicine-domain application venue, like the excluded trustworthy-medical-imaging example."
+  },
   "IEEE.org/ICICIP/2027/Conference": {
    "archived": false,
    "first_seen": "2026-11-02",
@@ -5819,7 +5903,7 @@
    "why": "Learning-and-optimal-control ML workshop, outside the alignment/interp/agent-eval core bullets."
   },
   "MBZUAI.ac.ae/Fall_2026/CBIO7401": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-04",
    "invitations": [
     {
@@ -6204,9 +6288,9 @@
    "first_seen": "2026-09-01",
    "invitations": [
     {
-     "cdate": 1788249600000,
-     "duedate": 1796626740000,
-     "expdate": 1796628540000,
+     "cdate": 1786953600000,
+     "duedate": 1795244340000,
+     "expdate": 1795246140000,
      "id": "NACIL/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -12662,7 +12746,7 @@
    "why": "General foundation-models venue at a regional university (course-style page), so general LLM/ML topic but no core bullet."
   },
   "responsiblecomputing.org/FORC/2027/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-23",
    "invitations": [
     {
@@ -13291,6 +13375,27 @@
    "website": "https://corl2026-robotcl.github.io/",
    "why": "Robot learning with a pretraining/foundation-model angle \u2014 robotics application, agents as setting not question."
   },
+  "roboticsfoundation.org/RSS/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-12",
+   "invitations": [
+    {
+     "cdate": 1794490046700,
+     "duedate": 1796471940000,
+     "expdate": 1796473740000,
+     "id": "roboticsfoundation.org/RSS/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "RSS 2027",
+   "title": "Robotics: Science and Systems 2027",
+   "verdict": "adjacent",
+   "website": "https://roboticsconference.org/",
+   "why": "Top robotics conference \u2014 robotics with at most a foundation-model angle is adjacent, not a core alignment/interp/agent-eval topic."
+  },
   "ronin-institute.org/SOIS/2026": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -13311,6 +13416,27 @@
    "verdict": "no",
    "website": "https://www.ronin-institute.org/events",
    "why": "A general independent-scholarship program with no ML/NLP topic at all."
+  },
+  "saltconf.github.io/SALT/2027": {
+   "archived": false,
+   "first_seen": "2026-11-12",
+   "invitations": [
+    {
+     "cdate": 1794459600000,
+     "duedate": 1797397140000,
+     "expdate": 1797398940000,
+     "id": "saltconf.github.io/SALT/2027/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SALT",
+   "title": "Semantics and Linguistic Theory 2027",
+   "verdict": "no",
+   "website": "https://saltconf.github.io/salt37/",
+   "why": "Formal semantics and linguistic theory is pure linguistics, explicitly on the no list."
   },
   "sci-harbor.com/SciVeri-Bench/2026/Internal_Review": {
    "archived": false,
