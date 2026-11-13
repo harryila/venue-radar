@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-09",
- "last_run": "2026-11-12T20:43:45.192126+00:00",
+ "last_run": "2026-11-13T20:25:05.817389+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -45,6 +45,26 @@
    "verdict": "adjacent",
    "website": "https://3dvconf.github.io/2027/",
    "why": "Established 3D-vision conference; vision without his interp/agents/eval focus is adjacent at most."
+  },
+  "AAAI.org/2027/Bridge/AI-Health": {
+   "archived": false,
+   "first_seen": "2026-11-13",
+   "invitations": [
+    {
+     "cdate": 1793512800000,
+     "duedate": 1796104800000,
+     "expdate": 1796106600000,
+     "id": "AAAI.org/2027/Bridge/AI-Health/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AAAI-27 Bridge: AI+Health",
+   "title": "AAAI-27 Bridge: Knowledge Graph-guided Agentic AI: Bridging Reasoning and Explainability in Healthcare",
+   "verdict": null,
+   "website": "https://bridge-ai-health.github.io/",
+   "why": ""
   },
   "AAAI.org/2027/Bridge/AI4InclusiveEdu": {
    "archived": false,
@@ -171,6 +191,46 @@
    "verdict": "adjacent",
    "website": "https://cog2soc.github.io/",
    "why": "Human-behavior modeling/social simulation bridge \u2014 agents as setting, not agent evaluation or interpretability."
+  },
+  "AAAI.org/2027/Bridge/Continual_Causality_Novel": {
+   "archived": false,
+   "first_seen": "2026-11-13",
+   "invitations": [
+    {
+     "cdate": 1794574740000,
+     "duedate": 1796129940000,
+     "expdate": 1796131740000,
+     "id": "AAAI.org/2027/Bridge/Continual_Causality_Novel/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AAAI27 Bridge Continual Causality",
+   "title": "4th Continual Causality Bridge Program at AAAI27",
+   "verdict": null,
+   "website": "https://www.continualcausality.com/",
+   "why": ""
+  },
+  "AAAI.org/2027/Bridge/Continual_Causality_Previously_Published": {
+   "archived": false,
+   "first_seen": "2026-11-13",
+   "invitations": [
+    {
+     "cdate": 1794574740000,
+     "duedate": 1799413140000,
+     "expdate": 1799414940000,
+     "id": "AAAI.org/2027/Bridge/Continual_Causality_Previously_Published/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AAAI27 Bridge Continual Causality",
+   "title": "4th Continual Causality Bridge Program at AAAI27",
+   "verdict": null,
+   "website": "https://www.continualcausality.com/",
+   "why": ""
   },
   "AAAI.org/2027/Bridge/Data2AgentEx": {
    "archived": false,
@@ -430,8 +490,8 @@
    "invitations": [
     {
      "cdate": 1792036800000,
-     "duedate": 1795233540000,
-     "expdate": 1795235340000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/ASTAD/-/Submission",
      "kind": "Submission"
     }
@@ -585,7 +645,9 @@
    ],
    "issue": 140,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "EvalAIScientists 2027",
    "title": "AAAI-27 Workshop on Effective and Efficient Evaluation for AI Scientists",
    "verdict": "core",
@@ -1284,6 +1346,46 @@
    "verdict": "no",
    "website": "https://acm-stoc.org/stoc2027/",
    "why": "Pure theory of computing unrelated to ML \u2014 explicitly a no."
+  },
+  "ACM.org/TRUST/2027/Workshop/UniJudge": {
+   "archived": false,
+   "first_seen": "2026-11-13",
+   "invitations": [
+    {
+     "cdate": 1794556800000,
+     "duedate": 1797076740000,
+     "expdate": 1797078540000,
+     "id": "ACM.org/TRUST/2027/Workshop/UniJudge/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "UniJudge @ ACM TRUST 2027",
+   "title": "The First Workshop on Universal Judges",
+   "verdict": null,
+   "website": "https://acmtrustunijudge.github.io/",
+   "why": ""
+  },
+  "ACM.org/TRUST/2027/Workshop/UniJudge_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-13",
+   "invitations": [
+    {
+     "cdate": 1794571140000,
+     "duedate": 1799495940000,
+     "expdate": 1799497740000,
+     "id": "ACM.org/TRUST/2027/Workshop/UniJudge_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "UniJudge @ ACM TRUST 2027 - ARR Commitment",
+   "title": "The First Workshop on Universal Judges \u2014 ARR Commitment",
+   "verdict": null,
+   "website": "https://acmtrustunijudge.github.io/",
+   "why": ""
   },
   "ACM.org/TheWebConf/2027/Conference_Long_Papers": {
    "archived": true,
@@ -2719,8 +2821,8 @@
    "invitations": [
     {
      "cdate": 1784512800000,
-     "duedate": 1795298340000,
-     "expdate": 1795300140000,
+     "duedate": 1796075940000,
+     "expdate": 1796077740000,
      "id": "ECA/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4186,8 +4288,8 @@
    "invitations": [
     {
      "cdate": 1791547140000,
-     "duedate": 1794617940000,
-     "expdate": 1794619740000,
+     "duedate": 1795089540000,
+     "expdate": 1795091340000,
      "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
      "kind": "Submission"
     }
@@ -5441,7 +5543,7 @@
    "why": "Generic machine-intelligence conference \u2014 regional/low-signal general AI venue, listed but never core."
   },
   "IEEE.org/RAS/Humanoids/2026/Workshop/HAE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-15",
    "invitations": [
     {
@@ -9340,8 +9442,8 @@
    "invitations": [
     {
      "cdate": 1791266400000,
-     "duedate": 1794887940000,
-     "expdate": 1794889740000,
+     "duedate": 1795838340000,
+     "expdate": 1795840140000,
      "id": "SEPLN.org/2027/78_March/-/Submission",
      "kind": "Submission"
     }
@@ -10010,13 +10112,13 @@
    "why": "Corpus-based contrastive and translation studies \u2014 pure linguistics."
   },
   "ULaval.ca/2026/IFT-7030_MLSP": {
-   "archived": true,
-   "first_seen": "2026-09-15",
+   "archived": false,
+   "first_seen": "2026-11-13",
    "invitations": [
     {
      "cdate": 1789448400000,
-     "duedate": 1792731600000,
-     "expdate": 1792733400000,
+     "duedate": 1796878740000,
+     "expdate": 1796880540000,
      "id": "ULaval.ca/2026/IFT-7030_MLSP/-/Submission",
      "kind": "Submission"
     }
@@ -10905,6 +11007,26 @@
    "verdict": "adjacent",
    "website": "https://naacl27-srw.github.io/",
    "why": "Student research workshop, which the profile explicitly lists as adjacent regardless of host."
+  },
+  "aclweb.org/NAACL/2027/Workshop/CLPsych": {
+   "archived": false,
+   "first_seen": "2026-11-13",
+   "invitations": [
+    {
+     "cdate": 1794531600000,
+     "duedate": 1803556740000,
+     "expdate": 1803558540000,
+     "id": "aclweb.org/NAACL/2027/Workshop/CLPsych/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "CLPsych 2027",
+   "title": "The 12th Workshop on Computational Linguistics and Clinical Psychology",
+   "verdict": null,
+   "website": "https://clpsych.org/",
+   "why": ""
   },
   "aclweb.org/NAACL/2027/Workshop/LTEDI": {
    "archived": false,
@@ -14699,7 +14821,7 @@
    "why": "PhD qualifying-exam portal, not a research venue."
   },
   "uos.ac.kr/University_of_Seoul/Fall_2026/Course_40138": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-23",
    "invitations": [
     {
