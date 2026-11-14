@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-09",
- "last_run": "2026-11-13T20:25:05.817389+00:00",
+ "last_run": "2026-11-14T18:41:28.303129+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -59,12 +59,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AAAI-27 Bridge: AI+Health",
    "title": "AAAI-27 Bridge: Knowledge Graph-guided Agentic AI: Bridging Reasoning and Explainability in Healthcare",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://bridge-ai-health.github.io/",
-   "why": ""
+   "why": "Agentic AI and explainability applied to healthcare \u2014 a 'trustworthy X' application domain, not alignment/interp/eval of AI itself."
   },
   "AAAI.org/2027/Bridge/AI4InclusiveEdu": {
    "archived": false,
@@ -205,12 +206,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AAAI27 Bridge Continual Causality",
    "title": "4th Continual Causality Bridge Program at AAAI27",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://www.continualcausality.com/",
-   "why": ""
+   "why": "Continual learning and causality is general ML at a top venue, hitting none of the core bullets."
   },
   "AAAI.org/2027/Bridge/Continual_Causality_Previously_Published": {
    "archived": false,
@@ -225,12 +227,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AAAI27 Bridge Continual Causality",
    "title": "4th Continual Causality Bridge Program at AAAI27",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://www.continualcausality.com/",
-   "why": ""
+   "why": "Previously-published track of the same continual-causality bridge, so same verdict as the workshop's general-ML topic."
   },
   "AAAI.org/2027/Bridge/Data2AgentEx": {
    "archived": false,
@@ -595,8 +598,8 @@
    "invitations": [
     {
      "cdate": 1792238400000,
-     "duedate": 1794747540000,
-     "expdate": 1794749340000,
+     "duedate": 1795265940000,
+     "expdate": 1795267740000,
      "id": "AAAI.org/2027/Workshop/DiMiGenAIS/-/Submission",
      "kind": "Submission"
     }
@@ -611,7 +614,7 @@
    "why": "Safety word notwithstanding, the topic is misinformation/disinformation as a content-harm application domain, like the Child Safety in AI example, not evaluating or aligning AI systems themselves."
   },
   "AAAI.org/2027/Workshop/EAIM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -752,7 +755,9 @@
    ],
    "issue": 148,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AAAI 2027 Workshop on LLM Agents Under Threat",
    "title": "AAAI-27 Workshop on LLM Agents Under Threat in Cyberspace",
    "verdict": "core",
@@ -773,7 +778,9 @@
    ],
    "issue": 144,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "LoyalAgents 2027",
    "title": "Who Does Your AI Agent Work For? A Workshop on Loyal Agents",
    "verdict": "core",
@@ -807,8 +814,8 @@
    "invitations": [
     {
      "cdate": 1792080000000,
-     "duedate": 1794830340000,
-     "expdate": 1794832140000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/MEDWM/-/Submission",
      "kind": "Submission"
     }
@@ -983,7 +990,9 @@
    ],
    "issue": 141,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "SC4AI 2027",
    "title": "Social Choice for AI Ethics and Safety 2027",
    "verdict": "core",
@@ -1109,7 +1118,9 @@
    ],
    "issue": 143,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "WMAC 2027",
    "title": "AAAI-27 Workshop on Measuring Collective Intelligence in Agentic Systems",
    "verdict": "core",
@@ -1306,7 +1317,7 @@
    "why": "Human-centered interactive multimodal AI systems is HCI/multimodal-flavored ML, not alignment, interpretability, or agent evaluation."
   },
   "ACM.org/IUI/2027/Workshop/MeMoAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -1359,13 +1370,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 154,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "UniJudge @ ACM TRUST 2027",
    "title": "The First Workshop on Universal Judges",
-   "verdict": null,
+   "verdict": "core",
    "website": "https://acmtrustunijudge.github.io/",
-   "why": ""
+   "why": "LLM-judge workshop is squarely evaluation/oversight of AI systems themselves (JUDGe-style), core at any reputable host."
   },
   "ACM.org/TRUST/2027/Workshop/UniJudge_ARR_Commitment": {
    "archived": false,
@@ -1379,13 +1391,14 @@
      "kind": "Submission"
     }
    ],
-   "issue": null,
+   "issue": 155,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "UniJudge @ ACM TRUST 2027 - ARR Commitment",
    "title": "The First Workshop on Universal Judges \u2014 ARR Commitment",
-   "verdict": null,
+   "verdict": "core",
    "website": "https://acmtrustunijudge.github.io/",
-   "why": ""
+   "why": "ARR-commitment track of the UniJudge evaluation workshop gets the same core verdict as its judge/eval topic."
   },
   "ACM.org/TheWebConf/2027/Conference_Long_Papers": {
    "archived": true,
@@ -4073,7 +4086,7 @@
    "why": "Vision foundation models for Earth observation is geospatial/remote-sensing ML, which the profile lists as adjacent-only background."
   },
   "ICVGIP.in/2026/Workshop/FDDM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-02",
    "invitations": [
     {
@@ -4262,7 +4275,7 @@
    "why": "Biomedical/health informatics abstracts \u2014 medical application venue outside his fields."
   },
   "IEEE.org/EMBS/BHI/2026/Workshop/Equitable_AI_for_Health": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-30",
    "invitations": [
     {
@@ -5774,7 +5787,7 @@
    "why": "Regional computational-linguistics/NLP meeting \u2014 general NLP at a national venue, not a core alignment/interp/agent-eval topic."
   },
   "ISNN/2027/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-30",
    "invitations": [
     {
@@ -5942,7 +5955,7 @@
    "why": "Pure combinatorics colloquium with no ML angle."
   },
   "L4DC.org/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-08",
    "invitations": [
     {
@@ -10133,7 +10146,7 @@
    "why": "University course final-project portal, not a real open academic venue."
   },
   "UPENN.edu/PLC/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-08",
    "invitations": [
     {
@@ -10967,7 +10980,7 @@
    "why": "NAACL demonstrations track \u2014 demos are explicitly adjacent; only flagship main tracks are core."
   },
   "aclweb.org/NAACL/2027/Industry_Track": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-02",
    "invitations": [
     {
@@ -11021,12 +11034,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "CLPsych 2027",
    "title": "The 12th Workshop on Computational Linguistics and Clinical Psychology",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://clpsych.org/",
-   "why": ""
+   "why": "Clinical-psychology NLP is a domain application like Legal NLP/FinNLP, outside Harry's fields."
   },
   "aclweb.org/NAACL/2027/Workshop/LTEDI": {
    "archived": false,
@@ -11916,8 +11930,8 @@
    "invitations": [
     {
      "cdate": 1792357200000,
-     "duedate": 1795381200000,
-     "expdate": 1795383000000,
+     "duedate": 1795381140000,
+     "expdate": 1795382940000,
      "id": "dataschool.yandex.com/YSDA/2026/AI4Science/-/Submission",
      "kind": "Submission"
     }
@@ -12272,6 +12286,27 @@
    "verdict": "no",
    "website": "https://multiword.org/mwe2027/",
    "why": "ARR-commitment track of the MWE workshop, same linguistic-phenomenon topic as the direct track."
+  },
+  "eacl.org/EACL/2027/Workshop/MultiDems": {
+   "archived": false,
+   "first_seen": "2026-11-14",
+   "invitations": [
+    {
+     "cdate": 1794664800000,
+     "duedate": 1798034340000,
+     "expdate": 1798036140000,
+     "id": "eacl.org/EACL/2027/Workshop/MultiDems/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "MultiDems 2027",
+   "title": "The 1st Multidisciplinary Workshop on NLP for Democracies",
+   "verdict": "no",
+   "website": "https://sites.google.com/view/multidems",
+   "why": "NLP for democracies is societal-application NLP akin to the Legal/FinNLP no-list, not AI safety/interp/eval."
   },
   "eacl.org/EACL/2027/Workshop/ORACLE": {
    "archived": false,
@@ -14107,7 +14142,7 @@
    "why": "Applied computer vision for biomedical discovery at WACV \u2014 vision application domain with an ML-methods angle, matching no core bullet."
   },
   "thecvf.com/WACV/2027/Workshop/CVPath-Vision4Neuro-Short-Papers-And-Abstracts": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-24",
    "invitations": [
     {
