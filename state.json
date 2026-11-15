@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-09",
- "last_run": "2026-11-14T18:41:28.303129+00:00",
+ "last_run": "2026-11-15T19:18:51.905543+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -1317,13 +1317,13 @@
    "why": "Human-centered interactive multimodal AI systems is HCI/multimodal-flavored ML, not alignment, interpretability, or agent evaluation."
   },
   "ACM.org/IUI/2027/Workshop/MeMoAI": {
-   "archived": true,
-   "first_seen": "2026-08-16",
+   "archived": false,
+   "first_seen": "2026-11-15",
    "invitations": [
     {
-     "cdate": 1794194915867,
-     "duedate": 1794614400000,
-     "expdate": 1794616200000,
+     "cdate": 1794743199224,
+     "duedate": 1794787200000,
+     "expdate": 1794789000000,
      "id": "ACM.org/IUI/2027/Workshop/MeMoAI/-/Submission",
      "kind": "Submission"
     }
@@ -4086,13 +4086,13 @@
    "why": "Vision foundation models for Earth observation is geospatial/remote-sensing ML, which the profile lists as adjacent-only background."
   },
   "ICVGIP.in/2026/Workshop/FDDM": {
-   "archived": true,
-   "first_seen": "2026-11-02",
+   "archived": false,
+   "first_seen": "2026-11-15",
    "invitations": [
     {
      "cdate": 1793385000000,
-     "duedate": 1794681000000,
-     "expdate": 1794682800000,
+     "duedate": 1795545000000,
+     "expdate": 1795546800000,
      "id": "ICVGIP.in/2026/Workshop/FDDM/-/Submission",
      "kind": "Submission"
     }
@@ -4133,8 +4133,8 @@
    "invitations": [
     {
      "cdate": 1793557800000,
-     "duedate": 1794767340000,
-     "expdate": 1794769140000,
+     "duedate": 1795372140000,
+     "expdate": 1795373940000,
      "id": "ICVGIP.in/2026/Workshop/ViLaMA/-/Submission",
      "kind": "Submission"
     }
@@ -4275,13 +4275,13 @@
    "why": "Biomedical/health informatics abstracts \u2014 medical application venue outside his fields."
   },
   "IEEE.org/EMBS/BHI/2026/Workshop/Equitable_AI_for_Health": {
-   "archived": true,
-   "first_seen": "2026-10-30",
+   "archived": false,
+   "first_seen": "2026-11-15",
    "invitations": [
     {
      "cdate": 1792866600000,
-     "duedate": 1794681000000,
-     "expdate": 1794682800000,
+     "duedate": 1795113000000,
+     "expdate": 1795114800000,
      "id": "IEEE.org/EMBS/BHI/2026/Workshop/Equitable_AI_for_Health/-/Submission",
      "kind": "Submission"
     }
@@ -5708,8 +5708,8 @@
    "invitations": [
     {
      "cdate": 1790834400000,
-     "duedate": 1794783540000,
-     "expdate": 1794785340000,
+     "duedate": 1795215540000,
+     "expdate": 1795217340000,
      "id": "IGG/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -5787,13 +5787,13 @@
    "why": "Regional computational-linguistics/NLP meeting \u2014 general NLP at a national venue, not a core alignment/interp/agent-eval topic."
   },
   "ISNN/2027/Symposium": {
-   "archived": true,
-   "first_seen": "2026-09-30",
+   "archived": false,
+   "first_seen": "2026-11-15",
    "invitations": [
     {
      "cdate": 1790287200000,
-     "duedate": 1794668400000,
-     "expdate": 1794670200000,
+     "duedate": 1796223600000,
+     "expdate": 1796225400000,
      "id": "ISNN/2027/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -5974,6 +5974,27 @@
    "verdict": "adjacent",
    "website": "https://l4dc2027.control.ee.ethz.ch/",
    "why": "Established ML-for-dynamics-and-control conference (control theory, optimization, data-driven control) with no LLM/agent/interp angle \u2014 general ML outside the core bullets."
+  },
+  "LFG/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-15",
+   "invitations": [
+    {
+     "cdate": 1794697200000,
+     "duedate": 1802779140000,
+     "expdate": 1802780940000,
+     "id": "LFG/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "LFG'27",
+   "title": "International Lexical Functional Grammar Association Conference 2027",
+   "verdict": "no",
+   "website": "https://ling.sprachwiss.uni-konstanz.de/pages/home/lfg/",
+   "why": "Pure linguistics (Lexical Functional Grammar theory), explicitly excluded with no ML angle."
   },
   "LIFT2/2026/Conference": {
    "archived": true,
@@ -9915,7 +9936,7 @@
    "why": "Low-resource speech/language conference \u2014 multilingual/speech NLP is adjacent, no core bullet hit."
   },
   "SPELLL.org/2027/Workshop_Proposals": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-04",
    "invitations": [
     {
@@ -11903,6 +11924,69 @@
    "website": "https://www.loresmt.org/",
    "why": "Low-resource machine translation is multilingual NLP, not a core topic."
   },
+  "coling-iccl.org/COLING/2027/Workshop/UserPlural": {
+   "archived": false,
+   "first_seen": "2026-11-15",
+   "invitations": [
+    {
+     "cdate": 1794747600000,
+     "duedate": 1800536400000,
+     "expdate": 1800538200000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/UserPlural/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "UserPlural 2027",
+   "title": "The User, Plural: First Workshop on Heterogeneity and Interaction in User Simulation",
+   "verdict": "adjacent",
+   "website": "https://userplural.github.io/",
+   "why": "User-simulation workshop is applied social-simulation agent work \u2014 agents as setting, not evaluation/interp of agent behavior itself."
+  },
+  "coling-iccl.org/COLING/2027/Workshop/UserPlural_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-15",
+   "invitations": [
+    {
+     "cdate": 1794744000000,
+     "duedate": 1802865600000,
+     "expdate": 1802867400000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/UserPlural_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "UserPlural 2027",
+   "title": "The User, Plural: First Workshop on Heterogeneity and Interaction in User Simulation",
+   "verdict": "adjacent",
+   "website": "https://userplural.github.io/",
+   "why": "ARR-commitment track of the same user-simulation workshop, so it inherits the adjacent verdict for applied agent/social-simulation topics."
+  },
+  "controlsociety.org/ICC/2027/Workshop/RAS": {
+   "archived": false,
+   "first_seen": "2026-11-15",
+   "invitations": [
+    {
+     "cdate": 1794767400000,
+     "duedate": 1797791400000,
+     "expdate": 1797793200000,
+     "id": "controlsociety.org/ICC/2027/Workshop/RAS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "ICC 2027 RAS Workshop",
+   "title": "Indian Control Conference 2027 Workshop on Advances in AI-Driven Control and Estimation for Robotics and Autonomous Systems",
+   "verdict": "adjacent",
+   "website": "icc-ras-workshop.github.io/2027",
+   "why": "AI-driven control/estimation for robotics is robotics-with-ML application work at a regional conference, not any core bullet."
+  },
   "cpaior.org/CPAIOR/2027/Conference": {
    "archived": false,
    "first_seen": "2026-09-28",
@@ -12569,8 +12653,8 @@
    "invitations": [
     {
      "cdate": 1794121200000,
-     "duedate": 1799496300000,
-     "expdate": 1799498100000,
+     "duedate": 1798693500000,
+     "expdate": 1798695300000,
      "id": "ifaamas.org/AAMAS/2027/Doctoral_Consortium/-/Submission",
      "kind": "Submission"
     }
@@ -13701,7 +13785,7 @@
    "why": "Strategic management/business conference with no ML angle."
   },
   "tau.ac.il/TAU/2026/Horvathfest": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-07",
    "invitations": [
     {
