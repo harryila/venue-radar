@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-11-09",
- "last_run": "2026-11-15T19:18:51.905543+00:00",
+ "last_digest": "2026-11-16",
+ "last_run": "2026-11-16T22:49:19.123047+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -171,6 +171,26 @@
    "verdict": "adjacent",
    "website": "https://akleao.com/site/ceer-bridge",
    "why": "Epistemic and empirical reasoning brushes belief-updating interests but reads as KR/logic-flavored rather than evaluating LLM-agent behavior, so unsure defaults to adjacent."
+  },
+  "AAAI.org/2027/Bridge/ClimateSignal": {
+   "archived": false,
+   "first_seen": "2026-11-16",
+   "invitations": [
+    {
+     "cdate": 1794862800000,
+     "duedate": 1796605140000,
+     "expdate": 1796606940000,
+     "id": "AAAI.org/2027/Bridge/ClimateSignal/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "ClimateSignal",
+   "title": "Bridging Climate Science and AI to Counter Dis/Misinformation",
+   "verdict": null,
+   "website": "https://egbg26.github.io/climatesignal_AAAI2027/",
+   "why": ""
   },
   "AAAI.org/2027/Bridge/Cog2Soc": {
    "archived": false,
@@ -982,17 +1002,15 @@
    "invitations": [
     {
      "cdate": 1791064800000,
-     "duedate": 1795258740000,
-     "expdate": 1795260540000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/SC4AI/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 141,
    "prestige": 1,
-   "reminded": [
-    "T-7"
-   ],
+   "reminded": [],
    "subtitle": "SC4AI 2027",
    "title": "Social Choice for AI Ethics and Safety 2027",
    "verdict": "core",
@@ -1321,9 +1339,9 @@
    "first_seen": "2026-11-15",
    "invitations": [
     {
-     "cdate": 1794743199224,
-     "duedate": 1794787200000,
-     "expdate": 1794789000000,
+     "cdate": 1794835840781,
+     "duedate": 1794916740000,
+     "expdate": 1794918540000,
      "id": "ACM.org/IUI/2027/Workshop/MeMoAI/-/Submission",
      "kind": "Submission"
     }
@@ -1464,7 +1482,7 @@
    "why": "Demo track \u2014 demos are explicitly adjacent regardless of host, and web topics hit no core bullet."
   },
   "ACM.org/TheWebConf/2027/PhD_Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -2162,8 +2180,8 @@
    "invitations": [
     {
      "cdate": 1790805600000,
-     "duedate": 1794830340000,
-     "expdate": 1794832140000,
+     "duedate": 1795086000000,
+     "expdate": 1795087800000,
      "id": "AIRES/2027/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -2288,8 +2306,8 @@
    "invitations": [
     {
      "cdate": 1786428000000,
-     "duedate": 1794783540000,
-     "expdate": 1794785340000,
+     "duedate": 1795031940000,
+     "expdate": 1795033740000,
      "id": "ARGAGE/2027/Conference_Panels/-/Submission",
      "kind": "Submission"
     }
@@ -4191,7 +4209,7 @@
    "why": "Trustworthy Multimodal Agents @ IEEE BigData is an explicit adjacent calibration example (trustworthy-X applied agents)."
   },
   "IEEE.org/CDC/2026/Workshop/SAAS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -9087,7 +9105,7 @@
    "why": "VLM grounding/faithfulness for real-world deployment \u2014 a general multimodal workshop, and VLM workshops are explicitly adjacent."
   },
   "NeurIPS.cc/2026/Workshop/VLM4RWD_Challenges": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-10",
    "invitations": [
     {
@@ -9345,7 +9363,7 @@
    "why": "Institutional general-AI tech day \u2014 regional, low-signal general AI/ML event."
   },
   "PhraConRep/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-05",
    "invitations": [
     {
@@ -10274,6 +10292,26 @@
    "website": "https://na.eventscloud.com/website/93824/",
    "why": "Micro/nano manufacturing congress \u2014 hardware/manufacturing, entirely outside ML."
   },
+  "WOOC/2027/Workshop": {
+   "archived": false,
+   "first_seen": "2026-11-16",
+   "invitations": [
+    {
+     "cdate": 1794780000000,
+     "duedate": 1801350000000,
+     "expdate": 1801351800000,
+     "id": "WOOC/2027/Workshop/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "WOOC 2027",
+   "title": "Workshop on Open Citations and Open Scholarly Metadata 2027",
+   "verdict": null,
+   "website": "https://workshop-oc.github.io/",
+   "why": ""
+  },
   "WSDM/2027/Workshop/Context4Agents": {
    "archived": false,
    "first_seen": "2026-10-25",
@@ -10985,8 +11023,8 @@
    "invitations": [
     {
      "cdate": 1793520000000,
-     "duedate": 1796554740000,
-     "expdate": 1796556540000,
+     "duedate": 1796468340000,
+     "expdate": 1796470140000,
      "id": "aclweb.org/NAACL/2027/Demo_Track/-/Submission",
      "kind": "Submission"
     }
@@ -11798,6 +11836,26 @@
    "website": "https://www.cclear.cc/2027",
    "why": "Established causal learning and reasoning ML conference \u2014 general ML topic outside the core bullets and not one of the listed flagship main tracks."
   },
+  "chilconference.org/CHIL/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-16",
+   "invitations": [
+    {
+     "cdate": 1794643200000,
+     "duedate": 1801742340000,
+     "expdate": 1801744140000,
+     "id": "chilconference.org/CHIL/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "CHIL 2027",
+   "title": "Conference on Health, Inference, and Learning",
+   "verdict": null,
+   "website": "https://www.chilconference.org/",
+   "why": ""
+  },
   "cips-cl.org/CCL/2026/Workshop/Eval": {
    "archived": true,
    "first_seen": "2026-09-22",
@@ -12287,6 +12345,46 @@
    "website": "https://chomps-workshop.github.io/",
    "why": "ARR-commitment track of CHOMPS; same LLM hallucination-evaluation topic gets the same verdict, and he has a live ARR submission to commit."
   },
+  "eacl.org/EACL/2027/Workshop/Field_Matters": {
+   "archived": false,
+   "first_seen": "2026-11-16",
+   "invitations": [
+    {
+     "cdate": 1794783654700,
+     "duedate": 1797422340000,
+     "expdate": 1797424140000,
+     "id": "eacl.org/EACL/2027/Workshop/Field_Matters/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "Field Matters 2027",
+   "title": "Sixth Workshop on NLP Applications to Field Linguistics",
+   "verdict": null,
+   "website": "https://field-matters.github.io/",
+   "why": ""
+  },
+  "eacl.org/EACL/2027/Workshop/LInDA": {
+   "archived": false,
+   "first_seen": "2026-11-16",
+   "invitations": [
+    {
+     "cdate": 1794783600000,
+     "duedate": 1797422340000,
+     "expdate": 1797424140000,
+     "id": "eacl.org/EACL/2027/Workshop/LInDA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "LInDA 2027",
+   "title": "First Workshop on Linguistic Information for Downstream Applications",
+   "verdict": null,
+   "website": "https://linda-workshop.github.io/",
+   "why": ""
+  },
   "eacl.org/EACL/2027/Workshop/LoResLM": {
    "archived": false,
    "first_seen": "2026-10-20",
@@ -12391,6 +12489,26 @@
    "verdict": "no",
    "website": "https://sites.google.com/view/multidems",
    "why": "NLP for democracies is societal-application NLP akin to the Legal/FinNLP no-list, not AI safety/interp/eval."
+  },
+  "eacl.org/EACL/2027/Workshop/MultiDems_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-16",
+   "invitations": [
+    {
+     "cdate": 1794830422000,
+     "duedate": 1800359940000,
+     "expdate": 1800361740000,
+     "id": "eacl.org/EACL/2027/Workshop/MultiDems_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "MultiDems 2027",
+   "title": "The 1st Multidisciplinary Workshop on NLP for Democracies",
+   "verdict": null,
+   "website": "https://sites.google.com/view/multidems",
+   "why": ""
   },
   "eacl.org/EACL/2027/Workshop/ORACLE": {
    "archived": false,
@@ -12966,7 +13084,7 @@
    "why": "Efficient edge CV/language models book chapters \u2014 efficient DL is explicitly adjacent in the profile."
   },
   "pusan.ac.kr/PNU/2026/Foundation_Models": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-20",
    "invitations": [
     {
