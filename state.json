@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-16",
- "last_run": "2026-11-16T22:49:19.123047+00:00",
+ "last_run": "2026-11-17T21:38:31.973273+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -597,8 +597,8 @@
    "invitations": [
     {
      "cdate": 1791858600000,
-     "duedate": 1795113000000,
-     "expdate": 1795114800000,
+     "duedate": 1795262400000,
+     "expdate": 1795264200000,
      "id": "AAAI.org/2027/Workshop/DAI/-/Submission",
      "kind": "Submission"
     }
@@ -725,8 +725,8 @@
    "invitations": [
     {
      "cdate": 1791792000000,
-     "duedate": 1795175940000,
-     "expdate": 1795177740000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/GSR-VLM/-/Submission",
      "kind": "Submission"
     }
@@ -876,8 +876,8 @@
    "invitations": [
     {
      "cdate": 1791374340000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795867140000,
+     "expdate": 1795868940000,
      "id": "AAAI.org/2027/Workshop/MultiRobust/-/Submission",
      "kind": "Submission"
     }
@@ -1010,7 +1010,9 @@
    ],
    "issue": 141,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "SC4AI 2027",
    "title": "Social Choice for AI Ethics and Safety 2027",
    "verdict": "core",
@@ -1335,7 +1337,7 @@
    "why": "Human-centered interactive multimodal AI systems is HCI/multimodal-flavored ML, not alignment, interpretability, or agent evaluation."
   },
   "ACM.org/IUI/2027/Workshop/MeMoAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-15",
    "invitations": [
     {
@@ -1461,7 +1463,7 @@
    "why": "Short-paper track of the same WWW conference; same web/IR/ML topic outside the core bullets, so same verdict as the venue."
   },
   "ACM.org/TheWebConf/2027/Demos": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -5621,8 +5623,8 @@
    "invitations": [
     {
      "cdate": 1790938800000,
-     "duedate": 1794916740000,
-     "expdate": 1794918540000,
+     "duedate": 1795175940000,
+     "expdate": 1795177740000,
      "id": "IEEE.org/RAS/Humanoids/2026/Workshop/Trustworthy_Humanoid_Systems/-/Submission",
      "kind": "Submission"
     }
@@ -11816,7 +11818,7 @@
    "why": "AI-scientists/agents-for-science conference \u2014 agents as an applied setting, not agent evaluation or oversight."
   },
   "cclear.cc/CLeaR/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -12303,6 +12305,26 @@
    "website": "https://www.silkroadnlp.org/",
    "why": "ARR-commitment track of the same multilingual Iranian-languages workshop, so it takes the same adjacent verdict."
   },
+  "eacl.org/EACL/2027/Workshop/AfricaNLP": {
+   "archived": false,
+   "first_seen": "2026-11-17",
+   "invitations": [
+    {
+     "cdate": 1794873600000,
+     "duedate": 1797422400000,
+     "expdate": 1797424200000,
+     "id": "eacl.org/EACL/2027/Workshop/AfricaNLP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AfricaNLP 2027",
+   "title": "8th Workshop on African Natural Language Processing",
+   "verdict": null,
+   "website": "https://africanlp.github.io/2027",
+   "why": ""
+  },
   "eacl.org/EACL/2027/Workshop/CHOMPS": {
    "archived": false,
    "first_seen": "2026-10-20",
@@ -12474,9 +12496,9 @@
    "first_seen": "2026-11-14",
    "invitations": [
     {
-     "cdate": 1794664800000,
-     "duedate": 1798034340000,
-     "expdate": 1798036140000,
+     "cdate": 1794711600000,
+     "duedate": 1798113540000,
+     "expdate": 1798115340000,
      "id": "eacl.org/EACL/2027/Workshop/MultiDems/-/Submission",
      "kind": "Submission"
     }
