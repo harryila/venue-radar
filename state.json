@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-16",
- "last_run": "2026-11-17T21:38:31.973273+00:00",
+ "last_run": "2026-11-18T21:16:43.209131+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -303,8 +303,8 @@
    "invitations": [
     {
      "cdate": 1794099540000,
-     "duedate": 1796086740000,
-     "expdate": 1796088540000,
+     "duedate": 1796345940000,
+     "expdate": 1796347740000,
      "id": "AAAI.org/2027/Bridge/StreamingCL/-/Submission",
      "kind": "Submission"
     }
@@ -387,8 +387,8 @@
    "invitations": [
     {
      "cdate": 1792152000000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795867140000,
+     "expdate": 1795868940000,
      "id": "AAAI.org/2027/Workshop/A2NetOps/-/Submission",
      "kind": "Submission"
     }
@@ -669,7 +669,8 @@
    "issue": 140,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "EvalAIScientists 2027",
    "title": "AAAI-27 Workshop on Effective and Efficient Evaluation for AI Scientists",
@@ -960,8 +961,8 @@
    "invitations": [
     {
      "cdate": 1792173600000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1796299140000,
+     "expdate": 1796300940000,
      "id": "AAAI.org/2027/Workshop/PGAI4E/-/Submission",
      "kind": "Submission"
     }
@@ -2303,7 +2304,7 @@
    "why": "Argumentation-and-language conference \u2014 an explicit 'no' area in the profile."
   },
   "ARGAGE/2027/Conference_Panels": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-08-16",
    "invitations": [
     {
@@ -2534,13 +2535,13 @@
    "why": "Regional biometric-recognition (vision) conference with no core-topic overlap."
   },
   "CLUG-EVAS/2026/Workshop": {
-   "archived": true,
-   "first_seen": "2026-09-04",
+   "archived": false,
+   "first_seen": "2026-11-18",
    "invitations": [
     {
-     "cdate": 1787659200000,
-     "duedate": 1791979140000,
-     "expdate": 1791980940000,
+     "cdate": 1794996000000,
+     "duedate": 1797803940000,
+     "expdate": 1797805740000,
      "id": "CLUG-EVAS/2026/Workshop/-/Submission",
      "kind": "Submission"
     }
@@ -5812,8 +5813,8 @@
    "invitations": [
     {
      "cdate": 1790287200000,
-     "duedate": 1796223600000,
-     "expdate": 1796225400000,
+     "duedate": 1796137200000,
+     "expdate": 1796139000000,
      "id": "ISNN/2027/Symposium/-/Submission",
      "kind": "Submission"
     }
@@ -5994,6 +5995,26 @@
    "verdict": "adjacent",
    "website": "https://l4dc2027.control.ee.ethz.ch/",
    "why": "Established ML-for-dynamics-and-control conference (control theory, optimization, data-driven control) with no LLM/agent/interp angle \u2014 general ML outside the core bullets."
+  },
+  "LDK/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-18",
+   "invitations": [
+    {
+     "cdate": 1795003200000,
+     "duedate": 1804852740000,
+     "expdate": 1804854540000,
+     "id": "LDK/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "LDK 2027",
+   "title": "Sixth Conference on Language, Data and Knowledge",
+   "verdict": null,
+   "website": "https://2027.ldk-conf.org/about/",
+   "why": ""
   },
   "LFG/2027/Conference": {
    "archived": false,
@@ -11776,7 +11797,7 @@
    "why": "'Trustworthy X' where X is a vision/public-safety application \u2014 adjacent by rule."
   },
   "bu.edu/Boston_University/Fall_2026/CS599_M1_Advanced_NLP": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-20",
    "invitations": [
     {
@@ -12896,7 +12917,7 @@
    "why": "Space-robotics software/hardware solutions with no ML-methods or foundation-model angle."
   },
   "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-22",
    "invitations": [
     {
@@ -13846,8 +13867,8 @@
    "invitations": [
     {
      "cdate": 1790006400000,
-     "duedate": 1795795200000,
-     "expdate": 1795797000000,
+     "duedate": 1795363140000,
+     "expdate": 1795364940000,
      "id": "sdu.edu.cn/Shandong_University/SDUAI/2026/Conference/-/Submission",
      "kind": "Submission"
     }
