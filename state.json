@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-16",
- "last_run": "2026-11-18T21:16:43.209131+00:00",
+ "last_run": "2026-11-19T21:18:22.979974+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -282,8 +282,8 @@
    "invitations": [
     {
      "cdate": 1794373200000,
-     "duedate": 1795435140000,
-     "expdate": 1795436940000,
+     "duedate": 1795694340000,
+     "expdate": 1795696140000,
      "id": "AAAI.org/2027/Bridge/HPAI/-/Submission",
      "kind": "Submission"
     }
@@ -429,8 +429,8 @@
    "invitations": [
     {
      "cdate": 1792728000000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1796990340000,
+     "expdate": 1796992140000,
      "id": "AAAI.org/2027/Workshop/AI4Research/-/Submission",
      "kind": "Submission"
     }
@@ -555,8 +555,8 @@
    "invitations": [
     {
      "cdate": 1792126800000,
-     "duedate": 1795150800000,
-     "expdate": 1795152600000,
+     "duedate": 1795863600000,
+     "expdate": 1795865400000,
      "id": "AAAI.org/2027/Workshop/Agentic_Labs/-/Submission",
      "kind": "Submission"
     }
@@ -576,8 +576,8 @@
    "invitations": [
     {
      "cdate": 1793471400000,
-     "duedate": 1795113000000,
-     "expdate": 1795114800000,
+     "duedate": 1795262340000,
+     "expdate": 1795264140000,
      "id": "AAAI.org/2027/Workshop/AgriAI/-/Submission",
      "kind": "Submission"
     }
@@ -684,8 +684,8 @@
    "invitations": [
     {
      "cdate": 1790942400000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795521540000,
+     "expdate": 1795523340000,
      "id": "AAAI.org/2027/Workshop/FinFM/-/Submission",
      "kind": "Submission"
     }
@@ -704,9 +704,9 @@
    "first_seen": "2026-10-19",
    "invitations": [
     {
-     "cdate": 1792418400000,
-     "duedate": 1795172400000,
-     "expdate": 1795174200000,
+     "cdate": 1792468800000,
+     "duedate": 1796990400000,
+     "expdate": 1796992200000,
      "id": "AAAI.org/2027/Workshop/FrontierIR/-/Submission",
      "kind": "Submission"
     }
@@ -777,7 +777,8 @@
    "issue": 148,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "AAAI 2027 Workshop on LLM Agents Under Threat",
    "title": "AAAI-27 Workshop on LLM Agents Under Threat in Cyberspace",
@@ -800,7 +801,8 @@
    "issue": 144,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "LoyalAgents 2027",
    "title": "Who Does Your AI Agent Work For? A Workshop on Loyal Agents",
@@ -856,8 +858,8 @@
    "invitations": [
     {
      "cdate": 1790895600000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795780740000,
+     "expdate": 1795782540000,
      "id": "AAAI.org/2027/Workshop/MakingSense/-/Submission",
      "kind": "Submission"
     }
@@ -1012,7 +1014,8 @@
    "issue": 141,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "SC4AI 2027",
    "title": "Social Choice for AI Ethics and Safety 2027",
@@ -1140,7 +1143,8 @@
    "issue": 143,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "WMAC 2027",
    "title": "AAAI-27 Workshop on Measuring Collective Intelligence in Agentic Systems",
@@ -2178,7 +2182,7 @@
    "why": "Philosophy essay competition on a personal site, not an ML/NLP research venue."
   },
   "AIRES/2027/Symposium": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -2828,8 +2832,28 @@
    "website": "https://2026.dhbenelux.org/",
    "why": "Digital humanities is explicitly on the no list."
   },
-  "DT4HS.org/2027/Inaugural_Annual_Meeting": {
+  "DT4HS.org/2027/Annual_Meeting": {
    "archived": false,
+   "first_seen": "2026-11-19",
+   "invitations": [
+    {
+     "cdate": 1794729600000,
+     "duedate": 1802073600000,
+     "expdate": 1802075400000,
+     "id": "DT4HS.org/2027/Annual_Meeting/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "DT4HS 2027",
+   "title": "The Second Annual Meeting of Digital Twins for Health Society",
+   "verdict": null,
+   "website": "https://dt4hs.org/annual-meeting-registration/",
+   "why": ""
+  },
+  "DT4HS.org/2027/Inaugural_Annual_Meeting": {
+   "archived": true,
    "first_seen": "2026-11-03",
    "invitations": [
     {
@@ -2960,8 +2984,8 @@
    "invitations": [
     {
      "cdate": 1792411200000,
-     "duedate": 1795089540000,
-     "expdate": 1795091340000,
+     "duedate": 1795262400000,
+     "expdate": 1795264200000,
      "id": "ELLIS/2026/Workshop/Multi-Agent_AI/-/Submission",
      "kind": "Submission"
     }
@@ -4296,7 +4320,7 @@
    "why": "Biomedical/health informatics abstracts \u2014 medical application venue outside his fields."
   },
   "IEEE.org/EMBS/BHI/2026/Workshop/Equitable_AI_for_Health": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-15",
    "invitations": [
     {
@@ -4322,8 +4346,8 @@
    "invitations": [
     {
      "cdate": 1791547140000,
-     "duedate": 1795089540000,
-     "expdate": 1795091340000,
+     "duedate": 1795568340000,
+     "expdate": 1795570140000,
      "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
      "kind": "Submission"
     }
@@ -9977,13 +10001,13 @@
    "why": "Low-resource speech/language conference \u2014 multilingual/speech NLP is adjacent, no core bullet hit."
   },
   "SPELLL.org/2027/Workshop_Proposals": {
-   "archived": true,
-   "first_seen": "2026-11-04",
+   "archived": false,
+   "first_seen": "2026-11-19",
    "invitations": [
     {
-     "cdate": 1793817000000,
-     "duedate": 1794767400000,
-     "expdate": 1794769200000,
+     "cdate": 1793793600000,
+     "duedate": 1795867140000,
+     "expdate": 1795868940000,
      "id": "SPELLL.org/2027/Workshop_Proposals/-/Submission",
      "kind": "Submission"
     }
@@ -13043,7 +13067,7 @@
    "why": "Chip design and hardware verification \u2014 hardware/circuits, outside ML."
   },
   "mmumullana.org/ICMMDU/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-20",
    "invitations": [
     {
