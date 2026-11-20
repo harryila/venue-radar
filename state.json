@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-16",
- "last_run": "2026-11-19T21:18:22.979974+00:00",
+ "last_run": "2026-11-20T20:59:01.709756+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -52,8 +52,8 @@
    "invitations": [
     {
      "cdate": 1793512800000,
-     "duedate": 1796104800000,
-     "expdate": 1796106600000,
+     "duedate": 1796407200000,
+     "expdate": 1796409000000,
      "id": "AAAI.org/2027/Bridge/AI-Health/-/Submission",
      "kind": "Submission"
     }
@@ -408,8 +408,8 @@
    "invitations": [
     {
      "cdate": 1794162600000,
-     "duedate": 1795258800000,
-     "expdate": 1795260600000,
+     "duedate": 1795631340000,
+     "expdate": 1795633140000,
      "id": "AAAI.org/2027/Workshop/AI4Factory/-/Submission",
      "kind": "Submission"
     }
@@ -450,8 +450,8 @@
    "invitations": [
     {
      "cdate": 1792497600000,
-     "duedate": 1795258740000,
-     "expdate": 1795260540000,
+     "duedate": 1795264200000,
+     "expdate": 1795266000000,
      "id": "AAAI.org/2027/Workshop/AI4TS/-/Submission",
      "kind": "Submission"
     }
@@ -660,8 +660,8 @@
    "invitations": [
     {
      "cdate": 1791180000000,
-     "duedate": 1795154400000,
-     "expdate": 1795156200000,
+     "duedate": 1795780800000,
+     "expdate": 1795782600000,
      "id": "AAAI.org/2027/Workshop/EvalAIScientists/-/Submission",
      "kind": "Submission"
     }
@@ -768,18 +768,15 @@
    "invitations": [
     {
      "cdate": 1792472400000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795867140000,
+     "expdate": 1795868940000,
      "id": "AAAI.org/2027/Workshop/LAUT/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 148,
    "prestige": 1,
-   "reminded": [
-    "T-7",
-    "T-2"
-   ],
+   "reminded": [],
    "subtitle": "AAAI 2027 Workshop on LLM Agents Under Threat",
    "title": "AAAI-27 Workshop on LLM Agents Under Threat in Cyberspace",
    "verdict": "core",
@@ -816,8 +813,8 @@
    "invitations": [
     {
      "cdate": 1791129600000,
-     "duedate": 1795262400000,
-     "expdate": 1795264200000,
+     "duedate": 1796212800000,
+     "expdate": 1796214600000,
      "id": "AAAI.org/2027/Workshop/MATH4AI/-/Submission",
      "kind": "Submission"
     }
@@ -921,8 +918,8 @@
    "invitations": [
     {
      "cdate": 1791907200000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795521540000,
+     "expdate": 1795523340000,
      "id": "AAAI.org/2027/Workshop/NeuroAI/-/Submission",
      "kind": "Submission"
     }
@@ -2812,7 +2809,7 @@
    "why": "Digital-humanities conference \u2014 explicitly listed as 'no'."
   },
   "DH_Benelux/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-11",
    "invitations": [
     {
@@ -3599,6 +3596,26 @@
    "website": "https://www.eur.nl/en/esphil/events/encode-closing-conference-2026-11-11",
    "why": "Deliberative democracy and social choice from a philosophy/political-science project, with no ML or AI-systems focus."
   },
+  "ERCOFTAC.org/2027/Workshop/ml4fluids": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795129200000,
+     "duedate": 1798714800000,
+     "expdate": 1798716600000,
+     "id": "ERCOFTAC.org/2027/Workshop/ml4fluids/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "ml4fluids",
+   "title": "4th ERCOFTAC Workshop on Machine Learning for Fluid Dynamics",
+   "verdict": null,
+   "website": "https://www.ercoftac.org/ml4fluids/",
+   "why": ""
+  },
   "ESEIA/2026/Conference": {
    "archived": true,
    "first_seen": "2026-09-29",
@@ -4115,8 +4132,8 @@
    "invitations": [
     {
      "cdate": 1793557800000,
-     "duedate": 1795199340000,
-     "expdate": 1795201140000,
+     "duedate": 1795372140000,
+     "expdate": 1795373940000,
      "id": "ICVGIP.in/2026/Workshop/AVEO/-/Submission",
      "kind": "Submission"
     }
@@ -5643,7 +5660,7 @@
    "why": "Robotics/HRI workshop on human guidance and robot autonomy in deployment \u2014 agents/robots are the setting, not evaluation or safety of AI systems themselves, so at most adjacent robotics-with-learning territory."
   },
   "IEEE.org/RAS/Humanoids/2026/Workshop/Trustworthy_Humanoid_Systems": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-02",
    "invitations": [
     {
@@ -6490,8 +6507,8 @@
    "invitations": [
     {
      "cdate": 1786953600000,
-     "duedate": 1795244340000,
-     "expdate": 1795246140000,
+     "duedate": 1796626740000,
+     "expdate": 1796628540000,
      "id": "NACIL/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -6590,7 +6607,7 @@
    "why": "Affinity support program, not a research venue in his fields (WiML-style)."
   },
   "NeurIPS.cc/2026/Competition/SimulacraBench": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-26",
    "invitations": [
     {
@@ -11884,7 +11901,7 @@
    "why": "Established causal learning and reasoning ML conference \u2014 general ML topic outside the core bullets and not one of the listed flagship main tracks."
   },
   "chilconference.org/CHIL/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-16",
    "invitations": [
     {
@@ -11966,6 +11983,46 @@
    "website": "http://sc.cipsc.org.cn/mt/conference/2026/docs/tech-eval",
    "why": "Machine-translation shared task at a national conference \u2014 shared tasks are adjacent unless about calibration/eval/interp of LLMs."
   },
+  "cognitivesciencesociety.org/CogSci/2027/Symposia": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795183200000,
+     "duedate": 1801565940000,
+     "expdate": 1801567740000,
+     "id": "cognitivesciencesociety.org/CogSci/2027/Symposia/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "CogSci 2027 Symposia Proposals",
+   "title": "49th Annual Meeting of the Cognitive Science Society (CogSci 2027): Symposia",
+   "verdict": null,
+   "website": "https://cognitivesciencesociety.org/cogsci-2027/",
+   "why": ""
+  },
+  "cognitivesciencesociety.org/CogSci/2027/Tutorials_Workshops": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795183200000,
+     "duedate": 1801565940000,
+     "expdate": 1801567740000,
+     "id": "cognitivesciencesociety.org/CogSci/2027/Tutorials_Workshops/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "CogSci 2027 Tutorials and Workshops Proposals",
+   "title": "49th Annual Meeting of the Cognitive Science Society (CogSci 2027): Tutorials and Workshops",
+   "verdict": null,
+   "website": "https://cognitivesciencesociety.org/cogsci-2027/",
+   "why": ""
+  },
   "coling-iccl.org/COLING/2027/Industry_Track": {
    "archived": false,
    "first_seen": "2026-10-31",
@@ -12007,6 +12064,66 @@
    "verdict": "adjacent",
    "website": "https://2027.coling-iccl.org/",
    "why": "Demo track (demos are explicitly adjacent) and COLING is not a core main-track family."
+  },
+  "coling-iccl.org/COLING/2027/Workshop/BilingLM": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795190400000,
+     "duedate": 1799236800000,
+     "expdate": 1799238600000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/BilingLM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "BilingLM 2027",
+   "title": "The 1st Workshop on  Bilingualism and Language Modeling",
+   "verdict": null,
+   "website": "https://bilinglm.github.io/",
+   "why": ""
+  },
+  "coling-iccl.org/COLING/2027/Workshop/BilingLM_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795190400000,
+     "duedate": 1799236800000,
+     "expdate": 1799238600000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/BilingLM_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "BilingLM 2027",
+   "title": "The 1st Workshop on Bilingualism and Language Modeling",
+   "verdict": null,
+   "website": "https://bilinglm.github.io/",
+   "why": ""
+  },
+  "coling-iccl.org/COLING/2027/Workshop/FATA": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795168800000,
+     "duedate": 1800007140000,
+     "expdate": 1800008940000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/FATA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "FATA",
+   "title": "FATA: 1st Workshop on Community-Based and Socially Aware Approaches to Natural Language Processing",
+   "verdict": null,
+   "website": "https://fata-workshop.github.io/#about",
+   "why": ""
   },
   "coling-iccl.org/COLING/2027/Workshop/LoResMT": {
    "archived": false,
@@ -12070,6 +12187,46 @@
    "verdict": "adjacent",
    "website": "https://userplural.github.io/",
    "why": "ARR-commitment track of the same user-simulation workshop, so it inherits the adjacent verdict for applied agent/social-simulation topics."
+  },
+  "coling-iccl.org/COLING/2027/Workshop/WASSA": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795165200000,
+     "duedate": 1799096400000,
+     "expdate": 1799098200000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/WASSA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "WASSA 2027",
+   "title": "16th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis",
+   "verdict": null,
+   "website": "https://workshop-wassa.github.io/",
+   "why": ""
+  },
+  "coling-iccl.org/COLING/2027/Workshop/WASSA_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-20",
+   "invitations": [
+    {
+     "cdate": 1795165200000,
+     "duedate": 1800007200000,
+     "expdate": 1800009000000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/WASSA_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "WASSA 2027",
+   "title": "16th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis",
+   "verdict": null,
+   "website": "https://workshop-wassa.github.io/",
+   "why": ""
   },
   "controlsociety.org/ICC/2027/Workshop/RAS": {
    "archived": false,
