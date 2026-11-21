@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-16",
- "last_run": "2026-11-20T20:59:01.709756+00:00",
+ "last_run": "2026-11-21T20:00:01.960308+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -52,8 +52,8 @@
    "invitations": [
     {
      "cdate": 1793512800000,
-     "duedate": 1796407200000,
-     "expdate": 1796409000000,
+     "duedate": 1796475600000,
+     "expdate": 1796477400000,
      "id": "AAAI.org/2027/Bridge/AI-Health/-/Submission",
      "kind": "Submission"
     }
@@ -185,12 +185,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "ClimateSignal",
    "title": "Bridging Climate Science and AI to Counter Dis/Misinformation",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://egbg26.github.io/climatesignal_AAAI2027/",
-   "why": ""
+   "why": "AAAI-co-located bridge on climate dis/misinformation \u2014 an application-domain NLP topic (with climate/geospatial ties to his background), not safety/eval of AI systems themselves."
   },
   "AAAI.org/2027/Bridge/Cog2Soc": {
    "archived": false,
@@ -219,8 +220,8 @@
    "invitations": [
     {
      "cdate": 1794574740000,
-     "duedate": 1796129940000,
-     "expdate": 1796131740000,
+     "duedate": 1796216340000,
+     "expdate": 1796218140000,
      "id": "AAAI.org/2027/Bridge/Continual_Causality_Novel/-/Submission",
      "kind": "Submission"
     }
@@ -445,7 +446,7 @@
    "why": "AI-for-science application workshop \u2014 AI is the tool, not the subject of evaluation/safety/interp, so no core bullet applies."
   },
   "AAAI.org/2027/Workshop/AI4TS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-23",
    "invitations": [
     {
@@ -466,7 +467,7 @@
    "why": "Time-series ML workshop at AAAI \u2014 general ML topic that hits none of the core bullets."
   },
   "AAAI.org/2027/Workshop/AICS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-17",
    "invitations": [
     {
@@ -508,7 +509,7 @@
    "why": "AAAI workshop on anthropomorphism in AI is philosophy-of-AI/cognition themed, not squarely interpretability, alignment, or agent evaluation, so per the doubt rule it stays adjacent."
   },
   "AAAI.org/2027/Workshop/ASTAD": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-15",
    "invitations": [
     {
@@ -529,7 +530,7 @@
    "why": "Spatial/temporal anomaly detection is geospatial/spatiotemporal ML \u2014 background-adjacent per profile, hits no core bullet."
   },
   "AAAI.org/2027/Workshop/AgenticSE": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-12",
    "invitations": [
     {
@@ -571,7 +572,7 @@
    "why": "Applied agents-for-science workshop (autonomous physical experimentation), per the applied/systems agent-workshop rule."
   },
   "AAAI.org/2027/Workshop/AgriAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-01",
    "invitations": [
     {
@@ -592,7 +593,7 @@
    "why": "Applied AI-for-agriculture workshop \u2014 geospatial/remote-sensing flavored, which his background makes adjacent but never core."
   },
   "AAAI.org/2027/Workshop/DAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-13",
    "invitations": [
     {
@@ -613,7 +614,7 @@
    "why": "Deployable AI is an applied/systems deployment workshop \u2014 general ML-in-production, not alignment, interpretability, or agent evaluation as its own topic."
   },
   "AAAI.org/2027/Workshop/DiMiGenAIS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-17",
    "invitations": [
     {
@@ -721,7 +722,7 @@
    "why": "Information retrieval workshop at AAAI \u2014 general ML/IR topic, hits no core bullet (not interp, alignment, or agent evaluation)."
   },
   "AAAI.org/2027/Workshop/GSR-VLM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-12",
    "invitations": [
     {
@@ -742,7 +743,7 @@
    "why": "Vision-language spatial-reasoning workshop \u2014 vision with a foundation-model angle, not an alignment/interp/agent-eval topic, and the math-reasoning core bullet covers only NeurIPS/ICML/ICLR/ACL-family workshops."
   },
   "AAAI.org/2027/Workshop/Human-Centric_AgMS": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-20",
    "invitations": [
     {
@@ -776,7 +777,9 @@
    ],
    "issue": 148,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AAAI 2027 Workshop on LLM Agents Under Threat",
    "title": "AAAI-27 Workshop on LLM Agents Under Threat in Cyberspace",
    "verdict": "core",
@@ -789,8 +792,8 @@
    "invitations": [
     {
      "cdate": 1792152000000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795867140000,
+     "expdate": 1795868940000,
      "id": "AAAI.org/2027/Workshop/LoyalAgents/-/Submission",
      "kind": "Submission"
     }
@@ -829,7 +832,7 @@
    "why": "Math-for-AI foundations/theory workshop, not math reasoning of LLMs or alignment despite 'trustworthy agents' in the name."
   },
   "AAAI.org/2027/Workshop/MEDWM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-19",
    "invitations": [
     {
@@ -997,7 +1000,7 @@
    "why": "Synthetic-media/deepfake forensics is an ML security application, not alignment, interpretability, or evaluation of AI systems themselves."
   },
   "AAAI.org/2027/Workshop/SC4AI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -1021,7 +1024,7 @@
    "why": "Social-choice mechanisms for AI alignment, pluralistic alignment, and collective oversight \u2014 alignment/safety of AI systems themselves."
   },
   "AAAI.org/2027/Workshop/SPF-LLM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-16",
    "invitations": [
     {
@@ -1042,7 +1045,7 @@
    "why": "Security/privacy of LLMs overlaps red-teaming but centers on a security-privacy agenda rather than alignment/eval/interp \u2014 doubt resolves to adjacent."
   },
   "AAAI.org/2027/Workshop/Social_Sim": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-09",
    "invitations": [
     {
@@ -1105,7 +1108,7 @@
    "why": "AAAI workshop on theory of mind in AI \u2014 evaluating belief modeling and reasoning in agents hits the agent-behavior/reasoning-under-uncertainty core bullet and matches the belief-updating work in hand."
   },
   "AAAI.org/2027/Workshop/Trust4RSI-Agent": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-08",
    "invitations": [
     {
@@ -1126,7 +1129,7 @@
    "why": "Trust word aside, its CFP frames agent trustworthiness as OS/systems infrastructure (sandboxing, rollback, runtimes, resource accounting) \u2014 a systems-flavored agent-OS workshop, which the profile rules adjacent, not core agent evaluation/oversight."
   },
   "AAAI.org/2027/Workshop/WMAC": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-10",
    "invitations": [
     {
@@ -2842,12 +2845,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "DT4HS 2027",
    "title": "The Second Annual Meeting of Digital Twins for Health Society",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://dt4hs.org/annual-meeting-registration/",
-   "why": ""
+   "why": "Health digital-twins society meeting \u2014 medicine-domain venue without an ML-methods focus."
   },
   "DT4HS.org/2027/Inaugural_Annual_Meeting": {
    "archived": true,
@@ -2976,7 +2980,7 @@
    "why": "General causal-ML uncertainty quantification, explicitly not LLM calibration or agent uncertainty."
   },
   "ELLIS/2026/Workshop/Multi-Agent_AI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-19",
    "invitations": [
     {
@@ -3609,12 +3613,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "ml4fluids",
    "title": "4th ERCOFTAC Workshop on Machine Learning for Fluid Dynamics",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://www.ercoftac.org/ml4fluids/",
-   "why": ""
+   "why": "ML applied to fluid dynamics at a fluids society \u2014 domain-science ML wholly outside his fields, like the medical-imaging FM calibration example."
   },
   "ESEIA/2026/Conference": {
    "archived": true,
@@ -4169,7 +4174,7 @@
    "why": "Deepfake media forensics is vision/media-forensics application work, not interp/eval of AI systems, at a regional-conference workshop."
   },
   "ICVGIP.in/2026/Workshop/MULVA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-02",
    "invitations": [
     {
@@ -5765,7 +5770,7 @@
    "why": "Data/participant contribution valuation and federated-learning incentives (Shapley, mechanism design) \u2014 not evaluation of AI model behavior."
   },
   "IGG/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-01",
    "invitations": [
     {
@@ -5833,8 +5838,8 @@
    "invitations": [
     {
      "cdate": 1792591476100,
-     "duedate": 1795298340000,
-     "expdate": 1795903140000,
+     "duedate": 1795903140000,
+     "expdate": 1795904940000,
      "id": "ISCOL/2026/Seminar/-/Submission",
      "kind": "Submission"
     }
@@ -6050,12 +6055,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "LDK 2027",
    "title": "Sixth Conference on Language, Data and Knowledge",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://2027.ldk-conf.org/about/",
-   "why": ""
+   "why": "Language resources, data and knowledge-graph conference \u2014 general NLP/data-infrastructure territory, no core bullet."
   },
   "LFG/2027/Conference": {
    "archived": false,
@@ -10059,6 +10065,48 @@
    "website": "https://sites.google.com/view/srvs-workshop",
    "why": "RISC-V hardware/systems with no ML angle, explicitly excluded."
   },
+  "STAI-X/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-21",
+   "invitations": [
+    {
+     "cdate": 1795064400000,
+     "duedate": 1802519940000,
+     "expdate": 1802521740000,
+     "id": "STAI-X/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "STAI-X 2027",
+   "title": "The Second Conference on Statistics and Trustworthy AI for Cross (X)-Domain Acceleration",
+   "verdict": "adjacent",
+   "website": "https://statsupai.org/STAIX2027/index.html",
+   "why": "Statistics and trustworthy AI for cross-domain science acceleration \u2014 trust word plus application focus, not squarely eval/safety of AI systems."
+  },
+  "STAI-X/2027/Poster_Track": {
+   "archived": false,
+   "first_seen": "2026-11-21",
+   "invitations": [
+    {
+     "cdate": 1795064400000,
+     "duedate": 1807880340000,
+     "expdate": 1807882140000,
+     "id": "STAI-X/2027/Poster_Track/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "STAI-X 2027 (Poster Track)",
+   "title": "The Second Conference on Statistics and Trustworthy AI for Cross (X)-Domain Acceleration (Poster Track)",
+   "verdict": "adjacent",
+   "website": "https://statsupai.org/STAIX2027/index.html",
+   "why": "Poster track of STAI-X \u2014 same trustworthy-AI-for-applications topic, same adjacent verdict."
+  },
   "SWRS/2026/Symposium": {
    "archived": true,
    "first_seen": "2026-08-16",
@@ -10207,7 +10255,7 @@
    "why": "Dormant digital-humanities placeholder with a 2030 deadline \u2014 both a no-topic and a placeholder venue."
   },
   "UCCTS/2027/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-07",
    "invitations": [
     {
@@ -10369,12 +10417,13 @@
     }
    ],
    "issue": null,
+   "prestige": 3,
    "reminded": [],
    "subtitle": "WOOC 2027",
    "title": "Workshop on Open Citations and Open Scholarly Metadata 2027",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://workshop-oc.github.io/",
-   "why": ""
+   "why": "Open citations and scholarly metadata \u2014 bibliometrics/infrastructure with no ML-methods angle."
   },
   "WSDM/2027/Workshop/Context4Agents": {
    "archived": false,
@@ -11996,12 +12045,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CogSci 2027 Symposia Proposals",
    "title": "49th Annual Meeting of the Cognitive Science Society (CogSci 2027): Symposia",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://cognitivesciencesociety.org/cogsci-2027/",
-   "why": ""
+   "why": "Established cog-sci society symposia track \u2014 cognition and reasoning overlap his interests but the venue's topic is human cognition, not eval/interp of AI systems."
   },
   "cognitivesciencesociety.org/CogSci/2027/Tutorials_Workshops": {
    "archived": false,
@@ -12016,12 +12066,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "CogSci 2027 Tutorials and Workshops Proposals",
    "title": "49th Annual Meeting of the Cognitive Science Society (CogSci 2027): Tutorials and Workshops",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://cognitivesciencesociety.org/cogsci-2027/",
-   "why": ""
+   "why": "CogSci tutorials/workshops proposal track \u2014 same cognitive-science topic as the main meeting, not a core bullet."
   },
   "coling-iccl.org/COLING/2027/Industry_Track": {
    "archived": false,
@@ -12078,12 +12129,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "BilingLM 2027",
    "title": "The 1st Workshop on  Bilingualism and Language Modeling",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://bilinglm.github.io/",
-   "why": ""
+   "why": "Bilingualism and language modeling at COLING \u2014 multilingual LM work, explicitly an adjacent category."
   },
   "coling-iccl.org/COLING/2027/Workshop/BilingLM_ARR_Commitment": {
    "archived": false,
@@ -12098,12 +12150,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "BilingLM 2027",
    "title": "The 1st Workshop on Bilingualism and Language Modeling",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://bilinglm.github.io/",
-   "why": ""
+   "why": "ARR-commitment track of BilingLM \u2014 same multilingual-LM topic, same adjacent verdict as the workshop."
   },
   "coling-iccl.org/COLING/2027/Workshop/FATA": {
    "archived": false,
@@ -12118,12 +12171,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "FATA",
    "title": "FATA: 1st Workshop on Community-Based and Socially Aware Approaches to Natural Language Processing",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://fata-workshop.github.io/#about",
-   "why": ""
+   "why": "Community-based, socially aware NLP \u2014 the social-NLP cluster the profile calibrates as no (Gender Bias in NLP example)."
   },
   "coling-iccl.org/COLING/2027/Workshop/LoResMT": {
    "archived": false,
@@ -12145,6 +12199,27 @@
    "verdict": "adjacent",
    "website": "https://www.loresmt.org/",
    "why": "Low-resource machine translation is multilingual NLP, not a core topic."
+  },
+  "coling-iccl.org/COLING/2027/Workshop/SIGTYP": {
+   "archived": false,
+   "first_seen": "2026-11-21",
+   "invitations": [
+    {
+     "cdate": 1795251600000,
+     "duedate": 1799236740000,
+     "expdate": 1799238540000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/SIGTYP/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SIGTYP 2027",
+   "title": "The 9th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+   "verdict": "adjacent",
+   "website": "https://sigtyp.github.io/workshop.html",
+   "why": "Computational typology and multilingual NLP \u2014 multilingual work is explicitly adjacent, typology side leans linguistics."
   },
   "coling-iccl.org/COLING/2027/Workshop/UserPlural": {
    "archived": false,
@@ -12201,12 +12276,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "WASSA 2027",
    "title": "16th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://workshop-wassa.github.io/",
-   "why": ""
+   "why": "Long-running sentiment/subjectivity workshop \u2014 mainstream NLP subfield outside the core bullets."
   },
   "coling-iccl.org/COLING/2027/Workshop/WASSA_ARR_Commitment": {
    "archived": false,
@@ -12221,12 +12297,13 @@
     }
    ],
    "issue": null,
+   "prestige": 2,
    "reminded": [],
    "subtitle": "WASSA 2027",
    "title": "16th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://workshop-wassa.github.io/",
-   "why": ""
+   "why": "ARR-commitment track of WASSA \u2014 same sentiment-analysis topic, same adjacent verdict."
   },
   "controlsociety.org/ICC/2027/Workshop/RAS": {
    "archived": false,
@@ -12520,12 +12597,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "AfricaNLP 2027",
    "title": "8th Workshop on African Natural Language Processing",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://africanlp.github.io/2027",
-   "why": ""
+   "why": "African-language NLP at EACL \u2014 multilingual/low-resource NLP, adjacent by the profile's multilingual rule."
   },
   "eacl.org/EACL/2027/Workshop/CHOMPS": {
    "archived": false,
@@ -12582,12 +12660,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "Field Matters 2027",
    "title": "Sixth Workshop on NLP Applications to Field Linguistics",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://field-matters.github.io/",
-   "why": ""
+   "why": "NLP applications to field linguistics \u2014 low-resource/documentation NLP rather than pure linguistics, so adjacent not no."
   },
   "eacl.org/EACL/2027/Workshop/LInDA": {
    "archived": false,
@@ -12602,12 +12681,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "LInDA 2027",
    "title": "First Workshop on Linguistic Information for Downstream Applications",
-   "verdict": null,
+   "verdict": "adjacent",
    "website": "https://linda-workshop.github.io/",
-   "why": ""
+   "why": "Linguistic information for downstream NLP applications \u2014 general NLP-methods workshop, no core bullet."
   },
   "eacl.org/EACL/2027/Workshop/LoResLM": {
    "archived": false,
@@ -12727,12 +12807,13 @@
     }
    ],
    "issue": null,
+   "prestige": 1,
    "reminded": [],
    "subtitle": "MultiDems 2027",
    "title": "The 1st Multidisciplinary Workshop on NLP for Democracies",
-   "verdict": null,
+   "verdict": "no",
    "website": "https://sites.google.com/view/multidems",
-   "why": ""
+   "why": "ARR-commitment track of NLP-for-democracies \u2014 a domain-application NLP venue like the Legal/FinNLP calibration nos."
   },
   "eacl.org/EACL/2027/Workshop/ORACLE": {
    "archived": false,
@@ -14125,6 +14206,27 @@
    "verdict": "no",
    "website": "https://www.iimj.ac.in/smf-2025.php",
    "why": "Strategic management/business conference with no ML angle."
+  },
+  "stanford.edu/Stanford_University/AIMS/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-21",
+   "invitations": [
+    {
+     "cdate": 1794830400000,
+     "duedate": 1797508740000,
+     "expdate": 1797510540000,
+     "id": "stanford.edu/Stanford_University/AIMS/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": 156,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AIMS 2027",
+   "title": "Conference on AI Measurement Science at Stanford 2027",
+   "verdict": "core",
+   "website": "https://aims.stanford.edu/",
+   "why": "Dedicated conference on AI measurement science \u2014 evaluation of AI systems themselves, the AIMs-style venue the profile explicitly says to never miss."
   },
   "tau.ac.il/TAU/2026/Horvathfest": {
    "archived": true,
