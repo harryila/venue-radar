@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-16",
- "last_run": "2026-11-21T20:00:01.960308+00:00",
+ "last_run": "2026-11-22T20:15:06.873451+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -4132,7 +4132,7 @@
    "why": "National computer vision/graphics conference \u2014 regional vision venue, adjacent."
   },
   "ICVGIP.in/2026/Workshop/AVEO": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-03",
    "invitations": [
     {
@@ -4174,13 +4174,13 @@
    "why": "Deepfake media forensics is vision/media-forensics application work, not interp/eval of AI systems, at a regional-conference workshop."
   },
   "ICVGIP.in/2026/Workshop/MULVA": {
-   "archived": true,
-   "first_seen": "2026-11-02",
+   "archived": false,
+   "first_seen": "2026-11-22",
    "invitations": [
     {
      "cdate": 1793385000000,
-     "duedate": 1795285800000,
-     "expdate": 1795287600000,
+     "duedate": 1796063340000,
+     "expdate": 1796065140000,
      "id": "ICVGIP.in/2026/Workshop/MULVA/-/Submission",
      "kind": "Submission"
     }
@@ -4195,7 +4195,7 @@
    "why": "Machine unlearning is trustworthy-ML/privacy themed but not squarely alignment, interpretability, or agent evaluation, so it stays adjacent."
   },
   "ICVGIP.in/2026/Workshop/ViLaMA": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-02",
    "invitations": [
     {
@@ -12122,8 +12122,8 @@
    "invitations": [
     {
      "cdate": 1795190400000,
-     "duedate": 1799236800000,
-     "expdate": 1799238600000,
+     "duedate": 1799236740000,
+     "expdate": 1799238540000,
      "id": "coling-iccl.org/COLING/2027/Workshop/BilingLM/-/Submission",
      "kind": "Submission"
     }
@@ -12815,6 +12815,27 @@
    "website": "https://sites.google.com/view/multidems",
    "why": "ARR-commitment track of NLP-for-democracies \u2014 a domain-application NLP venue like the Legal/FinNLP calibration nos."
   },
+  "eacl.org/EACL/2027/Workshop/MultiDems_Shared_Task": {
+   "archived": false,
+   "first_seen": "2026-11-22",
+   "invitations": [
+    {
+     "cdate": 1795305600000,
+     "duedate": 1799495940000,
+     "expdate": 1799497740000,
+     "id": "eacl.org/EACL/2027/Workshop/MultiDems_Shared_Task/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "MultiDems 2027 Shared Task",
+   "title": "Shared Task on Summarization of Citizen Consultations at MultiDems 2027",
+   "verdict": "adjacent",
+   "website": "https://sites.google.com/view/multidems",
+   "why": "Applied NLP shared task on summarizing citizen consultations \u2014 shared tasks stay adjacent unless the task itself is calibration/eval/interp of LLMs."
+  },
   "eacl.org/EACL/2027/Workshop/ORACLE": {
    "archived": false,
    "first_seen": "2026-11-03",
@@ -13324,6 +13345,27 @@
    "verdict": "adjacent",
    "website": "https://conference.mmumullana.org/icmmdu-2026/",
    "why": "Regional broad machine-intelligence conference \u2014 regional AI/ML conferences are adjacent by rule, not core."
+  },
+  "musiml.org/MusIML/2026/CCIS_Proceedings": {
+   "archived": false,
+   "first_seen": "2026-11-22",
+   "invitations": [
+    {
+     "cdate": 1795363200000,
+     "duedate": 1796659140000,
+     "expdate": 1796660940000,
+     "id": "musiml.org/MusIML/2026/CCIS_Proceedings/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "MusIML 2026 CCIS Proceedings",
+   "title": "Muslims in Machine Learning \u2014 First Proceedings Volume (Springer CCIS)",
+   "verdict": "no",
+   "website": "https://www.musiml.org/",
+   "why": "Affinity-group proceedings volume like WiML/Widening NLP, which the profile explicitly lists as no."
   },
   "ntu.edu.tw/National_Taiwan_University/Fall_2026/PP-MiniConf": {
    "archived": false,
@@ -14124,7 +14166,7 @@
    "why": "A scientific-verification benchmark/shared-task review falls under datasets-and-benchmarks, not calibration/eval/interp of LLMs."
   },
   "sdu.edu.cn/Shandong_University/SDUAI/2026/Conference": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-21",
    "invitations": [
     {
