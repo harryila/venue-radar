@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-23",
- "last_run": "2026-11-24T00:41:14.578725+00:00",
+ "last_run": "2026-11-24T22:57:47.030851+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -509,7 +509,7 @@
    "why": "AAAI workshop on anthropomorphism in AI is philosophy-of-AI/cognition themed, not squarely interpretability, alignment, or agent evaluation, so per the doubt rule it stays adjacent."
   },
   "AAAI.org/2027/Workshop/ASTAD": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-24",
    "invitations": [
     {
@@ -680,7 +680,7 @@
    "why": "Evaluation methodology, benchmarks, and LLM-judge reliability for AI-scientist agents hits the agent-evaluation / evaluation-of-AI-systems core bullet."
   },
   "AAAI.org/2027/Workshop/FinFM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-02",
    "invitations": [
     {
@@ -916,7 +916,7 @@
    "why": "Neuro-symbolic foundation-model workshop is a general LLM/ML topic at AAAI, hitting no interp/alignment/eval core bullet."
   },
   "AAAI.org/2027/Workshop/NeuroAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-17",
    "invitations": [
     {
@@ -1100,7 +1100,9 @@
    ],
    "issue": 142,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "ToM4AI 2027",
    "title": "Third Theory of Mind in AI",
    "verdict": "core",
@@ -3894,6 +3896,27 @@
    "website": "https://publish.illinois.edu/fasl36-uiuc/",
    "why": "Pure Slavic formal linguistics with no ML angle."
   },
+  "FCRAR/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795006800000,
+     "duedate": 1804683600000,
+     "expdate": 1804685400000,
+     "id": "FCRAR/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "FCRAR 2027",
+   "title": "Florida Conference on Recent Advances in Robotics",
+   "verdict": "adjacent",
+   "website": "https://fcrar.robolat.org/",
+   "why": "Regional robotics conference, not alignment/interp/agent-evaluation; robotics is at most adjacent background per the profile."
+  },
   "FEAR/2026/Workshop": {
    "archived": false,
    "first_seen": "2026-11-05",
@@ -4368,8 +4391,8 @@
    "invitations": [
     {
      "cdate": 1793557800000,
-     "duedate": 1795544940000,
-     "expdate": 1795546740000,
+     "duedate": 1795631340000,
+     "expdate": 1795633140000,
      "id": "ICVGIP.in/2026/Workshop/AVEO/-/Submission",
      "kind": "Submission"
     }
@@ -4384,7 +4407,7 @@
    "why": "Vision foundation models for Earth observation is geospatial/remote-sensing ML, which the profile lists as adjacent-only background."
   },
   "ICVGIP.in/2026/Workshop/FDDM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-15",
    "invitations": [
     {
@@ -4599,8 +4622,8 @@
    "invitations": [
     {
      "cdate": 1791547140000,
-     "duedate": 1795568340000,
-     "expdate": 1795570140000,
+     "duedate": 1795611540000,
+     "expdate": 1795613340000,
      "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
      "kind": "Submission"
     }
@@ -5922,8 +5945,8 @@
    "invitations": [
     {
      "cdate": 1791237600000,
-     "duedate": 1800655200000,
-     "expdate": 1800657000000,
+     "duedate": 1800791940000,
+     "expdate": 1800793740000,
      "id": "IEEE.org/SDS/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -10507,13 +10530,13 @@
    "why": "Dormant digital-humanities placeholder with a 2030 deadline \u2014 both a no-topic and a placeholder venue."
   },
   "UCCTS/2027/Conference": {
-   "archived": true,
-   "first_seen": "2026-09-07",
+   "archived": false,
+   "first_seen": "2026-11-24",
    "invitations": [
     {
      "cdate": 1788764400000,
-     "duedate": 1795211940000,
-     "expdate": 1795213740000,
+     "duedate": 1795863540000,
+     "expdate": 1795865340000,
      "id": "UCCTS/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -11444,6 +11467,27 @@
    "verdict": "adjacent",
    "website": "https://naacl27-srw.github.io/",
    "why": "Student research workshop, which the profile explicitly lists as adjacent regardless of host."
+  },
+  "aclweb.org/NAACL/2027/Workshop/CHum": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795500000000,
+     "duedate": 1801987140000,
+     "expdate": 1801988940000,
+     "id": "aclweb.org/NAACL/2027/Workshop/CHum/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "CHum 2027",
+   "title": "The 3rd Workshop on Computational Humor",
+   "verdict": "adjacent",
+   "website": "https://chumweb.org/",
+   "why": "Computational humor is a general NLP workshop topic at a flagship host, hitting no core bullet."
   },
   "aclweb.org/NAACL/2027/Workshop/CLPsych": {
    "archived": false,
@@ -12878,6 +12922,69 @@
    "website": "https://africanlp.github.io/2027",
    "why": "African-language NLP at EACL \u2014 multilingual/low-resource NLP, adjacent by the profile's multilingual rule."
   },
+  "eacl.org/EACL/2027/Workshop/ArgMining": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795503600000,
+     "duedate": 1797422340000,
+     "expdate": 1797424140000,
+     "id": "eacl.org/EACL/2027/Workshop/ArgMining/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ArgMining 2027",
+   "title": "The 14th Workshop on Argument Mining and Reasoning",
+   "verdict": "no",
+   "website": "https://argmining-org.github.io/2027/",
+   "why": "Argument mining/argumentation theory is explicitly on the no-list (Argumentation & Language example)."
+  },
+  "eacl.org/EACL/2027/Workshop/ArgMining_ARR_Commitment": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795503600000,
+     "duedate": 1798027140000,
+     "expdate": 1798028940000,
+     "id": "eacl.org/EACL/2027/Workshop/ArgMining_ARR_Commitment/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ArgMining 2027 ARR Commitment",
+   "title": "The 14th Workshop on Argument Mining and Reasoning ARR Commitment",
+   "verdict": "no",
+   "website": "https://argmining-org.github.io/2027/",
+   "why": "ARR-commitment track of ArgMining takes the workshop's verdict: argumentation theory is no-listed."
+  },
+  "eacl.org/EACL/2027/Workshop/ArgMining_Non-Archival": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795503600000,
+     "duedate": 1798027140000,
+     "expdate": 1798028940000,
+     "id": "eacl.org/EACL/2027/Workshop/ArgMining_Non-Archival/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 1,
+   "reminded": [],
+   "subtitle": "ArgMining 2027 Non-Archival",
+   "title": "The 14th Workshop on Argument Mining and Reasoning Non-Archival",
+   "verdict": "no",
+   "website": "https://argmining-org.github.io/2027/",
+   "why": "Non-archival track of ArgMining takes the workshop's verdict: argumentation theory is no-listed."
+  },
   "eacl.org/EACL/2027/Workshop/CHOMPS": {
    "archived": false,
    "first_seen": "2026-10-20",
@@ -13473,13 +13580,13 @@
    "why": "Space-robotics software/hardware solutions with no ML-methods or foundation-model angle."
   },
   "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL": {
-   "archived": true,
-   "first_seen": "2026-09-22",
+   "archived": false,
+   "first_seen": "2026-11-24",
    "invitations": [
     {
      "cdate": 1789657200000,
-     "duedate": 1794963600000,
-     "expdate": 1794965400000,
+     "duedate": 1795568400000,
+     "expdate": 1795570200000,
      "id": "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL/-/Submission",
      "kind": "Submission"
     }
@@ -15006,7 +15113,7 @@
    "why": "Vision for biomedical/medical-imaging discovery \u2014 medical-imaging application venue, matching the trustworthy-medical-imaging no example."
   },
   "thecvf.com/WACV/2027/Workshop/Data4VFM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-09-14",
    "invitations": [
     {
