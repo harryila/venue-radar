@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
- "last_digest": "2026-11-16",
- "last_run": "2026-11-22T20:15:06.873451+00:00",
+ "last_digest": "2026-11-23",
+ "last_run": "2026-11-24T00:41:14.578725+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -509,13 +509,13 @@
    "why": "AAAI workshop on anthropomorphism in AI is philosophy-of-AI/cognition themed, not squarely interpretability, alignment, or agent evaluation, so per the doubt rule it stays adjacent."
   },
   "AAAI.org/2027/Workshop/ASTAD": {
-   "archived": true,
-   "first_seen": "2026-10-15",
+   "archived": false,
+   "first_seen": "2026-11-24",
    "invitations": [
     {
      "cdate": 1792036800000,
-     "duedate": 1795262340000,
-     "expdate": 1795264140000,
+     "duedate": 1795521540000,
+     "expdate": 1795523340000,
      "id": "AAAI.org/2027/Workshop/ASTAD/-/Submission",
      "kind": "Submission"
     }
@@ -1551,6 +1551,111 @@
    "website": "https://www2027.thewebconf.org/",
    "why": "Tutorial track at an established web/ML conference \u2014 tutorials are explicitly adjacent and WWW's topic hits no core bullet."
   },
+  "ACM.org/TheWebConf/2027/Workshop/AGORA": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/AGORA/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AGORA 2027",
+   "title": "International Workshop on Architectures, Governance, Orchestration and Reasoning for the Agentic Web",
+   "verdict": "adjacent",
+   "website": "https://agora.univ-tours.fr/",
+   "why": "Agentic-web architecture/orchestration is an applied/systems agent workshop \u2014 agents are the setting, not evaluation or oversight of them."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/AMCH": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/AMCH/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AMCH 2027",
+   "title": "Aging Well with Web and AI Technologies for Maintaining Good Mental and Cognitive Health",
+   "verdict": "no",
+   "website": "https://ic2.sit.kmutt.ac.th/amch2027/",
+   "why": "Web/AI technologies for aging and mental health is a health application domain with no ML-methods angle."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/ATLAS": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/ATLAS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "ATLAS 2027",
+   "title": "Second International Workshop on Agents, Things and Lightweight AI for Sustainability",
+   "verdict": "adjacent",
+   "website": "https://atlas.liris.cnrs.fr/",
+   "why": "Lightweight AI and agents for sustainability is an applied agents/efficiency workshop, not a core topic."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/AccessAgent": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/AccessAgent/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AccessAgent 2027",
+   "title": "AccessAgent: Accessibility for the Agentic Web",
+   "verdict": "adjacent",
+   "website": "https://accessagent.github.io/WebConf2027.AccessAgent/",
+   "why": "Accessibility for web agents is an applied agent workshop; agents are the setting rather than the object of evaluation or interpretability."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/AgentDM": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/AgentDM/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "AgentDM 2027",
+   "title": "The First Workshop on Structured Data Mining with LLM Agents",
+   "verdict": "adjacent",
+   "website": "https://agentdm-workshop.github.io/",
+   "why": "LLM agents for structured data mining is applied agents plus data infrastructure, matching listed adjacent background areas."
+  },
   "ACM.org/TheWebConf/2027/Workshop/AiOfAi": {
    "archived": false,
    "first_seen": "2026-11-01",
@@ -1613,6 +1718,27 @@
    "verdict": "adjacent",
    "website": "https://www2027.thewebconf.org/",
    "why": "Agents for code development \u2014 applied agent workshop where agents are the setting, not the question."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/EARL": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/EARL/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "EARL 2027",
+   "title": "EARL: The 4th Workshop on Evaluating and Applying Recommender Systems with Large Language Models",
+   "verdict": "adjacent",
+   "website": "https://earl-workshop.github.io/",
+   "why": "Evaluating recommender systems with LLMs targets a recsys application, not evaluation of LLMs/agents themselves."
   },
   "ACM.org/TheWebConf/2027/Workshop/FL_FM": {
    "archived": false,
@@ -1740,6 +1866,27 @@
    "website": "https://llmandagents4recsys.github.io/2027/",
    "why": "LLMs and agents for recommendation \u2014 applied agent workshop, agents as setting not subject."
   },
+  "ACM.org/TheWebConf/2027/Workshop/MM4SG": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/MM4SG/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "MM4SG 2027",
+   "title": "The Fifth Workshop on Multimodal Content Analysis for Social Good (MM4SG 2027)",
+   "verdict": "adjacent",
+   "website": "https://mm4sg.github.io/",
+   "why": "Multimodal content analysis for social good is an applied ML/NLP workshop outside the core bullets."
+  },
   "ACM.org/TheWebConf/2027/Workshop/NSLP-SDP": {
    "archived": false,
    "first_seen": "2026-11-01",
@@ -1760,6 +1907,48 @@
    "verdict": "adjacent",
    "website": "https://nfdi4ds.github.io/nslp-sdp-2027/",
    "why": "Scholarly document processing / AI for the scholarly web \u2014 applied NLP outside core topics."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/PromptEng": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/PromptEng/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "PromptEng 2027",
+   "title": "Fourth International Workshop on Prompt Engineering for Pre-Trained Language Models",
+   "verdict": "adjacent",
+   "website": "https://prompteng-ws.github.io/2027/",
+   "why": "Prompt engineering is a general LLM-methods topic, not alignment, interpretability, or agent evaluation."
+  },
+  "ACM.org/TheWebConf/2027/Workshop/SynIRgy": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795392000000,
+     "duedate": 1799020800000,
+     "expdate": 1799022600000,
+     "id": "ACM.org/TheWebConf/2027/Workshop/SynIRgy/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SynIRgy 2027",
+   "title": "SynIRgy: Simulation and Synthetic Data for Web-Scale Information Access",
+   "verdict": "adjacent",
+   "website": "https://synirgy-workshop.github.io/",
+   "why": "Synthetic data and simulation for information access is IR/datasets territory, listed as adjacent, not core."
   },
   "ACM.org/TheWebConf/2027/Workshop/SynWeb": {
    "archived": false,
@@ -2664,6 +2853,27 @@
    "website": "https://csf2027.pl",
    "why": "Canine/animal behavior science with no ML-methods angle \u2014 outside ML/NLP entirely."
   },
+  "CUNI.cz/Linguistics_Prague/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795478400000,
+     "duedate": 1800835200000,
+     "expdate": 1800837000000,
+     "id": "CUNI.cz/Linguistics_Prague/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 3,
+   "reminded": [],
+   "subtitle": "LP 2027",
+   "title": "Linguistics Prague 2027",
+   "verdict": "no",
+   "website": "https://linguisticsprague.ff.cuni.cz/index.html",
+   "why": "Pure linguistics conference with no ML angle, explicitly in the no list."
+  },
   "CVIS/2026/Conference": {
    "archived": true,
    "first_seen": "2026-10-26",
@@ -2894,6 +3104,27 @@
    "verdict": "no",
    "website": "https://ecargument.org/",
    "why": "Argumentation-theory conference \u2014 explicitly listed as 'no'."
+  },
+  "ECIR/2027/Workshop/SAFE-SEARCH": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795435200000,
+     "duedate": 1800100740000,
+     "expdate": 1800102540000,
+     "id": "ECIR/2027/Workshop/SAFE-SEARCH/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SAFE-SEARCH 2027",
+   "title": "SAFE-SEARCH: Safety, Accountability, Faithfulness, and Evaluation in Conversational Search",
+   "verdict": "adjacent",
+   "website": "https://safe-search-workshop.github.io/ecir-2027/",
+   "why": "Safety and evaluation of conversational search is 'safe/trustworthy X' for an IR application domain, which the profile keeps adjacent."
   },
   "EEE.org/RAS/Humanoids/2026/Workshop/HRB": {
    "archived": true,
@@ -4132,13 +4363,13 @@
    "why": "National computer vision/graphics conference \u2014 regional vision venue, adjacent."
   },
   "ICVGIP.in/2026/Workshop/AVEO": {
-   "archived": true,
-   "first_seen": "2026-11-03",
+   "archived": false,
+   "first_seen": "2026-11-24",
    "invitations": [
     {
      "cdate": 1793557800000,
-     "duedate": 1795372140000,
-     "expdate": 1795373940000,
+     "duedate": 1795544940000,
+     "expdate": 1795546740000,
      "id": "ICVGIP.in/2026/Workshop/AVEO/-/Submission",
      "kind": "Submission"
     }
@@ -5999,6 +6230,27 @@
    "verdict": "no",
    "website": "https://hebergement.universite-paris-saclay.fr/jwoc/",
    "why": "Wireless/optical networking without ML."
+  },
+  "KDD.org/2027/Research_Track_Cycle_2": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795435200000,
+     "duedate": 1800360000000,
+     "expdate": 1800361800000,
+     "id": "KDD.org/2027/Research_Track_Cycle_2/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "SIGKDD 2027 Research Track",
+   "title": "33rd SIGKDD Conference on Knowledge Discovery and Data Mining, 2027 - Research Track (Second Cycle Deadline)",
+   "verdict": "adjacent",
+   "website": "https://kdd2027.kdd.org/",
+   "why": "KDD main research track is a strong general ML/data-mining venue but not one of the listed flagship main tracks or core topics."
   },
   "KolKom/2026/Conference": {
    "archived": true,
@@ -12158,6 +12410,27 @@
    "website": "https://bilinglm.github.io/",
    "why": "ARR-commitment track of BilingLM \u2014 same multilingual-LM topic, same adjacent verdict as the workshop."
   },
+  "coling-iccl.org/COLING/2027/Workshop/CRAFT": {
+   "archived": false,
+   "first_seen": "2026-11-24",
+   "invitations": [
+    {
+     "cdate": 1795199400000,
+     "duedate": 1799238540000,
+     "expdate": 1799240340000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/CRAFT/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "prestige": 2,
+   "reminded": [],
+   "subtitle": "CRAFT 2027",
+   "title": "CRAFT: Curation, Reproducibility, and Accountability for Training Foundation Models",
+   "verdict": "adjacent",
+   "website": "https://craft-2027.github.io/",
+   "why": "Curation and reproducibility of foundation-model training data is a data-infrastructure/datasets topic, adjacent per the profile."
+  },
   "coling-iccl.org/COLING/2027/Workshop/FATA": {
    "archived": false,
    "first_seen": "2026-11-20",
@@ -12348,7 +12621,7 @@
    "why": "Established constraint-programming/OR/AI conference outside his LLM interp/agents/eval bullets, kept adjacent like AAMAS under the unsure-tiebreak rule."
   },
   "dataschool.yandex.com/YSDA/2026/AI4Science": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-19",
    "invitations": [
     {
@@ -14738,8 +15011,8 @@
    "invitations": [
     {
      "cdate": 1789300740000,
-     "duedate": 1795435140000,
-     "expdate": 1795436940000,
+     "duedate": 1795521540000,
+     "expdate": 1795523340000,
      "id": "thecvf.com/WACV/2027/Workshop/Data4VFM/-/Submission",
      "kind": "Submission"
     }
