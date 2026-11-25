@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-23",
- "last_run": "2026-11-24T22:57:47.030851+00:00",
+ "last_run": "2026-11-25T22:19:23.817706+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -144,7 +144,9 @@
    ],
    "issue": 152,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AAAI 2027 Bridge Bench2Evidence",
    "title": "AAAI 2027 Bridge: From Agent Benchmarks to Deployment Evidence: Bridging Evaluation Science and Deployment Practice",
    "verdict": "core",
@@ -157,8 +159,8 @@
    "invitations": [
     {
      "cdate": 1794114000000,
-     "duedate": 1795964400000,
-     "expdate": 1795966200000,
+     "duedate": 1796471940000,
+     "expdate": 1796473740000,
      "id": "AAAI.org/2027/Bridge/CEER/-/Submission",
      "kind": "Submission"
     }
@@ -199,8 +201,8 @@
    "invitations": [
     {
      "cdate": 1794067200000,
-     "duedate": 1795694340000,
-     "expdate": 1795696140000,
+     "duedate": 1796039940000,
+     "expdate": 1796041740000,
      "id": "AAAI.org/2027/Bridge/Cog2Soc/-/Submission",
      "kind": "Submission"
     }
@@ -298,6 +300,26 @@
    "website": "https://homogenization-in-ai.github.io/aaai27/",
    "why": "Homogenization and its social impacts is society-facing with only a pluralism/agents flavor, not squarely alignment or evaluation of AI systems, so the borderline resolves to adjacent."
   },
+  "AAAI.org/2027/Bridge/STEPS": {
+   "archived": false,
+   "first_seen": "2026-11-25",
+   "invitations": [
+    {
+     "cdate": 1795582800000,
+     "duedate": 1796619600000,
+     "expdate": 1796621400000,
+     "id": "AAAI.org/2027/Bridge/STEPS/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "STEPS",
+   "title": "Systems That Keep Changing: Trust, Provenance, and Safety in Autonomous Science",
+   "verdict": null,
+   "website": "https://okotevska.github.io/aaai27-bridge/",
+   "why": ""
+  },
   "AAAI.org/2027/Bridge/StreamingCL": {
    "archived": false,
    "first_seen": "2026-11-08",
@@ -333,7 +355,9 @@
    ],
    "issue": 153,
    "prestige": 1,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "TGA 2027",
    "title": "AAAI-27 Bridge Workshop - Toward General Autoformalization",
    "verdict": "core",
@@ -404,7 +428,7 @@
    "why": "Applied agents-for-network-operations workshop \u2014 agents are the setting, not alignment/eval/interp of agents, despite uncertainty/safety keywords."
   },
   "AAAI.org/2027/Workshop/AI4Factory": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-09",
    "invitations": [
     {
@@ -743,13 +767,13 @@
    "why": "Vision-language spatial-reasoning workshop \u2014 vision with a foundation-model angle, not an alignment/interp/agent-eval topic, and the math-reasoning core bullet covers only NeurIPS/ICML/ICLR/ACL-family workshops."
   },
   "AAAI.org/2027/Workshop/Human-Centric_AgMS": {
-   "archived": true,
-   "first_seen": "2026-10-20",
+   "archived": false,
+   "first_seen": "2026-11-25",
    "invitations": [
     {
      "cdate": 1791867600000,
-     "duedate": 1795269540000,
-     "expdate": 1795271340000,
+     "duedate": 1798261140000,
+     "expdate": 1798262940000,
      "id": "AAAI.org/2027/Workshop/Human-Centric_AgMS/-/Submission",
      "kind": "Submission"
     }
@@ -2861,8 +2885,8 @@
    "invitations": [
     {
      "cdate": 1795478400000,
-     "duedate": 1800835200000,
-     "expdate": 1800837000000,
+     "duedate": 1801436340000,
+     "expdate": 1801438140000,
      "id": "CUNI.cz/Linguistics_Prague/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -3931,7 +3955,9 @@
    ],
    "issue": 151,
    "prestige": 3,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "FEAR",
    "title": "Third International Workshop on Formal Ethical Agents and Robots",
    "verdict": "core",
@@ -4386,7 +4412,7 @@
    "why": "National computer vision/graphics conference \u2014 regional vision venue, adjacent."
   },
   "ICVGIP.in/2026/Workshop/AVEO": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-24",
    "invitations": [
     {
@@ -4407,13 +4433,13 @@
    "why": "Vision foundation models for Earth observation is geospatial/remote-sensing ML, which the profile lists as adjacent-only background."
   },
   "ICVGIP.in/2026/Workshop/FDDM": {
-   "archived": true,
-   "first_seen": "2026-11-15",
+   "archived": false,
+   "first_seen": "2026-11-25",
    "invitations": [
     {
      "cdate": 1793385000000,
-     "duedate": 1795545000000,
-     "expdate": 1795546800000,
+     "duedate": 1795804200000,
+     "expdate": 1795806000000,
      "id": "ICVGIP.in/2026/Workshop/FDDM/-/Submission",
      "kind": "Submission"
     }
@@ -4622,8 +4648,8 @@
    "invitations": [
     {
      "cdate": 1791547140000,
-     "duedate": 1795611540000,
-     "expdate": 1795613340000,
+     "duedate": 1795647540000,
+     "expdate": 1795649340000,
      "id": "IEEE.org/Humanoids/2026/HSR/-/Submission",
      "kind": "Submission"
     }
@@ -12538,6 +12564,26 @@
    "website": "https://sigtyp.github.io/workshop.html",
    "why": "Computational typology and multilingual NLP \u2014 multilingual work is explicitly adjacent, typology side leans linguistics."
   },
+  "coling-iccl.org/COLING/2027/Workshop/SLT-Eval": {
+   "archived": false,
+   "first_seen": "2026-11-25",
+   "invitations": [
+    {
+     "cdate": 1795545000000,
+     "duedate": 1800556200000,
+     "expdate": 1800558000000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/SLT-Eval/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "SLT-Eval 2027",
+   "title": "1st Speech and Language Technologies Evaluation Workshop",
+   "verdict": null,
+   "website": "https://slteval.github.io/",
+   "why": ""
+  },
   "coling-iccl.org/COLING/2027/Workshop/UserPlural": {
    "archived": false,
    "first_seen": "2026-11-15",
@@ -12621,6 +12667,26 @@
    "verdict": "adjacent",
    "website": "https://workshop-wassa.github.io/",
    "why": "ARR-commitment track of WASSA \u2014 same sentiment-analysis topic, same adjacent verdict."
+  },
+  "computerrobotvision.org/CRV/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-25",
+   "invitations": [
+    {
+     "cdate": 1795410000000,
+     "duedate": 1802408400000,
+     "expdate": 1802410200000,
+     "id": "computerrobotvision.org/CRV/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "CRV 2027",
+   "title": "24th Conference on Robots and Vision",
+   "verdict": null,
+   "website": "https://www.computerrobotvision.org/",
+   "why": ""
   },
   "controlsociety.org/ICC/2027/Workshop/RAS": {
    "archived": false,
@@ -13580,7 +13646,7 @@
    "why": "Space-robotics software/hardware solutions with no ML-methods or foundation-model angle."
   },
   "jbnu.ac.kr/Jeonbuk_National_University/Fall_2026/ADL": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-24",
    "invitations": [
     {
