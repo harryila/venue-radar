@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-23",
- "last_run": "2026-11-25T22:19:23.817706+00:00",
+ "last_run": "2026-11-26T22:12:50.408918+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -280,7 +280,7 @@
    "why": "Data-centric AI for agent learning is an applied/data-infrastructure agent venue, not agent behavior evaluation."
   },
   "AAAI.org/2027/Bridge/HPAI": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-12",
    "invitations": [
     {
@@ -802,7 +802,8 @@
    "issue": 148,
    "prestige": 1,
    "reminded": [
-    "T-7"
+    "T-7",
+    "T-2"
    ],
    "subtitle": "AAAI 2027 Workshop on LLM Agents Under Threat",
    "title": "AAAI-27 Workshop on LLM Agents Under Threat in Cyberspace",
@@ -2507,8 +2508,8 @@
    "invitations": [
     {
      "cdate": 1784901013200,
-     "duedate": 1797328800000,
-     "expdate": 1797330600000,
+     "duedate": 1798757940000,
+     "expdate": 1798759740000,
      "id": "ARGAGE/2027/Conference_Abstracts/-/Submission",
      "kind": "Submission"
     }
@@ -4309,8 +4310,8 @@
    "invitations": [
     {
      "cdate": 1793440800000,
-     "duedate": 1796209140000,
-     "expdate": 1796210940000,
+     "duedate": 1796727540000,
+     "expdate": 1796729340000,
      "id": "ICLR.cc/2027/BlogPosts/-/Submission",
      "kind": "Submission"
     }
@@ -4643,7 +4644,7 @@
    "why": "Equitable-AI-in-health application venue, matching the Trustworthy-FMs-in-medical calibration example of no."
   },
   "IEEE.org/Humanoids/2026/HSR": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-13",
    "invitations": [
     {
@@ -10309,8 +10310,8 @@
    "invitations": [
     {
      "cdate": 1789945200000,
-     "duedate": 1796900400000,
-     "expdate": 1796902200000,
+     "duedate": 1797465540000,
+     "expdate": 1797467340000,
      "id": "SPELLL.org/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -12438,6 +12439,26 @@
    "website": "https://2027.coling-iccl.org/",
    "why": "Demo track (demos are explicitly adjacent) and COLING is not a core main-track family."
   },
+  "coling-iccl.org/COLING/2027/Workshop/AIGCTrustDetect": {
+   "archived": false,
+   "first_seen": "2026-11-26",
+   "invitations": [
+    {
+     "cdate": 1795694340000,
+     "duedate": 1799668740000,
+     "expdate": 1799670540000,
+     "id": "coling-iccl.org/COLING/2027/Workshop/AIGCTrustDetect/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "AIGCTrustDetect 2027",
+   "title": "The 1st Workshop on AI-Generated Content Detection and Trustworthy Governance",
+   "verdict": null,
+   "website": "https://nlp2ct.github.io/COLING-2027-Workshop-AIGCTrustDetect/",
+   "why": ""
+  },
   "coling-iccl.org/COLING/2027/Workshop/BilingLM": {
    "archived": false,
    "first_seen": "2026-11-20",
@@ -12570,8 +12591,8 @@
    "invitations": [
     {
      "cdate": 1795545000000,
-     "duedate": 1800556200000,
-     "expdate": 1800558000000,
+     "duedate": 1800642600000,
+     "expdate": 1800644400000,
      "id": "coling-iccl.org/COLING/2027/Workshop/SLT-Eval/-/Submission",
      "kind": "Submission"
     }
