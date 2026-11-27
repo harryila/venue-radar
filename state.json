@@ -1,7 +1,7 @@
 {
  "backfill_date": "2026-08-16",
  "last_digest": "2026-11-23",
- "last_run": "2026-11-26T22:12:50.408918+00:00",
+ "last_run": "2026-11-27T21:53:05.440042+00:00",
  "profile_hash": "f01f3e2ff8231e1303801c524d67178454951acca6ac7eae3b40862a70f544f1",
  "venues": {
   "-Agora/COVID-19": {
@@ -680,7 +680,7 @@
    "why": "AI-for-music application workshop at AAAI \u2014 an applied domain hitting no core bullet, though hosted at a flagship family."
   },
   "AAAI.org/2027/Workshop/EvalAIScientists": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -878,7 +878,7 @@
    "why": "Medical world models is an applied ML-for-medicine topic, not alignment/interp/agent-eval of AI systems themselves."
   },
   "AAAI.org/2027/Workshop/MakingSense": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-10-06",
    "invitations": [
     {
@@ -1117,17 +1117,15 @@
    "invitations": [
     {
      "cdate": 1791345600000,
-     "duedate": 1796126700000,
-     "expdate": 1796128500000,
+     "duedate": 1796321400000,
+     "expdate": 1796323200000,
      "id": "AAAI.org/2027/Workshop/ToM4AI/-/Submission",
      "kind": "Submission"
     }
    ],
    "issue": 142,
    "prestige": 1,
-   "reminded": [
-    "T-7"
-   ],
+   "reminded": [],
    "subtitle": "ToM4AI 2027",
    "title": "Third Theory of Mind in AI",
    "verdict": "core",
@@ -2256,8 +2254,8 @@
    "invitations": [
     {
      "cdate": 1792364400000,
-     "duedate": 1795733940000,
-     "expdate": 1795735740000,
+     "duedate": 1796943540000,
+     "expdate": 1796945340000,
      "id": "ADSAI/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -4434,7 +4432,7 @@
    "why": "Vision foundation models for Earth observation is geospatial/remote-sensing ML, which the profile lists as adjacent-only background."
   },
   "ICVGIP.in/2026/Workshop/FDDM": {
-   "archived": false,
+   "archived": true,
    "first_seen": "2026-11-25",
    "invitations": [
     {
@@ -4859,8 +4857,8 @@
    "invitations": [
     {
      "cdate": 1792512000000,
-     "duedate": 1795752000000,
-     "expdate": 1795753800000,
+     "duedate": 1795881540000,
+     "expdate": 1795883340000,
      "id": "IEEE.org/ICME/2027/Workshop_Proposals/-/Submission",
      "kind": "Submission"
     }
@@ -6022,7 +6020,9 @@
    ],
    "issue": 149,
    "prestige": 2,
-   "reminded": [],
+   "reminded": [
+    "T-7"
+   ],
    "subtitle": "AdvML-Frontiers-SaTML 2027",
    "title": "AdvML-Frontiers @ SaTML: Human-Centered Trustworthy Machine Learning",
    "verdict": "core",
@@ -6815,8 +6815,8 @@
    "invitations": [
     {
      "cdate": 1786953600000,
-     "duedate": 1796626740000,
-     "expdate": 1796628540000,
+     "duedate": 1796630340000,
+     "expdate": 1796632140000,
      "id": "NACIL/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -10346,6 +10346,26 @@
    "website": "https://spelll.org/2027/",
    "why": "Low-resource speech/language tech (workshop-proposal call) is multilingual/speech NLP, explicitly adjacent at a regional host."
   },
+  "SPP/2027/Conference": {
+   "archived": false,
+   "first_seen": "2026-11-27",
+   "invitations": [
+    {
+     "cdate": 1795755600000,
+     "duedate": 1800676740000,
+     "expdate": 1800678540000,
+     "id": "SPP/2027/Conference/-/Submission",
+     "kind": "Submission"
+    }
+   ],
+   "issue": null,
+   "reminded": [],
+   "subtitle": "SPP 2027",
+   "title": "2027 Society for Philosophy and Psychology",
+   "verdict": null,
+   "website": "https://www.socphilpsych.org",
+   "why": ""
+  },
   "SRVS/2026/Workshop": {
    "archived": true,
    "first_seen": "2026-09-01",
@@ -11921,8 +11941,8 @@
    "invitations": [
     {
      "cdate": 1790287260000,
-     "duedate": 1795737540000,
-     "expdate": 1795739340000,
+     "duedate": 1796126340000,
+     "expdate": 1796128140000,
      "id": "ai-days.swiss-ai-center.ch/Swiss_AI_Days/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -12736,8 +12756,8 @@
    "invitations": [
     {
      "cdate": 1790546400000,
-     "duedate": 1796212740000,
-     "expdate": 1796214540000,
+     "duedate": 1796817540000,
+     "expdate": 1796819340000,
      "id": "cpaior.org/CPAIOR/2027/Conference/-/Submission",
      "kind": "Submission"
     }
@@ -13204,8 +13224,8 @@
    "invitations": [
     {
      "cdate": 1792929600000,
-     "duedate": 1796212800000,
-     "expdate": 1796214600000,
+     "duedate": 1797336000000,
+     "expdate": 1797337800000,
      "id": "eacl.org/EACL/2027/Workshop/MWE/-/Submission",
      "kind": "Submission"
     }
@@ -13225,8 +13245,8 @@
    "invitations": [
     {
      "cdate": 1792929600000,
-     "duedate": 1798027200000,
-     "expdate": 1798029000000,
+     "duedate": 1800014400000,
+     "expdate": 1800016200000,
      "id": "eacl.org/EACL/2027/Workshop/MWE_ARR_Commitment/-/Submission",
      "kind": "Submission"
     }
